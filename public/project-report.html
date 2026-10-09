@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>分析報告系統化｜Aaron Ho</title><meta name="description" content="Harbor AI 2.0 · 報告子系統：問題、本人責任、設計選擇與驗證。"><meta name="theme-color" content="#f6f4ee"><link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css"></head><body>
+<a class="skip" href="#main">跳至主要內容</a>
+<header class="masthead"><div class="wrap topline"><a class="brand" href="index.html" aria-label="Aaron Ho 首頁">Aaron Ho</a><nav class="nav" aria-label="主要導覽"><a href="index.html">首頁</a><a href="projects.html" aria-current="location">專案</a><a href="resume.html">履歷</a><a href="cv.html">CV</a></nav></div></header><main id="main" tabindex="-1" class="case-main"><nav class="breadcrumb" aria-label="頁面階層"><a href="projects.html">專案</a><span aria-hidden="true">/</span><a href="project-harbor.html">Harbor AI 2.0</a><span aria-hidden="true">/</span><span aria-current="page">分析報告系統化</span></nav><section class="case-head"><p class="eyebrow">Harbor AI 2.0 · 報告子系統</p><h1>分析報告系統化</h1><p class="case-lead">從一次客戶振動健診出發，將有效的分析方法與審查規則，逐步走到 Harbor AI 2.0 的報告服務、平台派工與前端下載整合。</p><dl class="case-facts"><dt>我的角色</dt><dd>診斷方法、分析口徑與品質條件主導；AI agents 與工程夥伴參與實作及整合。</dd><dt>目前進度</dt><dd>客戶報告已交付；報告服務與前端下載已合主線，完整現場編排及部署／驗收仍需分別核驗。</dd></dl></section><article class="case-article" id="report-evolution" aria-label="專案內容">
+      <p>我主導資料整理、運轉狀態判讀、異常與故障分析、嚴重度和剩餘壽命（RUL）解讀，再把內部分析轉成客戶能使用的報告。先用 skills 固定步驟、以 notebook 檢驗假設，之後用 LangGraph POC 處理多設備、局部重跑與失敗降級。</p><figure class="case-visual"><img src="assets/projects/report-evolution.svg" width="640" height="320" alt="診斷方法 → LangGraph → 報告服務 → 前端下載，工作關係概念圖"><figcaption>報告流程示意；POC、主線整合與現場驗收的階段分別說明如下。</figcaption></figure>
+      <ol class="evolution" aria-label="分析報告的演進與各階段狀態">
+        <li><small>01 · 已交付</small><strong>客戶分析報告</strong><p>現場問題、分析口徑與人工審查</p></li>
+        <li><small>02 · 已建立</small><strong>可重用 skills</strong><p>固定分析步驟與內外部報告轉換</p></li>
+        <li><small>03 · POC 已驗證</small><strong>LangGraph 流程</strong><p>狀態管理、多設備與局部重生</p></li>
+        <li><small>04 · 已整合／合併</small><strong>Harbor AI 2.0 報告服務</strong><p>服務產報、平台接線與前端下載</p></li>
+      </ol>
+      <section class="case-section"><h2>從交付到工程化的設計選擇</h2><div class="detail-body">
+        <h3>先把分析做對，再固定流程</h3><p>使用 notebook 檢查瞬間突波、停機資料、抽樣口徑與 RUL 信心。內部完整版保存分析依據，對外版轉換語言與版型；同一份數字不能在文字轉換時被重新解讀。</p>
+        <h3>把一次任務改成可重跑的系統</h3><p>在七月 POC 中，保留已驗證的分析腳本與品質規則，將穩定步驟轉為 LangGraph 節點。數值與表格由確定性程式產生，LLM 組織敘述，審查後只重生有問題的部分；缺資料時明確降級，多設備各自保存狀態。</p>
+        <h3>接住客戶回饋</h3><p>在後續分析中，我把客戶對負載與振動的觀察轉為可檢驗問題，重新分層分析並交付說明材料。統計關聯與設備根因分開表達，需現場補驗的資訊清楚列出。</p>
+        <h3>我的責任與目前進度</h3><p>我主導診斷方法、分析口徑、報告品質條件及系統化方向；AI 協助執行分析、實作流程、產生草稿與測試。客戶報告已交付，七月完成獨立 POC 跨案例驗證；八月將報告產生路徑搬入服務並接上平台，九月報告與前端下載整合進主線。工程整合由我與 AI agents、工程夥伴協作完成。</p><h3>各階段分別驗證</h3><p>服務層已以真實資料產報，並檢查數值可追溯及資料不足時的降級。報告服務與前端下載已合入平台主線；完整現場編排、部署及客戶驗收仍待核實。LangGraph 的多設備與局部重跑能力目前以獨立 POC 驗證為範圍。</p>
+      </div></section></article></main><footer><div class="wrap"><p>© 2026 Aaron Ho · 何彥南</p><a href="https://github.com/aaron1aaron2">GitHub</a></div></footer></body></html>

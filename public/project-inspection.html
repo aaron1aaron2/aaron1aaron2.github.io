@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>設備出廠檢測｜Aaron Ho</title><meta name="description" content="Harbor AI 2.0 · 檢測分支：問題、本人責任、設計選擇與驗證。"><meta name="theme-color" content="#f6f4ee"><link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css"></head><body>
+<a class="skip" href="#main">跳至主要內容</a>
+<header class="masthead"><div class="wrap topline"><a class="brand" href="index.html" aria-label="Aaron Ho 首頁">Aaron Ho</a><nav class="nav" aria-label="主要導覽"><a href="index.html">首頁</a><a href="projects.html" aria-current="location">專案</a><a href="resume.html">履歷</a><a href="cv.html">CV</a></nav></div></header><main id="main" tabindex="-1" class="case-main"><nav class="breadcrumb" aria-label="頁面階層"><a href="projects.html">專案</a><span aria-hidden="true">/</span><a href="project-harbor.html">Harbor AI 2.0</a><span aria-hidden="true">/</span><span aria-current="page">設備出廠檢測</span></nav><section class="case-head"><p class="eyebrow">Harbor AI 2.0 · 檢測分支</p><h1>設備出廠檢測</h1><p class="case-lead">把「設備出貨前如何判定合格」的客戶問題，轉成平台分支中的資料、操作、判定與報告流程。</p><dl class="case-facts"><dt>我的角色</dt><dd>情境釐清、平台規格、驗收映射與交接協調；工程團隊負責實作、測試與修復。</dd><dt>目前進度</dt><dd>已交由 DQA 團隊進行品質測試，已有測試版本與操作手冊；後續整合未合主線，現場校準及客戶驗收待完成。</dd></dl></section><article class="case-article" id="equipment-inspection" aria-label="專案內容">
+      <p>Harbor AI 2.0 原本以常駐設備的長期監測為主；出廠檢測則是一組治具輪流量測不同受測件。我的工作串起客戶情境、需求拆解、平台規格、跨職能開發協調與測試交接，推進這條端到端的產品化路徑。</p><figure class="case-visual"><img src="assets/projects/equipment-inspection.svg" width="640" height="320" alt="客戶情境 → 規格映射 → DQA 測試 → 後續整合，工作關係概念圖"><figcaption>出廠檢測工作流程示意；現場校準與客戶驗收仍待完成。</figcaption></figure>
+      <div class="scenario-compare" role="group" aria-label="長期監測與出廠檢測的情境差異"><div><small>既有平台情境</small><strong>一台設備，持續觀測</strong><p>關注長期狀態、趨勢與異常。</p></div><div><small>檢測分支情境</small><strong>同一套治具，輪流檢測</strong><p>需要受測件身分、量測批次、基準比對與結果留存。</p></div></div>
+      <ol class="evolution" aria-label="設備檢測從需求到產品化的工作與狀態">
+        <li><small>需求釐清 · 本人主持</small><strong>作業情境</strong><p>採集、換機、重錄與工單銜接</p></li>
+        <li><small>規格與決策 · 本人主責</small><strong>產品流程</strong><p>受測件、量測、判定、報告與驗收映射</p></li>
+        <li><small>分支開發 · 團隊協作</small><strong>第一階段交 DQA</strong><p>本人協調交接與驗收追蹤；工程師實作與修復</p></li>
+        <li><small>持續產品化 · 團隊協作</small><strong>版本、手冊與整合</strong><p>測試機重走操作；現場校準與客戶驗收待完成</p></li>
+      </ol>
+      <section class="case-section"><h2>端到端工作與產品取捨</h2><div class="detail-body">
+        <h3>從客戶原話找到場景差異</h3><p>主持作業流程與使用情境對齊，釐清多測點採集、基準重錄、插單與序號／工單銜接，把「判定合格」拆成可討論的使用步驟與待決事項。</p>
+        <h3>把需求落成跨模組規格</h3><p>對齊受測件身分、量測批次、資料關聯、判定及報告，串接平台、前端、採集與分析模組；讓對外功能清單、內部工項與驗收條件對得起來。</p>
+        <h3>分開功能可測與判定有效</h3><p>基本操作流程可先交付測試，判定門檻仍需現場資料校準。我負責規格、決策、驗收映射與交接協調；對應工程師負責程式實作、測試執行及缺陷修復。</p>
+        <h3>目前進度</h3><p>第一階段交 DQA 後，持續補齊檢測鏈路、切出測試版本，並在測試機重走操作與安裝手冊；後續整合涵蓋查詢、換件銜接、人工複核與匯出。最新可核實的整合成果仍在本機分支，尚未合入平台主線；現場校準、部署及客戶驗收仍待完成與驗證。</p>
+      </div></section></article></main><footer><div class="wrap"><p>© 2026 Aaron Ho · 何彥南</p><a href="https://github.com/aaron1aaron2">GitHub</a></div></footer></body></html>

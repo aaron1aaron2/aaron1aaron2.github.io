@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f6f4ee">
+<meta name="description" content="何彥南的完整公開職涯、研究與發表。">
+<title>公開 CV｜何彥南 Aaron Ho</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="career.css">
+<link rel="alternate" hreflang="zh-Hant" href="cv.html">
+<link rel="alternate" hreflang="en" href="cv-en.html">
+</head>
+<body class="career-page career-cv">
+<a class="skip" href="#main">跳至主要內容</a>
+<header class="masthead"><div class="wrap topline"><a class="brand" href="index.html" aria-label="Aaron Ho 首頁">Aaron Ho</a><nav class="nav" aria-label="主要導覽"><a href="index.html">首頁</a><a href="projects.html">專案</a><a href="resume.html">履歷</a><a href="cv.html" aria-current="page">CV</a></nav></div></header>
+<main class="career-main" id="main" tabindex="-1">
+<div class="career-intro"><div><p class="career-kicker">AI Engineer · 公開 CV</p>
+<h1>何彥南 Yen-Nan (Aaron) Ho</h1>
+<p class="career-summary">新北市，台灣｜GitHub：<a href="https://github.com/aaron1aaron2">github.com/aaron1aaron2</a></p>
+<p class="career-summary"><strong>AI Engineer</strong></p>
+</div><div class="career-actions"><div class="career-language" aria-label="頁面語言"><a href="cv.html" hreflang="zh-Hant" lang="zh-Hant" aria-current="page">中文</a><a href="cv-en.html" hreflang="en" lang="en">English</a></div><a class="career-download" href="downloads/Aaron_Ho_CV_zh.pdf" download="Aaron_Ho_CV_zh.pdf">下載 PDF</a></div></div>
+<section class="career-section" id="career-section-1" aria-labelledby="career-heading-1"><h2 id="career-heading-1">專業摘要</h2><div class="career-section-body">
+<p>現任 Harbor Tech Data Scientist，從工業訊號分析、客戶交付到 AI 平台產品化，將振動、局部放電、剩餘壽命（RUL）與 LLM 方法接進可驗證、可維護的產品流程。主導產品與領域架構、資料與模型假設、診斷口徑及驗收條件，與工程夥伴和 AI agents 協作實作、測試及整合。</p>
+<p>工作重點包括 Harbor AI 2.0、分析報告服務化、設備出廠檢測分支、離線部署與版本回復，以及持續運作的人與 AI 協作開發環境。研究背景涵蓋 DNA 序列與染色質交互作用預測、旅客流量預測、人物再辨識、時空分析與推薦系統。</p>
+</div></section>
+<section class="career-section" id="career-section-2" aria-labelledby="career-heading-2"><h2 id="career-heading-2">技術能力</h2><div class="career-section-body">
+<ul>
+<li><strong>工業 AI 與模型驗證：</strong> predictive maintenance、RUL、相位解析局部放電（PRPD）／振動、FFT／WAV、anomaly detection、ISO 20816、消融實驗、confidence／coverage 與資料可用性邊界。</li>
+<li><strong>AI／LLM 系統：</strong> LangChain／LangGraph、報告服務整合、vLLM、OpenAI-compatible APIs、deterministic facts、fallback、per-device isolation、人工驗證。</li>
+<li><strong>資料科學與研究：</strong> Python、pandas、NumPy、SciPy、scikit-learn、CNN、多尺度模型、跨資料集評估、可解釋 AI（XAI）、統計檢定與效果量。</li>
+<li><strong>後端與平台：</strong> Django／Django Ninja、Pydantic、PostgreSQL、Redis、RabbitMQ、REST APIs、async workflows、repository pattern、artifact-by-reference。</li>
+<li><strong>產品與交付：</strong> React／TypeScript、Docker／Docker Compose、離線與跨架構安裝、release／rollback、資料遷移、Git、自動化測試、AI agents、人工審查。</li>
+</ul>
+</div></section>
+<section class="career-section" id="career-section-3" aria-labelledby="career-heading-3"><h2 id="career-heading-3">工作經歷</h2><div class="career-section-body">
+<article class="career-entry"><h3>Data Scientist，Harbor Tech｜台北，台灣｜2025.11–目前</h3>
+<p>參與工業預知維護產品 Harbor AI 2.0，工作橫跨訊號分析、診斷方法、產品／領域架構、後端整合、報告、前端使用者流程與交付治理。本人主導 Product／Domain Layer；Platform Core、資料庫、任務系統與基礎設施由工程夥伴共同負責。AI agents 參與分析、實作、測試與文件維護，本人負責需求與領域判斷、驗證條件及審查發布。</p>
+<h4>工業 AI 產品與領域架構</h4>
+<ul>
+<li>將報告、RUL、多感測器、趨勢、局部放電與閾值更新等分散需求整理為產品功能分類、使用者流程及驗證條件，讓診斷概念能轉成可操作功能。</li>
+<li>區分振動與局部放電感測器的 RUL、trend、PRPD status 與資料品質語意，建立分層 sensor status；報告建立流程以設備為入口，降低選錯設備或資料的風險。</li>
+<li>溯源一項彙總放電統計，確認其反映取樣點密度而非離散放電事件率，阻止不成立的「放電頻率」語意進入產品，並指出真正 pulse rate 仍需時域事件偵測。</li>
+<li>參與前端主體交付，將 Report、Sensor Status、PD Event Analysis、RUL 及排程操作接入真實 API；支援多語、RUL 圖表、行動版與設備詳情流程。局部共享頁面依團隊分工呈現。</li>
+</ul>
+<h4>總覽監控與事件語意</h4>
+<ul>
+<li>重新定義監控總覽：燈號由未處理事件的最高嚴重度驅動，健康度排除斷線設備並處理零分母，以每台自適應門檻識別長期離線，修正原本過度樂觀的健康呈現。</li>
+<li>釐清總覽狀態變化沒有推播路徑的根因，在既有 SSE 機制加入狀態通知與節流；本人負責問題定義、方案取捨及驗收，AI agents 協助實作與驗證。</li>
+<li>參與事件分析的時間窗、波形可用性、診斷派發及結果回掛設計；區分平台側功能與 Gateway 錄音鏈路，不把局部整合寫成現場端到端完成。</li>
+</ul>
+<h4>RUL、診斷與模型假設驗證</h4>
+<ul>
+<li>審查 AI 產生的 RUL 假設與資料來源，以多參數、多曲線及正反向消融發現測試常數被當成真實觀測資料，作廢錯誤結論後重新檢查假設。</li>
+<li>讓研究 notebook 直接呼叫正式產品程式，加入來源比對以降低研究與實作漂移；同時設計快速劣化漏報與健康序列誤報的品質條件。</li>
+<li>建立「前處理 → 有效振動區段篩選（VAD）→ 異常分類 → ISO 嚴重度 → RUL → 報告」責任鏈，將 fault type、severity 與 remaining time 分層呈現。</li>
+<li>檢查區段取樣、公平性、coverage、selection bias 與分母口徑；資料不足時顯式降級、給出區間或 unavailable，保留 engine raw output，避免 UI 或 LLM 改寫模型事實。現場壽命真值與信心校準尚未完成，不主張 RUL 準確率。</li>
+</ul>
+<h4>平台 API、非同步工作流與檔案契約</h4>
+<ul>
+<li>與平台工程夥伴協作 Django／Django Ninja workflow orchestration，定義產品行為、API、repository、storage routing 與 artifact contracts，整合診斷、RUL 及報告服務。</li>
+<li>以 backpressure、idempotency、timeout、async callback 與 task lifecycle 檢查跨服務介面及失敗行為；Platform Core runtime 與 failure semantics 為團隊共同責任。</li>
+<li>採 artifact-by-reference 管理跨服務產物，定義輸出、權限與備份邊界，減少大型資料在任務間直接傳遞。</li>
+<li>整合以資料庫為準的逐感測器排程、手動觸發、批次與執行歷史；接通感測器更新、RUL service 與歷史保存，並按資料可用性選擇彙總資料或 WAV 路徑。</li>
+</ul>
+<h4>Edge ingestion、軟體 OTA 與閾值控制</h4>
+<ul>
+<li>擔任 Gateway ingestion contract owner，整理資料批次上傳、心跳、非同步處理、重複資料、完整性、容量與安全邊界，負責系統設計、方案驗證、跨團隊對齊及移交；後續 server implementation 由對應工程師負責。</li>
+<li>參與 Gateway 軟體套件的登錄、儲存、查版、下載、架構相容與完整性驗證；責任限於 server-side package distribution，不延伸為韌體 payload 或 installer 全部實作。</li>
+<li>設計並整合 RUL recommendation 到平台閾值狀態、歷史及 Gateway threshold update 的控制回饋，包含逐感測器自動／手動策略、緊急停用、排程與故障隔離。</li>
+<li>區分 online ingestion、舊新系統週期同步、離線資料遷移、Gateway 軟體更新與 RUL 閾值回饋；透過欄位 ownership 保護新系統資料，避免舊系統同步靜默覆寫。</li>
+</ul>
+<h4>Docker、離線部署、更新與遷移</h4>
+<ul>
+<li>整合 Docker／離線映像套件、跨架構安裝、安裝狀態與 release metadata，將真機經驗轉成可重複的版本交付與追溯流程。</li>
+<li>建立平台離線自更新與回復路徑，將更新執行與平台自身停機風險隔離，加入 preflight、進度／歷史、失敗訊號及可驗證 rollback。</li>
+<li>將 legacy ingestion／migration 收斂為具 manifest、audit、continuity validation、顯式失敗及 rollback 的 toolkit；驗證資料欄位、時區、可讀性與舊新系統共存條件。</li>
+<li>真機 restore 暴露衝突後，加入停寫、fresh schema、constraint gates 與回復程序；另檢查 dev／prod serving、儲存、重啟與部署約束，將缺口納入初始化、升級及自動檢查。</li>
+<li>收斂交付包內容，移除誤入套件的客戶原始資料，完成 fresh-install 驗收，並主導兩個出貨版本的整合與切版判斷；各版本功能仍依工程夥伴與 AI agents 的實作分工歸屬。</li>
+</ul>
+<h4>工程成果與可靠性案例</h4>
+<ul>
+<li>在特定 Large-WAV release-test case 中，本人負責問題定義、假設審查、驗證與發布判斷，AI 協助分析與修復；記憶體峰值由 35–42 GiB 降至 822 MiB，執行由 165 秒失敗改為約 48 秒完成。前後輸入不同，非等工作負載 benchmark；accuracy profile 與 streaming follow-up 仍需持續檢查，不外推為平台全面效能。</li>
+<li>針對大型任務 context 造成的 serialization、傳輸與 log storm，與 AI 協作縮減不必要 payload，將修正回饋為工作契約與驗證條件。</li>
+<li>在局部放電批次分析中，以 multiprocessing 改善既有程式流程；在停滯任務與部署環境案例中，追溯根因、選擇修正方案並用測試及部署觀察驗證，不以單次觀察推論 SLA。</li>
+</ul>
+<h4>從客戶報告 skills 到平台報告服務</h4>
+<ul>
+<li>從客戶資料分析與人工報告交付起步，整理可重用的診斷步驟、報告 skills、品質條件與人工審查規則，透過研究 notebooks 檢查分析與報告正確性。</li>
+<li>2026 年七月以 LangChain／LangGraph POC 驗證 state、node contract、多設備隔離、局部重生、fallback 與 artifact；deterministic nodes 產生數值與分類，LLM 組織敘事，不能改寫事實。</li>
+<li>八月將報告產生路徑搬入服務並接上平台，九月 DOCX 報表與前端下載整合進主線。本人主導方法、領域口徑與品質條件，AI agents 及工程夥伴參與實作、測試和整合。</li>
+<li>七月 POC 功能與後續服務整合分開界定；不宣稱完整 LangGraph graph、所有報表或所有 provider 已全面 rollout。現場編排、部署及客戶驗收仍需另行驗證。</li>
+<li>完成 vLLM OpenAI-compatible provider 的真實端點能力驗證，涵蓋 chat、embedding、tool calling 及 connectivity／capability／semantic 三層 healthcheck；provider 能力驗證不代表所有報表路徑已切換。</li>
+</ul>
+<h4>人與 AI 協作開發環境</h4>
+<ul>
+<li>設計並營運「需求／指令 → 持久紀錄 → 自動化 → 驗證回饋」流程，串連需求、command contracts、工具、測試、issue、文件、隔離分支及人工審查，讓 AI agents 能持續參與開發。</li>
+<li>新需求入口：本人先定義問題、規格、責任邊界與驗收證據，AI agents 在隔離分支研究、實作及測試，再以 Bitbucket PR 提交審查；本人與 reviewer 依證據裁定合併與發布。</li>
+<li>維運入口：開發機每日自動測試與監控留下紀錄，異常形成 issue 後進入隔離修復分支、PR 與同一套人工 gate。PR 只代表待審變更，不等同已核准、合併或部署。</li>
+<li>將修復經驗回饋為可重用 contracts、tests 與 guardrails；透過 VitePress 串接 code、issue、test、release、manual 與管理摘要。保留複雜除錯、假設檢查及人工技術判斷，不主張自動修復率或無量測依據的效率倍數。</li>
+</ul>
+<h4>案場訊號分析與客戶交付</h4>
+<ul>
+<li>在半導體製造與大型多感測器場域的局部放電分析中，與現場及品質團隊對齊配置、DB／WAV 格式、事件範圍與交接規則，採完整資料庫搭配 event-window WAV，避免將所有原始檔一律搬移及分析。</li>
+<li>串接環境檢查、事件選擇、WAV 擷取、批次分析、累積 PRPD 圖、dashboard、AI draft 與 human validation；低解析逐秒圖不能直接成為 AI 客戶結論，需人工逐頁確認。</li>
+<li>逆向 legacy code、notebooks 與歷史報告，重建可追溯的 ADC-to-g、FFT、SNR、切割點與頻域分析流程，以 executable 及 user guide 交付，兼顧可使用成果與公司演算法 IP。</li>
+<li>在馬達／泵浦振動 POC 中，用 max／P99 區分持續性嚴重度與單秒 transient spike，檢查運轉區段、RUL basis、fit constraints 及 VRMS volatility，將 ISO severity 與低信心 RUL 分開呈現。</li>
+<li>在後續電流／振動深入分析中，以分鐘中位數降低自相關，搭配非參數檢定、多重比較校正及效果量，將 stakeholder 觀察校準為部分成立或分測點成立；分析與客戶說明已交付。根因仍需 VFD／RPM、流量、揚程、閥位與 BEP 等現場資訊，不由統計差異直接推論。</li>
+</ul>
+<h4>設備出廠檢測分支｜進行中</h4>
+<ul>
+<li>面對「治具輪流檢驗不同出廠品」的情境，將長期監測產品拆解為受測件、量測批次、資料關聯、判定、報告及驗收流程，主持客戶作業情境討論及需求收斂。</li>
+<li>釐清多測點同步與切換、良品基準重錄、插單、序號與工單銜接，將回饋整理為新增需求、待決項及驗收邊界；區分基本功能可測試與判定門檻需現場校準。</li>
+<li>協調第一階段交 DQA 品質測試、測試版本、測試機操作手冊及驗收台帳；後續查詢、換件銜接、人工複核與匯出已進入本機整合分支。</li>
+<li>最新已核實整合仍未推送、未合主線；現場校準與客戶驗收待完成，第二階段範圍仍需收斂。本人負責需求、平台規格、決策、驗收映射及交接協調；工程團隊與 AI agents 負責對應程式實作、測試及缺陷修復。</li>
+</ul>
+<h4>技術指導｜2026 年暑期</h4>
+<ul>
+<li>為研究實習建立離線題目、分工原則、振動與相位解析局部放電 primer、ISO 13374／20816 教材、starter notebooks 及演算法規格。</li>
+<li>以週報檢視進度及研究產出，在資料前提偏離時重新對齊任務；負責指導與研究分工，不把實習生的分析成果列為本人獨立成果。</li>
+</ul>
+<h4>智慧城市邊緣平台技術提案｜未送件草案</h4>
+<ul>
+<li>主責公司側技術內容撰寫、版本收斂與跨公司介面／查核點對齊，統一平台術語、資料面／控制面及責任邊界。</li>
+<li>收斂期程與查核點、修正文件矛盾，為來源可靠度、主張邊界、技術使用權利（FTO） 與 KPI 風險設審查條件。此經驗為未送件的規劃草案，不代表核定、得標、實作或部署。</li>
+</ul>
+</article>
+<article class="career-entry"><h3>資料科學實習生，中央研究院社會學研究所｜台北，台灣｜2019.05–2020.12</h3>
+<ul>
+<li>建立 社會調查（TSCS） 訪區離散率與路徑規劃流程，整合正式抽樣地址、點間距離及 fallback distance，以訪區分組、OR-Tools TSP 與 Folium 支援實地訪查、路線規劃及離散加給／預算估算。</li>
+<li>使用 Selenium、multiprocessing、Tor multi-port 與 Folium 建立距離蒐集與 GIS 路線輸出；此為當時專案技術方案。</li>
+</ul>
+</article>
+</div></section>
+<section class="career-section" id="career-section-4" aria-labelledby="career-heading-4"><h2 id="career-heading-4">代表研究與專案</h2><div class="career-section-body">
+<article class="career-entry"><h3>MCIENet｜碩士論文，2024</h3>
+<ul>
+<li>以 DNA 序列預測 3D chromatin interactions／CTCF loops，設計多尺度 CNN／Inception 架構，檢查不同 receptive fields 可提供的訊號。</li>
+<li>獨立主導研究問題拆解、模型與資料流程整合、實驗設計與執行、消融、跨資料集評估、XAI、論文與可重現 repository 工程化。</li>
+<li>透過 BaseCNN 比較、不同序列長度及消融設定檢查模型設計；保留 DeepLIFT、ChINN／DNABERT2 比較入口與共用切分配置，讓比較方法可追溯。存在比較腳本不等同已完成所有比較或證明全面勝出。</li>
+<li>將資料集、位置與解析度差異列為泛化檢查條件，保留跨細胞類型泛化限制；部分正負樣本前處理改寫自 ChINN，與本人模型、實驗及工程貢獻分開歸屬。</li>
+</ul>
+</article>
+<article class="career-entry"><h3>Horus Human Identification System｜大學畢業專題，2020</h3>
+<ul>
+<li>團隊整合 multi-object tracking、person ReID 與 face recognition，建立多鏡頭人物追蹤及辨識系統。</li>
+<li>本人主要負責 ReID feature-extraction integration、folder sampling／matching、cosine similarity、雙門檻判斷及 tracking-record queue orchestration。</li>
+<li>基礎 ReID 模型採第三方方案，不將 MOT、臉部辨識或全部系統列為個人獨立開發；團隊獲東吳大學畢業專題第一名。</li>
+</ul>
+</article>
+<article class="career-entry"><h3>PropGMAN Asset Activation｜團隊專案，2022</h3>
+<ul>
+<li>三人團隊以實價登錄資料進行土地區域指標的時空建模，預測區域土地交易價格與交易量，支援資產活化分析。</li>
+<li>保留資料前處理、模型設定、實驗結果與重現方式；基礎 GMAN 方法採既有研究實作，不宣稱從零發明。團隊獲資產活化 AI 應用創新競賽創意獎。</li>
+</ul>
+</article>
+</div></section>
+<section class="career-section" id="career-section-5" aria-labelledby="career-heading-5"><h2 id="career-heading-5">其他團隊專案</h2><div class="career-section-body">
+<ul>
+<li><strong>Distributed Spark Crawler／Recovery，2022：</strong> 政大分散式系統課程團隊串接資料擷取、缺漏偵測、Spark 預測補值、資料庫與 dashboard，展示資料擷取失敗後的補救流程；本人負責 Spark cluster、GitHub 與 demo 影片，參與系統整合。</li>
+<li><strong>金融資訊推薦與自動推播，2020：</strong> 團隊以 item-based、user-based 及共現關係設計股票推薦／通知方案；獲金融程式設計課程競賽優勝，以團隊成果呈現。</li>
+<li><strong>城市防災設施分析，2025：</strong> 參與雙北城市儀表板黑客松團隊作品，以防災設施分析晉級決賽。</li>
+</ul>
+</div></section>
+<section class="career-section" id="career-section-6" aria-labelledby="career-heading-6"><h2 id="career-heading-6">研究與發表</h2><div class="career-section-body">
+<ul>
+<li>Dynamic traffic network representation model for improving the prediction performance of passenger flow. <em>Knowledge-Based Systems</em>, 2024.</li>
+<li>A Dynamic Embedding Method for Passenger Flow Estimation. IIAI AAI, 2021. Competitive Paper Award.</li>
+<li>Hierarchical Attention Network with Sentiment Lexicons for Stock Article Emotion Analysis. TCSE, 2020；研究前期獲科技部大專學生研究計畫核定。</li>
+<li>MCIENet: Multi-scale CNN-based Information Extraction from DNA Sequences for 3D Chromatin Interactions Prediction. 碩士論文，2024。</li>
+</ul>
+</div></section>
+<section class="career-section" id="career-section-7" aria-labelledby="career-heading-7"><h2 id="career-heading-7">學歷</h2><div class="career-section-body">
+<ul>
+<li>國立政治大學，資訊科學系碩士｜2021.09–2024.09。</li>
+<li>東吳大學，巨量資料管理學系學士｜2017.09–2021.07。</li>
+</ul>
+</div></section>
+<section class="career-section" id="career-section-8" aria-labelledby="career-heading-8"><h2 id="career-heading-8">獎項</h2><div class="career-section-body">
+<ul>
+<li>IIAI AAI Competitive Paper Award，2021。</li>
+<li>資產活化 AI 應用創新競賽創意獎，2022。</li>
+<li>東吳大學畢業專題第一名，Horus，2020。</li>
+<li>金融程式設計課程競賽優勝，2020。</li>
+<li>雙北城市儀表板大黑客松決賽晉級，2025。</li>
+</ul>
+</div></section>
+</main>
+<footer><div class="wrap"><p>© 2026 Aaron Ho · 何彥南</p><a href="https://github.com/aaron1aaron2">GitHub</a></div></footer>
+</body>
+</html>

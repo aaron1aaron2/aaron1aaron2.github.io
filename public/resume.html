@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f6f4ee">
+<meta name="description" content="何彥南的 AI Engineer 公開短版履歷。">
+<title>公開履歷｜何彥南 Aaron Ho</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="career.css">
+<link rel="alternate" hreflang="zh-Hant" href="resume.html">
+<link rel="alternate" hreflang="en" href="resume-en.html">
+</head>
+<body class="career-page career-resume">
+<a class="skip" href="#main">跳至主要內容</a>
+<header class="masthead"><div class="wrap topline"><a class="brand" href="index.html" aria-label="Aaron Ho 首頁">Aaron Ho</a><nav class="nav" aria-label="主要導覽"><a href="index.html">首頁</a><a href="projects.html">專案</a><a href="resume.html" aria-current="page">履歷</a><a href="cv.html">CV</a></nav></div></header>
+<main class="career-main" id="main" tabindex="-1">
+<div class="career-intro"><div><p class="career-kicker">AI Engineer · 公開履歷</p>
+<h1>何彥南 Yen-Nan (Aaron) Ho</h1>
+<p class="career-summary">新北市，台灣｜GitHub：<a href="https://github.com/aaron1aaron2">github.com/aaron1aaron2</a></p>
+<p class="career-summary"><strong>AI Engineer</strong></p>
+<p class="career-summary">現任 Data Scientist，將工業訊號、診斷與 LLM 方法轉成可驗證的產品流程。主導產品／領域架構、模型假設、品質條件與驗收，與工程夥伴及 AI agents 協作實作、測試、整合及交付。</p>
+</div><div class="career-actions"><div class="career-language" aria-label="頁面語言"><a href="resume.html" hreflang="zh-Hant" lang="zh-Hant" aria-current="page">中文</a><a href="resume-en.html" hreflang="en" lang="en">English</a></div><a class="career-download" href="downloads/Aaron_Ho_Resume_zh.pdf" download="Aaron_Ho_Resume_zh.pdf">下載 PDF</a></div></div>
+<section class="career-section" id="career-section-1" aria-labelledby="career-heading-1"><h2 id="career-heading-1">核心能力</h2><div class="career-section-body">
+<ul>
+<li><strong>工業 AI／研究：</strong> 剩餘壽命（RUL）、相位解析局部放電（PRPD）／振動、FFT、anomaly detection、CNN、消融、信心與資料可用性評估。</li>
+<li><strong>AI 系統：</strong> LangChain／LangGraph、報告服務、vLLM、OpenAI-compatible APIs、deterministic facts、fallback、人工驗證。</li>
+<li><strong>平台／交付：</strong> Python、Django／Django Ninja、PostgreSQL、Redis、RabbitMQ、REST、async workflows、React／TypeScript、Docker、離線部署、更新／回復、Git 與自動化測試。</li>
+</ul>
+</div></section>
+<section class="career-section" id="career-section-2" aria-labelledby="career-heading-2"><h2 id="career-heading-2">工作經歷</h2><div class="career-section-body">
+<article class="career-entry"><h3>Data Scientist，Harbor Tech｜台北｜2025.11–目前</h3>
+<ul>
+<li><strong>產品與領域架構：</strong> 主導 Harbor AI 2.0 的產品邏輯，將局部放電、RUL、趨勢與資料品質拆成設備狀態及操作流程；溯源統計指標，避免把取樣點密度誤作放電事件率，並修正斷線設備仍計入健康度的監控語意。Platform Core 由工程夥伴共同整合。</li>
+<li><strong>模型假設與驗證：</strong> 審查 AI 產生的 RUL 結論，以多參數、多曲線及正反向消融發現測試常數被當成觀測資料並作廢錯誤結論；讓研究 notebook 呼叫正式產品程式，降低研究與實作漂移。將故障型態、嚴重度、RUL 及低信心狀態分開，不宣稱未驗證的現場準確率。</li>
+<li><strong>報告服務產品化：</strong> 從案場資料分析、客戶報告及人工驗證整理可重用方法；七月 LangGraph POC 分離確定性事實與 LLM 敘事，八月報告路徑搬入服務接上平台，九月 DOCX／前端下載合入主線。另完成 vLLM 真實端點能力驗證；現場部署、驗收與全面 provider 切換另待驗證。</li>
+<li><strong>平台與交付：</strong> 與平台工程夥伴協作 Django 非同步工作流，定義 API、repository、artifact-by-reference、任務生命週期與驗證邊界；整合 Docker／離線與跨架構安裝、平台更新／回復及可稽查資料遷移，並主導出貨版本整合及切版判斷。</li>
+<li><strong>人與 AI 協作環境：</strong> 串連需求、持久上下文、工具、測試、紀錄與隔離分支。新需求先定規格及驗收條件；daily tests／monitoring 異常則形成 issue。兩個入口都由 AI agents 協助研究、實作和測試，再以 Bitbucket PR 等待人工審查；本人把關領域判斷與驗證，與 reviewer 裁定合併／發布。</li>
+<li><strong>設備出廠檢測：</strong> 主持客戶工作情境對齊，定義受測件、量測批次、判定、報告及驗收映射，協調 DQA 品質測試 交接、測試版本與操作手冊。後續整合仍在本機分支、尚未合主線；現場校準與客戶驗收待完成。工程師負責程式實作與修復。</li>
+<li><strong>可靠性案例：</strong> 在特定 Large-WAV release-test case 中，本人負責方向、假設審查與驗證，AI 協助修復；記憶體峰值由 35–42 GiB 降至 822 MiB，165 秒失敗改為約 48 秒完成。前後輸入不同，非等工作負載 benchmark，不外推整體效能。</li>
+</ul>
+</article>
+<article class="career-entry"><h3>資料科學實習生，中央研究院社會學研究所｜台北｜2019.05–2020.12</h3>
+<p>以訪區分組、點間距離、OR-Tools TSP 與 Folium 建立實地訪查的路線、離散程度與預算估算流程。</p>
+</article>
+</div></section>
+<section class="career-section" id="career-section-3" aria-labelledby="career-heading-3"><h2 id="career-heading-3">精選研究與專案</h2><div class="career-section-body">
+<ul>
+<li><strong>MCIENet，碩士論文（2024）：</strong> 獨立主導 DNA 序列與 3D chromatin interaction 預測的研究拆解、多尺度 CNN、資料流程、消融、跨資料集評估及 可解釋 AI（XAI）；部分前處理改寫自 ChINN，跨細胞類型泛化保留驗證界線。</li>
+<li><strong>Horus（2020）：</strong> 團隊整合多鏡頭追蹤、person ReID 與臉部辨識；本人主要負責 ReID 整合、相似度／雙門檻及追蹤紀錄流程。獲畢業專題第一名。</li>
+<li><strong>PropGMAN（2022）：</strong> 三人團隊以實價登錄資料進行土地區域指標時空建模，保留實驗與重現流程；獲資產活化 AI 應用創新競賽創意獎。</li>
+</ul>
+</div></section>
+<section class="career-section" id="career-section-4" aria-labelledby="career-heading-4"><h2 id="career-heading-4">研究發表</h2><div class="career-section-body">
+<ul>
+<li>Dynamic traffic network representation model for improving the prediction performance of passenger flow. <em>Knowledge-Based Systems</em>, 2024.</li>
+<li>A Dynamic Embedding Method for Passenger Flow Estimation. IIAI AAI, 2021；Competitive Paper Award.</li>
+<li>Hierarchical Attention Network with Sentiment Lexicons for Stock Article Emotion Analysis. TCSE, 2020.</li>
+</ul>
+</div></section>
+<section class="career-section" id="career-section-5" aria-labelledby="career-heading-5"><h2 id="career-heading-5">學歷</h2><div class="career-section-body">
+<ul>
+<li>國立政治大學，資訊科學系碩士｜2021.09–2024.09。</li>
+<li>東吳大學，巨量資料管理學系學士｜2017.09–2021.07。</li>
+</ul>
+</div></section>
+</main>
+<footer><div class="wrap"><p>© 2026 Aaron Ho · 何彥南</p><a href="https://github.com/aaron1aaron2">GitHub</a></div></footer>
+</body>
+</html>

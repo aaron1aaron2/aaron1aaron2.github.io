@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" role="img" aria-labelledby="title desc">
+<title id="title">大規模設備事件分析：工作關係示意</title>
+<desc id="desc">大規模設備事件分析：事件窗口、訊號分析、批次處理、人工診斷 的概念關係。分析與工程師交接已有紀錄。人工診斷關卡，非全面自動判診。非部署架構、客戶畫面或效能證據。</desc>
+<defs><marker id="arrow-event-analysis" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#88aa9a"/></marker></defs>
+<rect width="640" height="320" rx="18" fill="#faf9f4"/>
+<rect x="1" y="1" width="638" height="318" rx="17" fill="none" stroke="#cbd9cf" stroke-width="2"/>
+<g opacity=".65"><path d="M25 219h65l20-31 20 52 25-91 22 61h59l21-28 20 26h83" fill="none" stroke="#dce6dc" stroke-width="2"/></g>
+<path d="M116.3 121.5 Q143.7 176.7 205.0 182.4" fill="none" stroke="#88aa9a" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow-event-analysis)"/>
+<path d="M269.6 183.9 Q299.0 128.1 361.8 122.2" fill="none" stroke="#88aa9a" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow-event-analysis)"/>
+<path d="M426.3 121.5 Q453.7 176.7 515.0 182.4" fill="none" stroke="#88aa9a" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow-event-analysis)"/>
+<g transform="translate(85 100)"><circle r="29" fill="#e1eee5" stroke="#155b55" stroke-width="2"/><path d="M0-16V1l14 9" fill="none" stroke="#155b55" stroke-width="3" stroke-linecap="round"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">事件窗口</text></g>
+<g transform="translate(238 205)"><path d="M-31 3h10l8-20 11 42 10-52 10 31h13" fill="none" stroke="#bd7851" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">訊號分析</text></g>
+<g transform="translate(395 100)"><rect x="-26" y="-25" width="45" height="42" rx="5" fill="#fff" stroke="#155b55" stroke-width="2"/><rect x="-20" y="-18" width="45" height="42" rx="5" fill="#e1eee5" stroke="#155b55" stroke-width="2"/><rect x="-13" y="-11" width="45" height="42" rx="5" fill="#fff" stroke="#155b55" stroke-width="2"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">批次處理</text></g>
+<g transform="translate(548 205)"><circle cx="-13" cy="-12" r="10" fill="#e1eee5" stroke="#155b55" stroke-width="2"/><circle cx="16" cy="-9" r="9" fill="#e1eee5" stroke="#155b55" stroke-width="2"/><path d="M-33 28c2-19 10-25 20-25s19 7 20 25M5 26c2-15 8-21 17-21s15 8 16 21" fill="none" stroke="#155b55" stroke-width="2.5" stroke-linecap="round"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">人工診斷</text></g>
+</svg>

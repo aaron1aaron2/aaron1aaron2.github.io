@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f6f4ee">
+<meta name="description" content="Public AI Engineer resume for Yen-Nan (Aaron) Ho.">
+<title>Resume | Yen-Nan (Aaron) Ho</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="career.css">
+<link rel="alternate" hreflang="zh-Hant" href="resume.html">
+<link rel="alternate" hreflang="en" href="resume-en.html">
+</head>
+<body class="career-page career-resume">
+<a class="skip" href="#main">Skip to main content</a>
+<header class="masthead"><div class="wrap topline"><a class="brand" href="index.html" aria-label="Aaron Ho home">Aaron Ho</a><nav class="nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="projects.html">Projects</a><a href="resume-en.html" aria-current="page">Resume</a><a href="cv-en.html">CV</a></nav></div></header>
+<main class="career-main" id="main" tabindex="-1">
+<div class="career-intro"><div><p class="career-kicker">AI Engineer · Public resume</p>
+<h1>Yen-Nan (Aaron) Ho</h1>
+<p class="career-summary">New Taipei City, Taiwan | GitHub: <a href="https://github.com/aaron1aaron2">github.com/aaron1aaron2</a></p>
+<p class="career-summary"><strong>AI Engineer</strong></p>
+<p class="career-summary">Current Data Scientist bringing industrial signals, diagnostics, and LLM methods into verifiable product workflows. Lead product/domain architecture, model-assumption review, quality criteria, and acceptance, collaborating with engineers and AI agents on implementation, testing, integration, and delivery.</p>
+</div><div class="career-actions"><div class="career-language" aria-label="Page language"><a href="resume.html" hreflang="zh-Hant" lang="zh-Hant">中文</a><a href="resume-en.html" hreflang="en" lang="en" aria-current="page">English</a></div><a class="career-download" href="downloads/Aaron_Ho_Resume_en.pdf" download="Aaron_Ho_Resume_en.pdf">Download PDF</a></div></div>
+<section class="career-section" id="career-section-1" aria-labelledby="career-heading-1"><h2 id="career-heading-1">Core Skills</h2><div class="career-section-body">
+<ul>
+<li><strong>Industrial AI/Research:</strong> remaining useful life (RUL), phase-resolved partial discharge (PRPD)/vibration, FFT, anomaly detection, CNNs, ablations, confidence, and data-availability assessment.</li>
+<li><strong>AI Systems:</strong> LangChain/LangGraph, report services, vLLM, OpenAI-compatible APIs, deterministic facts, fallbacks, and human validation.</li>
+<li><strong>Platform/Delivery:</strong> Python, Django/Django Ninja, PostgreSQL, Redis, RabbitMQ, REST, async workflows, React/TypeScript, Docker, offline deployment, update/rollback, Git, and automated tests.</li>
+</ul>
+</div></section>
+<section class="career-section" id="career-section-2" aria-labelledby="career-heading-2"><h2 id="career-heading-2">Work Experience</h2><div class="career-section-body">
+<article class="career-entry"><h3>Data Scientist, Harbor Tech | Taipei | Nov 2025–Present</h3>
+<ul>
+<li><strong>Product/domain architecture:</strong> Led Harbor AI 2.0 product logic, translating partial discharge, RUL, trends, and data quality into equipment status and user flows. Traced a statistic to prevent sampling-point density being presented as discharge-event rate; corrected health calculations that included disconnected equipment. Engineering partners jointly integrated the Platform Core.</li>
+<li><strong>Model assumptions and validation:</strong> Audited AI-generated RUL conclusions. Multi-parameter, multi-curve, and forward/reverse ablations exposed test constants misrepresented as observations, invalidating the conclusion. Connected research notebooks to production code to reduce drift. Separated fault type, severity, RUL, and low-confidence states without claiming unverified field accuracy.</li>
+<li><strong>Report-service productization:</strong> Extracted reusable methods from field analysis, customer reports, and human validation. A July LangGraph POC separated deterministic facts from LLM narrative; August moved the report path into a platform-connected service; September integrated DOCX/frontend downloads into the mainline. Separately validated live vLLM capabilities. Field deployment, acceptance, and universal provider switching require further verification.</li>
+<li><strong>Platform and delivery:</strong> Collaborated on Django async workflows, defining APIs, repository/artifact-by-reference contracts, task lifecycles, and validation boundaries. Integrated Docker/offline and cross-architecture installation, platform update/rollback, and auditable migration; led release integration and cut decisions.</li>
+<li><strong>Human–AI development environment:</strong> Connected requirements, persistent context, tools, tests, records, and isolated branches. New requirements began with specifications and acceptance criteria; daily-test/monitoring anomalies became issues. AI agents supported research, implementation, and testing through both paths, submitting Bitbucket PRs for human review. I handled domain judgment and validation, sharing merge/release decisions with the reviewer.</li>
+<li><strong>End-of-line inspection:</strong> Hosted customer workflow alignment and defined assets under test, measurement batches, decisions, reports, and acceptance mapping. Coordinated quality-testing handoff to the DQA team, test versions, and manuals. Later integration remains on a local branch outside the mainline; field calibration and customer acceptance remain open. Engineers own code implementation and fixes.</li>
+<li><strong>Reliability case:</strong> In one Large-WAV release-test case, owned direction, assumption review, and validation while AI supported fixes. Peak memory fell from 35–42 GiB to 822 MiB; a 165-second failure became an approximately 48-second completion. Different inputs mean this is not an equal-workload benchmark or a system-wide performance claim.</li>
+</ul>
+</article>
+<article class="career-entry"><h3>Data Science Intern, Institute of Sociology, Academia Sinica | Taipei | May 2019–Dec 2020</h3>
+<p>Used survey-area grouping, point-to-point distances, OR-Tools TSP, and Folium for field-survey routes, dispersion, and budget estimation.</p>
+</article>
+</div></section>
+<section class="career-section" id="career-section-3" aria-labelledby="career-heading-3"><h2 id="career-heading-3">Selected Research and Projects</h2><div class="career-section-body">
+<ul>
+<li><strong>MCIENet, M.S. thesis (2024):</strong> Independently led research decomposition, multi-scale CNNs, data pipelines, ablations, cross-dataset evaluation, and explainable AI (XAI) for DNA-sequence-based 3D chromatin interaction prediction. Adapted parts of ChINN preprocessing; retained cross-cell-line generalization limits.</li>
+<li><strong>Horus (2020):</strong> Team-integrated multi-camera tracking, person ReID, and face recognition. Primarily owned ReID integration, similarity/dual-threshold decisions, and tracking-record workflows. First-place undergraduate capstone.</li>
+<li><strong>PropGMAN (2022):</strong> A three-person team applied spatiotemporal modeling to regional land indicators from property transactions, retaining experiments and reproduction steps. Creative Award, AI for Asset Activation Innovation Contest.</li>
+</ul>
+</div></section>
+<section class="career-section" id="career-section-4" aria-labelledby="career-heading-4"><h2 id="career-heading-4">Research and Publications</h2><div class="career-section-body">
+<ul>
+<li>Dynamic traffic network representation model for improving the prediction performance of passenger flow. <em>Knowledge-Based Systems</em>, 2024.</li>
+<li>A Dynamic Embedding Method for Passenger Flow Estimation. IIAI AAI, 2021; Competitive Paper Award.</li>
+<li>Hierarchical Attention Network with Sentiment Lexicons for Stock Article Emotion Analysis. TCSE, 2020.</li>
+</ul>
+</div></section>
+<section class="career-section" id="career-section-5" aria-labelledby="career-heading-5"><h2 id="career-heading-5">Education</h2><div class="career-section-body">
+<ul>
+<li>National Chengchi University, M.S. in Computer Science | Sep 2021–Sep 2024.</li>
+<li>Soochow University, B.S. in Data Science | Sep 2017–Jul 2021.</li>
+</ul>
+</div></section>
+</main>
+<footer><div class="wrap"><p>© 2026 Aaron Ho · 何彥南</p><a href="https://github.com/aaron1aaron2">GitHub</a></div></footer>
+</body>
+</html>

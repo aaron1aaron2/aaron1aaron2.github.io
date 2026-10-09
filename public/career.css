@@ -1,0 +1,74 @@
+/* Public Resume and CV pages. Scoped to .career-page so project pages keep their own design. */
+.career-page{--career-paper:#f7f4ef;--career-panel:#fffdfa;--career-ink:#222b29;--career-body:#394743;--career-muted:#66736c;--career-line:#d4d9d1;--career-accent:#376f69;background:var(--career-paper);color:var(--career-body);font-family:system-ui,-apple-system,"Segoe UI","Noto Sans TC","Microsoft JhengHei",sans-serif;font-synthesis:none;line-height:1.72}
+.career-page *{box-sizing:border-box}
+.career-page a{color:var(--career-accent);text-underline-offset:.22em}
+.career-page a:hover{text-decoration-thickness:2px}
+.career-page a:focus-visible{outline:3px solid var(--career-accent);outline-offset:4px}
+.career-page .skip{background:var(--career-ink);color:#fff}
+.career-page .header,.career-page .career-main,.career-page footer{width:min(1080px,calc(100% - 4rem));margin-inline:auto}
+.career-page .header{min-height:80px;border-bottom:1px solid var(--career-line);gap:1.5rem}
+.career-page .brand{font-size:1rem;letter-spacing:0;font-weight:650;color:var(--career-ink);white-space:nowrap}
+.career-page .header nav{display:flex;gap:1.25rem;flex-wrap:wrap}
+.career-page .header nav a{display:inline-flex;align-items:center;min-height:44px;padding:.35rem 0;font-size:.9rem;color:var(--career-muted);text-decoration:none}
+.career-page .header nav a:hover,.career-page .header nav a[aria-current="page"]{color:var(--career-ink);text-decoration:underline;text-decoration-color:var(--career-accent);text-underline-offset:.4em}
+.career-page .career-main{padding:3.5rem 0 4rem}
+.career-page .career-intro{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:start;gap:2rem;border-bottom:1px solid var(--career-line);padding-bottom:2.4rem}
+.career-page .career-kicker{font-size:.82rem;color:var(--career-accent);font-weight:700;letter-spacing:.08em;text-transform:uppercase;margin:0 0 1rem}
+.career-page h1,.career-page h2,.career-page h3{color:var(--career-ink);letter-spacing:-.035em;overflow-wrap:anywhere}
+.career-page h1{font-size:clamp(2.5rem,5vw,4.2rem);line-height:1.16;margin:0 0 1.25rem;font-weight:620}
+.career-page .career-summary{font-size:1.08rem;line-height:1.8;max-width:48rem;margin:0}
+.career-page .career-language{display:flex;align-items:center;gap:.65rem;white-space:nowrap;font-size:.86rem}
+.career-page .career-language a{display:inline-flex;align-items:center;min-height:44px;padding:.3rem .55rem;text-decoration:none;border-bottom:2px solid transparent}
+.career-page .career-language a[aria-current="page"]{border-color:var(--career-accent);color:var(--career-ink);font-weight:650}
+.career-page .career-section{display:grid;grid-template-columns:190px minmax(0,1fr);gap:2rem 3.5rem;padding:2.5rem 0;border-bottom:1px solid var(--career-line)}
+.career-page .career-section:last-of-type{border-bottom:0}
+.career-page .career-section h2{font-size:1.15rem;font-weight:650;line-height:1.4;margin:.1rem 0 0}
+.career-page .career-section-body{min-width:0}
+.career-page .career-section-body>p:first-child{margin-top:0}
+.career-page .career-section-body>p:last-child{margin-bottom:0}
+.career-page .career-entry{padding:0 0 1.4rem;margin:0 0 1.4rem;border-bottom:1px solid var(--career-line);break-inside:avoid-page}
+.career-page .career-entry:last-child{border-bottom:0;padding-bottom:0;margin-bottom:0}
+.career-page .career-entry h3{font-size:1.08rem;line-height:1.4;margin:0 0 .8rem;font-weight:620}
+.career-page .career-entry p{margin:.6rem 0}
+.career-page .career-section ul{list-style:none;margin:.7rem 0 0;padding:0}
+.career-page .career-section li{position:relative;padding-left:1.1rem;margin:.6rem 0}
+.career-page .career-section li::before{content:"";position:absolute;left:.1rem;top:.78em;width:.35rem;height:.35rem;border-radius:50%;background:var(--career-accent)}
+.career-page strong{color:var(--career-ink);font-weight:640}
+.career-page em{font-style:italic}
+.career-page footer{border-top:1px solid var(--career-line);padding:1rem 0 2rem;color:var(--career-muted);font-size:.83rem;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+.career-page footer a{display:inline-flex;align-items:center;min-height:44px}
+@media(max-width:800px){.career-page .career-intro{grid-template-columns:1fr;gap:1rem}.career-page .career-section{grid-template-columns:1fr;gap:1rem;padding:2rem 0}.career-page .career-section h2{font-size:1.25rem}}
+@media(max-width:560px){.career-page .header,.career-page .career-main,.career-page footer{width:min(100% - 2.25rem,1080px)}.career-page .header{align-items:flex-start;flex-wrap:wrap;padding:1rem 0;gap:.2rem 1rem}.career-page .header nav{width:100%;gap:.8rem 1rem}.career-page .header nav a{font-size:.82rem}.career-page .career-main{padding:2.3rem 0 3rem}.career-page h1{font-size:2.35rem}.career-page .career-summary{font-size:1rem}.career-page .career-language{gap:.3rem}.career-page .career-language a{padding:.3rem .45rem}}
+@media print{@page{size:A4;margin:15mm 16mm}.career-page{background:#fff;color:#111;font-size:9.5pt;line-height:1.45}.career-page .header,.career-page .skip,.career-page .career-language,.career-page footer{display:none!important}.career-page .career-main{width:100%;padding:0}.career-page .career-intro{display:block;padding-bottom:8pt;border-color:#bbb}.career-page .career-kicker{color:#333;font-size:8pt;margin-bottom:4pt}.career-page h1{font-size:21pt;margin-bottom:7pt;color:#111}.career-page .career-summary{font-size:9.5pt}.career-page .career-section{display:grid;grid-template-columns:105pt minmax(0,1fr);gap:12pt;padding:11pt 0;border-color:#bbb}.career-page .career-section h2{font-size:10pt;color:#111}.career-page .career-entry{padding-bottom:6pt;margin-bottom:6pt;border-color:#ddd}.career-page .career-entry h3{font-size:9.5pt;margin-bottom:4pt}.career-page .career-section li{margin:3pt 0}.career-page .career-section li::before{background:#333}.career-page a{color:#111}}
+
+/* Align career documents with the selected C site's shared masthead and palette. */
+.career-page{--career-paper:#f6f4ee;--career-panel:#fffdf8;--career-ink:#242b29;--career-body:#394743;--career-muted:#58615c;--career-line:#d5d9d2;--career-accent:#155b55}
+.career-page .masthead .wrap,.career-page footer .wrap{width:min(1080px,calc(100% - 4rem))}
+.career-page .masthead .brand{font-size:1rem;letter-spacing:.01em;color:var(--career-ink)}
+.career-page .masthead .nav a{font-size:.88rem;color:var(--career-muted)}
+.career-page .masthead .nav a[aria-current],.career-page .masthead .nav a:hover{color:var(--career-accent)}
+.career-page footer{width:100%;display:block;padding:1rem 0 2rem}
+.career-page footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap}
+.career-page footer p{margin:0}
+@media(max-width:560px){.career-page .masthead .wrap,.career-page footer .wrap{width:calc(100% - 2.25rem)}.career-page .masthead .topline{align-items:flex-start;flex-wrap:wrap;padding:.8rem 0;gap:.1rem}.career-page .masthead .nav{width:100%;gap:1rem}.career-page .masthead .nav a{font-size:.82rem}}
+@media print{.career-page .masthead,.career-page footer{display:none!important}}
+
+/* Full CV keeps visible subsection headings and may span multiple print pages. */
+.career-page .career-entry h4{color:var(--career-ink);font-size:1rem;line-height:1.5;margin:1.65rem 0 .5rem;font-weight:650;overflow-wrap:anywhere}
+.career-page .career-entry h3,.career-page .career-entry h4{break-after:avoid-page}
+.career-page .career-entry p,.career-page .career-section li{orphans:3;widows:3}
+@media print{.career-cv .career-entry{break-inside:auto}.career-page .career-entry h4{font-size:9.5pt;margin:10pt 0 4pt}}
+
+.career-page .career-actions{display:grid;gap:.7rem;justify-items:end}
+.career-page .career-download{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:.45rem .9rem;border:1px solid var(--career-line);border-radius:4px;font-size:.88rem;text-decoration:none}
+.career-page .career-download:hover{background:var(--career-panel);border-color:var(--career-accent)}
+@media(max-width:800px){.career-page .career-actions{justify-items:start}}
+@media print{.career-page .career-actions{display:none!important}}
+
+/* Browser print uses flowing sections so long experience entries do not leave blank pages. */
+@media print{
+ .career-page .career-section{display:block;padding:8pt 0}
+ .career-page .career-section h2{margin:0 0 7pt;break-after:avoid-page}
+ .career-page .career-entry{break-inside:auto}
+ .career-page .career-section li{break-inside:avoid-page}
+}

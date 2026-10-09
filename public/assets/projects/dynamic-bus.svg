@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" role="img" aria-labelledby="title desc">
+<title id="title">動態公車路線規劃：工作關係示意</title>
+<desc id="desc">動態公車路線規劃：觀光需求、景點距離、路線最佳化、班次探索 的概念關係。探索性專案。未宣稱已被實際營運採用。非部署架構、客戶畫面或效能證據。</desc>
+<defs><marker id="arrow-dynamic-bus" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#88aa9a"/></marker></defs>
+<rect width="640" height="320" rx="18" fill="#faf9f4"/>
+<rect x="1" y="1" width="638" height="318" rx="17" fill="none" stroke="#cbd9cf" stroke-width="2"/>
+<g opacity=".65"><path d="M42 99C123 134 92 260 194 254S314 95 406 126 502 255 596 225" fill="none" stroke="#d6e3d7" stroke-width="4" stroke-dasharray="6 8"/><circle cx="55" cy="105" r="5" fill="#c9ddd0"/><circle cx="584" cy="227" r="5" fill="#c9ddd0"/></g>
+<path d="M126.1 110.9 Q196.6 134.2 267.0 157.5" fill="none" stroke="#88aa9a" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow-dynamic-bus)"/>
+<path d="M127.5 198.9 Q196.5 187.7 265.5 176.4" fill="none" stroke="#88aa9a" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow-dynamic-bus)"/>
+<path d="M343.0 170.0 Q419.0 170.0 495.0 170.0" fill="none" stroke="#88aa9a" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow-dynamic-bus)"/>
+<g transform="translate(90 99)"><path d="M-26 26v-25h12v25M-6 26v-50H6v50M14 26v-36h12v36" fill="#e1eee5" stroke="#155b55" stroke-width="2" stroke-linejoin="round"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">觀光需求</text></g>
+<g transform="translate(90 205)"><path d="M0 32C-8 20-26 1-26-12a26 26 0 0 1 52 0C26 1 8 20 0 32Z" fill="#e1eee5" stroke="#155b55" stroke-width="2"/><circle cy="-11" r="8" fill="#bd7851"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">景點距離</text></g>
+<g transform="translate(305 170)"><path d="M-30 19c10-30 17-30 25-13S10 24 27-21" fill="none" stroke="#155b55" stroke-width="3" stroke-linecap="round"/><circle cx="-30" cy="19" r="5" fill="#bd7851"/><circle cx="27" cy="-21" r="5" fill="#bd7851"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">路線最佳化</text></g>
+<g transform="translate(535 170)"><circle r="29" fill="#e1eee5" stroke="#155b55" stroke-width="2"/><path d="M0-16V1l14 9" fill="none" stroke="#155b55" stroke-width="3" stroke-linecap="round"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">班次探索</text></g>
+</svg>

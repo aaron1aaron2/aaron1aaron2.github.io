@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" role="img" aria-labelledby="title desc">
+<title id="title">交付追蹤與工程協作：工作關係示意</title>
+<desc id="desc">交付追蹤與工程協作：承諾待決、任務分工、交付證據、成果審查、追蹤回饋 的概念關係。具工作空間與協作紀錄。本人議題收斂與指導；成果依團隊分工。非部署架構、客戶畫面或效能證據。</desc>
+<defs><marker id="arrow-delivery-mentoring" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#88aa9a"/></marker></defs>
+<rect width="640" height="320" rx="18" fill="#faf9f4"/>
+<rect x="1" y="1" width="638" height="318" rx="17" fill="none" stroke="#cbd9cf" stroke-width="2"/>
+<g opacity=".65"><path d="M34 244h99v-38h94v-36h90v-38h86v-39h180" fill="none" stroke="#dce6dc" stroke-width="2"/></g>
+<path d="M109.9 147.9 Q139.6 132.9 169.3 118.0" fill="none" stroke="#88aa9a" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow-delivery-mentoring)"/>
+<path d="M243.0 100.0 Q285.5 100.0 328.0 100.0" fill="none" stroke="#88aa9a" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow-delivery-mentoring)"/>
+<path d="M403.7 112.9 Q457.1 132.2 510.4 151.4" fill="none" stroke="#88aa9a" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow-delivery-mentoring)"/>
+<path d="M510.5 171.3 Q430.5 184.8 350.4 198.3" fill="none" stroke="#88aa9a" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow-delivery-mentoring)"/>
+<path d="M273.5 198.6 Q186.4 232.5 115.4 171.7" fill="none" stroke="#88aa9a" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="5 6" marker-end="url(#arrow-delivery-mentoring)"/>
+<g transform="translate(76 165)"><path d="M-22-29h31l14 14v46h-45zM9-29v14h14" fill="#fff" stroke="#155b55" stroke-width="2"/><path d="M-12-2h23M-12 9h23M-12 20h14" stroke="#88aa9a" stroke-width="2.5" stroke-linecap="round"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">承諾待決</text></g>
+<g transform="translate(205 100)"><circle cx="-13" cy="-12" r="10" fill="#e1eee5" stroke="#155b55" stroke-width="2"/><circle cx="16" cy="-9" r="9" fill="#e1eee5" stroke="#155b55" stroke-width="2"/><path d="M-33 28c2-19 10-25 20-25s19 7 20 25M5 26c2-15 8-21 17-21s15 8 16 21" fill="none" stroke="#155b55" stroke-width="2.5" stroke-linecap="round"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">任務分工</text></g>
+<g transform="translate(368 100)"><rect x="-26" y="-25" width="45" height="42" rx="5" fill="#fff" stroke="#155b55" stroke-width="2"/><rect x="-20" y="-18" width="45" height="42" rx="5" fill="#e1eee5" stroke="#155b55" stroke-width="2"/><rect x="-13" y="-11" width="45" height="42" rx="5" fill="#fff" stroke="#155b55" stroke-width="2"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">交付證據</text></g>
+<g transform="translate(548 165)"><path d="M0-32 32 0 0 32-32 0Z" fill="#e1eee5" stroke="#155b55" stroke-width="2"/><path d="m-13 0 9 9 18-21" fill="none" stroke="#bd7851" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">成果審查</text></g>
+<g transform="translate(311 205)"><circle r="29" fill="#e1eee5" stroke="#155b55" stroke-width="2"/><path d="M-17 10 17-12M4-15l16 1-7 14" fill="none" stroke="#bd7851" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">追蹤回饋</text></g>
+</svg>

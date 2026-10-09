@@ -1,0 +1,63 @@
+/* Catalog-only warm paper layout. Shared site styles remain untouched. */
+body.catalog-page{color-scheme:light;--paper:#f6f4ee;--panel:#fffdf8;--surface:#fffdf8;--surface-2:#f0eee8;--ink:#242b29;--muted:#58615c;--accent:#155b55;--line:#cfd4cc;background:var(--paper);color:var(--ink)}
+.catalog-page a{color:var(--accent)}
+.catalog-page .masthead,.catalog-page footer{border-color:var(--line)}
+.catalog-page .nav a{color:var(--muted)}
+.catalog-page .nav a:hover,.catalog-page .nav a[aria-current=page]{color:var(--accent)}
+.catalog-page .brand{color:var(--ink)}
+.catalog-main{width:min(1120px,calc(100% - 6rem));margin-inline:auto}
+.catalog-page .page-intro{padding:3rem 0 1.8rem}
+.catalog-page .page-intro .eyebrow{color:var(--accent);font-size:.74rem;letter-spacing:.12em}
+.catalog-page .page-intro h1{font-size:clamp(2.3rem,5vw,4rem);margin-bottom:.8rem}
+.catalog-page .intro{color:var(--muted);max-width:48rem}
+.catalog-toolbar[hidden]{display:none!important}
+.catalog-toolbar{display:flex;align-items:center;gap:.5rem;margin:0 0 1.5rem;padding-bottom:1rem;border-bottom:1px solid var(--line)}
+.catalog-toolbar button{appearance:none;background:transparent;border:1px solid var(--line);border-radius:999px;color:var(--ink);cursor:pointer;font:inherit;font-size:.9rem;line-height:1.3;min-height:44px;padding:.55rem 1.15rem}
+.catalog-toolbar button[aria-pressed=true]{background:var(--ink);border-color:var(--ink);color:#fffdfa}
+.catalog-toolbar button:hover{border-color:var(--accent)}
+.catalog-toolbar button:focus-visible,.catalog-page a:focus-visible,.catalog-page summary:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.catalog-view-status{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.catalog-panel[hidden]{display:none!important}
+.catalog-group,.catalog-year{border-top:1px solid var(--line);padding:2rem 0 2.5rem}
+.catalog-group:first-child,.catalog-year:first-of-type{border-top:0}
+.directory-heading{display:flex;align-items:baseline;justify-content:space-between;gap:1rem}
+.directory-heading h2{font-size:clamp(1.35rem,2.3vw,1.75rem);margin:0;color:var(--ink)}
+.directory-heading .count{font-size:.82rem;color:var(--muted);white-space:nowrap}
+.directory-description,.time-note{color:var(--muted);font-size:.94rem;max-width:48rem;margin:.45rem 0 1.35rem}
+.directory-list,.timeline-list{display:grid;grid-template-columns:1fr;gap:0}
+.directory-item{margin:0;padding:1.55rem 0;border-top:1px solid var(--line)}
+.directory-item:first-child{border-top:0}
+.directory-entry-heading{display:flex;align-items:baseline;justify-content:space-between;gap:1rem;margin-bottom:.95rem}
+.directory-entry-heading h3{font-size:1.2rem;line-height:1.4;margin:0;color:var(--ink)}
+.directory-entry-heading h3 a{color:var(--ink);text-decoration-color:var(--accent);text-decoration-thickness:1px}
+.directory-entry-heading h3 a:hover{color:var(--accent)}
+.directory-entry-heading .kind{font-size:.75rem;color:var(--muted);white-space:nowrap}
+.catalog-item-grid{display:grid;grid-template-columns:minmax(230px,320px) minmax(0,1fr);gap:1.4rem;align-items:start}
+.project-figure{margin:0;max-width:320px}
+.project-figure img{display:block;width:100%;height:auto;aspect-ratio:2/1;object-fit:contain;border:1px solid var(--line);border-radius:10px;background:#f0eee8}
+.project-figure figcaption{font-size:.82rem;color:var(--muted);margin-top:.3rem}
+.directory-item-body{max-width:none;padding:0;color:var(--muted);font-size:.9rem}
+.directory-item-body>p:first-child{color:var(--ink);font-size:.96rem;margin-bottom:.6rem}
+.directory-item-body .catalog-date{font-size:.79rem;color:var(--muted);margin:.25rem 0 .8rem}
+.directory-item-body dl{display:grid;grid-template-columns:2.5rem minmax(0,1fr);gap:.3rem .8rem;font-size:.83rem;margin:0}
+.directory-item-body dt{color:var(--ink)}
+.directory-item-body dd{color:var(--muted)}
+.directory-modules{margin-top:1rem;border-top:1px solid var(--line)}
+.directory-modules>summary{min-height:44px;cursor:pointer;color:var(--accent);padding:.55rem 0}
+.directory-modules>summary h4{display:inline;font-size:.86rem;font-weight:600;letter-spacing:normal;margin:0}
+.directory-modules .module-list{margin:0 0 .5rem;padding-left:1rem}
+.directory-modules .module-list h5{font-size:.9rem;color:var(--ink);margin:0 0 .35rem}
+.directory-modules .module-list p{margin:.2rem 0}
+.catalog-year .timeline-list{margin-top:.8rem}
+@media(max-width:700px){.catalog-main{width:calc(100% - 2rem)}.catalog-page .page-intro{padding:2rem 0 1.2rem}.catalog-item-grid{grid-template-columns:1fr;gap:.9rem}.project-figure{max-width:none}.project-figure img{max-width:100%}.directory-entry-heading{align-items:start;flex-wrap:wrap;gap:.25rem 1rem}.directory-entry-heading .kind{white-space:normal}.catalog-group,.catalog-year{padding:1.5rem 0 2rem}}
+@media print{body.catalog-page{color-scheme:light}.catalog-toolbar{display:none}.catalog-panel[hidden]{display:none!important}.directory-item{break-inside:avoid}.project-figure{max-width:180px}.catalog-item-grid{grid-template-columns:180px minmax(0,1fr)}}
+
+
+@media print{.project-figure{max-width:340px}.catalog-item-grid{grid-template-columns:1fr;gap:.7rem}.directory-item{break-inside:auto}.project-figure{break-inside:avoid}}
+
+/* Keep each printed project title beside its figure without keeping the whole entry unbroken. */
+@media print{
+ .directory-entry-heading{break-after:avoid-page}
+ .catalog-item-grid{display:block;break-before:avoid-page}
+ .project-figure{break-before:avoid-page;margin-bottom:8pt}
+}

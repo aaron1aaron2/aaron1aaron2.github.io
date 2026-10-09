@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" role="img" aria-labelledby="title desc">
+<title id="title">設備振動分析驗證：工作關係示意</title>
+<desc id="desc">設備振動分析驗證：場域資料、資料限制、振動診斷、POC 判斷 的概念關係。場域可行性驗證。正式導入與驗收仍需另查。非部署架構、客戶畫面或效能證據。</desc>
+<defs><marker id="arrow-vibration-poc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#88aa9a"/></marker></defs>
+<rect width="640" height="320" rx="18" fill="#faf9f4"/>
+<rect x="1" y="1" width="638" height="318" rx="17" fill="none" stroke="#cbd9cf" stroke-width="2"/>
+<g opacity=".65"><path d="M29 188h52l23-52 29 105 35-122 22 72h63" fill="none" stroke="#dce6dc" stroke-width="2"/><path d="M381 110h205M381 132h165M381 154h190" fill="none" stroke="#dce6dc" stroke-width="2"/></g>
+<path d="M123.5 151.5 Q185.6 127.9 247.6 104.2" fill="none" stroke="#88aa9a" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow-vibration-poc)"/>
+<path d="M125.2 172.6 Q185.5 184.8 245.8 197.0" fill="none" stroke="#88aa9a" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow-vibration-poc)"/>
+<path d="M321.5 100.7 Q411.5 127.2 501.6 153.7" fill="none" stroke="#88aa9a" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow-vibration-poc)"/>
+<path d="M322.5 199.1 Q411.5 185.2 500.5 171.2" fill="none" stroke="#88aa9a" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow-vibration-poc)"/>
+<g transform="translate(88 165)"><path d="M-31 3h10l8-20 11 42 10-52 10 31h13" fill="none" stroke="#bd7851" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">場域資料</text></g>
+<g transform="translate(285 90)"><path d="M0-32 32 0 0 32-32 0Z" fill="#e1eee5" stroke="#155b55" stroke-width="2"/><path d="m-13 0 9 9 18-21" fill="none" stroke="#bd7851" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">資料限制</text></g>
+<g transform="translate(285 205)"><circle r="30" fill="#e1eee5" stroke="#155b55" stroke-width="2"/><circle r="17" fill="none" stroke="#155b55" stroke-width="2.5"/><circle r="5" fill="#bd7851"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">振動診斷</text></g>
+<g transform="translate(540 165)"><circle cx="-6" cy="-5" r="20" fill="#e1eee5" stroke="#155b55" stroke-width="3"/><path d="m9 12 20 20" stroke="#bd7851" stroke-width="5" stroke-linecap="round"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">POC 判斷</text></g>
+</svg>
