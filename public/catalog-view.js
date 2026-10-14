@@ -36,6 +36,9 @@ function init() {
   const timeButton = document.getElementById('view-time');
   const status = document.getElementById('catalog-view-status');
   const toolbar = document.querySelector('.catalog-toolbar');
+  const jump = document.getElementById('catalog-jump');
+  const categoryChoices = [...typePanel.querySelectorAll('.catalog-group')].map(group => ({id:group.id,label:group.querySelector('h2').textContent}));
+  const yearChoices = [...timePanel.querySelectorAll('.catalog-year')].map(group => ({id:group.querySelector('h2').id,label:group.querySelector('h2').textContent}));
   if (!typePanel || !timePanel || !typeButton || !timeButton) return;
 
   const records = [...typePanel.querySelectorAll('.directory-item')].map(node => {
@@ -66,6 +69,12 @@ function init() {
     typeButton.setAttribute('aria-pressed', String(view === 'type'));
     timeButton.setAttribute('aria-pressed', String(view === 'time'));
     current = view;
+    if (jump) {
+      const choices = view === 'time' ? yearChoices : categoryChoices;
+      jump.replaceChildren(new Option(view === 'time' ? '選擇年份' : '選擇分類', ''));
+      for (const choice of choices) jump.add(new Option(choice.label, choice.id));
+      jump.setAttribute('aria-label', view === 'time' ? '跳至年份' : '跳至分類');
+    }
     if (status) status.textContent = view === 'time' ? '已切換為按時間' : '已切換為按類型';
 
     if (updateUrl) {
@@ -80,6 +89,18 @@ function init() {
     }
   }
 
+  jump?.addEventListener('change', () => {
+    if (!jump.value) return;
+    const target = document.getElementById(jump.value);
+    target?.scrollIntoView({behavior:'instant',block:'start'});
+    if (target) {
+      const focusTarget = target.matches('h2') ? target : target.querySelector('h2') || target;
+      focusTarget.setAttribute('tabindex','-1');
+      focusTarget.focus({preventScroll:true});
+      const url = new URL(window.location.href); url.hash = jump.value;
+      window.history.replaceState(null,'',url);
+    }
+  });
   typeButton.addEventListener('click', () => setView('type', true));
   timeButton.addEventListener('click', () => setView('time', true));
   window.addEventListener('hashchange', () => {

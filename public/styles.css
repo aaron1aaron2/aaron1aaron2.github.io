@@ -162,3 +162,15 @@ footer a{display:inline-flex;align-items:center;min-height:44px}.browse .section
  .product-map,.flow,.scenario-compare,.evolution{margin:10pt 0;gap:8pt;break-inside:auto}
  .product-map>div,.flow>div,.scenario-compare>div,.evolution li{padding:8pt;break-inside:avoid-page}
 }
+
+/* Clear personal introduction; supporting details stay in reading order. */
+.home-simple .profile-opening{font-size:1.12rem;color:var(--ink);line-height:1.85}
+.profile-strengths{margin:1.7rem 0 .3rem;border-left:2px solid var(--accent);padding-left:1.1rem}
+.profile-strengths p{margin:0 0 .85rem;font-size:.92rem}
+.profile-strengths strong{display:block;color:var(--ink);margin-bottom:.12rem}
+.profile-strengths span{color:var(--muted)}
+.profile-subcases{margin:.85rem 0 0;padding-left:1.2rem;color:var(--muted);font-size:.91rem}
+.profile-subcases li{margin:.55rem 0}
+.profile-subcases a{color:var(--ink)}
+
+.case-visual img{height:auto}.original-media{display:block;cursor:zoom-in}.case-return{margin:2rem 0}

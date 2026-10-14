@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" role="img" aria-labelledby="title desc">
 <title id="title">設備出廠檢測流程：工作關係示意</title>
-<desc id="desc">設備出廠檢測流程：客戶情境、規格映射、DQA 測試、後續整合 的概念關係。已交 DQA · 最新整合未合主線。現場校準與客戶驗收待完成。非部署架構、客戶畫面或效能證據。</desc>
+<desc id="desc">設備出廠檢測流程：客戶情境、規格映射、DQA 測試、後續整合 的概念關係。具交測版本與現場活動紀錄；正式驗收結論待確認。需求與工程交接示意，非產品畫面。非部署架構、客戶畫面或效能證據。</desc>
 <defs><marker id="arrow-equipment-inspection" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#88aa9a"/></marker></defs>
 <rect width="640" height="320" rx="18" fill="#faf9f4"/>
 <rect x="1" y="1" width="638" height="318" rx="17" fill="none" stroke="#cbd9cf" stroke-width="2"/>

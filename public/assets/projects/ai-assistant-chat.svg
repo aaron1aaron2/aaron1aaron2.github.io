@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" role="img" aria-labelledby="title desc">
+<title id="title">AI 助理聊天室：工作關係示意</title>
+<desc id="desc">AI 助理聊天室：角色呈現、互動介面、知識去敏、整合驗證 的概念關係。依個別驗證紀錄判定。參與介面與整合；非整體助理獨立開發。非部署架構、客戶畫面或效能證據。</desc>
+<defs><marker id="arrow-ai-assistant-chat" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#88aa9a"/></marker></defs>
+<rect width="640" height="320" rx="18" fill="#faf9f4"/>
+<rect x="1" y="1" width="638" height="318" rx="17" fill="none" stroke="#cbd9cf" stroke-width="2"/>
+<g opacity=".65"><path d="M29 188h52l23-52 29 105 35-122 22 72h63" fill="none" stroke="#dce6dc" stroke-width="2"/><path d="M381 110h205M381 132h165M381 154h190" fill="none" stroke="#dce6dc" stroke-width="2"/></g>
+<path d="M120.0 171.0 Q159.5 171.0 199.0 171.0" fill="none" stroke="#88aa9a" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow-ai-assistant-chat)"/>
+<path d="M277.0 171.0 Q317.0 171.0 357.0 171.0" fill="none" stroke="#88aa9a" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow-ai-assistant-chat)"/>
+<path d="M435.0 171.0 Q475.0 171.0 515.0 171.0" fill="none" stroke="#88aa9a" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow-ai-assistant-chat)"/>
+<g transform="translate(82 171)"><circle cx="-13" cy="-12" r="10" fill="#e1eee5" stroke="#155b55" stroke-width="2"/><circle cx="16" cy="-9" r="9" fill="#e1eee5" stroke="#155b55" stroke-width="2"/><path d="M-33 28c2-19 10-25 20-25s19 7 20 25M5 26c2-15 8-21 17-21s15 8 16 21" fill="none" stroke="#155b55" stroke-width="2.5" stroke-linecap="round"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">角色呈現</text></g>
+<g transform="translate(239 171)"><path d="m-9-18-17 18 17 18M9-18 26 0 9 18M5-26-5 26" fill="none" stroke="#155b55" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">互動介面</text></g>
+<g transform="translate(397 171)"><path d="M0-32 32 0 0 32-32 0Z" fill="#e1eee5" stroke="#155b55" stroke-width="2"/><path d="m-13 0 9 9 18-21" fill="none" stroke="#bd7851" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">知識去敏</text></g>
+<g transform="translate(555 171)"><circle cx="-6" cy="-5" r="20" fill="#e1eee5" stroke="#155b55" stroke-width="3"/><path d="m9 12 20 20" stroke="#bd7851" stroke-width="5" stroke-linecap="round"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">整合驗證</text></g>
+</svg>

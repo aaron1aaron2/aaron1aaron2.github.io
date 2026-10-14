@@ -1,259 +1,30 @@
-<!doctype html>
-<html lang="zh-Hant">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>專案｜Aaron Ho 何彥南</title><meta name="description" content="何彥南的完整專案清單：依類型或證據紀錄年份瀏覽平台、診斷、研究與協作作品。"><meta name="theme-color" content="#f6f4ee"><link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="catalog.css"><script type="module" src="catalog-view.js"></script></head>
-<body class="catalog-page"><a class="skip" href="#main">跳至主要內容</a>
-<header class="masthead" id="top"><div class="wrap topline"><a class="brand" href="index.html" aria-label="Aaron Ho 首頁">Aaron Ho</a><nav class="nav" aria-label="主要導覽"><a href="index.html">首頁</a><a href="projects.html" aria-current="page">專案</a><a href="resume.html">履歷</a><a href="cv.html">CV</a></nav></div></header>
-<main id="main" tabindex="-1" class="catalog-main">
-  <section class="page-intro"><p class="eyebrow">SELECTED WORK / COMPLETE DIRECTORY</p><h1>專案</h1><p class="intro">依領域整理的完整清單，也可以按證據紀錄年份瀏覽。日期表示有紀錄的年份，不代表專案起訖或交付日。</p></section>
-  <div class="catalog-toolbar" role="group" aria-label="專案檢視方式" hidden><button type="button" id="view-type" aria-pressed="true" aria-controls="catalog-type">按類型</button><button type="button" id="view-time" aria-pressed="false" aria-controls="catalog-time">按時間</button><span class="catalog-view-status" id="catalog-view-status" role="status" aria-live="polite"></span></div>
-  <div id="catalog-type" class="catalog-panel">
-<section class="catalog-group" id="platform" aria-labelledby="heading-platform">
-  <div class="directory-heading"><h2 id="heading-platform">平台與產品系統</h2><span class="count">3 項</span></div>
-  <p class="directory-description">資料、服務、介面與交付流程的產品整合。</p>
-  <div class="directory-list">
-    <article class="directory-item" id="harbor-ai" data-record-year="2026">
-      <div class="directory-entry-heading"><h3><a href="project-harbor.html">Harbor AI 2.0 工業 AI 平台</a></h3><span class="kind">產品平台</span></div>
-      <div class="catalog-item-grid">
-        <figure class="project-figure"><img src="assets/projects/harbor-ai.svg" width="640" height="320" loading="lazy" alt="工業 AI 平台的資料、分析與報告領域概念圖：設備資料 → 產品語意，連到分析任務及報告操作"><figcaption>平台工作領域示意</figcaption></figure>
-        <div class="directory-item-body"><p>整合設備資料、任務排程、分析服務、操作介面與版本交付，處理新舊系統共存的資料責任邊界。</p><p class="catalog-date">紀錄時間：2026 年平台工作紀錄</p><dl><dt>角色</dt><dd>本人主導產品與領域判斷，與工程夥伴共同負責平台設計、整合和驗證；部分實作由夥伴及 AI agents 完成。</dd><dt>階段</dt><dd>持續迭代；各功能依測試、合併及交付紀錄分別判定。</dd></dl>
-        <details class="directory-modules"><summary><h4>相關模組 · 3</h4></summary><ul class="module-list">
-          <li><h5>平台架構與資料契約</h5><p>界定任務生命週期、資料上傳與非同步處理責任。</p><p class="module-meta">角色：本人參與架構與契約決策；服務實作為團隊分工。</p><p class="module-meta">階段：設計與實作依個別功能區分。</p></li>
-          <li><h5>產品資訊架構</h5><p>整理設備概況、資料檢視與分析報告的操作脈絡。</p><p class="module-meta">角色：本人負責產品結構與介面判斷。</p><p class="module-meta">階段：具設計及部分整合紀錄。</p></li>
-          <li><h5>跨產品前端整合</h5><p>協調不同設備產品前端與平台操作流程。</p><p class="module-meta">角色：本人參與跨產品介面對齊；不歸為全部前端獨立開發。</p><p class="module-meta">階段：依整合紀錄呈現。</p></li>
-        </ul></details>
-        </div>
-      </div>
-    </article>
-    <article class="directory-item" id="report-evolution" data-record-year="2026">
-      <div class="directory-entry-heading"><h3><a href="project-report.html">診斷報告系統演進</a></h3><span class="kind">產品子系統</span></div>
-      <div class="catalog-item-grid">
-        <figure class="project-figure"><img src="assets/projects/report-evolution.svg" width="640" height="320" loading="lazy" alt="診斷資料到報告輸出的流程概念圖：診斷方法 → LangGraph → 報告服務 → 前端下載"><figcaption>報告流程示意</figcaption></figure>
-        <div class="directory-item-body"><p>從診斷內容與 LangGraph 驗證，推進到報告服務、平台派工和前端下載，分開可測數值判定與生成式敘事。</p><p class="catalog-date">紀錄時間：2026 年報告開發紀錄</p><dl><dt>角色</dt><dd>本人主導診斷方法、品質條件和產品化方向；工程夥伴與 AI agents 參與實作、測試和整合。</dd><dt>階段</dt><dd>七月 POC；八月服務與平台接線已合併；九月 DOCX 與下載合入主線。現場驗收另待核實。</dd></dl>
-        <details class="directory-modules"><summary><h4>相關模組 · 2</h4></summary><ul class="module-list">
-          <li><h5>報告服務</h5><p>連接產生器、範本、派工與工作流程。</p><p class="module-meta">角色：本人定義領域需求及驗證口徑；團隊共同實作。</p><p class="module-meta">階段：八月已有合併紀錄。</p></li>
-          <li><h5>LangGraph 振動報告</h5><p>驗證多設備、局部重生、確定性數值和資料不足時的降級。</p><p class="module-meta">角色：本人設計診斷流程與品質門檻，與團隊協作。</p><p class="module-meta">階段：七月 POC；後續產品路徑另有整合紀錄。</p></li>
-        </ul></details>
-        </div>
-      </div>
-    </article>
-    <article class="directory-item" id="smart-city-proposal" data-record-year="2026">
-      <div class="directory-entry-heading"><h3>智慧城市資安平台聯合提案</h3><span class="kind">跨組織提案</span></div>
-      <div class="catalog-item-grid">
-        <figure class="project-figure"><img src="assets/projects/smart-city-proposal.svg" width="640" height="320" loading="lazy" alt="跨組織技術提案與介面對齊概念圖：技術文件與系統介面 → 查核條件 → 提案草案"><figcaption>提案協作示意</figcaption></figure>
-        <div class="directory-item-body"><p>收斂跨組織提案的技術文件、版本、系統介面及查核條件。</p><p class="catalog-date">紀錄時間：2026 年提案紀錄</p><dl><dt>角色</dt><dd>本人負責技術文件與介面協調；方案為團隊合作。</dd><dt>階段</dt><dd>草案階段，未宣稱送件或落地。</dd></dl>
-        </div>
-      </div>
-    </article>
-  </div>
-</section>
-<section class="catalog-group" id="data" aria-labelledby="heading-data">
-  <div class="directory-heading"><h2 id="heading-data">資料、診斷與場域交付</h2><span class="count">5 項</span></div>
-  <p class="directory-description">從資料品質與判讀邊界出發，建立可測試及交接的分析流程。</p>
-  <div class="directory-list">
-    <article class="directory-item" id="industrial-diagnostics" data-record-year="2026">
-      <div class="directory-entry-heading"><h3>工業設備診斷方法</h3><span class="kind">診斷產品線</span></div>
-      <div class="catalog-item-grid">
-        <figure class="project-figure"><img src="assets/projects/industrial-diagnostics.svg" width="640" height="320" loading="lazy" alt="設備運轉、異常與剩餘壽命診斷概念圖：運轉偵測 → 異常分析 → 嚴重度 → RUL 判讀"><figcaption>診斷鏈示意</figcaption></figure>
-        <div class="directory-item-body"><p>串接運轉偵測、異常分析、嚴重度與剩餘壽命估計，保留資料不足時的降級條件。</p><p class="catalog-date">紀錄時間：2026 年診斷研究與開發紀錄</p><dl><dt>角色</dt><dd>本人負責領域方法、算法評估與品質判斷；產品實作由團隊協作。</dd><dt>階段</dt><dd>含已驗證流程與研究項目，不概括為全面上線。</dd></dl>
-        <details class="directory-modules"><summary><h4>相關模組 · 3</h4></summary><ul class="module-list">
-          <li><h5>振動診斷流程</h5><p>定義資料品質、運轉區間、故障型態與解釋輸出的串接方式。</p><p class="module-meta">角色：本人設計診斷方法與品質邊界。</p><p class="module-meta">階段：持續迭代。</p></li>
-          <li><h5>運轉偵測與異常機率</h5><p>釐清抽樣分母與異常機率語意。</p><p class="module-meta">角色：本人參與定義與研究判斷。</p><p class="module-meta">階段：部分為研究建議。</p></li>
-          <li><h5>剩餘壽命估計</h5><p>評估劣化趨勢、參數敏感度與系統品質。</p><p class="module-meta">角色：本人參與方法與消融分析。</p><p class="module-meta">階段：研究與產品實作分開。</p></li>
-        </ul></details>
-        </div>
-      </div>
-    </article>
-    <article class="directory-item" id="vibration-poc" data-record-year="2026">
-      <div class="directory-entry-heading"><h3>設備振動分析驗證</h3><span class="kind">場域 POC</span></div>
-      <div class="catalog-item-grid">
-        <figure class="project-figure"><img src="assets/projects/vibration-poc.svg" width="640" height="320" loading="lazy" alt="設備振動資料分析與可行性驗證概念圖：場域資料分為資料限制與振動診斷，再連到POC 判斷"><figcaption>振動驗證示意</figcaption></figure>
-        <div class="directory-item-body"><p>以場域設備資料檢驗振動診斷及整合報告可行性，記錄資料限制和導入條件。</p><p class="catalog-date">紀錄時間：2026 年 POC 紀錄</p><dl><dt>角色</dt><dd>本人主導方法與驗證問題；分析和整合由團隊協作。</dd><dt>階段</dt><dd>可行性驗證；正式驗收需另查。</dd></dl>
-        </div>
-      </div>
-    </article>
-    <article class="directory-item" id="event-analysis" data-record-year="2025">
-      <div class="directory-entry-heading"><h3>大規模設備事件分析</h3><span class="kind">場域分析</span></div>
-      <div class="catalog-item-grid">
-        <figure class="project-figure"><img src="assets/projects/event-analysis.svg" width="640" height="320" loading="lazy" alt="設備事件窗口與訊號分析概念圖：事件窗口 → 訊號分析 → 批次處理 → 人工診斷"><figcaption>事件分析示意</figcaption></figure>
-        <div class="directory-item-body"><p>依事件窗口選取資料，建立訊號分析、批次處理與現場工程師交接流程。</p><p class="catalog-date">紀錄時間：2025 年分析紀錄</p><dl><dt>角色</dt><dd>本人參與分析策略、流程和人工診斷關卡設計。</dd><dt>階段</dt><dd>具分析與交接紀錄，不延伸為全面自動判診。</dd></dl>
-        </div>
-      </div>
-    </article>
-    <article class="directory-item" id="equipment-inspection" data-record-year="2026">
-      <div class="directory-entry-heading"><h3><a href="project-inspection.html">設備出廠檢測流程</a></h3><span class="kind">場域產品化</span></div>
-      <div class="catalog-item-grid">
-        <figure class="project-figure"><img src="assets/projects/equipment-inspection.svg" width="640" height="320" loading="lazy" alt="設備出廠量測、判定與報告流程概念圖：客戶情境 → 規格映射 → DQA 測試 → 後續整合"><figcaption>出廠檢測示意</figcaption></figure>
-        <div class="directory-item-body"><p>把出廠檢測的操作情境轉成量測批次、判定、報告和驗收條件，協調測試版本與作業文件。</p><p class="catalog-date">紀錄時間：2026 年測試與整合紀錄</p><dl><dt>角色</dt><dd>本人主責需求、領域及平台規格、驗收映射與交接；工程團隊和 AI agents 參與實作測試。</dd><dt>階段</dt><dd>已有 DQA 測試、測試版本與操作手冊；後續整合未合主線，現場校準與客戶驗收尚待完成。</dd></dl>
-        </div>
-      </div>
-    </article>
-    <article class="directory-item" id="current-analysis" data-record-year="2026">
-      <div class="directory-entry-heading"><h3>設備電流資料複核與說明</h3><span class="kind">場域分析</span></div>
-      <div class="catalog-item-grid">
-        <figure class="project-figure"><img src="assets/projects/current-analysis.svg" width="640" height="320" loading="lazy" alt="設備電流資料複核與說明概念圖：既有疑點與統計複核 → 分層判讀 → 說明交付"><figcaption>電流複核示意</figcaption></figure>
-        <div class="directory-item-body"><p>針對既有分析疑點重查統計與判讀口徑，整理客戶說明版本。</p><p class="catalog-date">紀錄時間：2026 年分析紀錄</p><dl><dt>角色</dt><dd>本人負責複核、論述及交付溝通。</dd><dt>階段</dt><dd>分析和說明已交付；不推定驗收或根因完全確認。</dd></dl>
-        </div>
-      </div>
-    </article>
-  </div>
-</section>
-<section class="catalog-group" id="research" aria-labelledby="heading-research">
-  <div class="directory-heading"><h2 id="heading-research">研究、空間分析與早期作品</h2><span class="count">11 項</span></div>
-  <p class="directory-description">研究發表、學位研究、課程及競賽；區分獨立研究與團隊成果。</p>
-  <div class="directory-list">
-    <article class="directory-item" id="survey-route" data-record-year="2020">
-      <div class="directory-entry-heading"><h3>訪區路線與離散程度分析</h3><span class="kind">空間分析</span></div>
-      <div class="catalog-item-grid">
-        <figure class="project-figure"><img src="assets/projects/survey-route.svg" width="640" height="320" loading="lazy" alt="訪區地址點與路線規劃概念圖：地址點 → 點間距離 → 路線規劃 → 離散估算"><figcaption>訪區路線示意</figcaption></figure>
-        <div class="directory-item-body"><p>以地址點距離與路線最佳化方法估算訪區行程。</p><p class="catalog-date">紀錄時間：2020 年實習實作紀錄</p><dl><dt>角色</dt><dd>本人完成實習期間的核心資料處理與路線方法。</dd><dt>階段</dt><dd>實習期間的分析與規劃實作。</dd></dl>
-        </div>
-      </div>
-    </article>
-    <article class="directory-item" id="dynamic-bus" data-record-year="2021">
-      <div class="directory-entry-heading"><h3>動態公車路線與班次規劃</h3><span class="kind">獨立專案</span></div>
-      <div class="catalog-item-grid">
-        <figure class="project-figure"><img src="assets/projects/dynamic-bus.svg" width="640" height="320" loading="lazy" alt="觀光需求與公車路線規劃概念圖：觀光需求與景點距離 → 路線最佳化 → 班次探索"><figcaption>動態路線示意</figcaption></figure>
-        <div class="directory-item-body"><p>結合觀光需求訊號、景點距離與路線最佳化，探索班次及路線規劃。</p><p class="catalog-date">紀錄時間：2021 年建檔紀錄；專案期間待補</p><dl><dt>角色</dt><dd>本人進行資料處理、路線規劃與視覺化實作。</dd><dt>階段</dt><dd>探索性專案，未宣稱實際營運採用。</dd></dl>
-        </div>
-      </div>
-    </article>
-    <article class="directory-item" id="passenger-flow-2021" data-record-year="2021">
-      <div class="directory-entry-heading"><h3>旅運需求預測研究（2021）</h3><span class="kind">論文</span></div>
-      <div class="catalog-item-grid">
-        <figure class="project-figure"><img src="assets/projects/passenger-flow-2021.svg" width="640" height="320" loading="lazy" alt="旅客流量與動態嵌入研究概念圖：旅運資料 → 動態嵌入 → 流量估計"><figcaption>旅運預測示意</figcaption></figure>
-        <div class="directory-item-body"><p>研究動態嵌入方法在旅客流量估計中的應用。</p><p class="catalog-date">紀錄時間：2021 年論文發表</p><dl><dt>角色</dt><dd>共同研究；此處呈現研究主題與發表成果。</dd><dt>階段</dt><dd>正式論文發表。</dd></dl>
-        </div>
-      </div>
-    </article>
-    <article class="directory-item" id="traffic-network-2024" data-record-year="2024">
-      <div class="directory-entry-heading"><h3>動態交通網路與流量預測（2024）</h3><span class="kind">期刊論文</span></div>
-      <div class="catalog-item-grid">
-        <figure class="project-figure"><img src="assets/projects/traffic-network-2024.svg" width="640" height="320" loading="lazy" alt="動態交通網路與流量預測概念圖：交通網路與時間變化 → 動態表徵 → 流量預測"><figcaption>交通網路示意</figcaption></figure>
-        <div class="directory-item-body"><p>研究動態交通網路表徵與捷運旅客流量預測。</p><p class="catalog-date">紀錄時間：2024 年期刊發表</p><dl><dt>角色</dt><dd>共同研究；此處呈現研究主題與發表成果。</dd><dt>階段</dt><dd>正式期刊論文。</dd></dl>
-        </div>
-      </div>
-    </article>
-    <article class="directory-item" id="market-sentiment-2020" data-record-year="2020">
-      <div class="directory-entry-heading"><h3>金融文本情感辨識研究（2020）</h3><span class="kind">論文</span></div>
-      <div class="catalog-item-grid">
-        <figure class="project-figure"><img src="assets/projects/market-sentiment-2020.svg" width="640" height="320" loading="lazy" alt="金融文章與情感辨識研究概念圖：金融文章與情感詞 → 階層關注 → 情感辨識"><figcaption>文本情感示意</figcaption></figure>
-        <div class="directory-item-body"><p>結合情感詞與階層式關注網路研究金融文章情感。</p><p class="catalog-date">紀錄時間：2020 年論文發表</p><dl><dt>角色</dt><dd>共同研究；此處呈現研究主題與發表成果。</dd><dt>階段</dt><dd>正式研討會發表；前期研究計畫納入同一脈絡。</dd></dl>
-        </div>
-      </div>
-    </article>
-    <article class="directory-item" id="mcienet" data-record-year="2024">
-      <div class="directory-entry-heading"><h3><a href="project-mcienet.html">MCIENet：基因序列與染色質交互作用</a></h3><span class="kind">碩士論文</span></div>
-      <div class="catalog-item-grid">
-        <figure class="project-figure"><img src="assets/projects/mcienet.svg" width="640" height="320" loading="lazy" alt="DNA 序列與染色質交互作用預測概念圖：序列對 → 多尺度 CNN → 交互預測 → 消融評估"><figcaption>MCIENet 研究示意</figcaption></figure>
-        <div class="directory-item-body"><p>設計多尺度卷積模型，從 DNA 序列預測三維染色質交互作用，並進行消融、跨資料集評估與模型解釋。</p><p class="catalog-date">紀錄時間：2024 年碩士論文</p><dl><dt>角色</dt><dd>本人主導研究問題、架構、實驗、論文和程式整理；部分前處理整合第三方方法。</dd><dt>階段</dt><dd>學位研究完成。</dd></dl>
-        </div>
-      </div>
-    </article>
-    <article class="directory-item" id="stock-recommendation" data-record-year="2020">
-      <div class="directory-entry-heading"><h3>E.SUN Fugle 金融資訊推薦</h3><span class="kind">課程競賽</span></div>
-      <div class="catalog-item-grid">
-        <figure class="project-figure"><img src="assets/projects/stock-recommendation.svg" width="640" height="320" loading="lazy" alt="財務與使用行為訊號形成推薦的概念圖：財務訊號與行為訊號 → 共現關係 → 推薦推播"><figcaption>推薦流程示意</figcaption></figure>
-        <div class="directory-item-body"><p>結合財務與使用者行為訊號，探索股票推薦及推播方法。</p><p class="catalog-date">紀錄時間：2020 年競賽紀錄</p><dl><dt>角色</dt><dd>團隊共同完成；此處呈現團隊成果。</dd><dt>階段</dt><dd>課程競賽優勝。</dd></dl>
-        </div>
-      </div>
-    </article>
-    <article class="directory-item" id="property-spatiotemporal" data-record-year="2022">
-      <div class="directory-entry-heading"><h3>PropGMAN 不動產時空分析</h3><span class="kind">團隊競賽</span></div>
-      <div class="catalog-item-grid">
-        <figure class="project-figure"><img src="assets/projects/property-spatiotemporal.svg" width="640" height="320" loading="lazy" alt="區域與時間訊號用於不動產分析的概念圖：交易資料分為區域訊號與時間訊號，再連到指標預測"><figcaption>時空分析示意</figcaption></figure>
-        <div class="directory-item-body"><p>以區域與時間訊號研究土地價格和交易量預測。</p><p class="catalog-date">紀錄時間：2022 年競賽紀錄</p><dl><dt>角色</dt><dd>三人團隊共同完成；此處呈現團隊成果。</dd><dt>階段</dt><dd>決賽作品與創意獎。</dd></dl>
-        </div>
-      </div>
-    </article>
-    <article class="directory-item" id="city-disaster-map" data-record-year="2025">
-      <div class="directory-entry-heading"><h3>Taipei Dashboard 2025：旅遊與防災</h3><span class="kind">黑客松</span></div>
-      <div class="catalog-item-grid">
-        <figure class="project-figure"><img src="assets/projects/city-disaster-map.svg" width="640" height="320" loading="lazy" alt="旅遊景點與防災設施空間關係概念圖：旅遊景點與防災設施 → 空間關係 → 配置分析"><figcaption>城市設施示意</figcaption></figure>
-        <div class="directory-item-body"><p>分析旅遊景點周邊防災設施的空間配置。</p><p class="catalog-date">紀錄時間：2025 年黑客松紀錄</p><dl><dt>角色</dt><dd>團隊共同完成；此處呈現團隊成果。</dd><dt>階段</dt><dd>決賽入選作品。</dd></dl>
-        </div>
-      </div>
-    </article>
-    <article class="directory-item" id="horus" data-record-year="2020">
-      <div class="directory-entry-heading"><h3>Horus 多鏡頭人物追蹤</h3><span class="kind">畢業專題</span></div>
-      <div class="catalog-item-grid">
-        <figure class="project-figure"><img src="assets/projects/horus.svg" width="640" height="320" loading="lazy" alt="跨鏡頭人物再辨識概念圖：多鏡頭分為人物追蹤與再辨識，再連到身分關聯"><figcaption>人物再辨識示意</figcaption></figure>
-        <div class="directory-item-body"><p>團隊整合人物追蹤、再辨識及臉部辨識；本人聚焦跨鏡頭人物再辨識。</p><p class="catalog-date">紀錄時間：2020 年畢業專題紀錄</p><dl><dt>角色</dt><dd>本人主要負責再辨識模組；其他組件為團隊成果，基礎模型使用第三方方案。</dd><dt>階段</dt><dd>畢業專題完成。</dd></dl>
-        </div>
-      </div>
-    </article>
-    <article class="directory-item" id="spark-recovery" data-record-year="2022">
-      <div class="directory-entry-heading"><h3>Distributed Spark Recovery</h3><span class="kind">課程專案</span></div>
-      <div class="catalog-item-grid">
-        <figure class="project-figure"><img src="assets/projects/spark-recovery.svg" width="640" height="320" loading="lazy" alt="分散式資料缺漏偵測與補全概念圖：資料擷取 → 缺漏偵測 → Spark 叢集 → 儀表板"><figcaption>資料補全示意</figcaption></figure>
-        <div class="directory-item-body"><p>課程團隊串接資料擷取、時序儲存、缺漏偵測、分散式模型與儀表板。</p><p class="catalog-date">紀錄時間：2022 年課程專案</p><dl><dt>角色</dt><dd>本人負責 Spark cluster、GitHub 與展示影片；其餘模組由隊友負責。</dd><dt>階段</dt><dd>2022 年課程專案。</dd></dl>
-        </div>
-      </div>
-    </article>
-  </div>
-</section>
-<section class="catalog-group" id="collaboration" aria-labelledby="heading-collaboration">
-  <div class="directory-heading"><h2 id="heading-collaboration">人與 AI 協作方法</h2><span class="count">3 項</span></div>
-  <p class="directory-description">把需求、證據、測試與人工審查放進持續運作的開發流程。</p>
-  <div class="directory-list">
-    <article class="directory-item" id="ai-governance" data-record-year="2026">
-      <div class="directory-entry-heading"><h3>AI 協作開發治理</h3><span class="kind">工程方法</span></div>
-      <div class="catalog-item-grid">
-        <figure class="project-figure"><img src="assets/projects/ai-governance.svg" width="640" height="320" loading="lazy" alt="AI agent、測試紀錄與人工審查流程概念圖：工作指令 → 持久紀錄 → AI 測試 → 人工審查 → 回饋規範 → 回饋"><figcaption>開發治理示意</figcaption></figure>
-        <div class="directory-item-body"><p>建立版本化工作指令、紀錄、每日監控、隔離修復分支與人工審查流程。</p><p class="catalog-date">紀錄時間：2026 年流程運行紀錄</p><dl><dt>角色</dt><dd>本人設計流程、品質門檻並審查結果；AI agents 執行掃描、修復及測試，reviewer 決定合併與發布。</dd><dt>階段</dt><dd>具日常運行與修復分支紀錄；PR 等待人工審查不代表已合併或部署。</dd></dl>
-        <details class="directory-modules"><summary><h4>相關模組 · 1</h4></summary><ul class="module-list">
-          <li><h5>AI agent 協作與品質控制</h5><p>用工具規範、測試與證據回查限制 agent 的錯誤假設。</p><p class="module-meta">角色：本人定義判斷標準並審查 AI 輸出。</p><p class="module-meta">階段：已用於工作流程；效果依個別案例核實。</p></li>
-        </ul></details>
-        </div>
-      </div>
-    </article>
-    <article class="directory-item" id="knowledge-system" data-record-year="2026">
-      <div class="directory-entry-heading"><h3>工程文件與知識系統</h3><span class="kind">團隊知識管理</span></div>
-      <div class="catalog-item-grid">
-        <figure class="project-figure"><img src="assets/projects/knowledge-system.svg" width="640" height="320" loading="lazy" alt="工程文件與知識入口概念圖：需求設計 → 測試版本 → 文件入口 → 團隊查找"><figcaption>知識系統示意</figcaption></figure>
-        <div class="directory-item-body"><p>整理需求、設計、測試和版本文件的追溯關係，建立持續維護的內部文件入口。</p><p class="catalog-date">紀錄時間：2026 年文件系統紀錄</p><dl><dt>角色</dt><dd>本人參與文件治理與溝通機制設計；內容和維護由團隊協作。</dd><dt>階段</dt><dd>具文件站與維護流程紀錄；採用效果待核對。</dd></dl>
-        <details class="directory-modules"><summary><h4>相關模組 · 1</h4></summary><ul class="module-list">
-          <li><h5>內部文件入口</h5><p>把日常維護與文件站連結，方便團隊查找決策和工作狀態。</p><p class="module-meta">角色：本人參與設計與導入。</p><p class="module-meta">階段：具內部實作與運行紀錄。</p></li>
-        </ul></details>
-        </div>
-      </div>
-    </article>
-    <article class="directory-item" id="delivery-mentoring" data-record-year="2026">
-      <div class="directory-entry-heading"><h3>交付追蹤與工程協作</h3><span class="kind">工作流程</span></div>
-      <div class="catalog-item-grid">
-        <figure class="project-figure"><img src="assets/projects/delivery-mentoring.svg" width="640" height="320" loading="lazy" alt="交付追蹤與工程協作概念圖：承諾待決 → 任務分工 → 交付證據 → 成果審查 → 追蹤回饋 → 回饋"><figcaption>協作流程示意</figcaption></figure>
-        <div class="directory-item-body"><p>以共同工作空間追蹤承諾、待決事項與交付證據，並在實習生合作中拆分任務和審查成果。</p><p class="catalog-date">紀錄時間：2026 年交付協作紀錄</p><dl><dt>角色</dt><dd>本人負責議題收斂、領域判斷與協作指導；成果依團隊分工呈現。</dd><dt>階段</dt><dd>具工作空間與協作紀錄。</dd></dl>
-        </div>
-      </div>
-    </article>
-  </div>
-</section>
-  </div>
-  <div id="catalog-time" class="catalog-panel" hidden><p class="time-note">依現有證據的年份新到舊排列；同一年內不表示先後順序。</p>
-<section class="catalog-year" data-time-year="2026" aria-labelledby="year-2026">
-  <div class="directory-heading"><h2 id="year-2026">2026</h2><span class="count">10 項</span></div>
-  <div class="timeline-list"></div>
-</section>
-<section class="catalog-year" data-time-year="2025" aria-labelledby="year-2025">
-  <div class="directory-heading"><h2 id="year-2025">2025</h2><span class="count">2 項</span></div>
-  <div class="timeline-list"></div>
-</section>
-<section class="catalog-year" data-time-year="2024" aria-labelledby="year-2024">
-  <div class="directory-heading"><h2 id="year-2024">2024</h2><span class="count">2 項</span></div>
-  <div class="timeline-list"></div>
-</section>
-<section class="catalog-year" data-time-year="2022" aria-labelledby="year-2022">
-  <div class="directory-heading"><h2 id="year-2022">2022</h2><span class="count">2 項</span></div>
-  <div class="timeline-list"></div>
-</section>
-<section class="catalog-year" data-time-year="2021" aria-labelledby="year-2021">
-  <div class="directory-heading"><h2 id="year-2021">2021</h2><span class="count">2 項</span></div>
-  <div class="timeline-list"></div>
-</section>
-<section class="catalog-year" data-time-year="2020" aria-labelledby="year-2020">
-  <div class="directory-heading"><h2 id="year-2020">2020</h2><span class="count">4 項</span></div>
-  <div class="timeline-list"></div>
-</section>
-  </div>
-</main>
-<footer><div class="wrap"><p>© 2026 Aaron Ho · 何彥南</p><a href="https://github.com/aaron1aaron2">GitHub</a></div></footer>
-</body></html>
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f6f4ee"><title>專案｜Aaron Ho</title><link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css"><meta name="description" content="從工業 AI 平台到研究作品，依類型或時間瀏覽。平台內有獨立問題與交付內容的功能，整理為各自的案例，並保留與主專案的關係。"><link rel="stylesheet" href="catalog.css"><script type="module" src="catalog-view.js"></script></head><body class="catalog-page"><a class="skip" href="#main">跳至主要內容</a><header class="masthead"><div class="wrap topline"><a class="brand" href="index.html" aria-label="Aaron Ho 首頁">Aaron Ho</a><nav class="nav" aria-label="主要導覽"><a href="index.html">首頁</a><a href="projects.html" aria-current="page">專案</a><a href="resume.html">履歷</a><a href="cv.html">CV</a></nav></div></header><main id="main" tabindex="-1" class="catalog-main"><section class="page-intro"><h1>專案與案例</h1><p class="intro">從工業 AI 平台到研究作品，依類型或時間瀏覽。平台內有獨立問題與交付內容的功能，整理為各自的案例，並保留與主專案的關係。</p></section><div class="catalog-toolbar" role="group" aria-label="專案檢視方式" hidden><button type="button" id="view-type" aria-pressed="true" aria-controls="catalog-type">按類型</button><button type="button" id="view-time" aria-pressed="false" aria-controls="catalog-time">按時間</button><label class="catalog-jump">前往<select id="catalog-jump" aria-label="跳至分類"><option value="">選擇分類</option><option value="platform">平台與產品系統</option><option value="data">資料、診斷與場域交付</option><option value="research">研究、空間分析與早期作品</option><option value="collaboration">人與 AI 協作方法</option></select></label><a class="catalog-top" href="#main" aria-label="回到專案頁頂端">回頂端</a><span class="catalog-view-status" id="catalog-view-status" role="status" aria-live="polite"></span></div><div id="catalog-type" class="catalog-panel"><section class="catalog-group" id="platform" aria-labelledby="heading-platform"><div class="directory-heading"><h2 id="heading-platform">平台與產品系統</h2><span class="count">7 則</span></div><p class="directory-description">Harbor AI 2.0 與五項平台功能案例，另列跨組織提案；各自說明問題、分工與交付內容。</p><div class="directory-list"><article class="directory-item" id="harbor-ai" data-record-year="2026"><div class="directory-entry-heading"><h3><a href="project-harbor.html">Harbor AI 2.0 工業 AI 平台</a></h3><span class="kind">產品平台</span></div><div class="catalog-item-grid"><figure class="project-figure"><img src="assets/projects/harbor-ai.svg" width="640" height="320" loading="eager" alt="Harbor AI 2.0：設備資料 → 產品語意，連到分析任務及報告操作"><figcaption>工作流程示意</figcaption></figure><div class="directory-item-body"><p>監控、AI 分析與報告各有不同時間尺度，新舊系統共存需清楚的資料與控制權責。</p><p class="catalog-date">2026 年平台工作紀錄</p><dl><dt>我的貢獻</dt><dd>本人主導產品分類、領域語意與操作流程，與工程夥伴共同設計契約、排程、整合及交付，AI agents 參與實作與驗證。</dd><dt>成果</dt><dd>形成可版本交付的平台，串接設備資料、非同步分析、報告及維運，子系統各依交付紀錄判定。</dd></dl><p class="project-tech">APScheduler · Redis · MQTT · Docker · nginx</p><details class="directory-modules"><summary><h4>技術細節與工作範圍</h4></summary><ul class="module-list"><li><h5>平台架構與資料契約</h5><p>界定任務生命週期、資料上傳與非同步處理責任。</p><p class="module-meta">本人參與架構與契約決策；服務實作為團隊分工。</p><p class="module-meta">設計與實作依個別功能區分。</p></li><li><h5>產品資訊架構</h5><p>整理設備概況、資料檢視與分析報告的操作脈絡。</p><p class="module-meta">本人負責產品結構與介面判斷。</p><p class="module-meta">具設計及部分整合紀錄。</p></li><li><h5>跨產品前端整合</h5><p>協調不同設備產品前端與平台操作流程。</p><p class="module-meta">本人參與跨產品介面對齊；不歸為全部前端獨立開發。</p><p class="module-meta">依整合紀錄呈現。</p></li></ul></details></div></div></article>
+<article class="directory-item" id="rul-threshold" data-record-year="2026" data-parent="harbor-ai"><div class="directory-entry-heading"><h3><a href="project-rul.html">RUL 與自動閾值調整</a></h3><span class="kind">平台子案例</span></div><p class="project-relation">所屬平台 · <a href="project-harbor.html">Harbor AI 2.0 工業 AI 平台</a></p><div class="catalog-item-grid"><figure class="project-figure"><img src="assets/projects/rul-threshold.svg" width="640" height="320" loading="eager" alt="RUL 與自動閾值調整：壽命建議 → 採用條件 → 設備下發 → 狀態回饋"><figcaption>工作流程示意</figcaption></figure><div class="directory-item-body"><p>壽命估計需反映快速劣化並避免誤報，建議值進入設備控制時還需安全保護。</p><p class="catalog-date">2026 年開發及驗證紀錄</p><dl><dt>我的貢獻</dt><dd>本人質疑 AI 分析的資料及假設、補參數消融，設計建議值、平台採用與 Gateway 下發的分層控制面；團隊及 AI agents 參與實作。</dd><dt>成果</dt><dd>完成狀態／歷史原子同步、每感測器自動或手動政策及安全門檻，留下服務與回歸測試；現場壽命準確率未完成校準。</dd></dl><p class="project-tech">RUL · 參數消融 · SHA-256 · API · Gateway threshold OTA</p></div></div></article>
+<article class="directory-item" id="report-evolution" data-record-year="2026" data-parent="harbor-ai"><div class="directory-entry-heading"><h3><a href="project-report.html">診斷報告系統演進</a></h3><span class="kind">產品子系統</span></div><p class="project-relation">所屬平台 · <a href="project-harbor.html">Harbor AI 2.0 工業 AI 平台</a></p><div class="catalog-item-grid"><figure class="project-figure"><img src="assets/projects/report-evolution.svg" width="640" height="320" loading="eager" alt="診斷報告系統演進：診斷方法 → LangGraph → 報告服務 → 前端下載"><figcaption>工作流程示意</figcaption></figure><div class="directory-item-body"><p>診斷報告需轉成能排程、重跑及下載的服務，保留數值依據及缺資料時的處理。</p><p class="catalog-date">2026 年報告開發紀錄</p><dl><dt>我的貢獻</dt><dd>本人主導診斷方法、品質條件和產品化方向；工程夥伴與 AI agents 參與實作、測試和整合。</dd><dt>成果</dt><dd>從 skills 與 LangGraph POC 推進至八月服務／平台接線、九月 DOCX 及下載主線整合；完整現場編排及驗收另核。</dd></dl><p class="project-tech">LangChain · LangGraph · DOCX</p><details class="directory-modules"><summary><h4>技術細節與工作範圍</h4></summary><ul class="module-list"><li><h5>報告服務</h5><p>連接產生器、範本、派工與工作流程。</p><p class="module-meta">本人定義領域需求及驗證口徑；團隊共同實作。</p><p class="module-meta">八月已有合併紀錄。</p></li><li><h5>LangGraph 振動報告</h5><p>驗證多設備、局部重生、確定性數值和資料不足時的降級。</p><p class="module-meta">本人設計診斷流程與品質門檻，與團隊協作。</p><p class="module-meta">七月 POC；後續產品路徑另有整合紀錄。</p></li></ul></details></div></div></article>
+<article class="directory-item" id="ai-assistant-chat" data-record-year="2026" data-parent="harbor-ai"><div class="directory-entry-heading"><h3><a href="project-assistant.html">AI 助理聊天室：互動與知識邊界</a></h3><span class="kind">平台子案例（參與）</span></div><p class="project-relation">所屬平台 · <a href="project-harbor.html">Harbor AI 2.0 工業 AI 平台</a></p><div class="catalog-item-grid"><figure class="project-figure"><img src="assets/projects/ai-assistant-chat.svg" width="640" height="320" loading="eager" alt="AI 助理聊天室參與範圍：角色呈現 → 互動介面 → 知識去敏 → 整合驗證"><figcaption>參與範圍示意</figcaption></figure><div class="directory-item-body"><p>聊天室需呈現等待及工具回饋，避免把內部文件與引用標記當成使用者答案。</p><p class="catalog-date">2026 年開發及驗證紀錄</p><dl><dt>我的貢獻</dt><dd>本人參與需求、互動判斷、受眾邊界及實機驗收，協調 AI agents 修正回答與介面；即時資料能力由工程夥伴負責。</dd><dt>成果</dt><dd>互動、引用及客戶語料修正有主線合併與實機走查；受眾閘門及測試限制資訊外流，完整真人問答仍有待驗項目。</dd></dl><p class="project-tech">SSE · RAG · Semantic cache · 回歸測試</p></div></div></article>
+<article class="directory-item" id="pd-event-analysis" data-record-year="2026" data-parent="harbor-ai"><div class="directory-entry-heading"><h3><a href="project-discharge.html">局部放電事件分析</a></h3><span class="kind">平台子案例</span></div><p class="project-relation">所屬平台 · <a href="project-harbor.html">Harbor AI 2.0 工業 AI 平台</a></p><div class="catalog-item-grid"><figure class="project-figure"><img src="assets/projects/pd-event-analysis.svg" width="640" height="320" loading="eager" alt="局部放電事件分析：事件窗口 → 波形處理 → 特徵分析 → 任務結果"><figcaption>工作流程示意</figcaption></figure><div class="directory-item-body"><p>告警出現時波形仍可能陸續上傳，立即派工易把不完整資料誤當完整分析。</p><p class="catalog-date">2026 年開發及驗證紀錄</p><dl><dt>我的貢獻</dt><dd>本人參與平台領域、派工設計、資料語意及驗證判斷，與團隊及 AI agents 串接事件窗、波形觀察與 PRPD 服務。</dd><dt>成果</dt><dd>平台側已合併，真資料及微服務驗證完整、部分、缺資料、溢出及多感測器情境；Gateway 錄音及前端後續工作另列。</dd></dl><p class="project-tech">PRPD · WAV · Django · 非同步派工</p></div></div></article>
+<article class="directory-item" id="equipment-inspection" data-record-year="2026" data-parent="harbor-ai"><div class="directory-entry-heading"><h3><a href="project-inspection.html">設備出廠檢測流程</a></h3><span class="kind">場域產品化</span></div><p class="project-relation">所屬平台 · <a href="project-harbor.html">Harbor AI 2.0 工業 AI 平台</a></p><div class="catalog-item-grid"><figure class="project-figure"><img src="assets/projects/equipment-inspection.svg" width="640" height="320" loading="eager" alt="設備出廠檢測流程：客戶情境 → 規格映射 → DQA 測試 → 後續整合"><figcaption>工作流程示意</figcaption></figure><div class="directory-item-body"><p>長期監控平台需支援頻繁換件，將多測點量測連到受測件、批次及合格判定。</p><p class="catalog-date">2026 年測試與整合紀錄</p><dl><dt>我的貢獻</dt><dd>本人主責需求與流程收斂、規格及驗收映射、交接與現場示範／教育訓練，工程夥伴及 AI agents 參與實作測試。</dd><dt>成果</dt><dd>已有測試版本與手冊，2026-10-12 本人到場進行第一階段驗收活動並收集回饋；正式結論、簽核及最新整合版本待補。</dd></dl><p class="project-tech">振動訊號分析 · API 契約 · E2E 測試</p></div></div></article>
+<article class="directory-item" id="smart-city-proposal" data-record-year="2026"><div class="directory-entry-heading"><h3>智慧城市資安平台聯合提案</h3><span class="kind">跨組織提案</span></div><div class="catalog-item-grid"><figure class="project-figure"><img src="assets/projects/smart-city-proposal.svg" width="640" height="320" loading="eager" alt="智慧城市資安聯合提案：技術文件與系統介面 → 查核條件 → 提案草案"><figcaption>工作流程示意</figcaption></figure><div class="directory-item-body"><p>聯合提案需把跨公司控制面、資料面及裝置責任寫成可查核計畫。</p><p class="catalog-date">2026 年提案紀錄</p><dl><dt>我的貢獻</dt><dd>本人負責技術文件與介面協調；方案為團隊合作。</dd><dt>成果</dt><dd>完成政府格式 v5 計畫書及提案簡報，仍是未送件草案，部分合作與場域條件待核定。</dd></dl><p class="project-tech">零信任架構</p></div></div></article></div></section>
+<section class="catalog-group" id="data" aria-labelledby="heading-data"><div class="directory-heading"><h2 id="heading-data">資料、診斷與場域交付</h2><span class="count">4 則</span></div><p class="directory-description">從資料品質與判讀邊界出發，建立可測試及交接的分析流程。</p><div class="directory-list"><article class="directory-item" id="industrial-diagnostics" data-record-year="2026"><div class="directory-entry-heading"><h3>工業設備診斷方法</h3><span class="kind">診斷產品線</span></div><div class="catalog-item-grid"><figure class="project-figure"><img src="assets/projects/industrial-diagnostics.svg" width="640" height="320" loading="eager" alt="工業設備診斷方法：運轉偵測 → 異常分析 → 嚴重度 → RUL 判讀"><figcaption>工作流程示意</figcaption></figure><div class="directory-item-body"><p>故障型態、嚴重度及劣化時間回答不同問題，資料不完整時需揭露不確定性。</p><p class="catalog-date">2026 年診斷研究與開發紀錄</p><dl><dt>我的貢獻</dt><dd>本人設計資料品質、運轉偵測、故障分類、ISO 及 RUL 的分層方法，檢查異常率分母及抽樣偏差。</dd><dt>成果</dt><dd>留下分層診斷契約、品質降級規則及抽樣研究比較，time-bin 尚未正式選型。</dd></dl><p class="project-tech">VAD · ISO 20816 · RUL</p><details class="directory-modules"><summary><h4>技術細節與工作範圍</h4></summary><ul class="module-list"><li><h5>振動診斷流程</h5><p>定義資料品質、運轉區間、故障型態與解釋輸出的串接方式。</p><p class="module-meta">本人設計診斷方法與品質邊界。</p><p class="module-meta">持續迭代。</p></li><li><h5>運轉偵測與異常機率</h5><p>釐清抽樣分母與異常機率語意。</p><p class="module-meta">本人參與定義與研究判斷。</p><p class="module-meta">部分為研究建議。</p></li><li><h5>剩餘壽命估計</h5><p>評估劣化趨勢、參數敏感度與系統品質。</p><p class="module-meta">本人參與方法與消融分析。</p><p class="module-meta">研究與產品實作分開。</p></li></ul></details></div></div></article>
+<article class="directory-item" id="vibration-poc" data-record-year="2026"><div class="directory-entry-heading"><h3>設備振動分析驗證</h3><span class="kind">場域 POC</span></div><div class="catalog-item-grid"><figure class="project-figure"><img src="assets/projects/vibration-poc.svg" width="640" height="320" loading="eager" alt="設備振動分析驗證：場域資料分為資料限制與振動診斷，再連到POC 判斷"><figcaption>工作流程示意</figcaption></figure><div class="directory-item-body"><p>資料覆蓋、運轉狀態與抽樣方式影響診斷，需驗證報告結論成立的條件。</p><p class="catalog-date">2026 年 POC 紀錄</p><dl><dt>我的貢獻</dt><dd>本人主導基本資訊、前處理、VAD、分類、ISO 與 RUL 驗證順序，以 notebooks 和 AI 協作核對數值與判讀。</dd><dt>成果</dt><dd>建立可複用診斷與報告方法，保留低 coverage 及低信心時的降級，供後續產品化。</dd></dl><p class="project-tech">VAD · ISO 20816 · LangGraph</p></div></div></article>
+<article class="directory-item" id="event-analysis" data-record-year="2025"><div class="directory-entry-heading"><h3>大規模設備事件分析</h3><span class="kind">場域分析</span></div><div class="catalog-item-grid"><figure class="project-figure"><img src="assets/projects/event-analysis.svg" width="640" height="320" loading="eager" alt="大規模設備事件分析：事件窗口 → 訊號分析 → 批次處理 → 人工診斷"><figcaption>工作流程示意</figcaption></figure><div class="directory-item-body"><p>波形量大且沒有交接 SOP，需選出有決策價值的事件並保留可回查資料。</p><p class="catalog-date">2025 年分析紀錄</p><dl><dt>我的貢獻</dt><dd>本人與現場工程師及品保對齊設備、格式及事件範圍，採完整 DB 加事件窗 WAV，用批次腳本串接分析與人工審查。</dd><dt>成果</dt><dd>完成多輪事件報告及可重跑交接流程，未選時段及全設備健康狀態不由此推定。</dd></dl><p class="project-tech">SQLite · Windows batch · multiprocessing · PRPD</p></div></div></article>
+<article class="directory-item" id="current-analysis" data-record-year="2026"><div class="directory-entry-heading"><h3>設備電流資料複核與說明</h3><span class="kind">場域分析</span></div><div class="catalog-item-grid"><figure class="project-figure"><img src="assets/projects/current-analysis.svg" width="640" height="320" loading="eager" alt="設備電流資料複核：既有疑點與統計複核 → 分層判讀 → 說明交付"><figcaption>工作流程示意</figcaption></figure><div class="directory-item-body"><p>客戶對負載及穩態振動提出疑問，需重建統計口徑並區分關聯及根因。</p><p class="catalog-date">2026 年分析紀錄</p><dl><dt>我的貢獻</dt><dd>本人把客戶三項觀察轉成可檢定問題，以分鐘中位數、非參數檢定及效應量複核，整理分析與說明。</dd><dt>成果</dt><dd>V1.3 分析及客戶說明簡報已確認交付，保留待現場量測的根因假說及驗證需求。</dd></dl><p class="project-tech">Kruskal–Wallis · Mann–Whitney · Cliff’s delta</p></div></div></article></div></section>
+<section class="catalog-group" id="research" aria-labelledby="heading-research"><div class="directory-heading"><h2 id="heading-research">研究、空間分析與早期作品</h2><span class="count">11 則</span></div><p class="directory-description">研究發表、學位研究、課程及競賽；區分獨立研究與團隊成果。</p><div class="directory-list"><article class="directory-item" id="survey-route" data-record-year="2020"><div class="directory-entry-heading"><h3>訪區路線與離散程度分析</h3><span class="kind">空間分析</span></div><div class="catalog-item-grid"><figure class="project-figure"><img src="assets/projects/survey-route.svg" width="640" height="320" loading="eager" alt="訪區路線與離散分析：地址點 → 點間距離 → 路線規劃 → 離散估算"><figcaption>工作流程示意</figcaption></figure><div class="directory-item-body"><p>訪區分散程度影響訪員路程及預算，需可計算距離及代表路線。</p><p class="catalog-date">2020 年實習實作紀錄</p><dl><dt>我的貢獻</dt><dd>本人完成訪區分組、點對距離、保守缺值補估與 TSP 路線方法，將正式樣本轉成路程規劃資料。</dd><dt>成果</dt><dd>輸出訪區總距離、平均距離、樣本順序及路線地圖，供調查規劃。</dd></dl><p class="project-tech">Python · Selenium · OR-Tools · Folium</p></div></div></article>
+<article class="directory-item" id="dynamic-bus" data-record-year="2021"><div class="directory-entry-heading"><h3>動態公車路線與班次規劃</h3><span class="kind">獨立專案</span></div><div class="catalog-item-grid"><figure class="project-figure"><a class="original-media" href="assets/projects/dynamic-bus.png" aria-label="放大原始圖片：動態公車路線與班次規劃"><img src="assets/projects/dynamic-bus.png" width="391" height="323" loading="eager" alt="原 notebook 分析圖：景點人流與搜尋趨勢；非路線成果圖。"></a><figcaption>原 notebook 分析圖：景點人流與搜尋趨勢；非路線成果圖。（點圖放大）</figcaption></figure><div class="directory-item-body"><p>觀光需求隨時段變動，路線及班次規劃需整合需求與距離。</p><p class="catalog-date">2021 年建檔紀錄；專案期間待補</p><dl><dt>我的貢獻</dt><dd>本人整合觀光人流、Google Trends、Popular Times 及景點距離，以需求分攤和 TSP 探索路線班次。</dd><dt>成果</dt><dd>完成需求分攤、距離矩陣及 TSP 流程，以地圖、Gantt、Sankey 呈現路線與班次。</dd></dl><p class="project-tech">Python · OR-Tools · Folium · Google Trends</p></div></div></article>
+<article class="directory-item" id="passenger-flow-2021" data-record-year="2021"><div class="directory-entry-heading"><h3>旅運需求預測研究（2021）</h3><span class="kind">論文</span></div><div class="catalog-item-grid"><figure class="project-figure"><a class="original-media" href="assets/projects/passenger-flow-2021.png" aria-label="放大原始圖片：旅運需求預測研究（2021）"><img src="assets/projects/passenger-flow-2021.png" width="852" height="354" loading="eager" alt="共同研究原圖：BERT 動態嵌入與旅客流量預測流程。"></a><figcaption>共同研究原圖：BERT 動態嵌入與旅客流量預測流程。（點圖放大）</figcaption></figure><div class="directory-item-body"><p>旅客流量估計需表達隨時間變動的交通關係。</p><p class="catalog-date">2021 年論文發表</p><dl><dt>我的貢獻</dt><dd>參與共同研究，研究動態嵌入在旅客流量估計的應用；個人模組責任尚未細分。</dd><dt>成果</dt><dd>形成 IIAI AAI 2021 正式論文及 Competitive Paper Award。</dd></dl><p class="project-tech">動態嵌入</p></div></div></article>
+<article class="directory-item" id="traffic-network-2024" data-record-year="2024"><div class="directory-entry-heading"><h3>動態交通網路與流量預測（2024）</h3><span class="kind">期刊論文</span></div><div class="catalog-item-grid"><figure class="project-figure"><a class="original-media" href="assets/projects/traffic-network-2024.png" aria-label="放大原始圖片：動態交通網路與流量預測（2024）"><img src="assets/projects/traffic-network-2024.png" width="1800" height="1156" loading="eager" alt="共同研究原圖：交通網路表示學習與流量預測流程。"></a><figcaption>共同研究原圖：交通網路表示學習與流量預測流程。（點圖放大）</figcaption></figure><div class="directory-item-body"><p>捷運流量預測需將動態交通網路關係納入模型表示。</p><p class="catalog-date">2024 年期刊發表</p><dl><dt>我的貢獻</dt><dd>參與共同研究，研究動態網路表徵及捷運流量預測，個人責任依共同研究範圍呈現。</dd><dt>成果</dt><dd>形成 Knowledge-Based Systems 2024 正式期刊論文。</dd></dl><p class="project-tech">動態交通網路表徵</p></div></div></article>
+<article class="directory-item" id="market-sentiment-2020" data-record-year="2020"><div class="directory-entry-heading"><h3>金融文本情感辨識研究（2020）</h3><span class="kind">論文</span></div><div class="catalog-item-grid"><figure class="project-figure"><a class="original-media" href="assets/projects/market-sentiment-2020.png" aria-label="放大原始圖片：金融文本情感辨識研究（2020）"><img src="assets/projects/market-sentiment-2020.png" width="401" height="421" loading="eager" alt="共同研究原圖：情感詞與階層式注意力模型。"></a><figcaption>共同研究原圖：情感詞與階層式注意力模型。（點圖放大）</figcaption></figure><div class="directory-item-body"><p>金融文章情感判讀需考慮詞彙及文章層次脈絡。</p><p class="catalog-date">2020 年論文發表</p><dl><dt>我的貢獻</dt><dd>參與情感詞及階層式關注網路的共同研究，將學生研究計畫延伸為正式發表。</dd><dt>成果</dt><dd>由學生研究計畫延伸為 TCSE 2020 論文，留有核定及發表證明。</dd></dl><p class="project-tech">情感詞典 · Hierarchical Attention Network</p></div></div></article>
+<article class="directory-item" id="mcienet" data-record-year="2024"><div class="directory-entry-heading"><h3><a href="project-mcienet.html">MCIENet：基因序列與染色質交互作用</a></h3><span class="kind">碩士論文</span></div><div class="catalog-item-grid"><figure class="project-figure"><a class="original-media" href="assets/projects/mcienet.png" aria-label="放大原始圖片：MCIENet：基因序列與染色質交互作用"><img src="assets/projects/mcienet.png" width="2173" height="1934" loading="eager" alt="原始研究流程：資料準備、MCIENet 與可解釋性分析；部分前處理基於 ChINN。"></a><figcaption>原始研究流程：資料準備、MCIENet 與可解釋性分析；部分前處理基於 ChINN。（點圖放大）</figcaption></figure><div class="directory-item-body"><p>DNA 序列不同尺度訊號需轉成可檢驗的三維染色質交互作用預測。</p><p class="catalog-date">2024 年碩士論文</p><dl><dt>我的貢獻</dt><dd>本人主導研究問題、架構、實驗、論文和程式整理；部分前處理整合第三方方法。</dd><dt>成果</dt><dd>完成碩士論文、研究程式及配置，提供消融、跨資料集評估與模型解釋。</dd></dl><p class="project-tech">CNN · 多尺度資訊擷取 · XAI · ChINN</p></div></div></article>
+<article class="directory-item" id="stock-recommendation" data-record-year="2020"><div class="directory-entry-heading"><h3>E.SUN Fugle 金融資訊推薦</h3><span class="kind">課程競賽</span></div><div class="catalog-item-grid"><figure class="project-figure"><a class="original-media" href="assets/projects/stock-recommendation.jpg" aria-label="放大原始圖片：E.SUN Fugle 金融資訊推薦"><img src="assets/projects/stock-recommendation.jpg" width="830" height="400" loading="eager" alt="團隊原型畫面：股票推薦機器人；歷史競賽展示。"></a><figcaption>團隊原型畫面：股票推薦機器人；歷史競賽展示。（點圖放大）</figcaption></figure><div class="directory-item-body"><p>股票推薦需結合財務特徵及訂閱、瀏覽行為。</p><p class="catalog-date">2020 年競賽紀錄</p><dl><dt>我的貢獻</dt><dd>團隊比較 item-based、user-based、KD-tree 及共現關係，形成推薦與推播；個人模組尚未細分。</dd><dt>成果</dt><dd>團隊完成推薦／推播方案，獲金融程式設計課程競賽優勝。</dd></dl><p class="project-tech">Item-based recommendation · User-based recommendation · KD-tree</p></div></div></article>
+<article class="directory-item" id="property-spatiotemporal" data-record-year="2022"><div class="directory-entry-heading"><h3>PropGMAN 不動產時空分析</h3><span class="kind">團隊競賽</span></div><div class="catalog-item-grid"><figure class="project-figure"><a class="original-media" href="assets/projects/property-spatiotemporal.png" aria-label="放大原始圖片：PropGMAN 不動產時空分析"><img src="assets/projects/property-spatiotemporal.png" width="548" height="216" loading="eager" alt="團隊實驗原始輸出：預測誤差評估；數值僅屬該次實驗。"></a><figcaption>團隊實驗原始輸出：預測誤差評估；數值僅屬該次實驗。（點圖放大）</figcaption></figure><div class="directory-item-body"><p>土地價格及交易量受區域與時間變化影響。</p><p class="catalog-date">2022 年競賽紀錄</p><dl><dt>我的貢獻</dt><dd>三人團隊以實價登錄、區域分組及參考點建構時空模型；個人模組尚未細分。</dd><dt>成果</dt><dd>三人團隊完成訓練配置、區域評估、重現流程及決賽報告，獲創意獎。</dd></dl><p class="project-tech">時空模型 · 配置驅動訓練</p></div></div></article>
+<article class="directory-item" id="city-disaster-map" data-record-year="2025"><div class="directory-entry-heading"><h3>Taipei Dashboard 2025：旅遊與防災</h3><span class="kind">黑客松</span></div><div class="catalog-item-grid"><figure class="project-figure"><img src="assets/projects/city-disaster-map.svg" width="640" height="320" loading="eager" alt="旅遊與防災空間分析：旅遊景點與防災設施 → 空間關係 → 配置分析"><figcaption>工作流程示意</figcaption></figure><div class="directory-item-body"><p>景點周邊防災資源的空間配置需整理成易讀資訊。</p><p class="catalog-date">2025 年黑客松紀錄</p><dl><dt>我的貢獻</dt><dd>團隊分析景點周圍防災設施並形成儀表板作品；個人模組分工仍待補充。</dd><dt>成果</dt><dd>團隊完成城市儀表板作品及專案說明，晉級 2025 決賽。</dd></dl><p class="project-tech">空間分析</p></div></div></article>
+<article class="directory-item" id="horus" data-record-year="2020"><div class="directory-entry-heading"><h3>Horus 多鏡頭人物追蹤</h3><span class="kind">畢業專題</span></div><div class="catalog-item-grid"><figure class="project-figure"><a class="original-media" href="assets/projects/horus.png" aria-label="放大原始圖片：Horus 多鏡頭人物追蹤"><img src="assets/projects/horus.png" width="1048" height="421" loading="eager" alt="團隊原始流程圖：追蹤、再辨識與資料庫更新。"></a><figcaption>團隊原始流程圖：追蹤、再辨識與資料庫更新。（點圖放大）</figcaption></figure><div class="directory-item-body"><p>多鏡頭追蹤需跨鏡頭匹配同一人並串接記錄。</p><p class="catalog-date">2020 年畢業專題紀錄</p><dl><dt>我的貢獻</dt><dd>本人主要負責再辨識特徵整合、取樣匹配、餘弦相似度、雙門檻及記錄佇列，FastReID 為第三方基礎。</dd><dt>成果</dt><dd>團隊完成追蹤、再辨識與臉部辨識系統，獲畢業專題第一名。</dd></dl><p class="project-tech">FastReID · Cosine similarity · Person ReID</p></div></div></article>
+<article class="directory-item" id="spark-recovery" data-record-year="2022"><div class="directory-entry-heading"><h3>Distributed Spark Recovery</h3><span class="kind">課程專案</span></div><div class="catalog-item-grid"><figure class="project-figure"><a class="original-media" href="assets/projects/spark-recovery.png" aria-label="放大原始圖片：Distributed Spark Recovery"><img src="assets/projects/spark-recovery.png" width="836" height="1122" loading="eager" alt="團隊原始流程圖：爬取失敗時的資料補全路徑。"></a><figcaption>團隊原始流程圖：爬取失敗時的資料補全路徑。（點圖放大）</figcaption></figure><div class="directory-item-body"><p>擷取失敗造成時序缺漏，需串接偵測、補復及展示。</p><p class="catalog-date">2022 年課程專案</p><dl><dt>我的貢獻</dt><dd>本人負責 Spark cluster、GitHub 及展示影片，以 Vagrant 建置一台 master、兩台 worker；其他模組由隊友負責。</dd><dt>成果</dt><dd>團隊完成擷取、缺漏偵測、Spark MLlib 及儀表板串接的課程系統。</dd></dl><p class="project-tech">Apache Spark · Vagrant · Spark MLlib · InfluxDB · Plotly · Dash</p></div></div></article></div></section>
+<section class="catalog-group" id="collaboration" aria-labelledby="heading-collaboration"><div class="directory-heading"><h2 id="heading-collaboration">人與 AI 協作方法</h2><span class="count">3 則</span></div><p class="directory-description">把需求、證據、測試與人工審查放進持續運作的開發流程。</p><div class="directory-list"><article class="directory-item" id="ai-governance" data-record-year="2026"><div class="directory-entry-heading"><h3>AI 協作開發治理</h3><span class="kind">工程方法</span></div><div class="catalog-item-grid"><figure class="project-figure"><img src="assets/projects/ai-governance.svg" width="640" height="320" loading="eager" alt="AI 協作開發治理：工作指令 → 持久紀錄 → AI 測試 → 人工審查 → 回饋規範 → 回饋"><figcaption>工作流程示意</figcaption></figure><div class="directory-item-body"><p>AI 加快實作後，錯誤假設、證據失真及待審分支需可追蹤控制流程。</p><p class="catalog-date">2026 年流程運行紀錄</p><dl><dt>我的貢獻</dt><dd>本人設計流程、品質門檻並審查結果；AI agents 執行掃描、修復及測試，reviewer 決定合併與發布。</dd><dt>成果</dt><dd>形成已運行的每日測試、監控、議題及隔離修復流程，PR 進人工審查，修正回饋契約與測試。</dd></dl><p class="project-tech">Git worktree · systemd timer · Bitbucket · AI agents</p><details class="directory-modules"><summary><h4>技術細節與工作範圍</h4></summary><ul class="module-list"><li><h5>AI agent 協作與品質控制</h5><p>用工具規範、測試與證據回查限制 agent 的錯誤假設。</p><p class="module-meta">本人定義判斷標準並審查 AI 輸出。</p><p class="module-meta">已用於工作流程；效果依個別案例核實。</p></li></ul></details></div></div></article>
+<article class="directory-item" id="knowledge-system" data-record-year="2026"><div class="directory-entry-heading"><h3>工程文件與知識系統</h3><span class="kind">團隊知識管理</span></div><div class="catalog-item-grid"><figure class="project-figure"><img src="assets/projects/knowledge-system.svg" width="640" height="320" loading="eager" alt="工程文件與知識系統：需求設計 → 測試版本 → 文件入口 → 團隊查找"><figcaption>工作流程示意</figcaption></figure><div class="directory-item-body"><p>需求、測試與版本散落，各角色難從共同依據理解現況。</p><p class="catalog-date">2026 年文件系統紀錄</p><dl><dt>我的貢獻</dt><dd>本人參與文件資訊架構及治理，將底層工程紀錄連到依讀者分層的文件站及維護流程。</dd><dt>成果</dt><dd>建立可搜尋的文件入口，連結設計、issue、測試、release、手冊與管理摘要。</dd></dl><p class="project-tech">VitePress · Markdown</p><details class="directory-modules"><summary><h4>技術細節與工作範圍</h4></summary><ul class="module-list"><li><h5>內部文件入口</h5><p>把日常維護與文件站連結，方便團隊查找決策和工作狀態。</p><p class="module-meta">本人參與設計與導入。</p><p class="module-meta">具內部實作與運行紀錄。</p></li></ul></details></div></div></article>
+<article class="directory-item" id="delivery-mentoring" data-record-year="2026"><div class="directory-entry-heading"><h3>交付追蹤與工程協作</h3><span class="kind">工作流程</span></div><div class="catalog-item-grid"><figure class="project-figure"><img src="assets/projects/delivery-mentoring.svg" width="640" height="320" loading="eager" alt="交付追蹤與工程協作：承諾待決 → 任務分工 → 交付證據 → 成果審查 → 追蹤回饋 → 回饋"><figcaption>工作流程示意</figcaption></figure><div class="directory-item-body"><p>跨 repo 工作及交付承諾需共同追蹤，實習研究需與產品責任分開。</p><p class="catalog-date">2026 年交付協作紀錄</p><dl><dt>我的貢獻</dt><dd>本人設計帶人工裁定門檻的專案空間，收斂議題並設計實習生題目、教材及進度判讀；研究產出歸原作者。</dd><dt>成果</dt><dd>留下承諾、待決追蹤、議題核實及指導紀錄，研究產出歸原作者，人工決定是否進產品。</dd></dl><p class="project-tech">YAML · Git worktree · AI agents</p></div></div></article></div></section></div><div id="catalog-time" class="catalog-panel" hidden><p class="time-note">依紀錄年份由新到舊排列；不是專案起訖或完成日期。</p><section class="catalog-year" data-time-year="2026" aria-labelledby="year-2026"><div class="directory-heading"><h2 id="year-2026">2026</h2><span class="count">13 則</span></div><div class="timeline-list"></div></section>
+<section class="catalog-year" data-time-year="2025" aria-labelledby="year-2025"><div class="directory-heading"><h2 id="year-2025">2025</h2><span class="count">2 則</span></div><div class="timeline-list"></div></section>
+<section class="catalog-year" data-time-year="2024" aria-labelledby="year-2024"><div class="directory-heading"><h2 id="year-2024">2024</h2><span class="count">2 則</span></div><div class="timeline-list"></div></section>
+<section class="catalog-year" data-time-year="2022" aria-labelledby="year-2022"><div class="directory-heading"><h2 id="year-2022">2022</h2><span class="count">2 則</span></div><div class="timeline-list"></div></section>
+<section class="catalog-year" data-time-year="2021" aria-labelledby="year-2021"><div class="directory-heading"><h2 id="year-2021">2021</h2><span class="count">2 則</span></div><div class="timeline-list"></div></section>
+<section class="catalog-year" data-time-year="2020" aria-labelledby="year-2020"><div class="directory-heading"><h2 id="year-2020">2020</h2><span class="count">4 則</span></div><div class="timeline-list"></div></section></div></main><footer><div class="wrap"><p>何彥南 Aaron Ho</p><a href="https://github.com/aaron1aaron2">GitHub</a></div></footer></body></html>
