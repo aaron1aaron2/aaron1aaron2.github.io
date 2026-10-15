@@ -174,3 +174,10 @@ footer a{display:inline-flex;align-items:center;min-height:44px}.browse .section
 .profile-subcases a{color:var(--ink)}
 
 .case-visual img{height:auto}.original-media{display:block;cursor:zoom-in}.case-return{margin:2rem 0}
+
+/* A small, unretouched personal photograph beside the introduction. */
+.home-simple .profile-heading{display:grid;grid-template-columns:minmax(0,1fr) 128px;align-items:center;gap:1.75rem;margin-bottom:1.5rem}
+.home-simple .profile-heading .profile-role{margin:0}
+.home-simple .profile-photo{display:block;width:128px;height:auto;border-radius:10px}
+@media(max-width:640px){.home-simple .profile-heading{grid-template-columns:minmax(0,1fr) 88px;gap:1rem}.home-simple .profile-photo{width:88px;border-radius:8px}.home-simple .profile-heading .profile-role{font-size:.85rem}}
+@media print{.home-simple .profile-heading{grid-template-columns:minmax(0,1fr) 70px;break-inside:avoid}.home-simple .profile-photo{width:70px}}
