@@ -181,3 +181,5 @@ footer a{display:inline-flex;align-items:center;min-height:44px}.browse .section
 .home-simple .profile-photo{display:block;width:128px;height:auto;border-radius:10px}
 @media(max-width:640px){.home-simple .profile-heading{grid-template-columns:minmax(0,1fr) 88px;gap:1rem}.home-simple .profile-photo{width:88px;border-radius:8px}.home-simple .profile-heading .profile-role{font-size:.85rem}}
 @media print{.home-simple .profile-heading{grid-template-columns:minmax(0,1fr) 70px;break-inside:avoid}.home-simple .profile-photo{width:70px}}
+
+.home-simple .profile-heading .profile-contact{font-size:.9rem;margin:.65rem 0 0;overflow-wrap:anywhere}
