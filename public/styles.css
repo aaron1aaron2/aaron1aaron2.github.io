@@ -183,3 +183,7 @@ footer a{display:inline-flex;align-items:center;min-height:44px}.browse .section
 @media print{.home-simple .profile-heading{grid-template-columns:minmax(0,1fr) 70px;break-inside:avoid}.home-simple .profile-photo{width:70px}}
 
 .home-simple .profile-heading .profile-contact{font-size:.9rem;margin:.65rem 0 0;overflow-wrap:anywhere}
+
+.home-simple .profile-work-photo{max-width:560px;margin:1.25rem 0}
+.home-simple .profile-work-photo img{border-radius:8px}
+@media print{.home-simple .profile-project h3{break-after:avoid}}
