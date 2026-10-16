@@ -110,6 +110,19 @@ function init() {
   });
   window.addEventListener('popstate', () => setView(chooseView(window.location.search, window.location.hash)));
 
+  // Print every module, then restore the reader's disclosure choices.
+  let printOpenState = null;
+  window.addEventListener('beforeprint', () => {
+    if (printOpenState) return;
+    printOpenState = [...document.querySelectorAll('.directory-modules')].map(node => [node, node.open]);
+    for (const [node] of printOpenState) node.open = true;
+  });
+  window.addEventListener('afterprint', () => {
+    if (!printOpenState) return;
+    for (const [node, open] of printOpenState) node.open = open;
+    printOpenState = null;
+  });
+
   if (toolbar) toolbar.hidden = false;
   const initial = chooseView(window.location.search, window.location.hash);
   setView(initial, initial === 'type' && new URLSearchParams(window.location.search).get('view') === 'time');

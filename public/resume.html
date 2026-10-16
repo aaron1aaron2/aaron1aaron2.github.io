@@ -21,7 +21,7 @@
 <p class="career-summary">新北市，台灣｜個人網站：<a href="https://aaron1aaron2.github.io/">https://aaron1aaron2.github.io/</a></p>
 <p class="career-summary">Email：<a href="mailto:hoyennan@gmail.com">hoyennan@gmail.com</a></p>
 <p class="career-summary"><strong>AI Engineer</strong></p>
-<p class="career-summary">現任 Data Scientist，將工業訊號、診斷與 LLM 方法轉成可驗證的產品流程。主導產品／領域架構、模型假設、品質條件與驗收，與工程夥伴及 AI agents 協作實作、測試、整合及交付。</p>
+<p class="career-summary">現任皓博 Data Scientist，從工業訊號分析、模型驗證到軟體整合與客戶交付，將分析方法做成可使用的 AI 產品。主導產品與領域設計、自動 issue 修復與可稽查紀錄流程，以及端到端的設備出廠檢測專案，與 AI agents 及工程夥伴協作開發。</p>
 </div><div class="career-actions"><div class="career-language" aria-label="頁面語言"><a href="resume.html" hreflang="zh-Hant" lang="zh-Hant" aria-current="page">中文</a><a href="resume-en.html" hreflang="en" lang="en">English</a></div><a class="career-download" href="downloads/Aaron_Ho_Resume_zh.pdf" download="Aaron_Ho_Resume_zh.pdf">下載 PDF</a></div></div>
 <section class="career-section" id="career-section-1" aria-labelledby="career-heading-1"><h2 id="career-heading-1">核心能力</h2><div class="career-section-body">
 <ul>
@@ -33,13 +33,12 @@
 <section class="career-section" id="career-section-2" aria-labelledby="career-heading-2"><h2 id="career-heading-2">工作經歷</h2><div class="career-section-body">
 <article class="career-entry"><h3>Data Scientist，Harbor Tech｜台北｜2025.10–目前</h3>
 <ul>
-<li><strong>產品與領域架構：</strong> 主導 Harbor AI 2.0 的產品邏輯，將局部放電、RUL、趨勢與資料品質拆成設備狀態及操作流程；溯源統計指標，避免把取樣點密度誤作放電事件率，並修正斷線設備仍計入健康度的監控語意。Platform Core 由工程夥伴共同整合。</li>
-<li><strong>模型假設與驗證：</strong> 審查 AI 產生的 RUL 結論，追查資料來源，發現測試常數被當成觀測資料並作廢錯誤結論，再要求多參數、多曲線及正反向消融檢查；讓研究 notebook 呼叫正式產品程式，降低研究與實作漂移。將故障型態、嚴重度、RUL 及低信心狀態分開，不宣稱未驗證的現場準確率。</li>
-<li><strong>報告服務產品化：</strong> 從案場資料分析、客戶報告及人工驗證整理可重用方法；七月 LangGraph POC 分離確定性事實與 LLM 敘事，八月報告路徑搬入服務接上平台，九月 DOCX／前端下載合入主線。另完成 vLLM 真實端點能力驗證；現場部署、驗收與全面 provider 切換另待驗證。</li>
-<li><strong>平台與交付：</strong> 與平台工程夥伴協作 Django 非同步工作流，定義 API、repository、artifact-by-reference、任務生命週期與驗證邊界；整合 Docker／離線與跨架構安裝、平台更新／回復及可稽查資料遷移，並主導出貨版本整合及切版判斷。</li>
-<li><strong>人與 AI 協作環境：</strong> 串連需求、持久上下文、工具、測試、紀錄與隔離分支。新需求先定規格及驗收條件；daily tests／monitoring 異常則形成 issue。兩個入口都由 AI agents 協助研究、實作和測試，再以 Bitbucket PR 等待人工審查；本人把關領域判斷與驗證，與 reviewer 裁定合併／發布。</li>
-<li><strong>設備出廠檢測：</strong> 主持客戶工作情境對齊，定義受測件、量測批次、判定、報告及驗收映射，協調 DQA 品質測試 交接、測試版本與操作手冊。2026-10-12 親自到場進行第一階段驗收活動、示範及教育訓練並帶回回饋；正式簽核、最終驗收結論與最新合併／發布狀態尚未確認。工程師負責程式實作與修復。</li>
-<li><strong>可靠性案例：</strong> 在特定 Large-WAV release-test case 中，本人負責方向、假設審查與驗證，AI 協助修復；記憶體峰值由 35–42 GiB 降至 822 MiB，165 秒失敗改為約 48 秒完成。前後輸入不同，非等工作負載 benchmark，不外推整體效能。</li>
+<li><strong>產品與領域架構：</strong> 主導 Harbor AI 2.0 的產品邏輯，將局部放電、RUL、趨勢與資料品質拆成設備狀態及操作流程；溯源統計指標，避免把取樣點密度誤作放電事件率，並修正斷線設備仍計入健康度的監控語意。與工程夥伴共同整合底層平台。</li>
+<li><strong>模型假設與驗證：</strong> 審查 AI 產生的 RUL 結論，追查資料來源，發現測試常數被當成觀測資料並作廢錯誤結論，再要求多參數、多曲線及正反向消融檢查；讓研究 notebook 呼叫正式產品程式，降低研究與實作漂移。分開呈現故障型態、嚴重度、RUL 及低信心狀態。</li>
+<li><strong>報告服務產品化：</strong> 將案場分析與人工報告方法整理為可重用流程，以 LangGraph POC 分離分析結果與 LLM 敘事；推進報告服務接入平台，DOCX 報表及前端下載已整合進主線。另完成 vLLM 真實端點能力驗證。</li>
+<li><strong>平台與交付：</strong> 與平台工程夥伴協作 Django 非同步工作流，定義 API、資料存取介面、檔案引用方式、任務生命週期與驗證邊界；整合 Docker／離線與跨架構安裝、平台更新／回復及可稽查資料遷移，並主導出貨版本整合及切版判斷。</li>
+<li><strong>AI 協作修復與專案紀錄：</strong> 建立每日自動測試／監控 → issue → 隔離修復分支 → AI 實作及驗證 → Bitbucket PR 人工審查的流程，串接 issue、驗證、決策與版本紀錄，讓專案處理狀態可追查。本人定義規格、驗證條件及領域判斷，與 reviewer 裁定合併及發布。</li>
+<li><strong>設備出廠檢測：</strong> 主導首個完整客戶專案，從需求與規格、AI 協作實作到 UI／UX 優化及現場交付，與工程夥伴將長期監測改為逐件出廠檢測流程。2026-10-12 到場示範、教育訓練與蒐集回饋；正式驗收結論仍待確認。</li>
 </ul>
 </article>
 <article class="career-entry"><h3>資料科學實習生，中央研究院社會學研究所｜台北｜2019.05–2020.12</h3>
@@ -48,9 +47,9 @@
 </div></section>
 <section class="career-section" id="career-section-3" aria-labelledby="career-heading-3"><h2 id="career-heading-3">精選研究與專案</h2><div class="career-section-body">
 <ul>
-<li><strong>MCIENet，碩士論文（2024）：</strong> 獨立主導 DNA 序列與 3D chromatin interaction 預測的研究拆解、多尺度 CNN、資料流程、消融、跨資料集評估及 可解釋 AI（XAI）；部分前處理改寫自 ChINN，跨細胞類型泛化保留驗證界線。</li>
+<li><strong>MCIENet，碩士論文（2024）：</strong> 獨立主導 DNA 序列與 3D chromatin interaction 預測的研究拆解、多尺度 CNN、資料流程、消融、跨資料集評估及可解釋 AI（XAI）；部分前處理改寫自 ChINN，跨細胞類型泛化保留驗證界線。</li>
 <li><strong>Horus 人員辨識系統，畢業專題（2020）：</strong> 團隊整合多鏡頭追蹤、person ReID 與臉部辨識；本人主要負責 ReID 整合、相似度／雙門檻及追蹤紀錄流程。獲畢業專題第一名。</li>
-<li><strong>雙北防災資源分析系統（2025）：</strong> 負責題目發想與資料蒐集，與團隊探討景點周邊防災資源配置；晉級雙北城市儀表板黑客松決賽。公開儀表板採隊友範本。</li>
+<li><strong>雙北防災資源分析系統（2025）：</strong> 負責題目發想與資料蒐集，與團隊探討景點周邊防災資源配置；晉級雙北城市儀表板黑客松決賽。公開儀表板以朋友提供的範本 fork 為基礎。</li>
 <li><strong>PropGMAN（2022）：</strong> 三人團隊以實價登錄資料進行土地區域指標時空建模，保留實驗與重現流程；獲資產活化 AI 應用創新競賽創意獎。</li>
 </ul>
 </div></section>

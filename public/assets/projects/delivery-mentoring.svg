@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" role="img" aria-labelledby="title desc">
-<title id="title">交付追蹤與工程協作：工作關係示意</title>
-<desc id="desc">交付追蹤與工程協作：承諾待決、任務分工、交付證據、成果審查、追蹤回饋 的概念關係。具工作空間與協作紀錄。本人議題收斂與指導；成果依團隊分工。非部署架構、客戶畫面或效能證據。</desc>
+<title id="title">專案管理與可追溯紀錄：工作關係示意</title>
+<desc id="desc">專案管理與可追溯紀錄：承諾待決、任務分工、交付證據、成果審查、追蹤回饋 的概念關係。具工作空間與協作紀錄。本人建立追蹤流程，保留分工、決策與驗證依據。非部署架構、客戶畫面或效能證據。</desc>
 <defs><marker id="arrow-delivery-mentoring" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#88aa9a"/></marker></defs>
 <rect width="640" height="320" rx="18" fill="#faf9f4"/>
 <rect x="1" y="1" width="638" height="318" rx="17" fill="none" stroke="#cbd9cf" stroke-width="2"/>

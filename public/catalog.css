@@ -82,3 +82,12 @@ body.catalog-page{color-scheme:light;--paper:#f6f4ee;--panel:#fffdf8;--surface:#
 @media print{.catalog-toolbar{display:none}}
 
 .catalog-jump{white-space:nowrap}.catalog-jump select{min-width:0;flex:1}.catalog-group h2:focus,.catalog-year h2:focus{outline:2px solid var(--accent);outline-offset:4px;scroll-margin-top:7rem}
+
+/* Paper exposes module text without suggesting an interactive disclosure. */
+@media print{
+ .directory-modules>summary{display:block;list-style:none;min-height:0;padding:.3rem 0}
+ .directory-modules>summary::-webkit-details-marker{display:none}
+ .directory-modules>summary::marker{content:""}
+ .directory-modules::details-content{display:contents;content-visibility:visible!important}
+ .directory-modules .module-list{display:block!important}
+}
