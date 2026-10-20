@@ -187,3 +187,14 @@ footer a{display:inline-flex;align-items:center;min-height:44px}.browse .section
 .home-simple .profile-work-photo{max-width:560px;margin:1.25rem 0}
 .home-simple .profile-work-photo img{border-radius:8px}
 @media print{.home-simple .profile-project h3{break-after:avoid}}
+
+.home-simple .profile-featured{padding:1.8rem 0 2rem;margin:0;border-bottom:1px solid var(--line)}
+.home-simple .profile-featured+.profile-project{margin-top:1.8rem}
+.home-simple .profile-featured h3{font-size:1.25rem;line-height:1.55;margin:.25rem 0 .75rem}
+.home-simple .profile-featured .profile-project-label{font-size:.8rem;letter-spacing:.04em;color:var(--accent);margin:0}
+.home-simple .profile-featured .profile-work-photo{max-width:100%;margin:1.5rem 0 1rem}
+.profile-project-facts{display:grid;grid-template-columns:7.5rem minmax(0,1fr);gap:.5rem 1rem;font-size:.9rem;margin:1.1rem 0}
+.profile-project-facts dt{font-weight:600}.profile-project-facts dd{margin:0;color:var(--muted)}
+.home-simple .profile-featured .profile-project-context,.home-simple .profile-featured .profile-related-case{font-size:.86rem}
+@media(max-width:640px){.profile-project-facts{grid-template-columns:1fr;gap:.2rem}.profile-project-facts dd{margin-bottom:.6rem}.home-simple .profile-featured h3{font-size:1.15rem}}
+@media print{.home-simple .profile-featured{padding:10pt 0}.profile-project-facts dt{break-after:avoid}}
