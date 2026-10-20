@@ -23,7 +23,7 @@
 <p class="career-summary"><strong>AI Engineer</strong></p>
 </div><div class="career-actions"><div class="career-language" aria-label="Page language"><a href="cv.html" hreflang="zh-Hant" lang="zh-Hant">中文</a><a href="cv-en.html" hreflang="en" lang="en" aria-current="page">English</a></div><a class="career-download" href="downloads/Aaron_Ho_CV_en.pdf" download="Aaron_Ho_CV_en.pdf">Download PDF</a></div></div>
 <section class="career-section" id="career-section-1" aria-labelledby="career-heading-1"><h2 id="career-heading-1">Professional Summary</h2><div class="career-section-body">
-<p>Data Scientist at Harbor Tech, building industrial AI products across signal analysis, model validation, software integration, and customer delivery. I lead Harbor AI 2.0 product/domain design, report-service integration, an automated issue-repair workflow with auditable records, and an end-to-end equipment-inspection project.</p>
+<p>Data Scientist at Harbor Tech, applying a data-science and industrial-signal background to AI product development across model validation, frontend/backend and service integration, release delivery, and customer-site work. Led an equipment-inspection project from requirements and specifications through system implementation, UI/UX refinement, and on-site delivery. Built traceable issue/project records and AI-assisted workflows for parallel development, repair, and verification, with daily functional regression and human release review.</p>
 <p>My research background includes multi-scale CNNs for DNA-sequence-based chromatin interaction prediction, passenger-flow prediction, person re-identification, spatiotemporal analysis, and recommendation systems.</p>
 </div></section>
 <section class="career-section" id="career-section-2" aria-labelledby="career-heading-2"><h2 id="career-heading-2">Technical Skills</h2><div class="career-section-body">
@@ -37,21 +37,39 @@
 </div></section>
 <section class="career-section" id="career-section-3" aria-labelledby="career-heading-3"><h2 id="career-heading-3">Work Experience</h2><div class="career-section-body">
 <article class="career-entry"><h3>Data Scientist, Harbor Tech | Taipei, Taiwan | Oct 2025–Present</h3>
-<p>Lead product and domain design for Harbor AI 2.0, translating diagnostic requirements into sensor status, user workflows, reporting, and validation criteria. Work with engineering partners on the platform, database, task system, and infrastructure, and use AI agents for analysis, implementation, tests, and documentation. My responsibilities span requirements, software development and integration, domain judgment, validation, and release review, as detailed below.</p>
+<p>Led Harbor AI 2.0 product/domain design, defined APIs, data access, artifact exchange, and validation criteria, and contributed frontend/backend, analytic-service, and delivery integration. The workstreams below describe requirements, my decisions, established capabilities, and completion boundaries; AI agents and engineering partners contributed according to the specific function.</p>
+<h4>End-of-Line Equipment Inspection | End-to-End Project, Ongoing</h4>
+<ul>
+<li>Led my first end-to-end project from customer requirements and specifications through system implementation, UI/UX design and refinement, and on-site delivery. Adapted long-term monitoring to fixtures inspecting successive manufactured units, defining units under test, measurement batches, data relationships, decisions, and reports.</li>
+<li>Clarified synchronized and switched measurement points, good-unit baseline rerecording, rush orders, serial numbers, and work-order continuity. Turned customer feedback into specifications and UI/UX changes, connecting inspection steps to data selection, decisions, human review, and reports. Kept functional tests separate from thresholds needing field calibration.</li>
+<li>Coordinated the Phase 1 quality-testing (DQA) handoff, test versions, manuals exercised on the test machine, and acceptance records. In September, query, unit-switching, human-review, and export work entered a local integration branch.</li>
+<li>On October 12, 2026, I attended Phase 1 on-site acceptance activities, demonstrated the software, provided user training, and brought back customer feedback. Formal sign-off, the final acceptance conclusion, and the latest mainline merge/release status have not been confirmed. I led the work across requirements, specifications, system implementation, UI/UX refinement, and delivery, using AI agents and collaborating with engineering partners on implementation and verification.</li>
+</ul>
+<ul>
+<li>I estimate my overall project contribution at about 80%, across the end-to-end work described above. This is a personal estimate of total contribution, not a measured share of code written.</li>
+</ul>
+<h4>Human–AI Development, Daily Regression, and Project Records</h4>
+<ul>
+<li>Built a shared issue/project-record framework linking problems, analysis, decisions, implementation results, verification, and versions. This made changing requirements and parallel work traceable for subsequent agents and human reviewers.</li>
+<li>Used the same workflow for new features and repairs. I decomposed requirements, organized work, supplied persistent context and tools, and defined responsibilities, validation criteria, and stop conditions. AI agents researched, implemented, and tested on isolated branches, allowing work and verification to proceed in parallel.</li>
+<li>Ran daily automated functional regression and monitoring on the development machine, retaining test plans, results, and anomalies. Findings created or updated issues; AI agents repaired and rechecked changes on isolated branches before submitting Bitbucket PRs for human review.</li>
+<li>Reviewed domain assumptions, data provenance, and product behavior. Reviewers and I used change and validation evidence to decide merge and release; a PR or passing tests supplied review evidence rather than release approval.</li>
+<li>Fed recurring problems back into reusable work rules, tests, and checks. Used VitePress to connect code, issues, versions, manuals, and management summaries. Established a workflow that can be continued and inspected; automatic-repair success rates, test-coverage percentages, and productivity multipliers have not been measured.</li>
+</ul>
 <h4>Industrial AI Product and Domain Architecture</h4>
 <ul>
 <li>Organized fragmented reporting, RUL, multi-sensor, trend, partial-discharge, and threshold-update requirements into functional categories, user flows, and validation criteria.</li>
 <li>Separated vibration and partial-discharge meanings for RUL, trends, PRPD status, and data quality into layered sensor status. Used a device-first report flow to reduce incorrect device or data selection.</li>
-<li>Traced an aggregate discharge statistic to sampling-point density rather than discrete discharge-event rate. Prevented an unsupported “discharge frequency” interpretation from entering the product and identified the time-domain detection needed for a defensible pulse rate.</li>
 <li>Contributed the main frontend implementation, connecting Report, Sensor Status, PD Event Analysis, RUL, and scheduling flows to real APIs. Supported multilingual interfaces, RUL charts, mobile layouts, and sensor-detail workflows, with shared pages attributed according to team responsibilities.</li>
 </ul>
 <h4>Overview Monitoring and Event Semantics</h4>
 <ul>
-<li>Redefined overview status around the highest-severity unresolved event. Excluded disconnected devices from health-rate calculations, handled zero denominators, and used adaptive per-device thresholds for long-offline equipment, correcting an overly optimistic health view.</li>
-<li>Traced stale overview status to a missing push path and added state notifications and throttling to existing SSE infrastructure. I defined the problem, evaluated tradeoffs, and set acceptance criteria; AI agents supported implementation and verification.</li>
+<li>Defined overview status rules that distinguish unresolved-event severity, device connectivity, and data eligible for health calculations, allowing users to trace equipment and events needing attention.</li>
+<li>Designed overview updates and notification behavior, integrating state notifications and throttling into existing SSE infrastructure. I defined product behavior, evaluated tradeoffs, and set validation criteria; AI agents supported implementation and verification.</li>
 <li>Contributed event-window, waveform-availability, diagnostic-dispatch, and result-linking design. Kept platform-side functions distinct from Gateway recording integration and incomplete field end-to-end validation.</li>
 </ul>
 <h4>RUL, Diagnostics, and Model-Assumption Validation</h4>
+<p>My responsibility was to review model assumptions, data provenance, and product presentation together, establishing reproducible analysis and rules for insufficient evidence. The test-data example below shows where an AI conclusion required my judgment and a fresh validation plan.</p>
 <ul>
 <li>Audited AI-generated RUL hypotheses and data provenance. Traced the data source and found test constants misrepresented as observed data. Invalidated the conclusion, then required multi-parameter, multi-curve, and forward/reverse ablations to recheck the assumptions.</li>
 <li>Connected research notebooks directly to production implementations, adding source comparisons to reduce research-to-code drift. Set quality criteria for both missed rapid degradation and false alarms on healthy sequences.</li>
@@ -61,7 +79,7 @@
 <h4>Platform APIs, Asynchronous Workflows, and Artifact Contracts</h4>
 <ul>
 <li>Collaborated with platform engineers on Django/Django Ninja workflow orchestration, defining product behavior, APIs, repository interfaces, storage routing, and artifact contracts across diagnostic, RUL, and report services.</li>
-<li>Used backpressure, idempotency, timeouts, asynchronous callbacks, and task lifecycles to check interfaces and failure behavior. Platform Core runtime implementation and failure semantics remain shared team responsibilities.</li>
+<li>Used backpressure, idempotency, timeouts, asynchronous callbacks, and task lifecycles to check interfaces and failure behavior. My scope covered service contracts and validation; the underlying runtime and its failure-handling implementation were shared team responsibilities.</li>
 <li>Used artifact-by-reference for cross-service outputs, defining access and backup boundaries and reducing direct transfer of large payloads between tasks.</li>
 <li>Integrated database-authoritative per-sensor scheduling, manual triggers, batches, and execution history. Connected sensor updates to RUL service results and history, routing workflows through aggregate data or WAV inputs according to availability.</li>
 </ul>
@@ -88,20 +106,6 @@
 <li>Delivered in stages: July POC validation, subsequent report-path service integration, and DOCX/download integration. Field orchestration, deployment, and customer acceptance require separate verification.</li>
 <li>Validated a vLLM OpenAI-compatible provider against a live endpoint for chat, embeddings, tool calling, and connectivity/capability/semantic health checks. Validation covered provider endpoint capabilities; rollout status was tracked separately for each report path.</li>
 </ul>
-<h4>Automated Issue Repair and Auditable Project Records</h4>
-<ul>
-<li>Built and operated an automated issue-repair workflow with auditable project records. Connected requirements, persistent context, tools, daily tests and monitoring, issue records, isolated repair branches, AI-assisted changes, verification, and human PR review.</li>
-<li>New-requirement entry point: I defined the problem, specifications, responsibilities, and acceptance evidence; AI agents researched, implemented, and tested on isolated branches and submitted Bitbucket PRs. I and the reviewer used evidence to decide merge and release.</li>
-<li>Maintenance entry point: daily automated development-machine tests and monitoring produced records; anomalies became issues entering the same isolated repair-branch, PR, and human-gate workflow. Human review determines merge and release.</li>
-<li>Linked each issue to its analysis, repair, verification, decisions, and release records so project status and closure evidence could be inspected. Converted recurring fixes into reusable contracts, tests, and guardrails; used VitePress to connect code, issues, tests, releases, manuals, and management summaries. This supports traceability, without establishing an automatic-fix success rate or measured productivity multiplier.</li>
-</ul>
-<h4>Issue Investigation and Verification Examples</h4>
-<p>These examples show how the shared issue workflow retains analysis, changes, and verification evidence. Initiation and execution responsibilities vary by case.</p>
-<ul>
-<li>In one Large-WAV release-test case, owned problem framing, assumption review, validation, and release judgment while AI supported analysis and fixes. Peak memory fell from 35–42 GiB to 822 MiB; a 165-second failed run became an approximately 48-second completion. The runs used different inputs and are not an equal-workload benchmark. Accuracy profiling and streaming follow-up remained open; this is not a platform-wide performance claim.</li>
-<li>Collaborated with AI to remove unnecessary large task-context payloads that caused serialization, transfer, and log storms, feeding the correction back into workflow contracts and validation criteria.</li>
-<li>Improved an existing partial-discharge batch workflow with multiprocessing. In stale-task and deployment-environment cases, traced causes, selected fixes, and verified them with tests and deployment observations without extrapolating a single observation into an SLA.</li>
-</ul>
 <h4>Field Signal Analysis and Customer Delivery</h4>
 <ul>
 <li>Across semiconductor-manufacturing and large multi-sensor field-analysis contexts, aligned field and quality teams on partial-discharge configurations, DB/WAV formats, event scope, and handoff rules. Combined full database context with event-window WAV selection rather than transferring and analyzing every raw file.</li>
@@ -109,16 +113,6 @@
 <li>Reverse-engineered legacy code, notebooks, and reports to rebuild traceable ADC-to-g, FFT, SNR, cutting-point, and frequency-domain analysis. Delivered executables and user guides while protecting company algorithm IP.</li>
 <li>In a motor/pump vibration POC, used max/P99 to distinguish sustained severity from one-second transient spikes. Checked operating segments, RUL basis, fit constraints, and VRMS volatility, reporting ISO severity separately from low-confidence RUL.</li>
 <li>In a later current/vibration analysis, used minute medians to reduce autocorrelation, nonparametric tests, multiple-comparison correction, and effect sizes to narrow stakeholder observations to partial or sensor-specific support. Delivered the analysis and customer explanation. Root cause still requires field information such as VFD/RPM, flow, head, valve position, and BEP; statistical differences alone do not establish cause.</li>
-</ul>
-<h4>End-of-Line Equipment Inspection | End-to-End Project, Ongoing</h4>
-<ul>
-<li>Led my first end-to-end project from customer requirements and specifications through system implementation, UI/UX design and refinement, and on-site delivery. Adapted long-term monitoring to fixtures inspecting successive manufactured units, defining units under test, measurement batches, data relationships, decisions, and reports.</li>
-<li>Clarified synchronized and switched measurement points, good-unit baseline rerecording, rush orders, serial numbers, and work-order continuity. Turned customer feedback into specifications and UI/UX changes, connecting inspection steps to data selection, decisions, human review, and reports. Kept functional tests separate from thresholds needing field calibration.</li>
-<li>Coordinated the Phase 1 quality-testing (DQA) handoff, test versions, manuals exercised on the test machine, and acceptance records. In September, query, unit-switching, human-review, and export work entered a local integration branch.</li>
-<li>On October 12, 2026, I attended Phase 1 on-site acceptance activities, demonstrated the software, provided user training, and brought back customer feedback. Formal sign-off, the final acceptance conclusion, and the latest mainline merge/release status have not been confirmed. I led the work across requirements, specifications, system implementation, UI/UX refinement, and delivery, using AI agents and collaborating with engineering partners on implementation and verification.</li>
-</ul>
-<ul>
-<li>I estimate my overall project contribution at about 80%, across the end-to-end work described above. This is a personal estimate of total contribution, not a measured share of code written.</li>
 </ul>
 <h4>Technical Mentoring | Summer 2026</h4>
 <ul>
@@ -161,14 +155,22 @@
 </ul>
 </article>
 </div></section>
-<section class="career-section" id="career-section-5" aria-labelledby="career-heading-5"><h2 id="career-heading-5">Additional Team Projects</h2><div class="career-section-body">
+<section class="career-section" id="career-section-5" aria-labelledby="career-heading-5"><h2 id="career-heading-5">Additional Independent Projects</h2><div class="career-section-body">
+<article class="career-entry"><h3>Dynamic Bus Route and Schedule Planning | Project period to be confirmed</h3>
+<ul>
+<li>Integrated tourism demand, Google Trends, Popular Times, attraction locations, and travel distances for route and schedule planning in eastern Taiwan. Built demand-allocation and distance-matrix workflows, explored OR-Tools TSP routes, and visualized routes and schedules with Folium, Gantt, and Sankey views.</li>
+<li>This was an exploratory independent project, separate from the Academia Sinica survey-routing work. The project period remains unconfirmed; no transit-operator adoption or operational outcome is claimed.</li>
+</ul>
+</article>
+</div></section>
+<section class="career-section" id="career-section-6" aria-labelledby="career-heading-6"><h2 id="career-heading-6">Additional Team Projects</h2><div class="career-section-body">
 <ul>
 <li><strong>Distributed Spark Crawler/Recovery, 2022:</strong> An NCCU distributed-systems course team connected collection, missing-data detection, Spark-based imputation, a database, and dashboards to demonstrate recovery from collection failures. I owned the Spark cluster, GitHub work, and demo video, and contributed system integration.</li>
 <li><strong>Financial Recommendation and Automated Notifications, 2020:</strong> Team-designed stock recommendation/notification approaches using item-based, user-based, and co-occurrence relationships. Received an Excellence Award in a financial-programming course competition; presented as a team outcome.</li>
 <li><strong>Taipei Disaster Resource Dashboard, 2025:</strong> Proposed the topic and collected data for a team analysis of disaster-prevention resources around tourist attractions. The team reached the Taipei–New Taipei City Dashboard Hackathon finals. The public dashboard is based on a fork of a friend’s template, with team and template credit retained.</li>
 </ul>
 </div></section>
-<section class="career-section" id="career-section-6" aria-labelledby="career-heading-6"><h2 id="career-heading-6">Research and Publications</h2><div class="career-section-body">
+<section class="career-section" id="career-section-7" aria-labelledby="career-heading-7"><h2 id="career-heading-7">Research and Publications</h2><div class="career-section-body">
 <ul>
 <li>Dynamic traffic network representation model for improving the prediction performance of passenger flow. <em>Knowledge-Based Systems</em>, 2024.</li>
 <li>A Dynamic Embedding Method for Passenger Flow Estimation. IIAI AAI, 2021. Competitive Paper Award.</li>
@@ -176,13 +178,13 @@
 <li>MCIENet: Multi-scale CNN-based Information Extraction from DNA Sequences for 3D Chromatin Interactions Prediction. M.S. thesis, 2024.</li>
 </ul>
 </div></section>
-<section class="career-section" id="career-section-7" aria-labelledby="career-heading-7"><h2 id="career-heading-7">Education</h2><div class="career-section-body">
+<section class="career-section" id="career-section-8" aria-labelledby="career-heading-8"><h2 id="career-heading-8">Education</h2><div class="career-section-body">
 <ul>
 <li>National Chengchi University, M.S. in Computer Science | Sep 2021–Sep 2024.</li>
 <li>Soochow University, B.S. in Data Science | Sep 2017–Jul 2021.</li>
 </ul>
 </div></section>
-<section class="career-section" id="career-section-8" aria-labelledby="career-heading-8"><h2 id="career-heading-8">Recognition</h2><div class="career-section-body">
+<section class="career-section" id="career-section-9" aria-labelledby="career-heading-9"><h2 id="career-heading-9">Recognition</h2><div class="career-section-body">
 <ul>
 <li>IIAI AAI Competitive Paper Award, 2021.</li>
 <li>Creative Award, AI for Asset Activation Innovation Contest, 2022.</li>
