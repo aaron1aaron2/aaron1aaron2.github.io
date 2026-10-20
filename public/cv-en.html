@@ -23,7 +23,7 @@
 <p class="career-summary"><strong>AI Engineer</strong></p>
 </div><div class="career-actions"><div class="career-language" aria-label="Page language"><a href="cv.html" hreflang="zh-Hant" lang="zh-Hant">中文</a><a href="cv-en.html" hreflang="en" lang="en" aria-current="page">English</a></div><a class="career-download" href="downloads/Aaron_Ho_CV_en.pdf" download="Aaron_Ho_CV_en.pdf">Download PDF</a></div></div>
 <section class="career-section" id="career-section-1" aria-labelledby="career-heading-1"><h2 id="career-heading-1">Professional Summary</h2><div class="career-section-body">
-<p>Data Scientist at Harbor Tech, applying a data-science and industrial-signal background to AI product development across model validation, frontend/backend and service integration, release delivery, and customer-site work. Led an equipment-inspection project from requirements and specifications through system implementation, UI/UX refinement, and on-site delivery. Built traceable issue/project records and AI-assisted workflows for parallel development, repair, and verification, with daily functional regression and human release review.</p>
+<p>Data Scientist at Harbor Tech, developing two flagship products under Harbor AI 2.0: an Industrial Intelligent Monitoring Platform for ongoing equipment monitoring and diagnostics, and an Equipment End-of-Line Quality Inspection Platform for customer-specific unit-by-unit inspection. Led monitoring product/domain design and the inspection project from requirements and specifications through implementation, UI/UX, and on-site delivery. Built traceable issue/project records and parallel AI-assisted development, repair, and verification workflows, supported by daily functional regression and human release review.</p>
 <p>My research background includes multi-scale CNNs for DNA-sequence-based chromatin interaction prediction, passenger-flow prediction, person re-identification, spatiotemporal analysis, and recommendation systems.</p>
 </div></section>
 <section class="career-section" id="career-section-2" aria-labelledby="career-heading-2"><h2 id="career-heading-2">Technical Skills</h2><div class="career-section-body">
@@ -37,16 +37,22 @@
 </div></section>
 <section class="career-section" id="career-section-3" aria-labelledby="career-heading-3"><h2 id="career-heading-3">Work Experience</h2><div class="career-section-body">
 <article class="career-entry"><h3>Data Scientist, Harbor Tech | Taipei, Taiwan | Oct 2025–Present</h3>
-<p>Led Harbor AI 2.0 product/domain design, defined APIs, data access, artifact exchange, and validation criteria, and contributed frontend/backend, analytic-service, and delivery integration. The workstreams below describe requirements, my decisions, established capabilities, and completion boundaries; AI agents and engineering partners contributed according to the specific function.</p>
-<h4>End-of-Line Equipment Inspection | End-to-End Project, Ongoing</h4>
+<p>Harbor AI 2.0 comprises two flagship products with distinct purposes and shared underlying technology: ongoing equipment monitoring and diagnostics, and customer-specific end-of-line quality inspection. Led product/domain design, API and data contracts, analytic-service integration, and delivery integration for monitoring; led the inspection project from customer requirements to on-site delivery. The workstreams below describe requirements, my decisions, established capabilities, and completion boundaries; AI agents and engineering partners contributed according to the specific function.</p>
+<h4>Harbor AI 2.0 Equipment End-of-Line Quality Inspection Platform | End-to-End Project, Ongoing</h4>
 <ul>
-<li>Led my first end-to-end project from customer requirements and specifications through system implementation, UI/UX design and refinement, and on-site delivery. Adapted long-term monitoring to fixtures inspecting successive manufactured units, defining units under test, measurement batches, data relationships, decisions, and reports.</li>
+<li>Led my first end-to-end project from customer requirements and specifications through system implementation, UI/UX design and refinement, and on-site delivery. Used shared underlying technology to establish a distinct product for fixtures inspecting successive manufactured units, defining units under test, measurement batches, data relationships, decisions, and reports.</li>
 <li>Clarified synchronized and switched measurement points, good-unit baseline rerecording, rush orders, serial numbers, and work-order continuity. Turned customer feedback into specifications and UI/UX changes, connecting inspection steps to data selection, decisions, human review, and reports. Kept functional tests separate from thresholds needing field calibration.</li>
 <li>Coordinated the Phase 1 quality-testing (DQA) handoff, test versions, manuals exercised on the test machine, and acceptance records. In September, query, unit-switching, human-review, and export work entered a local integration branch.</li>
 <li>On October 12, 2026, I attended Phase 1 on-site acceptance activities, demonstrated the software, provided user training, and brought back customer feedback. Formal sign-off, the final acceptance conclusion, and the latest mainline merge/release status have not been confirmed. I led the work across requirements, specifications, system implementation, UI/UX refinement, and delivery, using AI agents and collaborating with engineering partners on implementation and verification.</li>
 </ul>
 <ul>
 <li>I estimate my overall project contribution at about 80%, across the end-to-end work described above. This is a personal estimate of total contribution, not a measured share of code written.</li>
+</ul>
+<h4>Harbor AI 2.0 Industrial Intelligent Monitoring Platform | Product and Domain Architecture</h4>
+<ul>
+<li>Designed for ongoing equipment monitoring, status investigation, and diagnostics. Organized reporting, RUL, multi-sensor, trend, partial-discharge, and threshold-update requirements into functional categories, user flows, and validation criteria.</li>
+<li>Separated vibration and partial-discharge meanings for RUL, trends, PRPD status, and data quality into layered sensor status. Used a device-first report flow to reduce incorrect device or data selection.</li>
+<li>Contributed the main frontend implementation, connecting Report, Sensor Status, PD Event Analysis, RUL, and scheduling flows to real APIs. Supported multilingual interfaces, RUL charts, mobile layouts, and sensor-detail workflows, with shared pages attributed according to team responsibilities.</li>
 </ul>
 <h4>Human–AI Development, Daily Regression, and Project Records</h4>
 <ul>
@@ -55,12 +61,6 @@
 <li>Ran daily automated functional regression and monitoring on the development machine, retaining test plans, results, and anomalies. Findings created or updated issues; AI agents repaired and rechecked changes on isolated branches before submitting Bitbucket PRs for human review.</li>
 <li>Reviewed domain assumptions, data provenance, and product behavior. Reviewers and I used change and validation evidence to decide merge and release; a PR or passing tests supplied review evidence rather than release approval.</li>
 <li>Fed recurring problems back into reusable work rules, tests, and checks. Used VitePress to connect code, issues, versions, manuals, and management summaries. Established a workflow that can be continued and inspected; automatic-repair success rates, test-coverage percentages, and productivity multipliers have not been measured.</li>
-</ul>
-<h4>Industrial AI Product and Domain Architecture</h4>
-<ul>
-<li>Organized fragmented reporting, RUL, multi-sensor, trend, partial-discharge, and threshold-update requirements into functional categories, user flows, and validation criteria.</li>
-<li>Separated vibration and partial-discharge meanings for RUL, trends, PRPD status, and data quality into layered sensor status. Used a device-first report flow to reduce incorrect device or data selection.</li>
-<li>Contributed the main frontend implementation, connecting Report, Sensor Status, PD Event Analysis, RUL, and scheduling flows to real APIs. Supported multilingual interfaces, RUL charts, mobile layouts, and sensor-detail workflows, with shared pages attributed according to team responsibilities.</li>
 </ul>
 <h4>Overview Monitoring and Event Semantics</h4>
 <ul>
