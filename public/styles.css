@@ -199,3 +199,27 @@ footer a{display:inline-flex;align-items:center;min-height:44px}.browse .section
 .home-simple .profile-featured .profile-project-context,.home-simple .profile-featured .profile-related-case{font-size:.86rem}
 @media(max-width:640px){.profile-project-facts{grid-template-columns:1fr;gap:.2rem}.profile-project-facts dd{margin-bottom:.6rem}.home-simple .profile-featured h3{font-size:1.15rem}}
 @media print{.home-simple .profile-featured{padding:10pt 0}.profile-project-facts dt{break-after:avoid}}
+
+/* Case stories use the existing reading column, without additional cards or jump links. */
+.project-story{max-width:850px;padding:1.25rem 0;border-top:1px solid var(--line)}
+.project-story:first-of-type{border-top:0;padding-top:.4rem}
+.project-story h3,.project-story h4{font-size:1.12rem;line-height:1.5;margin:0 0 .7rem}
+.project-story p{margin:0 0 .65rem;overflow-wrap:anywhere}
+.project-story .story-result{color:var(--accent);font-size:.94em}
+.directory-stories{margin-top:.8rem}
+.directory-stories>summary{font-weight:650;color:var(--ink);font-size:.9rem}
+.directory-stories .story-body{padding:0 0 .5rem}
+.directory-stories .project-story h4{font-size:1rem;letter-spacing:0}
+.directory-stories .project-story p{font-size:.9rem;line-height:1.8}
+@media print{.project-story{break-inside:avoid-page;padding:7pt 0}.project-story h3,.project-story h4{font-size:11pt;break-after:avoid-page}.directory-stories>summary{font-size:10pt}}
+
+.case-technical{margin:1rem 0 2rem}
+.case-technical>summary h2{font-size:1.1rem;line-height:1.5;letter-spacing:0}
+.case-technical .detail-body h3{margin-top:1.5rem}
+@media print{
+ .directory-stories>summary,.case-technical>summary{display:block;list-style:none;min-height:0;padding:.3rem 0}
+ .directory-stories>summary::-webkit-details-marker,.case-technical>summary::-webkit-details-marker{display:none}
+ .directory-stories>summary::marker,.case-technical>summary::marker{content:""}
+ .directory-stories::details-content,.case-technical::details-content{display:contents;content-visibility:visible!important}
+ .directory-stories .story-body,.case-technical .detail-body{display:block!important}
+}

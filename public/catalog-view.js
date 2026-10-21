@@ -114,7 +114,7 @@ function init() {
   let printOpenState = null;
   window.addEventListener('beforeprint', () => {
     if (printOpenState) return;
-    printOpenState = [...document.querySelectorAll('.directory-modules')].map(node => [node, node.open]);
+    printOpenState = [...document.querySelectorAll('.directory-modules, .directory-stories')].map(node => [node, node.open]);
     for (const [node] of printOpenState) node.open = true;
   });
   window.addEventListener('afterprint', () => {

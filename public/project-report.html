@@ -9,9 +9,9 @@
         <li><small>03 · POC 已驗證</small><strong>LangGraph 流程</strong><p>狀態管理、多設備與局部重生</p></li>
         <li><small>04 · 已整合／合併</small><strong>Harbor AI 2.0 報告服務</strong><p>服務產報、平台接線與前端下載</p></li>
       </ol>
-      <section class="case-section"><h2>從交付到工程化的設計選擇</h2><div class="detail-body">
+      <!-- project-stories:start --><section class="case-section case-stories"><h2>核心問題與我的做法</h2><section class="project-story"><h3>把可測的診斷與可重寫的文字分開</h3><p>報告包含分類、嚴重度與壽命數字，若由生成模型一起重寫，容易失去數值依據。</p><p>確定性節點先產生結構化事實，LLM 只組織敘事。 本人設計診斷流程、節點責任與品質條件，與 AI agents、工程夥伴建立可觀測產物及降級的報告 POC。</p><p class="story-result">七月 POC 驗證多設備、局部重生、數值確定性與缺資料降級，為後續服務化留下可重用的方法與品質條件。</p></section><section class="project-story"><h3>讓報告從一次性分析走到平台派工與下載</h3><p>能產出一份報告，仍不等於使用者能從平台選範本、派工及下載。</p><p>分階段把已驗證的報告能力搬入服務，逐步接上平台與前端。 本人推進品質條件及產品化方向；團隊整合產生器、範本、工作流，後續加入 DOCX 與前端下載。</p><p class="story-result">八月完成服務及平台接線，九月 DOCX 與前端下載整合進主線；完整現場編排與驗收仍需另行核實。</p></section></section><!-- project-stories:end --><details class="case-technical"><summary><h2>技術細節與驗證範圍</h2></summary><div class="detail-body">
         <h3>先把分析做對，再固定流程</h3><p>使用 notebook 檢查瞬間突波、停機資料、抽樣口徑與 RUL 信心。內部完整版保存分析依據，對外版轉換語言與版型；同一份數字不能在文字轉換時被重新解讀。</p>
         <h3>把一次任務改成可重跑的系統</h3><p>在七月 POC 中，保留已驗證的分析腳本與品質規則，將穩定步驟轉為 LangGraph 節點。數值與表格由確定性程式產生，LLM 組織敘述，審查後只重生有問題的部分；缺資料時明確降級，多設備各自保存狀態。</p>
         <h3>接住客戶回饋</h3><p>在後續分析中，我把客戶對負載與振動的觀察轉為可檢驗問題，重新分層分析並交付說明材料。統計關聯與設備根因分開表達，需現場補驗的資訊清楚列出。</p>
         <h3>我的責任與目前進度</h3><p>我主導診斷方法、分析口徑、報告品質條件及系統化方向；AI 協助執行分析、實作流程、產生草稿與測試。客戶報告已交付，七月完成獨立 POC 跨案例驗證；八月將報告產生路徑搬入服務並接上平台，九月報告與前端下載整合進主線。工程整合由我與 AI agents、工程夥伴協作完成。</p><h3>成果與目前範圍</h3><p>服務層已以真實資料產報，並檢查數值可追溯及資料不足時的降級。報告服務與前端下載已合入平台主線；完整現場編排、部署及客戶驗收仍待核實。LangGraph 的多設備與局部重跑能力目前以獨立 POC 驗證為範圍。</p>
-      </div></section></article></main><footer><div class="wrap"><p>© 2026 Aaron Ho · 何彥南</p><a href="https://github.com/aaron1aaron2">GitHub</a></div></footer></body></html>
+      </div></details></article></main><footer><div class="wrap"><p>© 2026 Aaron Ho · 何彥南</p><a href="https://github.com/aaron1aaron2">GitHub</a></div></footer></body></html>
