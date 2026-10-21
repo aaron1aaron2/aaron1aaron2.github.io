@@ -5,7 +5,7 @@ body.catalog-page{color-scheme:light;--paper:#f6f4ee;--panel:#fffdf8;--surface:#
 .catalog-page .nav a{color:var(--muted)}
 .catalog-page .nav a:hover,.catalog-page .nav a[aria-current=page]{color:var(--accent)}
 .catalog-page .brand{color:var(--ink)}
-.catalog-main{width:min(1120px,calc(100% - 6rem));margin-inline:auto}
+
 .catalog-page .page-intro{padding:3rem 0 1.8rem}
 .catalog-page .page-intro .eyebrow{color:var(--accent);font-size:.74rem;letter-spacing:.12em}
 .catalog-page .page-intro h1{font-size:clamp(2.3rem,5vw,4rem);margin-bottom:.8rem}
@@ -49,9 +49,8 @@ body.catalog-page{color-scheme:light;--paper:#f6f4ee;--panel:#fffdf8;--surface:#
 .directory-modules .module-list h5{font-size:.9rem;color:var(--ink);margin:0 0 .35rem}
 .directory-modules .module-list p{margin:.2rem 0}
 .catalog-year .timeline-list{margin-top:.8rem}
-@media(max-width:700px){.catalog-main{width:calc(100% - 2rem)}.catalog-page .page-intro{padding:2rem 0 1.2rem}.catalog-item-grid{grid-template-columns:1fr;gap:.9rem}.project-figure{max-width:none}.project-figure img{max-width:100%}.directory-entry-heading{align-items:start;flex-wrap:wrap;gap:.25rem 1rem}.directory-entry-heading .kind{white-space:normal}.catalog-group,.catalog-year{padding:1.5rem 0 2rem}}
+@media(max-width:700px){.catalog-page .page-intro{padding:2rem 0 1.2rem}.catalog-item-grid{grid-template-columns:1fr;gap:.9rem}.project-figure{max-width:none}.project-figure img{max-width:100%}.directory-entry-heading{align-items:start;flex-wrap:wrap;gap:.25rem 1rem}.directory-entry-heading .kind{white-space:normal}.catalog-group,.catalog-year{padding:1.5rem 0 2rem}}
 @media print{body.catalog-page{color-scheme:light}.catalog-toolbar{display:none}.catalog-panel[hidden]{display:none!important}.directory-item{break-inside:avoid}.project-figure{max-width:180px}.catalog-item-grid{grid-template-columns:180px minmax(0,1fr)}}
-
 
 @media print{.project-figure{max-width:340px}.catalog-item-grid{grid-template-columns:1fr;gap:.7rem}.directory-item{break-inside:auto}.project-figure{break-inside:avoid}}
 
