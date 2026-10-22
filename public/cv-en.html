@@ -41,7 +41,10 @@
 <h4>Harbor AI 2.0 Equipment End-of-Line Quality Inspection Platform | End-to-End Project, Ongoing</h4>
 <ul>
 <li>Led my first end-to-end project from customer requirements and specifications through system implementation, UI/UX design and refinement, and on-site delivery. Used shared underlying technology to establish a distinct product for fixtures inspecting successive manufactured units, defining units under test, measurement batches, data relationships, decisions, and reports.</li>
-<li>Clarified synchronized and switched measurement points, good-unit baseline rerecording, rush orders, serial numbers, and work-order continuity. Turned customer feedback into specifications and UI/UX changes, connecting inspection steps to data selection, decisions, human review, and reports. Kept functional tests separate from thresholds needing field calibration.</li>
+<li>Clarified synchronized and switched measurement points, good-unit baseline rerecording, rush orders, serial numbers, and work-order continuity, connecting inspection steps to data selection, decisions, human review, and reports. Kept functional tests separate from thresholds needing field calibration.</li>
+<li>The initial AI-generated UI met the specification and functional acceptance criteria, but operation required roughly five to six page levels, repeated returns, and circular navigation. Reorganized the work into three core interface types: plan list, work order, and board. Consolidated reports, rechecks, and baseline management or moved them into dialogs. DQA feedback was qualitatively positive; operation time and error rates were not measured.</li>
+<li>Placed previous/next/primary actions near the bottom center and supported arrow keys and Enter for repeated operation. Moved infrequent or accidental-trigger-sensitive actions to the bottom left, and refined type sizes, status visibility, and sensor-detachment alerts.</li>
+<li>Separated sensor-installation confirmation from measurement, using sensor IDs and installation diagrams as mandatory checks before measurement to prevent incorrect sensor installation.</li>
 <li>Coordinated the Phase 1 quality-testing (DQA) handoff, test versions, manuals exercised on the test machine, and acceptance records. In September, query, unit-switching, human-review, and export work entered a local integration branch.</li>
 <li>On October 12, 2026, I attended Phase 1 on-site acceptance activities, demonstrated the software, provided user training, and brought back customer feedback. Formal sign-off, the final acceptance conclusion, and the latest mainline merge/release status have not been confirmed. I led the work across requirements, specifications, system implementation, UI/UX refinement, and delivery, using AI agents and collaborating with engineering partners on implementation and verification.</li>
 </ul>
@@ -141,6 +144,32 @@
 <li>Treated dataset, positional, and resolution differences as generalization checks, retaining cross-cell-line limitations. Adapted parts of positive/negative preprocessing from ChINN and distinguished that prior work from my model, experimental, and engineering contributions.</li>
 </ul>
 </article>
+<article class="career-entry"><h3>Financial-Text Sentiment Analysis | TCSE Research, 2020</h3>
+<ul>
+<li>Studied stock-article sentiment using a Hierarchical Attention Network and sentiment lexicons. The work began with an approved undergraduate research grant and led to a TCSE publication.</li>
+<li>Performed all research work for the study; the paper was coauthored, so this scope does not imply sole authorship.</li>
+<li>Early repeated model changes yielded limited improvement. Gradually added data and parameter comparisons, retaining comparison conditions and experimental results as the basis for decisions.</li>
+</ul>
+</article>
+<article class="career-entry"><h3>Dynamic Embedding for Passenger-Flow Estimation | IIAI AAI Research, 2021</h3>
+<ul>
+<li>Explored dynamic embedding for passenger-flow estimation. Responsible for method ideation, data processing, model construction, and experiment execution.</li>
+<li>Used data and parameter comparisons to examine model choices. The research received an IIAI AAI Competitive Paper Award; publication credit remains shared.</li>
+</ul>
+</article>
+<article class="career-entry"><h3>Research Experiment Practices Developed Over Time | 2020–2024</h3>
+<ul>
+<li>Progressed from repeated model changes with limited improvement toward data and parameter comparisons, then more complete ablation design and parameter-adjustment logic in the MCIENet thesis.</li>
+<li>Used Shell to organize parallel experiments under limited GPU resources, including running two parameter configurations on one GPU with separate logs and checkpoints.</li>
+<li>Saved preprocessed data as H5, used early stopping, and first sampled three parameter values to inspect the curve before deciding how to adjust the search.</li>
+<li>Developed these practices across the 2020 sentiment study, 2021 passenger-flow study, PropGMAN, and MCIENet, with different levels of use in each project. This does not imply an identical complete pipeline across all projects or a measured overall speedup.</li>
+</ul>
+</article>
+<article class="career-entry"><h3>Dynamic Traffic Network Representation | KBS Collaborative Research, 2024</h3>
+<ul>
+<li>Coauthored research on dynamic traffic network representation for passenger-flow prediction. My actual contribution was primarily supporting code and technical assistance.</li>
+</ul>
+</article>
 <article class="career-entry"><h3>Horus Human Identification System | Undergraduate Capstone, 2020</h3>
 <ul>
 <li>The team integrated multi-object tracking, person re-identification, and face recognition into a multi-camera identification and tracking system.</li>
@@ -151,7 +180,7 @@
 <article class="career-entry"><h3>PropGMAN Asset Activation | Team Project, 2022</h3>
 <ul>
 <li>In a three-person team, applied spatiotemporal modeling to property-transaction records to predict regional land prices and transaction volumes for asset-activation analysis.</li>
-<li>Retained preprocessing, model settings, experimental results, and reproduction instructions. The base GMAN method used an existing research implementation. The team received a Creative Award in the AI for Asset Activation Innovation Contest.</li>
+<li>Proposed the project direction, led team coordination and division of work, and handled model implementation, experiments, and the final-round report. Retained preprocessing, model settings, experimental results, and reproduction instructions. The base GMAN method used an existing third-party research implementation. The team received a Creative Award in the AI for Asset Activation Innovation Contest.</li>
 </ul>
 </article>
 </div></section>
@@ -166,15 +195,15 @@
 <section class="career-section" id="career-section-6" aria-labelledby="career-heading-6"><h2 id="career-heading-6">Additional Team Projects</h2><div class="career-section-body">
 <ul>
 <li><strong>Distributed Spark Crawler/Recovery, 2022:</strong> An NCCU distributed-systems course team connected collection, missing-data detection, Spark-based imputation, a database, and dashboards to demonstrate recovery from collection failures. I owned the Spark cluster, GitHub work, and demo video, and contributed system integration.</li>
-<li><strong>Financial Recommendation and Automated Notifications, 2020:</strong> Team-designed stock recommendation/notification approaches using item-based, user-based, and co-occurrence relationships. Received an Excellence Award in a financial-programming course competition; presented as a team outcome.</li>
+<li><strong>Financial Recommendation and Automated Notifications (E.SUN Fugle), 2020:</strong> Proposed the topic direction and led team coordination and division of work. Primarily designed, implemented, and deployed the Telegram chatbot, integrating modules from teammates into one entry point. The team used item-based, user-based, and co-occurrence recommendation approaches; I offered algorithm ideas and suggestions rather than implementing every algorithm myself. The team received an Excellence Award in a financial-programming course competition.</li>
 <li><strong>Taipei Disaster Resource Dashboard, 2025:</strong> Proposed the topic and collected data for a team analysis of disaster-prevention resources around tourist attractions. The team reached the Taipei–New Taipei City Dashboard Hackathon finals. The public dashboard is based on a fork of a friend’s template, with team and template credit retained.</li>
 </ul>
 </div></section>
 <section class="career-section" id="career-section-7" aria-labelledby="career-heading-7"><h2 id="career-heading-7">Research and Publications</h2><div class="career-section-body">
 <ul>
-<li>Dynamic traffic network representation model for improving the prediction performance of passenger flow. <em>Knowledge-Based Systems</em>, 2024.</li>
-<li>A Dynamic Embedding Method for Passenger Flow Estimation. IIAI AAI, 2021. Competitive Paper Award.</li>
-<li>Hierarchical Attention Network with Sentiment Lexicons for Stock Article Emotion Analysis. TCSE, 2020; preceded by an approved undergraduate research grant.</li>
+<li>Dynamic traffic network representation model for improving the prediction performance of passenger flow. <em>Knowledge-Based Systems</em>, 2024. Primarily contributed supporting code and technical assistance.</li>
+<li>A Dynamic Embedding Method for Passenger Flow Estimation. IIAI AAI, 2021. Responsible for method ideation, data processing, model construction, and experiments. Competitive Paper Award.</li>
+<li>Hierarchical Attention Network with Sentiment Lexicons for Stock Article Emotion Analysis. TCSE, 2020. Performed all research work; the paper was coauthored. Preceded by an approved undergraduate research grant.</li>
 <li>MCIENet: Multi-scale CNN-based Information Extraction from DNA Sequences for 3D Chromatin Interactions Prediction. M.S. thesis, 2024.</li>
 </ul>
 </div></section>

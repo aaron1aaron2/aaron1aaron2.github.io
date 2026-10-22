@@ -41,7 +41,10 @@
 <h4>Harbor AI 2.0 智慧設備出廠品質檢測平台｜端到端專案，進行中</h4>
 <ul>
 <li>主導本人第一個完整客戶端到端專案，涵蓋需求、規格、系統實作、UI／UX 設計優化與現場交付。運用與監控平台共用的基礎技術，建立治具逐件檢測出廠品的獨立產品流程，定義受測件、量測批次、資料關聯、判定與報告。</li>
-<li>釐清多測點同步與切換、良品基準重錄、插單、序號與工單銜接，將客戶回饋轉為系統規格及 UI／UX 調整，串接檢測操作、資料選擇、判定、人工複核與報告。基本功能測試與判定門檻的現場校準分開處理。</li>
+<li>釐清多測點同步與切換、良品基準重錄、插單、序號與工單銜接，串接檢測操作、資料選擇、判定、人工複核與報告。基本功能測試與判定門檻的現場校準分開處理。</li>
+<li>初期 AI 依 spec 產出的 UI 符合功能與驗收規格，實際操作卻需穿越約 5–6 層頁面、反覆返回甚至循環跳轉。本人重新整理任務，把日常操作收斂為「計畫清單、工單、看板」三類核心介面，將報告、複查與基準管理整併或改為對話框；DQA 給予定性正面回饋，未量測操作時間或錯誤率。</li>
+<li>依現場連續操作安排中下方的前一步／後一步／主要動作，支援方向鍵與 Enter；將少用或需防誤觸的動作移至左下方，並調整字體、狀態顯示與感測器脫落提醒。</li>
+<li>把感測器安裝確認與量測分成兩個階段，以 sensor ID 與安裝示意圖作硬性檢核，避免裝錯感測器後直接開始量測。</li>
 <li>協調第一階段交 DQA 品質測試、測試版本、測試機操作手冊及驗收台帳；九月查詢、換件銜接、人工複核與匯出曾進入本機整合分支。</li>
 <li>2026-10-12 親自到客戶現場進行第一階段驗收活動、示範與教育訓練，說明軟體內容並帶回回饋；正式簽核、最終驗收結論及最新主線合併／發布狀態尚未確認。本人主導需求、規格、系統實作、UI／UX 優化及交付，運用 AI agents 並與工程夥伴分工完成實作及驗證。</li>
 </ul>
@@ -141,6 +144,32 @@
 <li>將資料集、位置與解析度差異列為泛化檢查條件，保留跨細胞類型泛化限制；部分正負樣本前處理改寫自 ChINN，與本人模型、實驗及工程貢獻分開歸屬。</li>
 </ul>
 </article>
+<article class="career-entry"><h3>金融文本情緒分析｜TCSE 研究，2020</h3>
+<ul>
+<li>研究股票文章的情緒分析，結合 Hierarchical Attention Network 與情緒詞典；前期獲科技部大專學生研究計畫核定，後續發表於 TCSE。</li>
+<li>本人完成此研究的全部研究工作；論文為共同發表，不以研究工作範圍宣稱唯一作者。</li>
+<li>初期反覆調整模型但效果有限，逐步補上資料與參數比較，將比較條件與實驗結果留作判斷依據。</li>
+</ul>
+</article>
+<article class="career-entry"><h3>動態嵌入客流估計｜IIAI AAI 研究，2021</h3>
+<ul>
+<li>探討以動態嵌入處理客流估計；本人負責方法發想、資料處理、模型建構與實驗執行。</li>
+<li>透過資料與參數比較檢查模型選擇，研究獲 IIAI AAI Competitive Paper Award；共同發表與本人研究工作分開歸屬。</li>
+</ul>
+</article>
+<article class="career-entry"><h3>逐步建立的研究實驗方法｜2020–2024</h3>
+<ul>
+<li>從早期反覆調模型但改善有限，逐漸轉向資料與參數比較；到 MCIENet 碩論，進一步建立較完整的消融設計及參數調整邏輯。</li>
+<li>在 GPU 資源有限且需執行多組實驗時，以 Shell 安排並行；曾在同一 GPU 同時跑兩組不同參數，分開保存 logs 與 checkpoints。</li>
+<li>先將前處理結果存為 H5，搭配 early stopping；調參時先選三個點觀察參數曲線，再決定後續調整策略。</li>
+<li>上述方法在 2020 情緒研究、2021 客流、PropGMAN 與 MCIENet 中逐步累積，各案使用程度不同；不主張每案皆採相同完整流程，也沒有量測整體提速倍數。</li>
+</ul>
+</article>
+<article class="career-entry"><h3>動態交通網路表示｜KBS 合作研究，2024</h3>
+<ul>
+<li>共同發表以動態交通網路表示改善客流預測的研究；本人實際工作偏向程式碼與技術支援的輔助角色。</li>
+</ul>
+</article>
 <article class="career-entry"><h3>Horus Human Identification System｜大學畢業專題，2020</h3>
 <ul>
 <li>團隊整合 multi-object tracking、person ReID 與 face recognition，建立多鏡頭人物追蹤及辨識系統。</li>
@@ -151,7 +180,7 @@
 <article class="career-entry"><h3>PropGMAN Asset Activation｜團隊專案，2022</h3>
 <ul>
 <li>三人團隊以實價登錄資料進行土地區域指標的時空建模，預測區域土地交易價格與交易量，支援資產活化分析。</li>
-<li>保留資料前處理、模型設定、實驗結果與重現方式；基礎 GMAN 方法採既有研究實作。團隊獲資產活化 AI 應用創新競賽創意獎。</li>
+<li>本人發想專案方向、帶領團隊分工，負責模型實作、實驗執行及決賽報告；保留資料前處理、模型設定、實驗結果與重現方式。基礎 GMAN 方法採第三方既有研究實作，團隊獲資產活化 AI 應用創新競賽創意獎。</li>
 </ul>
 </article>
 </div></section>
@@ -166,15 +195,15 @@
 <section class="career-section" id="career-section-6" aria-labelledby="career-heading-6"><h2 id="career-heading-6">其他團隊專案</h2><div class="career-section-body">
 <ul>
 <li><strong>Distributed Spark Crawler／Recovery，2022：</strong> 政大分散式系統課程團隊串接資料擷取、缺漏偵測、Spark 預測補值、資料庫與 dashboard，展示資料擷取失敗後的補救流程；本人負責 Spark cluster、GitHub 與 demo 影片，參與系統整合。</li>
-<li><strong>金融資訊推薦與自動推播，2020：</strong> 團隊以 item-based、user-based 及共現關係設計股票推薦／通知方案；獲金融程式設計課程競賽優勝，以團隊成果呈現。</li>
+<li><strong>金融資訊推薦與自動推播（E.SUN Fugle），2020：</strong> 本人發想題目方向並帶領團隊分工，主要負責 Telegram chatbot 架構、實作與部署，將夥伴模組整合為統一入口。團隊以 item-based、user-based 及共現關係設計股票推薦／通知方案；本人提供推薦算法的想法與建議，不將所有算法歸為個人完成。團隊獲金融程式設計課程競賽優勝。</li>
 <li><strong>雙北防災資源分析系統，2025：</strong> 負責題目發想與資料蒐集，與團隊探討旅遊景點周邊防災資源配置，作品晉級雙北城市儀表板黑客松決賽。公開儀表板以朋友提供的範本 fork 為基礎，保留團隊與範本來源歸屬。</li>
 </ul>
 </div></section>
 <section class="career-section" id="career-section-7" aria-labelledby="career-heading-7"><h2 id="career-heading-7">研究與發表</h2><div class="career-section-body">
 <ul>
-<li>Dynamic traffic network representation model for improving the prediction performance of passenger flow. <em>Knowledge-Based Systems</em>, 2024.</li>
-<li>A Dynamic Embedding Method for Passenger Flow Estimation. IIAI AAI, 2021. Competitive Paper Award.</li>
-<li>Hierarchical Attention Network with Sentiment Lexicons for Stock Article Emotion Analysis. TCSE, 2020；研究前期獲科技部大專學生研究計畫核定。</li>
+<li>Dynamic traffic network representation model for improving the prediction performance of passenger flow. <em>Knowledge-Based Systems</em>, 2024；本人主要提供程式碼與技術支援，屬輔助研究角色。</li>
+<li>A Dynamic Embedding Method for Passenger Flow Estimation. IIAI AAI, 2021；本人負責方法發想、資料處理、模型建構與實驗。Competitive Paper Award。</li>
+<li>Hierarchical Attention Network with Sentiment Lexicons for Stock Article Emotion Analysis. TCSE, 2020；本人完成全部研究工作，論文為共同發表。研究前期獲科技部大專學生研究計畫核定。</li>
 <li>MCIENet: Multi-scale CNN-based Information Extraction from DNA Sequences for 3D Chromatin Interactions Prediction. 碩士論文，2024。</li>
 </ul>
 </div></section>
