@@ -53,9 +53,16 @@
 </ul>
 <h4>Harbor AI 2.0 Industrial Intelligent Monitoring Platform | Product and Domain Architecture</h4>
 <ul>
-<li>Designed for ongoing equipment monitoring, status investigation, and diagnostics. Organized reporting, RUL, multi-sensor, trend, partial-discharge, and threshold-update requirements into functional categories, user flows, and validation criteria.</li>
+<li>Led 2.0 monitoring product/domain design in an environment with an existing 1.0 system. Built most 2.0 capabilities from scratch with the team while evolving the architecture and UI/UX. Organized reporting, RUL, multi-sensor, trend, partial-discharge, and threshold-update requirements into functional categories, user flows, and validation criteria for ongoing monitoring, investigation, and diagnostics.</li>
 <li>Separated vibration and partial-discharge meanings for RUL, trends, PRPD status, and data quality into layered sensor status. Used a device-first report flow to reduce incorrect device or data selection.</li>
 <li>Contributed the main frontend implementation, connecting Report, Sensor Status, PD Event Analysis, RUL, and scheduling flows to real APIs. Supported multilingual interfaces, RUL charts, mobile layouts, and sensor-detail workflows, with shared pages attributed according to team responsibilities.</li>
+</ul>
+<h4>From Coexistence and Gradual Replacement to Independent 2.0 Operation</h4>
+<ul>
+<li><strong>Field ownership and compatibility:</strong> In March 2026, addressed periodic synchronization between the legacy and new systems. Distinguished legacy-provided equipment data from 2.0 user settings, protecting new-system settings from silent overwrites and turning coexistence conflicts into explicit data contracts.</li>
+<li><strong>Device authority and gradual replacement:</strong> In July, advanced the transfer of equipment control, authorization, and management to 2.0, narrowing the legacy role to device discovery and unifying state-transition rules. In August, decided to move event analysis to native 2.0 events and retired that function's legacy source after validating the analysis-to-UI chain. That result applied to the specific function at the time.</li>
+<li><strong>Auditable data migration:</strong> In July, consolidated legacy ingestion into tools and data contracts with manifests, audits, and explicit failures. I required explicit sensor-number mapping: missing or ambiguous mappings stop the process, requiring the manifest and mapping to be corrected before revalidation rather than guessing. I advanced the corresponding product and migration integration; AI agents and engineering partners contributed implementation and verification.</li>
+<li><strong>Current state, personally confirmed on October 23, 2026:</strong> 2.0 no longer depends on 1.0 and can operate independently. The dates above document individual stages, not the date of full dependency removal. This confirmation does not establish that all customers switched, legacy services shut down, or all historical data migrated.</li>
 </ul>
 <h4>Human–AI Development, Daily Regression, and Project Records</h4>
 <ul>
@@ -91,13 +98,13 @@
 <li>Owned Gateway ingestion contracts for bundled data upload, heartbeats, asynchronous processing, deduplication, integrity, capacity, and security. Led system design, option validation, cross-team alignment, and handoff; the responsible engineer owned subsequent server implementation.</li>
 <li>Contributed Gateway software-package registration, storage, version lookup, download, architecture compatibility, and integrity verification. The work focused on server-side package distribution.</li>
 <li>Designed and integrated feedback from RUL recommendations through platform threshold state/history to Gateway threshold updates, including per-sensor automatic/manual policy, emergency disablement, scheduling, and fault isolation.</li>
-<li>Kept online ingestion, periodic legacy-system synchronization, offline migration, Gateway software updates, and RUL threshold feedback distinct. Used field ownership to prevent legacy synchronization from silently overwriting new-system data.</li>
+<li>Kept online ingestion, periodic legacy-system synchronization, offline migration, Gateway software updates, and RUL threshold feedback distinct, each with its own contracts and validation conditions.</li>
 </ul>
 <h4>Docker, Offline Deployment, Updates, and Migration</h4>
 <ul>
 <li>Integrated Docker/offline image packages, cross-architecture installation, installation state, and release metadata into repeatable, traceable delivery workflows.</li>
 <li>Built platform offline-update and recovery paths, isolating update execution from the platform's own shutdown risk and adding preflight checks, progress/history, failure signals, and verifiable rollback.</li>
-<li>Consolidated legacy ingestion/migration into a toolkit with manifests, audits, continuity validation, explicit failures, and rollback. Verified fields, time zones, readability, and legacy/new-system coexistence conditions.</li>
+<li>Migration validation also checked fields, time zones, readability, continuity, and legacy/new-system coexistence conditions, with recovery procedures retained.</li>
 <li>Paused writes and added fresh schemas, constraint checks, and rollback procedures after real-machine restore conflicts. Reviewed development/production serving, storage, restart, and deployment constraints, incorporating gaps into initialization, upgrades, and automated checks.</li>
 <li>Reduced delivery-package scope, removed accidentally included customer raw data, completed fresh-install validation, and led integration and cut decisions for two shipped releases. Feature implementation remains attributed to engineering partners and AI agents according to their contributions.</li>
 </ul>
