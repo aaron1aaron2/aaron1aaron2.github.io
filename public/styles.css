@@ -223,3 +223,16 @@ footer a{display:inline-flex;align-items:center;min-height:44px}.browse .section
  .directory-stories::details-content,.case-technical::details-content{display:contents;content-visibility:visible!important}
  .directory-stories .story-body,.case-technical .detail-body{display:block!important}
 }
+
+/* A restrained, accessible product evolution diagram in the existing reading column. */
+.evolution-path{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:2rem;list-style:none;padding:0;margin:1.5rem 0 1rem}
+.evolution-path li{min-width:0;position:relative;border-top:2px solid var(--line);padding:.8rem 0}
+.evolution-path li:not(:last-child)::after{content:"→";position:absolute;right:-1.5rem;top:1rem;color:var(--muted)}
+.evolution-path .evolution-number{font-size:.8rem;color:var(--muted)}
+.evolution-path h3{font-size:1.1rem;margin:.3rem 0 .5rem}
+.evolution-path p{font-size:.92rem;margin:0;overflow-wrap:anywhere}
+.evolution-decisions section{margin:1.5rem 0}.evolution-decisions h3{font-size:1.1rem;margin:0 0 .6rem}
+@media(max-width:640px){.evolution-path{grid-template-columns:1fr;gap:1.5rem}.evolution-path li:not(:last-child)::after{content:"↓";right:auto;left:.3rem;top:auto;bottom:-1.5rem}}
+@media print{.platform-evolution figure{break-inside:avoid-page}.evolution-path{gap:1rem}.evolution-path li:not(:last-child)::after{display:none}}
+
+.platform-evolution figure{margin-inline:0}
