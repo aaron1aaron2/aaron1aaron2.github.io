@@ -21,44 +21,43 @@
 <p class="career-summary">New Taipei City, Taiwan | Website: <a href="https://aaron1aaron2.github.io/">https://aaron1aaron2.github.io/</a></p>
 <p class="career-summary">Email: <a href="mailto:hoyennan@gmail.com">hoyennan@gmail.com</a></p>
 <p class="career-summary"><strong>AI Engineer</strong></p>
-<p class="career-summary">Data Scientist at Harbor Tech, developing two flagship products under Harbor AI 2.0: an Industrial Intelligent Monitoring Platform for ongoing equipment monitoring and diagnostics, and an Equipment End-of-Line Quality Inspection Platform for customer-specific unit-by-unit inspection. Led monitoring product/domain design and the inspection project from requirements and specifications through implementation, UI/UX, and on-site delivery. Built traceable issue/project records and parallel AI-assisted development, repair, and verification workflows, supported by daily functional regression and human release review.</p>
+<p class="career-summary">Data Scientist at Harbor Tech focused on industrial AI products and customer delivery. Lead product/domain design for Harbor AI 2.0 monitoring and an equipment inspection project from requirements through on-site delivery. Combine data analysis, system integration, and AI-assisted engineering to turn diagnostic methods into usable, verifiable products.</p>
 </div><div class="career-actions"><div class="career-language" aria-label="Page language"><a href="resume.html" hreflang="zh-Hant" lang="zh-Hant">中文</a><a href="resume-en.html" hreflang="en" lang="en" aria-current="page">English</a></div><a class="career-download" href="downloads/Aaron_Ho_Resume_en.pdf" download="Aaron_Ho_Resume_en.pdf">Download PDF</a></div></div>
 <section class="career-section" id="career-section-1" aria-labelledby="career-heading-1"><h2 id="career-heading-1">Core Skills</h2><div class="career-section-body">
 <ul>
-<li><strong>Industrial AI/Research:</strong> remaining useful life (RUL), phase-resolved partial discharge (PRPD)/vibration, FFT, anomaly detection, CNNs, ablations, confidence, and data-availability assessment.</li>
-<li><strong>AI Systems:</strong> LangChain/LangGraph, report services, vLLM, OpenAI-compatible APIs, deterministic facts, fallbacks, and human validation.</li>
-<li><strong>Platform/Delivery:</strong> Python, Django/Django Ninja, PostgreSQL, Redis, RabbitMQ, REST, async workflows, React/TypeScript, Docker, offline deployment, update/rollback, Git, and automated tests.</li>
+<li><strong>Data and Models:</strong> Python, NumPy, pandas, SciPy, PyTorch; vibration/PRPD, RUL, CNNs, statistical analysis, ablations, and data-quality assessment.</li>
+<li><strong>AI and Product Integration:</strong> LangChain/LangGraph, report services, vLLM, Django/Django Ninja, REST, asynchronous workflows, React/TypeScript.</li>
+<li><strong>Engineering and Delivery:</strong> PostgreSQL, Redis, RabbitMQ, Docker, offline deployment, update/rollback, migration, automated tests, AI agents, and human review.</li>
 </ul>
 </div></section>
 <section class="career-section" id="career-section-2" aria-labelledby="career-heading-2"><h2 id="career-heading-2">Work Experience</h2><div class="career-section-body">
 <article class="career-entry"><h3>Data Scientist, Harbor Tech | Taipei | Oct 2025–Present</h3>
 <ul>
-<li><strong>Harbor AI 2.0 Industrial Intelligent Monitoring Platform:</strong> Led product/domain design and built monitoring, diagnostics, and reporting capabilities from scratch with the team. Managed legacy/new-system coexistence and data migration, progressively replacing the legacy system; 2.0 now operates without dependence on 1.0.</li>
-<li><strong>Harbor AI 2.0 Equipment End-of-Line Quality Inspection Platform:</strong> Led requirements, specifications, AI-assisted implementation, and on-site delivery with engineering partners. Reorganized a spec-compliant UI requiring five to six page levels into three core interface types: plan list, work order, and board. Separated installation confirmation from measurement, adding mandatory sensor-ID/diagram checks. Demonstrated the system, trained users, and collected feedback on October 12, 2026; formal acceptance remains unconfirmed.</li>
-<li><strong>AI development and project records:</strong> Built traceable issue/project records linking problems, analysis, decisions, results, verification, and versions. Organized AI agents for parallel development, repair, and verification on isolated branches. Ran daily automated functional regression and monitoring, routing findings to issues and Bitbucket PRs. I define requirements, quality criteria, and domain decisions; reviewers and I decide merge and release.</li>
-<li><strong>Model assumptions and validation:</strong> Audited AI-generated RUL conclusions. Traced the data source, found test constants misrepresented as observations, and invalidated the conclusion. Then required multi-parameter, multi-curve, and forward/reverse ablations to recheck the assumptions. Connected research notebooks to production code to reduce drift. Separated fault type, severity, RUL, and low-confidence states.</li>
-<li><strong>Report-service integration:</strong> Turned field-analysis and manually reviewed reporting methods into reusable workflows. Used a LangGraph POC to separate analysis results from LLM narrative, then advanced the platform-connected report service; DOCX reports and frontend downloads were integrated into the mainline. Separately validated live vLLM endpoint capabilities.</li>
-<li><strong>Platform and delivery:</strong> Collaborated on Django async workflows, defining APIs, repository/artifact-by-reference contracts, task lifecycles, and validation boundaries. Integrated Docker/offline and cross-architecture installation, platform update/rollback, and auditable migration; led release integration and cut decisions.</li>
+<li><strong>Industrial Intelligent Monitoring Platform:</strong> Lead Harbor AI 2.0 product/domain design. Built monitoring, diagnostics, and reporting capabilities from scratch with the team and AI agents. Defined APIs, data-access contracts, and cross-service workflows; advanced legacy coexistence, migration, and progressive replacement. Version 2.0 now operates independently of 1.0.</li>
+<li><strong>Equipment End-of-Line Quality Inspection Platform:</strong> Led requirements, specifications, AI-assisted implementation, UI/UX, and on-site delivery with engineering partners. Reorganized five to six page levels into three core interface types—plan list, work order, and board—with sensor-installation and pre-measurement checks. Demonstrated the system, trained users, and personally resolved a clock-offset-related connection failure and completed follow-up fixes. The project is ongoing; formal acceptance remains unconfirmed.</li>
+<li><strong>Model and Reporting Quality:</strong> Traced RUL analysis to test constants misrepresented as observations, rejected the conclusion, and required parameter and ablation checks using product code from research notebooks. Advanced field-analysis methods into a platform report service, separating deterministic analysis from LLM narrative; DOCX reports and frontend downloads were merged into the mainline.</li>
+<li><strong>AI-Assisted Engineering and Delivery:</strong> Built traceable requirements, decisions, issues, tests, and version records. Coordinated agents on isolated branches for parallel development and verification, with daily regression/monitoring and human PR/release review. Integrated offline/cross-architecture installation, update/rollback, and release delivery; owned quality criteria, domain decisions, and release-readiness judgments.</li>
 </ul>
 </article>
 <article class="career-entry"><h3>Data Science Intern, Institute of Sociology, Academia Sinica | Taipei | May 2019–Dec 2020</h3>
-<p>Used survey-area grouping, point-to-point distances, OR-Tools TSP, and Folium for field-survey routes, dispersion, and budget estimation.</p>
+<p>Combined survey-area grouping, point-to-point distances, OR-Tools TSP, and Folium to support field-survey routes, dispersion measures, and budget estimation.</p>
 </article>
 </div></section>
 <section class="career-section" id="career-section-3" aria-labelledby="career-heading-3"><h2 id="career-heading-3">Selected Research and Projects</h2><div class="career-section-body">
 <ul>
-<li><strong>MCIENet, M.S. thesis (2024):</strong> Independently led research decomposition, multi-scale CNNs, data pipelines, ablations, cross-dataset evaluation, and explainable AI (XAI) for DNA-sequence-based 3D chromatin interaction prediction. Adapted parts of ChINN preprocessing; retained cross-cell-line generalization limits.</li>
-<li><strong>Horus, undergraduate capstone (2020):</strong> Team-integrated multi-camera tracking, person ReID, and face recognition. Primarily owned ReID integration, similarity/dual-threshold decisions, and tracking-record workflows. The team won first place in the undergraduate capstone competition.</li>
-<li><strong>Taipei Disaster Resource Dashboard (2025):</strong> Proposed the topic and collected data for a team project on disaster-prevention resources around tourist attractions. Finalist, Taipei–New Taipei City Dashboard Hackathon; the public dashboard is based on a fork of a friend’s template.</li>
-<li><strong>PropGMAN (2022):</strong> Proposed the direction, led a three-person team, and handled model implementation, experiments, and the final-round report using third-party GMAN for regional land indicators. Team Creative Award, AI for Asset Activation Innovation Contest.</li>
-<li><strong>Financial Recommendation and Notifications (2020):</strong> Proposed the topic and led team coordination. Primarily designed, implemented, and deployed the Telegram chatbot, integrated team modules, and advised on recommendation algorithms. Team Excellence Award, financial-programming course competition.</li>
+<li><strong>MCIENet, M.S. thesis (2024):</strong> Independently led multi-scale CNNs, data pipelines, ablations, cross-dataset evaluation, and XAI for DNA-sequence-based 3D chromatin interaction prediction. Adapted parts of ChINN preprocessing; retained cross-cell-line generalization limits.</li>
+<li><strong>Horus (2020):</strong> Primarily owned FastReID-based person ReID integration, similarity/dual-threshold decisions, and tracking records, integrating with the team's multi-camera tracking and face recognition. First place in the undergraduate capstone competition.</li>
+<li><strong>Taipei Disaster Resource Dashboard (2025):</strong> Proposed the topic and collected data for a team analysis of disaster-prevention resources around tourist attractions. Hackathon finalist; the public dashboard uses a fork of a friend's template.</li>
+</ul>
+<ul>
+<li><strong>TownPass Authorized Assistance Proposal (2026):</strong> Owned topic ideation, use-case definition, and product specifications, and presented in the final round. The team reached the finals of the 2026 TownPass Microservices Hackathon.</li>
 </ul>
 </div></section>
 <section class="career-section" id="career-section-4" aria-labelledby="career-heading-4"><h2 id="career-heading-4">Research and Publications</h2><div class="career-section-body">
 <ul>
-<li>Dynamic traffic network representation model for improving the prediction performance of passenger flow. <em>Knowledge-Based Systems</em>, 2024. Supporting code and technical assistance.</li>
-<li>A Dynamic Embedding Method for Passenger Flow Estimation. IIAI AAI, 2021. Method ideation, data processing, model construction, and experiments. Competitive Paper Award.</li>
-<li>Hierarchical Attention Network with Sentiment Lexicons for Stock Article Emotion Analysis. TCSE, 2020. Performed all research work; coauthored publication.</li>
+<li><strong>IIAI AAI, 2021:</strong> A Dynamic Embedding Method for Passenger Flow Estimation. Method ideation, data, models, and experiments. Competitive Paper Award.</li>
+<li><strong>TCSE, 2020:</strong> Hierarchical Attention Network with Sentiment Lexicons for Stock Article Emotion Analysis. Performed the research work; coauthored publication.</li>
+<li><strong>Knowledge-Based Systems, 2024:</strong> Dynamic traffic network representation model for improving the prediction performance of passenger flow. Supporting code and technical assistance.</li>
 </ul>
 </div></section>
 <section class="career-section" id="career-section-5" aria-labelledby="career-heading-5"><h2 id="career-heading-5">Education</h2><div class="career-section-body">
