@@ -1,4 +1,4 @@
-const categoryIds = new Set(['platform', 'data', 'research', 'collaboration']);
+const categoryIds = new Set(['platform', 'data', 'research', 'competition', 'collaboration']);
 
 export function safeDecodeHash(hash) {
   const raw = String(hash || '').replace(/^#/, '');
