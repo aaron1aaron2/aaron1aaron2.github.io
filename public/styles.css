@@ -122,15 +122,15 @@ footer a{display:inline-flex;align-items:center;min-height:44px}.browse .section
 .home-simple h1 span{font-size:1.25rem;font-weight:500;color:var(--muted);margin-left:.5rem;white-space:nowrap}
 .home-simple .profile-role{font-size:.95rem;color:var(--muted);margin-bottom:1.25rem}
 .home-simple p{font-size:1rem;line-height:1.8;margin-bottom:.8rem}
-.home-simple .profile-section{padding:1.8rem 0;border-top:1px solid var(--line)}
-.home-simple h2{font-size:1.2rem;line-height:1.4;margin:0 0 1.3rem;font-weight:650}
-.home-simple h3{font-size:1rem;line-height:1.6;margin:0 0 .3rem;font-weight:650}
+.home-simple .profile-section{padding:2.2rem 0;border-top:1px solid var(--line)}
+.home-simple h2{font-size:1.45rem;line-height:1.4;margin:0 0 1.5rem;font-weight:700}
+.home-simple h3{font-size:1.08rem;line-height:1.6;margin:0 0 .3rem;font-weight:650}
 .home-simple h3 span{display:block;font-size:.94rem;font-weight:400;color:var(--muted)}
 .home-simple .profile-record{display:grid;grid-template-columns:150px minmax(0,1fr);gap:1.3rem;margin-bottom:1.5rem}
 .home-simple .profile-record:last-child{margin-bottom:0}
 .home-simple .profile-date{font-size:.82rem;color:var(--muted);margin:.2rem 0}
 .home-simple .profile-record p:last-child,.home-simple .profile-project p{margin-bottom:0}
-.home-simple .profile-project{margin-bottom:1.3rem}
+.home-simple .profile-project{margin-bottom:1.8rem}
 .home-simple .profile-project h3 a{display:inline-block;padding:.15rem 0}
 .home-simple .profile-project p{color:var(--muted);font-size:.94rem}
 .home-simple .profile-more{margin:1.5rem 0 0;font-size:.9rem}
@@ -241,3 +241,9 @@ footer a{display:inline-flex;align-items:center;min-height:44px}.browse .section
 .home-simple .profile-competitions{margin-top:2.2rem;padding-top:1.4rem;border-top:1px solid var(--line)}
 .competition-context{margin:1rem 0;padding:.8rem 0;border-block:1px solid var(--line)}
 .competition-sources{font-size:.85rem}
+
+/* Keep section, project, body and caption levels distinct. */
+.home-simple .profile-main p{text-wrap:pretty}
+.home-simple .profile-project p+p{margin-top:.85rem}
+.home-simple .profile-work-photo figcaption{font-size:.8rem;line-height:1.65;margin-top:.6rem;color:var(--muted)}
+@media(max-width:640px){.home-simple h2{font-size:1.3rem}.home-simple h3{font-size:1.05rem}}
