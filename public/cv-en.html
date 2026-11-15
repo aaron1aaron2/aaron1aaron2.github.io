@@ -18,148 +18,146 @@
 <main class="career-main" id="main" tabindex="-1">
 <div class="career-intro"><div><p class="career-kicker">AI Engineer · Public CV</p>
 <h1>Yen-Nan (Aaron) Ho</h1>
-<p class="career-summary">New Taipei City, Taiwan | Website: <a href="https://aaron1aaron2.github.io/">https://aaron1aaron2.github.io/</a></p>
+<p class="career-summary">New Taipei City, Taiwan | <a href="https://aaron1aaron2.github.io/">Portfolio</a> | <a href="https://github.com/aaron1aaron2">GitHub</a></p>
 <p class="career-summary">Email: <a href="mailto:hoyennan@gmail.com">hoyennan@gmail.com</a></p>
-<p class="career-summary"><strong>AI Engineer</strong></p>
+<p class="career-summary"><strong>AI Engineer | Industrial AI and Product Development</strong></p>
 </div><div class="career-actions"><div class="career-language" aria-label="Page language"><a href="cv.html" hreflang="zh-Hant" lang="zh-Hant">中文</a><a href="cv-en.html" hreflang="en" lang="en" aria-current="page">English</a></div><a class="career-download" href="downloads/Aaron_Ho_CV_en.pdf" download="Aaron_Ho_CV_en.pdf">Download PDF</a></div></div>
 <section class="career-section" id="career-section-1" aria-labelledby="career-heading-1"><h2 id="career-heading-1">Professional Summary</h2><div class="career-section-body">
-<p>Data Scientist at Harbor Tech focused on industrial AI products and customer delivery. Lead product/domain design for Harbor AI 2.0 monitoring and an equipment inspection project from requirements through on-site delivery. Combine data analysis, system integration, and AI-assisted engineering to turn diagnostic methods into usable, verifiable products.</p>
-<p>MCIENet, my M.S. thesis, is my most complete research case, spanning models, data pipelines, ablations, and cross-dataset evaluation. Other work includes passenger-flow estimation, financial text analysis, and person ReID.</p>
+<p>Data Scientist at Harbor Tech focused on industrial AI products and customer delivery. Lead product and domain design for Harbor AI 2.0 and an equipment quality inspection project from requirements and system development through on-site delivery. Combine data analysis, system integration, and model validation to turn analytical methods into usable, verifiable products.</p>
+<p>Independently led MCIENet, an M.S. thesis on DNA-sequence-based chromatin interaction prediction, including multi-scale CNNs, data pipelines, ablations, and cross-dataset evaluation. Additional work spans passenger-flow estimation, financial text analysis, and person re-identification.</p>
 </div></section>
 <section class="career-section" id="career-section-2" aria-labelledby="career-heading-2"><h2 id="career-heading-2">Technical Skills</h2><div class="career-section-body">
 <ul>
-<li><strong>Data Science and Industrial Diagnostics:</strong> Python, NumPy, pandas, SciPy, scikit-learn, PyTorch; vibration/PRPD, FFT/WAV, RUL, statistical tests/effect sizes, CNNs, ablations, XAI, and data-availability assessment.</li>
-<li><strong>AI and Reporting Systems:</strong> LangChain/LangGraph, vLLM, OpenAI-compatible APIs, deterministic analysis separated from LLM narrative, per-device isolation, fallbacks, and human validation.</li>
-<li><strong>Backend and Product:</strong> Django/Django Ninja, Pydantic, PostgreSQL, Redis, RabbitMQ, REST, asynchronous workflows, React/TypeScript.</li>
-<li><strong>Engineering and Delivery:</strong> Docker/Compose, offline/cross-architecture installation, update/rollback, migration, Git, automated tests, AI agents, and human release review.</li>
+<li><strong>Data analysis and industrial diagnostics:</strong> Python, NumPy, pandas, SciPy, scikit-learn, PyTorch; vibration, phase-resolved partial discharge (PRPD), FFT, WAV, remaining useful life (RUL), statistical tests and effect sizes, CNNs, ablation studies, and explainable AI (XAI).</li>
+<li><strong>AI and reporting systems:</strong> LangChain and LangGraph prototyping, diagnostic report integration, vLLM endpoint validation, OpenAI-compatible APIs, numerical analysis separated from LLM-generated explanations, per-device isolation, fallbacks, and human validation.</li>
+<li><strong>Backend and product:</strong> Django, Django Ninja, Pydantic, PostgreSQL, Redis, RabbitMQ, REST APIs, asynchronous workflows, React, TypeScript.</li>
+<li><strong>Engineering and delivery:</strong> Docker, Docker Compose, offline and cross-architecture installation, updates and rollback, migration, Git, automated tests, AI agents, and human release review.</li>
 </ul>
 </div></section>
 <section class="career-section" id="career-section-3" aria-labelledby="career-heading-3"><h2 id="career-heading-3">Work Experience</h2><div class="career-section-body">
-<article class="career-entry"><h3>Data Scientist, Harbor Tech | Taipei, Taiwan | Oct 2025–Present</h3>
-<p>Worked on two Harbor AI 2.0 products sharing a technical foundation: ongoing equipment monitoring/diagnostics and unit-by-unit end-of-line quality inspection. I lead product/domain and customer-delivery work; AI agents and engineering partners contribute implementation and verification as described below.</p>
-<h4>Industrial Intelligent Monitoring Platform: From Domain Workflows to an Independent Product</h4>
+<article class="career-entry"><h3>Harbor Tech | Data Scientist | Taipei, Taiwan | Oct 2025–Present</h3>
+<p>Lead product and domain design for Harbor AI 2.0 and customer requirements and delivery for equipment quality inspection, working with engineers and AI agents on implementation and verification. The products support ongoing equipment monitoring and unit-by-unit inspection, sharing parts of the technical foundation.</p>
+<h4>Industrial Monitoring Platform</h4>
 <ul>
-<li><strong>Product and operator workflows:</strong> Led product/domain design and built much of 2.0's functionality from scratch with the team. Translated vibration, PRPD, RUL, trends, and data quality into layered equipment/sensor status, event views, and operator workflows. Used a device-first reporting flow and connected multilingual interfaces, charts, mobile layouts, and live APIs.</li>
-<li><strong>Legacy-system evolution:</strong> Defined ownership of equipment data versus user settings during coexistence, protecting new settings from legacy synchronization. Advanced device-control transfer, event-source replacement, and auditable migration; stopped imports when sensor mappings were unclear and revalidated after corrections. Confirmed in October 2026 that 2.0 operates independently of 1.0; this does not imply every customer or dataset has migrated.</li>
-<li><strong>Analysis workflows:</strong> Collaborated with platform engineers on Django orchestration, defining APIs, data access, artifact-by-reference contracts, task lifecycles, and failure behavior. Integrated DB-authoritative per-sensor scheduling, manual triggers, batches, and history, choosing aggregate or WAV inputs by availability.</li>
-<li><strong>Edge data and control:</strong> Owned Gateway ingestion specifications and design validation across uploads, heartbeats, duplication, integrity, and capacity, handing server implementation to the responsible engineer. Also contributed server-side software-package distribution and RUL-to-threshold feedback across platform state/history and Gateway updates, keeping ingestion, migration, OTA, and threshold policies distinct.</li>
+<li><strong>Product and operator workflows:</strong> Lead product and domain design, building most capabilities from scratch with the team. Translate vibration, PRPD, RUL, trends, and data quality into equipment and sensor states, event views, and operator workflows; integrate device-first reporting, multilingual interfaces, charts, mobile layouts, and APIs.</li>
+<li><strong>Legacy-system evolution:</strong> Designed synchronization safeguards for equipment data and user settings to protect new settings from legacy overwrites. Advanced device-control transfer, event-source changes, and migration. Stop imports when sensor mappings are unclear and revalidate after corrections; 2.0 now operates independently of 1.0.</li>
+<li><strong>Analysis workflows and scheduling:</strong> Build Django asynchronous workflows, cross-service integration, and per-sensor scheduling, defining APIs, data access, file references, task lifecycles, and failure behavior. Persist schedules and execution states in the database and support manual triggers, batches, and history, selecting aggregate or WAV inputs by data availability.</li>
+<li><strong>Edge data and control:</strong> Owned Gateway ingestion specifications and design validation for batch uploads, heartbeats, duplicates, integrity, and capacity; handed implementation to the responsible engineer. Also contributed server-side software-package distribution and the flow from RUL recommendations to platform thresholds, history, and Gateway updates.</li>
 </ul>
-<h4>Equipment End-of-Line Quality Inspection Platform: Requirements, Operation, and On-Site Delivery</h4>
+<h4>Equipment Quality Inspection</h4>
 <ul>
-<li><strong>End-to-end responsibility:</strong> Led customer requirements, specifications, implementation, UI/UX improvement, and on-site delivery with agents and engineering partners. Defined unit/batch relationships, reference samples, multipoint measurement, interrupted orders, serial/work-order continuity, human review, and reports. Kept functional verification separate from on-site decision-threshold calibration.</li>
-<li><strong>Operator experience:</strong> The initial AI-generated UI met specifications but required five to six page levels and circular navigation. Reorganized daily work into plan-list, work-order, and board interfaces, integrating reports, review, and reference management or moving them into dialogs. Added focused primary actions, arrow/Enter controls, status cues, and sensor-disconnection reminders. DQA feedback was qualitative.</li>
-<li><strong>Measurement safeguards:</strong> Separated sensor-installation confirmation from measurement, using sensor IDs and installation diagrams as mandatory pre-measurement checks.</li>
-<li><strong>On-site judgment and fixes:</strong> Installed/demonstrated the system, trained users, and answered customer questions on October 12, 2026. Personally diagnosed a clock offset behind interrupted connections, executed the troubleshooting commands, and completed on-site and follow-up fixes. Claude supported discussion of symptoms and hypotheses. Clarified feedback for the team and explained operation and design choices to users.</li>
-<li><strong>Delivery status:</strong> Coordinated DQA, test versions, manuals, and acceptance records. The project remains ongoing; formal sign-off and final acceptance remain unconfirmed. My estimate of roughly 80% overall contribution covers the end-to-end work, not a measured code-authorship share.</li>
+<li><strong>Requirements and system design:</strong> Lead requirements, system development, operator workflows, and on-site delivery. Defined unit and measurement-batch relationships, reference samples, multipoint measurements, interrupted orders, serial and work-order continuity, human review, and reports; kept functional verification separate from on-site decision calibration.</li>
+<li><strong>Operator workflow redesign:</strong> Reorganized navigation requiring 5–6 levels and circular page transitions into three core interface types: plans, work orders, and dashboards. Integrated reports, review, and reference management; added focused primary actions, keyboard controls, status cues, and sensor-disconnection reminders. DQA provided positive qualitative feedback.</li>
+<li><strong>Measurement safeguards:</strong> Separated sensor-installation confirmation from measurement, using sensor IDs and installation diagrams as pre-measurement checks to prevent incorrect pairings.</li>
+<li><strong>On-site delivery and troubleshooting:</strong> Installed and demonstrated the system and trained users on October 12, 2026. Diagnosed a host clock offset behind connection interruptions and completed on-site and follow-up fixes; consolidated customer feedback and explained workflow and design changes to the team.</li>
+<li><strong>Delivery status:</strong> Coordinate DQA, test versions, manuals, and acceptance records. The project is ongoing; formal sign-off and final acceptance remain unconfirmed.</li>
 </ul>
-<h4>Models, Diagnostics, and Reports: Keeping Conclusions Tied to Data</h4>
+<h4>Industrial Analysis, Model Validation, and Diagnostic Reporting</h4>
 <ul>
-<li><strong>Assumption review:</strong> Traced RUL analysis to test constants treated as observations, rejected the conclusion, and required multi-parameter/multi-curve and forward/reverse ablations. Connected research notebooks to product code to check rapid-degradation misses, healthy-series false alarms, and implementation drift.</li>
-<li><strong>Diagnostic/output rules:</strong> Connected preprocessing, valid operating segments, fault classification, ISO severity, RUL, and reporting while keeping fault type, severity, and remaining time distinct. Reviewed sampling, coverage, selection bias, and denominators; explicitly degraded unavailable results and preserved engine outputs. Field lifetime ground truth and confidence calibration remain incomplete, so I do not claim RUL accuracy.</li>
-<li><strong>Report-service productization:</strong> Turned manually validated field reports into reusable methods and quality rules. Used a July LangChain/LangGraph POC to validate node contracts, device isolation, partial regeneration, and fallbacks. Deterministic nodes produced values/classes; LLMs organized narrative. Advanced service/platform integration in August and mainline DOCX/frontend downloads in September. Led methods and quality criteria with team/agent implementation and integration; deployment and customer acceptance are tracked per path.</li>
-<li><strong>Model-service interfaces:</strong> Validated live vLLM chat, embedding, and tool-calling capabilities, separating connectivity, functional, and semantic health checks. Endpoint availability is not evidence that every report path has switched providers.</li>
+<li><strong>PRPD metric provenance:</strong> Traced data from raw waveforms through analysis and charts, distinguishing sample-point counts from discrete discharge-event rates. Reviewed the physical meaning of frequency-band and phase aggregation and proposed metric and interface changes; candidate pulse-rate methods remain unvalidated.</li>
+<li><strong>RUL assumptions and experiments:</strong> Identified test constants treated as observations, rejected the resulting conclusion, and required multi-parameter, multi-curve, and forward/reverse ablations. Connected research notebooks to product code to check rapid-degradation misses, healthy-series false alarms, and implementation differences.</li>
+<li><strong>Diagnostic and output rules:</strong> Integrated preprocessing, valid operating segments, fault classification, ISO severity, RUL, and reporting while distinguishing fault type, severity, and remaining time. Reviewed sampling, coverage, selection bias, and denominators; degraded outputs when data was insufficient and retained analytical evidence. Field lifetime ground truth and confidence calibration remain to be established.</li>
+<li><strong>Report-service integration:</strong> Lead analytical methods, report structure, and quality criteria. Turned field reports into reusable workflows, using LangChain and LangGraph prototypes to validate node contracts, device isolation, partial regeneration, and fallbacks before integrating reporting with platform dispatch, DOCX reports, and downloads. Analysis nodes produce values and classifications; LLMs generate explanations.</li>
+<li><strong>Model-service validation:</strong> Validated vLLM chat, embedding, and tool-calling endpoints, checking connectivity, functionality, and semantic results to inform service integration.</li>
 </ul>
-<h4>AI-Assisted Engineering and Release Delivery: Making Parallel Work Traceable</h4>
+<h4>AI-Assisted Engineering and Release Delivery</h4>
 <ul>
-<li>Established shared requirements, analysis, decisions, issues, tests, and version records. Decomposed work, supplied persistent context/tools, and set verification/stop criteria; agents researched, implemented, repaired, and rechecked changes on isolated branches.</li>
-<li>Ran daily functional regression and monitoring, routing findings to issues and Bitbucket PRs. Reviewed data assumptions and product behavior with human reviewers before merge/release. Fed recurring problems into reusable rules and tests; no overall productivity multiplier or automatic-repair success rate has been measured.</li>
-<li>Integrated Docker/offline packages, cross-architecture installation, version information, and platform update/rollback. Separated update execution from platform downtime risk, with prechecks, progress, failure signals, and recovery. Used real-machine failures to improve write freezes, schema/constraint, storage, and restart checks.</li>
-<li>Refined delivery-package contents, excluded customer raw data, validated clean installations, and led release integration/readiness decisions. Migration checks covered fields, time zones, readability, and continuity; linked code, issues, versions, and manuals through VitePress.</li>
+<li><strong>Requirements and quality control:</strong> Own product tradeoffs, domain judgment, work decomposition, and validation criteria. Established traceable requirements, analysis, decisions, issues, tests, and versions, providing AI agents with persistent context and tools for parallel development and verification on isolated branches.</li>
+<li><strong>Regression and human review:</strong> Established daily functional regression and monitoring, routing findings to issue tracking and Bitbucket PRs. Review data assumptions and product behavior with human reviewers before merge and release decisions, turning recurring problems into rules and tests.</li>
+<li><strong>Installation, updates, and rollback:</strong> Integrated Docker and offline packages, cross-architecture installation, version information, and platform updates and rollback. Separated update execution from platform downtime risk and added prechecks, progress, failure signals, and recovery procedures; incorporated real-machine issues into schema, storage, and restart checks.</li>
+<li><strong>Release delivery:</strong> Refined package contents, excluded customer raw data, verified clean installations, and led release integration and readiness decisions. Checked fields, time zones, readability, and continuity during migration, and linked code, issues, versions, and manuals through VitePress.</li>
 </ul>
-<h4>Field Analysis, Technical Delivery, and Collaboration</h4>
+<h4>Field Analysis and Cross-Functional Collaboration</h4>
 <ul>
-<li>Aligned field/quality teams on DB, event, and WAV scope for semiconductor and large multi-sensor partial-discharge analysis. Used the full database to locate events, then retrieved corresponding waveforms for batch analysis, accumulated PRPD images, AI drafts, and page-by-page human review.</li>
-<li>Used max/P99 to distinguish sustained motor/pump severity from one-second spikes, checking operating segments, RUL basis, and VRMS variability. Later used minute medians, nonparametric tests, multiple-comparison correction, and effect sizes to reassess customer observations. Delivered the analysis and customer explanation; root cause still requires field speed, flow, and related information.</li>
-<li>Reconstructed legacy code, notebooks, and reports into traceable ADC-to-g, FFT, SNR, cutting-point, and frequency-domain workflows, delivering executables/manuals while protecting company algorithm IP.</li>
-<li>Designed offline research topics, learning material, and starter notebooks, reviewing data assumptions/direction through weekly reports; the intern retained authorship of their analysis. Also owned company-side technical drafting, version convergence, and interface/checkpoint alignment for a smart-city edge-platform proposal, which remained an unsubmitted draft.</li>
+<li><strong>Partial-discharge analysis:</strong> Aligned database, event, and waveform scope with field and quality teams. Located events before retrieving waveforms and combined batch analysis, PRPD charts, AI drafts, and page-by-page human review.</li>
+<li><strong>Motor and pump analysis:</strong> Used max and P99 to distinguish sustained severity from transient spikes, checking operating intervals, RUL assumptions, and VRMS variation. Reassessed customer observations with minute medians, nonparametric tests, multiple-comparison correction, and effect sizes. Delivered the analysis and customer explanation; root-cause determination still requires field speed, flow, and related data.</li>
+<li><strong>Legacy analysis reconstruction:</strong> Reconstructed traceable ADC-to-g, FFT, SNR, cutting-point, and frequency-domain workflows from historical code, notebooks, and reports. Delivered executables and manuals while protecting company algorithm IP.</li>
+<li><strong>Research collaboration and technical proposals:</strong> Designed research topics, materials, and starter notebooks for an intern, reviewing data assumptions and direction through weekly reports. Also owned company-side technical documents, version integration, and cross-company interfaces and checkpoints for a smart-city edge-platform proposal, which remained an unsubmitted draft.</li>
 </ul>
 </article>
-<article class="career-entry"><h3>Data Science Intern, Institute of Sociology, Academia Sinica | Taipei, Taiwan | May 2019–Dec 2020</h3>
+<article class="career-entry"><h3>Institute of Sociology, Academia Sinica | Data Science Intern | Taipei, Taiwan | May 2019–Dec 2020</h3>
 <ul>
-<li>Combined official sample addresses, point-to-point/fallback distances, survey-area grouping, OR-Tools TSP, and Folium for TSCS field routes, dispersion allowances, and budget estimates.</li>
-<li>Used Selenium, multiprocessing, Tor multi-port routing, and Folium for distance collection and GIS outputs as the project's contemporary technical approach.</li>
+<li>Built field-survey routing and cost-estimation workflows from sampled addresses, pairwise and fallback distances, and survey-area grouping. Used OR-Tools TSP and Folium to support routes, dispersion allowances, and budget estimates.</li>
+<li>Used Python, Selenium, multiprocessing, and Tor multi-port routing for distance collection, GIS maps, and analytical outputs.</li>
 </ul>
 </article>
 </div></section>
 <section class="career-section" id="career-section-4" aria-labelledby="career-heading-4"><h2 id="career-heading-4">Representative Research and Projects</h2><div class="career-section-body">
 <article class="career-entry"><h3>MCIENet | M.S. Thesis, 2024</h3>
 <ul>
-<li>Predicted 3D chromatin interactions/CTCF loops from DNA sequences using multi-scale CNN/Inception architecture, examining signals from different receptive fields.</li>
-<li>Independently led research decomposition, model and data-pipeline integration, experiment design/execution, ablations, cross-dataset evaluation, XAI, thesis writing, and reproducible repository engineering.</li>
-<li>Used BaseCNN comparisons, sequence-length settings, and ablation configurations to examine design choices. Retained DeepLIFT, ChINN/DNABERT2 comparison entry points, and shared split configurations for traceability. Findings are limited to completed experiments; comparison entry points and shared configurations were retained for further reproduction.</li>
-<li>Treated dataset, positional, and resolution differences as generalization checks, retaining cross-cell-line limitations. Adapted parts of positive/negative preprocessing from ChINN and distinguished that prior work from my model, experimental, and engineering contributions.</li>
+<li>Predicted 3D chromatin interactions and CTCF loops from DNA sequences using multi-scale CNN and Inception architectures to examine signals at different receptive fields.</li>
+<li>Independently led problem decomposition, model and data pipelines, experiment design and execution, ablations, cross-dataset evaluation, explainability, thesis writing, and reproducible code organization.</li>
+<li>Used BaseCNN comparisons, sequence lengths, and ablation configurations to examine design choices. Retained DeepLIFT, ChINN, and DNABERT2 comparison entry points and shared data splits, distinguishing completed experiments from configurations awaiting reproduction.</li>
+<li>Examined dataset, positional, and resolution differences as generalization conditions and identified cross-cell-type limitations; adapted parts of positive/negative preprocessing from ChINN.</li>
 </ul>
 </article>
 <article class="career-entry"><h3>Financial-Text Sentiment Analysis | TCSE Research, 2020</h3>
 <ul>
 <li>Studied stock-article sentiment using a Hierarchical Attention Network and sentiment lexicons. The work began with an approved undergraduate research grant and led to a TCSE publication.</li>
-<li>Performed all research work for the study; the paper was coauthored, so this scope does not imply sole authorship.</li>
-<li>Early repeated model changes yielded limited improvement. Gradually added data and parameter comparisons, retaining comparison conditions and experimental results as the basis for decisions.</li>
+<li>Owned problem definition, data processing, model development, and experiments; coauthored the paper.</li>
+<li>Progressed from initial model changes to data and parameter comparisons, using recorded conditions and experimental results to support model selection.</li>
 </ul>
 </article>
 <article class="career-entry"><h3>Dynamic Embedding for Passenger-Flow Estimation | IIAI AAI Research, 2021</h3>
 <ul>
-<li>Explored dynamic embedding for passenger-flow estimation. Responsible for method ideation, data processing, model construction, and experiment execution.</li>
-<li>Used data and parameter comparisons to examine model choices. The research received an IIAI AAI Competitive Paper Award; publication credit remains shared.</li>
+<li>Owned method ideation, data processing, model development, and experiments, exploring dynamic embedding for passenger-flow estimation.</li>
+<li>Used data and parameter comparisons to examine model choices; coauthored the research, which received an IIAI AAI Competitive Paper Award.</li>
 </ul>
 </article>
-<article class="career-entry"><h3>Research Experiment Practices Developed Over Time | 2020–2024</h3>
+<article class="career-entry"><h3>Research Experiment Practices | 2020–2024</h3>
 <ul>
-<li>Progressed from repeated model changes with limited improvement toward data and parameter comparisons, then more complete ablation design and parameter-adjustment logic in the MCIENet thesis.</li>
-<li>Used Shell to organize parallel experiments under limited GPU resources, including running two parameter configurations on one GPU with separate logs and checkpoints.</li>
-<li>Saved preprocessed data as H5, used early stopping, and first sampled three parameter values to inspect the curve before deciding how to adjust the search.</li>
-<li>Developed these practices across the 2020 sentiment study, 2021 passenger-flow study, PropGMAN, and MCIENet, with different levels of use in each project. This does not imply an identical complete pipeline across all projects or a measured overall speedup.</li>
+<li>Used Shell to coordinate parallel experiments under limited GPU resources, including two parameter configurations on one GPU with separate logs and checkpoints.</li>
+<li>Saved preprocessed data as H5, used early stopping, and sampled three parameter values to inspect the curve before adjusting the search.</li>
+<li>Developed these practices across financial-text analysis, passenger-flow estimation, PropGMAN, and MCIENet, expanding ablation design and cross-dataset evaluation in MCIENet.</li>
 </ul>
 </article>
 <article class="career-entry"><h3>Dynamic Traffic Network Representation | KBS Collaborative Research, 2024</h3>
 <ul>
-<li>Coauthored research on dynamic traffic network representation for passenger-flow prediction. My actual contribution was primarily supporting code and technical assistance.</li>
+<li>Coauthored research on dynamic traffic networks and passenger-flow prediction, providing code and technical support.</li>
 </ul>
 </article>
 <article class="career-entry"><h3>Horus Human Identification System | Undergraduate Capstone, 2020</h3>
 <ul>
-<li>The team integrated multi-object tracking, person re-identification, and face recognition into a multi-camera identification and tracking system.</li>
-<li>Primarily owned ReID feature-extraction integration, folder sampling/matching, cosine similarity, dual-threshold decisions, and tracking-record queue orchestration.</li>
-<li>Integrated the third-party FastReID base model with the team’s MOT and face-recognition modules. The team won first place in Soochow University's undergraduate capstone competition.</li>
+<li>The team combined multi-object tracking, person re-identification, and face recognition into a multi-camera tracking and identification system.</li>
+<li>Owned ReID feature integration, folder sampling and matching, cosine similarity, dual-threshold decisions, and tracking-record queues, using the third-party FastReID base model within the team system.</li>
+<li>The team won first place in Soochow University's undergraduate capstone competition.</li>
 </ul>
 </article>
 <article class="career-entry"><h3>PropGMAN Asset Activation | Team Project, 2022</h3>
 <ul>
-<li>In a three-person team, applied spatiotemporal modeling to property-transaction records to predict regional land prices and transaction volumes for asset-activation analysis.</li>
-<li>Proposed the project direction, led team coordination and division of work, and handled model implementation, experiments, and the final-round report. Retained preprocessing, model settings, experimental results, and reproduction instructions. The base GMAN method used an existing third-party research implementation. The team received a Creative Award in the AI for Asset Activation Innovation Contest.</li>
+<li>A three-person team used property-transaction records for spatiotemporal modeling of regional land prices and transaction volumes to support asset-activation analysis.</li>
+<li>Proposed the direction, led team coordination, and owned model implementation, experiments, and the final presentation. Built on an existing third-party GMAN implementation and retained data preparation, model settings, results, and reproduction instructions. The team received a Creative Award in the AI for Asset Activation Innovation Contest.</li>
 </ul>
 </article>
 </div></section>
 <section class="career-section" id="career-section-5" aria-labelledby="career-heading-5"><h2 id="career-heading-5">Additional Independent Projects</h2><div class="career-section-body">
-<article class="career-entry"><h3>Dynamic Bus Route and Schedule Planning | Project period to be confirmed</h3>
+<article class="career-entry"><h3>Dynamic Bus Route and Schedule Planning</h3>
 <ul>
-<li>Integrated tourism demand, Google Trends, Popular Times, attraction locations, and travel distances for route and schedule planning in eastern Taiwan. Built demand-allocation and distance-matrix workflows, explored OR-Tools TSP routes, and visualized routes and schedules with Folium, Gantt, and Sankey views.</li>
-<li>This was an exploratory independent project, separate from the Academia Sinica survey-routing work. The project period remains unconfirmed; no transit-operator adoption or operational outcome is claimed.</li>
+<li>Integrated tourism demand, Google Trends, Popular Times, attraction locations, and travel distances in eastern Taiwan. Built demand-allocation and distance-matrix workflows, explored OR-Tools TSP routes, and used Folium, Gantt, and Sankey views for routes, schedules, and demand flows.</li>
+<li>This exploratory independent project focused on demand modeling, route planning, and visualization, separate from Academia Sinica survey routing; operational outcomes remain unvalidated.</li>
 </ul>
 </article>
 </div></section>
 <section class="career-section" id="career-section-6" aria-labelledby="career-heading-6"><h2 id="career-heading-6">Additional Team Projects</h2><div class="career-section-body">
 <ul>
-<li><strong>Distributed Spark Crawler/Recovery, 2022:</strong> An NCCU distributed-systems course team connected collection, missing-data detection, Spark-based imputation, a database, and dashboards to demonstrate recovery from collection failures. I owned the Spark cluster, GitHub work, and demo video, and contributed system integration.</li>
-<li><strong>Financial Recommendation and Automated Notifications (E.SUN Fugle), 2020:</strong> Proposed the topic direction and led team coordination and division of work. Primarily designed, implemented, and deployed the Telegram chatbot, integrating modules from teammates into one entry point. The team used item-based, user-based, and co-occurrence recommendation approaches; I offered algorithm ideas and suggestions rather than implementing every algorithm myself. The team received an Excellence Award in a financial-programming course competition.</li>
-<li><strong>Taipei Disaster Resource Dashboard, 2025:</strong> Proposed the topic and collected data for a team analysis of disaster-prevention resources around tourist attractions. The team reached the Taipei–New Taipei City Dashboard Hackathon finals. The public dashboard is based on a fork of a friend’s template, with team and template credit retained.</li>
-</ul>
-<ul>
-<li><strong>TownPass Authorized Assistance Proposal (2026):</strong> Owned topic ideation, use-case definition, and product specifications, and presented in the final round. The team reached the finals of the 2026 TownPass Microservices Hackathon. Specifications covered delegation scope, user flows, data permissions, API contracts, and acceptance criteria; the final presentation described a single-case simulated workflow requiring the applicant’s confirmation.</li>
+<li><strong>Distributed Spark Crawler/Recovery, 2022:</strong> The team combined collection, missing-data detection, Spark-based imputation, a database, and dashboards to demonstrate recovery from collection failures. Owned the Spark cluster, GitHub collaboration, and demo video, and contributed system integration.</li>
+<li><strong>Financial Recommendation and Automated Notifications (E.SUN Fugle), 2020:</strong> Proposed the topic and led team coordination. Owned Telegram chatbot architecture, implementation, and deployment, integrating teammates' modules into one entry point; also contributed recommendation-algorithm ideas. The team received an Excellence Award in a financial-programming course competition.</li>
+<li><strong>Taipei Disaster Resource Dashboard, 2025:</strong> Developed the disaster-prevention topic, defined specifications, and presented the proposal for a team analysis of resources around tourist attractions; the team reached the Taipei–New Taipei City Dashboard Hackathon finals.</li>
+<li><strong>TownPass Authorized Assistance Proposal, 2026:</strong> Owned the proposal topic, use cases, specifications, and final-round presentation. Specifications covered delegation scope, user flows, data permissions, APIs, and acceptance criteria; the final demonstration used a single-case simulated submission requiring applicant confirmation. The team reached the TownPass Microservices Hackathon finals.</li>
 </ul>
 </div></section>
 <section class="career-section" id="career-section-7" aria-labelledby="career-heading-7"><h2 id="career-heading-7">Research and Publications</h2><div class="career-section-body">
 <ul>
-<li>Dynamic traffic network representation model for improving the prediction performance of passenger flow. <em>Knowledge-Based Systems</em>, 2024. Primarily contributed supporting code and technical assistance.</li>
-<li>A Dynamic Embedding Method for Passenger Flow Estimation. IIAI AAI, 2021. Responsible for method ideation, data processing, model construction, and experiments. Competitive Paper Award.</li>
-<li>Hierarchical Attention Network with Sentiment Lexicons for Stock Article Emotion Analysis. TCSE, 2020. Performed all research work; the paper was coauthored. Preceded by an approved undergraduate research grant.</li>
+<li>Dynamic traffic network representation model for improving the prediction performance of passenger flow. <em>Knowledge-Based Systems</em>, 2024. Coauthor providing code and technical support.</li>
+<li>A Dynamic Embedding Method for Passenger Flow Estimation. IIAI AAI, 2021. Responsible for method ideation, data processing, model development, and experiments; Competitive Paper Award.</li>
+<li>Hierarchical Attention Network with Sentiment Lexicons for Stock Article Emotion Analysis. TCSE, 2020. Responsible for problem definition, data processing, modeling, and experiments; coauthored the paper. Preceded by an approved undergraduate research grant.</li>
 <li>MCIENet: Multi-scale CNN-based Information Extraction from DNA Sequences for 3D Chromatin Interactions Prediction. M.S. thesis, 2024.</li>
 </ul>
 </div></section>
 <section class="career-section" id="career-section-8" aria-labelledby="career-heading-8"><h2 id="career-heading-8">Education</h2><div class="career-section-body">
 <ul>
-<li>National Chengchi University, M.S. in Computer Science | Sep 2021–Sep 2024.</li>
-<li>Soochow University, B.S. in Data Science | Sep 2017–Jul 2021.</li>
+<li>National Chengchi University | M.S., Computer Science | Sep 2021–Sep 2024</li>
+<li>Soochow University | B.S., Data Science | Sep 2017–Jul 2021</li>
 </ul>
 </div></section>
 <section class="career-section" id="career-section-9" aria-labelledby="career-heading-9"><h2 id="career-heading-9">Recognition</h2><div class="career-section-body">
