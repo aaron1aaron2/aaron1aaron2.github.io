@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 650" role="img" aria-labelledby="title desc" lang="en">
+<title id="title">Survey grouping, distance modeling and route outputs</title><desc id="desc">No real addresses are shown; the historical coefficient was not validated against actual road distance. Solid arrows show process or data flow; dashed arrows show review, conditions or feedback.</desc>
+<defs><marker id="survey-route-en" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
+<rect width="1040" height="650" fill="#fff"/>
+<g font-family="Arial,Microsoft JhengHei,sans-serif">
+<text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">Survey grouping, distance modeling and route outputs</tspan></text>
+<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">Solid: data / process  ·  Dashed: review / feedback</tspan></text>
+<path d="M40 103H1000" stroke="#ccd5da"/>
+<path d="M290 215H395" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#survey-route-en)"/>
+<path d="M645 215H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#survey-route-en)"/>
+<path d="M520 385V285" fill="none" stroke="#526773" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#survey-route-en)"/>
+<path d="M875 270V385" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#survey-route-en)"/>
+<rect x="40" y="160" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="55" y="202.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">Survey addresses</tspan></text>
+<text x="55" y="234.76" fill="#52636d" font-size="19"><tspan x="55" dy="0">Group by district and</tspan><tspan x="55" dy="24.32">interviewer</tspan></text>
+<rect x="395" y="160" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="410" y="202.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="410" dy="0">Distance matrix</tspan></text>
+<text x="410" y="234.76" fill="#52636d" font-size="19"><tspan x="410" dy="0">Pairwise distances and</tspan><tspan x="410" dy="24.32">missing-value rules</tspan></text>
+<rect x="750" y="160" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="765" y="203.06" fill="#172e3b" font-size="21.5" font-weight="600"><tspan x="765" dy="0">TSP per survey area</tspan></text>
+<text x="765" y="234.58" fill="#52636d" font-size="18.5"><tspan x="765" dy="0">Visit order with</tspan><tspan x="765" dy="23.68">OR-Tools</tspan></text>
+<rect x="395" y="385" width="250" height="125" rx="3" fill="#fff" stroke="#8c6b37" stroke-width="2"/>
+<text x="410" y="417.42" fill="#71572b" font-size="19.5" font-weight="600"><tspan x="410" dy="0">Missing-distance</tspan><tspan x="410" dy="24.96">estimate</tspan></text>
+<text x="410" y="471.34" fill="#52636d" font-size="16.5"><tspan x="410" dy="0">Historical rule: 1.5 ×</tspan><tspan x="410" dy="21.12">straight-line distance</tspan></text>
+<rect x="750" y="385" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="765" y="417.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="765" dy="0">Maps and dispersion</tspan><tspan x="765" dy="24.96">metrics</tspan></text>
+<text x="765" y="471.34" fill="#52636d" font-size="16.5"><tspan x="765" dy="0">Route, total and average</tspan><tspan x="765" dy="21.12">distance</tspan></text>
+<rect x="531" y="328" width="139.36000000000004" height="23.48" fill="#fff"/>
+<text x="535" y="345" fill="#52636d" font-size="16"><tspan x="535" dy="0">Complete matrix</tspan></text>
+<path d="M40 588H1000" stroke="#e0e5e8"/>
+<text x="40" y="612" fill="#52636d" font-size="17"><tspan x="40" dy="0">No real addresses are shown; the historical coefficient was not validated against actual road distance.</tspan></text>
+</g></svg>

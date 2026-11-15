@@ -1,16 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" role="img" aria-labelledby="title desc">
-<title id="title">設備出廠檢測流程：工作關係示意</title>
-<desc id="desc">設備出廠檢測流程：需求規格、系統實作、UI/UX、現場交付 的概念關係。已進行現場交付、示範與教育訓練；正式驗收結論另行確認。本人主導的端到端客戶專案流程示意。非部署架構、客戶畫面或效能證據。</desc>
-<defs><marker id="arrow-equipment-inspection" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#88aa9a"/></marker></defs>
-<rect width="640" height="320" rx="18" fill="#faf9f4"/>
-<rect x="1" y="1" width="638" height="318" rx="17" fill="none" stroke="#cbd9cf" stroke-width="2"/>
-<g opacity=".65"><path d="M34 244h99v-38h94v-36h90v-38h86v-39h180" fill="none" stroke="#dce6dc" stroke-width="2"/></g>
-<path d="M120.0 171.0 Q159.5 171.0 199.0 171.0" fill="none" stroke="#88aa9a" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow-equipment-inspection)"/>
-<path d="M277.0 171.0 Q317.0 171.0 357.0 171.0" fill="none" stroke="#88aa9a" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow-equipment-inspection)"/>
-<path d="M435.0 171.0 Q475.0 171.0 515.0 171.0" fill="none" stroke="#88aa9a" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow-equipment-inspection)"/>
-<g transform="translate(82 171)"><path d="M-22-29h31l14 14v46h-45zM9-29v14h14" fill="#fff" stroke="#155b55" stroke-width="2"/><path d="M-12-2h23M-12 9h23M-12 20h14" stroke="#88aa9a" stroke-width="2.5" stroke-linecap="round"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">需求規格</text></g>
-<g transform="translate(239 171)"><path d="m-9-18-17 18 17 18M9-18 26 0 9 18M5-26-5 26" fill="none" stroke="#155b55" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">系統實作</text></g>
-<g transform="translate(397 171)"><circle cx="-13" cy="-12" r="10" fill="#e1eee5" stroke="#155b55" stroke-width="2"/><circle cx="16" cy="-9" r="9" fill="#e1eee5" stroke="#155b55" stroke-width="2"/><path d="M-33 28c2-19 10-25 20-25s19 7 20 25M5 26c2-15 8-21 17-21s15 8 16 21" fill="none" stroke="#155b55" stroke-width="2.5" stroke-linecap="round"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">UI/UX</text></g>
-<g transform="translate(555 171)"><path d="M0-32 32 0 0 32-32 0Z" fill="#e1eee5" stroke="#155b55" stroke-width="2"/><path d="m-13 0 9 9 18-21" fill="none" stroke="#bd7851" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">現場交付</text></g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 690" role="img" aria-labelledby="title desc" lang="zh-Hant">
+<title id="title">出廠檢測的操作與判定流程</title><desc id="desc">核心介面為計畫、工單與看板；門檻需現場校準，正式驗收待確認。 實線表示資料或處理流程；虛線表示審查、條件或回饋。</desc>
+<defs><marker id="equipment-inspection-zh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
+<rect width="1040" height="690" fill="#fff"/>
+<g font-family="Arial,Microsoft JhengHei,sans-serif">
+<text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">出廠檢測的操作與判定流程</tspan></text>
+<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">實線：資料／處理流程　　虛線：審查／回饋</tspan></text>
+<path d="M40 103H1000" stroke="#ccd5da"/>
+<path d="M290 210H395" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#equipment-inspection-zh)"/>
+<path d="M645 210H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#equipment-inspection-zh)"/>
+<path d="M875 265V380" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#equipment-inspection-zh)"/>
+<path d="M750 435H645" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#equipment-inspection-zh)"/>
+<path d="M395 435H290" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#equipment-inspection-zh)"/>
+<path d="M520 490V550H345V310H520V280" fill="none" stroke="#526773" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#equipment-inspection-zh)"/>
+<rect x="40" y="155" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="55" y="209.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">檢測計畫</tspan></text>
+<text x="55" y="241.92" fill="#52636d" font-size="19"><tspan x="55" dy="0">受測件、測點、良品基準</tspan></text>
+<rect x="395" y="155" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="410" y="209.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="410" dy="0">工單與量測批次</tspan></text>
+<text x="410" y="241.92" fill="#52636d" font-size="19"><tspan x="410" dy="0">治具與受測件分開追溯</tspan></text>
+<rect x="750" y="155" width="250" height="125" rx="3" fill="#fff" stroke="#8c6b37" stroke-width="2"/>
+<text x="765" y="209.76" fill="#71572b" font-size="22" font-weight="600"><tspan x="765" dy="0">感測器安裝檢核</tspan></text>
+<text x="765" y="241.92" fill="#52636d" font-size="19"><tspan x="765" dy="0">編號、位置與脫落提醒</tspan></text>
+<rect x="750" y="380" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="765" y="434.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="765" dy="0">正式量測</tspan></text>
+<text x="765" y="466.92" fill="#52636d" font-size="19"><tspan x="765" dy="0">確認完成後才開始量測</tspan></text>
+<rect x="395" y="380" width="250" height="125" rx="3" fill="#fff" stroke="#8c6b37" stroke-width="2"/>
+<text x="410" y="434.76" fill="#71572b" font-size="22" font-weight="600"><tspan x="410" dy="0">比較與品質判定</tspan></text>
+<text x="410" y="466.92" fill="#52636d" font-size="19"><tspan x="410" dy="0">基準比對、門檻與複核</tspan></text>
+<rect x="40" y="380" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="55" y="434.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">看板與報告</tspan></text>
+<text x="55" y="466.92" fill="#52636d" font-size="19"><tspan x="55" dy="0">逐件結果、狀態與留存</tspan></text>
+<rect x="886" y="318" width="76" height="23.48" fill="#fff"/>
+<text x="890" y="335" fill="#52636d" font-size="16"><tspan x="890" dy="0">檢核通過</tspan></text>
+<rect x="351" y="323" width="76" height="23.48" fill="#fff"/>
+<text x="355" y="340" fill="#52636d" font-size="16"><tspan x="355" dy="0">需要複測</tspan></text>
+<path d="M40 628H1000" stroke="#e0e5e8"/>
+<text x="40" y="652" fill="#52636d" font-size="17"><tspan x="40" dy="0">核心介面為計畫、工單與看板；門檻需現場校準，正式驗收待確認。</tspan></text>
+</g></svg>

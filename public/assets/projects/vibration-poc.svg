@@ -1,17 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" role="img" aria-labelledby="title desc">
-<title id="title">設備振動分析驗證：工作關係示意</title>
-<desc id="desc">設備振動分析驗證：場域資料、資料限制、振動診斷、POC 判斷 的概念關係。場域可行性驗證。正式導入與驗收仍需另查。非部署架構、客戶畫面或效能證據。</desc>
-<defs><marker id="arrow-vibration-poc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#88aa9a"/></marker></defs>
-<rect width="640" height="320" rx="18" fill="#faf9f4"/>
-<rect x="1" y="1" width="638" height="318" rx="17" fill="none" stroke="#cbd9cf" stroke-width="2"/>
-<g opacity=".65"><path d="M29 188h52l23-52 29 105 35-122 22 72h63" fill="none" stroke="#dce6dc" stroke-width="2"/><path d="M381 110h205M381 132h165M381 154h190" fill="none" stroke="#dce6dc" stroke-width="2"/></g>
-<path d="M123.5 151.5 Q185.6 127.9 247.6 104.2" fill="none" stroke="#88aa9a" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow-vibration-poc)"/>
-<path d="M125.2 172.6 Q185.5 184.8 245.8 197.0" fill="none" stroke="#88aa9a" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow-vibration-poc)"/>
-<path d="M321.5 100.7 Q411.5 127.2 501.6 153.7" fill="none" stroke="#88aa9a" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow-vibration-poc)"/>
-<path d="M322.5 199.1 Q411.5 185.2 500.5 171.2" fill="none" stroke="#88aa9a" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow-vibration-poc)"/>
-<g transform="translate(88 165)"><path d="M-31 3h10l8-20 11 42 10-52 10 31h13" fill="none" stroke="#bd7851" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">場域資料</text></g>
-<g transform="translate(285 90)"><path d="M0-32 32 0 0 32-32 0Z" fill="#e1eee5" stroke="#155b55" stroke-width="2"/><path d="m-13 0 9 9 18-21" fill="none" stroke="#bd7851" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">資料限制</text></g>
-<g transform="translate(285 205)"><circle r="30" fill="#e1eee5" stroke="#155b55" stroke-width="2"/><circle r="17" fill="none" stroke="#155b55" stroke-width="2.5"/><circle r="5" fill="#bd7851"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">振動診斷</text></g>
-<g transform="translate(540 165)"><circle cx="-6" cy="-5" r="20" fill="#e1eee5" stroke="#155b55" stroke-width="3"/><path d="m9 12 20 20" stroke="#bd7851" stroke-width="5" stroke-linecap="round"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">POC 判斷</text></g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 650" role="img" aria-labelledby="title desc" lang="zh-Hant">
+<title id="title">場域振動分析的驗證路徑</title><desc id="desc">成果為場域可行性驗證與報告方法；部署及正式驗收另行確認。 實線表示資料或處理流程；虛線表示審查、條件或回饋。</desc>
+<defs><marker id="vibration-poc-zh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
+<rect width="1040" height="650" fill="#fff"/>
+<g font-family="Arial,Microsoft JhengHei,sans-serif">
+<text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">場域振動分析的驗證路徑</tspan></text>
+<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">實線：資料／處理流程　　虛線：審查／回饋</tspan></text>
+<path d="M40 103H1000" stroke="#ccd5da"/>
+<path d="M290 230H395" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#vibration-poc-zh)"/>
+<path d="M645 230H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#vibration-poc-zh)"/>
+<path d="M520 290V350H345V415" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#vibration-poc-zh)"/>
+<path d="M875 290V415" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#vibration-poc-zh)"/>
+<path d="M475 472H650" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#vibration-poc-zh)"/>
+<rect x="40" y="170" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="55" y="224.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">場域資料</tspan></text>
+<text x="55" y="256.91999999999996" fill="#52636d" font-size="19"><tspan x="55" dy="0">設備資訊、原始波形</tspan></text>
+<rect x="395" y="170" width="250" height="125" rx="3" fill="#fff" stroke="#8c6b37" stroke-width="2"/>
+<text x="410" y="224.76" fill="#71572b" font-size="22" font-weight="600"><tspan x="410" dy="0">資料充分性檢查</tspan></text>
+<text x="410" y="256.91999999999996" fill="#52636d" font-size="19"><tspan x="410" dy="0">前處理、運轉覆蓋、信心</tspan></text>
+<rect x="750" y="170" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="765" y="224.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="765" dy="0">整合診斷報告</tspan></text>
+<text x="765" y="256.91999999999996" fill="#52636d" font-size="19"><tspan x="765" dy="0">型態、嚴重度、時間與限制</tspan></text>
+<rect x="215" y="415" width="260" height="125" rx="3" fill="#fff" stroke="#8c6b37" stroke-width="2"/>
+<text x="230" y="469.76" fill="#71572b" font-size="22" font-weight="600"><tspan x="230" dy="0">限制記錄</tspan></text>
+<text x="230" y="501.92" fill="#52636d" font-size="19"><tspan x="230" dy="0">缺資料時保留或停止結論</tspan></text>
+<rect x="650" y="415" width="300" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="665" y="469.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="665" dy="0">可重跑節點與產物</tspan></text>
+<text x="665" y="501.92" fill="#52636d" font-size="19"><tspan x="665" dy="0">局部重跑、品質條件、服務銜接</tspan></text>
+<rect x="656" y="128" width="108" height="23.48" fill="#fff"/>
+<text x="660" y="145" fill="#52636d" font-size="16"><tspan x="660" dy="0">符合品質條件</tspan></text>
+<rect x="351" y="358" width="44" height="23.48" fill="#fff"/>
+<text x="355" y="375" fill="#52636d" font-size="16"><tspan x="355" dy="0">不足</tspan></text>
+<rect x="491" y="438" width="76" height="23.48" fill="#fff"/>
+<text x="495" y="455" fill="#52636d" font-size="16"><tspan x="495" dy="0">保留限制</tspan></text>
+<path d="M40 588H1000" stroke="#e0e5e8"/>
+<text x="40" y="612" fill="#52636d" font-size="17"><tspan x="40" dy="0">成果為場域可行性驗證與報告方法；部署及正式驗收另行確認。</tspan></text>
+</g></svg>

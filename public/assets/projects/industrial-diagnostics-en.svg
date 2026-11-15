@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 680" role="img" aria-labelledby="title desc" lang="en">
+<title id="title">Layered diagnostics and data sufficiency</title><desc id="desc">Pattern, severity and lifetime answer different questions; time-bin sampling remains a research comparison. Solid arrows show process or data flow; dashed arrows show review, conditions or feedback.</desc>
+<defs><marker id="industrial-diagnostics-en" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
+<rect width="1040" height="680" fill="#fff"/>
+<g font-family="Arial,Microsoft JhengHei,sans-serif">
+<text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">Layered diagnostics and data sufficiency</tspan></text>
+<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">Solid: data / process  ·  Dashed: review / feedback</tspan></text>
+<path d="M40 103H1000" stroke="#ccd5da"/>
+<path d="M290 205H395" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#industrial-diagnostics-en)"/>
+<path d="M645 205H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#industrial-diagnostics-en)"/>
+<path d="M520 260V325H145V385" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#industrial-diagnostics-en)"/>
+<path d="M250 442H295" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#industrial-diagnostics-en)"/>
+<path d="M505 442H550" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#industrial-diagnostics-en)"/>
+<path d="M760 442H805" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#industrial-diagnostics-en)"/>
+<rect x="40" y="150" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="55" y="182.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="55" dy="0">Equipment context and</tspan><tspan x="55" dy="24.96">data</tspan></text>
+<text x="55" y="236.34" fill="#52636d" font-size="16.5"><tspan x="55" dy="0">Sampling, operating state</tspan><tspan x="55" dy="21.12">and coverage</tspan></text>
+<rect x="395" y="150" width="250" height="125" rx="3" fill="#fff" stroke="#8c6b37" stroke-width="2"/>
+<text x="410" y="193.98" fill="#71572b" font-size="20.5" font-weight="600"><tspan x="410" dy="0">Sufficient evidence?</tspan></text>
+<text x="410" y="224.22" fill="#52636d" font-size="17.5"><tspan x="410" dy="0">Check coverage and</tspan><tspan x="410" dy="22.400000000000002">confidence per layer</tspan></text>
+<rect x="750" y="150" width="250" height="125" rx="3" fill="#fff" stroke="#8c6b37" stroke-width="2"/>
+<text x="765" y="182.42" fill="#71572b" font-size="19.5" font-weight="600"><tspan x="765" dy="0">Limit or stop</tspan><tspan x="765" dy="24.96">inference</tspan></text>
+<text x="765" y="236.34" fill="#52636d" font-size="16.5"><tspan x="765" dy="0">State the supported level</tspan><tspan x="765" dy="21.12">of inference</tspan></text>
+<rect x="40" y="385" width="210" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="55" y="417.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="55" dy="0">Operating</tspan><tspan x="55" dy="24.96">intervals</tspan></text>
+<text x="55" y="471.34" fill="#52636d" font-size="16.5"><tspan x="55" dy="0">Define the analysis</tspan><tspan x="55" dy="21.12">denominator</tspan></text>
+<rect x="295" y="385" width="210" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="310" y="417.78" fill="#172e3b" font-size="20.5" font-weight="600"><tspan x="310" dy="0">Fault pattern</tspan></text>
+<text x="310" y="448.02" fill="#52636d" font-size="17.5"><tspan x="310" dy="0">Classification and</tspan><tspan x="310" dy="22.400000000000002">signal</tspan><tspan x="310" dy="22.400000000000002">interpretation</tspan></text>
+<rect x="550" y="385" width="210" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="565" y="428.52" fill="#172e3b" font-size="21" font-weight="600"><tspan x="565" dy="0">Severity</tspan></text>
+<text x="565" y="459.4" fill="#52636d" font-size="18"><tspan x="565" dy="0">ISO criteria and</tspan><tspan x="565" dy="23.04">severity assessment</tspan></text>
+<rect x="805" y="385" width="195" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="820" y="417.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="820" dy="0">Time</tspan><tspan x="820" dy="24.96">extrapolation</tspan></text>
+<text x="820" y="471.34" fill="#52636d" font-size="16.5"><tspan x="820" dy="0">RUL and its</tspan><tspan x="820" dy="21.12">assumptions</tspan></text>
+<rect x="671" y="120" width="116.00000000000003" height="23.48" fill="#fff"/>
+<text x="675" y="137" fill="#52636d" font-size="16"><tspan x="675" dy="0">Insufficient</tspan></text>
+<rect x="156" y="338" width="219.99999999999994" height="23.48" fill="#fff"/>
+<text x="160" y="355" fill="#52636d" font-size="16"><tspan x="160" dy="0">Proceed only as supported</tspan></text>
+<path d="M40 618H1000" stroke="#e0e5e8"/>
+<text x="40" y="642" fill="#52636d" font-size="17"><tspan x="40" dy="0">Pattern, severity and lifetime answer different questions; time-bin sampling remains a research comparison.</tspan></text>
+</g></svg>

@@ -1,16 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" role="img" aria-labelledby="title desc">
-<title id="title">訪區路線與離散分析：工作關係示意</title>
-<desc id="desc">訪區路線與離散分析：地址點、點間距離、路線規劃、離散估算 的概念關係。實習期間的分析與規劃實作。地址、距離與路線支持訪查規劃。非部署架構、客戶畫面或效能證據。</desc>
-<defs><marker id="arrow-survey-route" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#88aa9a"/></marker></defs>
-<rect width="640" height="320" rx="18" fill="#faf9f4"/>
-<rect x="1" y="1" width="638" height="318" rx="17" fill="none" stroke="#cbd9cf" stroke-width="2"/>
-<g opacity=".65"><path d="M42 99C123 134 92 260 194 254S314 95 406 126 502 255 596 225" fill="none" stroke="#d6e3d7" stroke-width="4" stroke-dasharray="6 8"/><circle cx="55" cy="105" r="5" fill="#c9ddd0"/><circle cx="584" cy="227" r="5" fill="#c9ddd0"/></g>
-<path d="M116.3 121.5 Q143.7 176.7 205.0 182.4" fill="none" stroke="#88aa9a" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow-survey-route)"/>
-<path d="M269.6 183.9 Q299.0 128.1 361.8 122.2" fill="none" stroke="#88aa9a" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow-survey-route)"/>
-<path d="M426.3 121.5 Q453.7 176.7 515.0 182.4" fill="none" stroke="#88aa9a" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow-survey-route)"/>
-<g transform="translate(85 100)"><path d="M0 32C-8 20-26 1-26-12a26 26 0 0 1 52 0C26 1 8 20 0 32Z" fill="#e1eee5" stroke="#155b55" stroke-width="2"/><circle cy="-11" r="8" fill="#bd7851"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">地址點</text></g>
-<g transform="translate(238 205)"><path d="M-30 19c10-30 17-30 25-13S10 24 27-21" fill="none" stroke="#155b55" stroke-width="3" stroke-linecap="round"/><circle cx="-30" cy="19" r="5" fill="#bd7851"/><circle cx="27" cy="-21" r="5" fill="#bd7851"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">點間距離</text></g>
-<g transform="translate(395 100)"><path d="M-28 11 0-25 26 12 0 27Z" fill="#e1eee5" stroke="#155b55" stroke-width="2"/><circle cx="-28" cy="11" r="5" fill="#bd7851"/><circle cy="-25" r="5" fill="#bd7851"/><circle cx="26" cy="12" r="5" fill="#bd7851"/><circle cy="27" r="5" fill="#bd7851"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">路線規劃</text></g>
-<g transform="translate(548 205)"><path d="M-26 26v-25h12v25M-6 26v-50H6v50M14 26v-36h12v36" fill="#e1eee5" stroke="#155b55" stroke-width="2" stroke-linejoin="round"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">離散估算</text></g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 650" role="img" aria-labelledby="title desc" lang="zh-Hant">
+<title id="title">訪區分組、距離建模與路線輸出</title><desc id="desc">不展示真實地址；估計係數未證明已校準到實際道路距離。 實線表示資料或處理流程；虛線表示審查、條件或回饋。</desc>
+<defs><marker id="survey-route-zh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
+<rect width="1040" height="650" fill="#fff"/>
+<g font-family="Arial,Microsoft JhengHei,sans-serif">
+<text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">訪區分組、距離建模與路線輸出</tspan></text>
+<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">實線：資料／處理流程　　虛線：審查／回饋</tspan></text>
+<path d="M40 103H1000" stroke="#ccd5da"/>
+<path d="M290 215H395" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#survey-route-zh)"/>
+<path d="M645 215H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#survey-route-zh)"/>
+<path d="M520 385V285" fill="none" stroke="#526773" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#survey-route-zh)"/>
+<path d="M875 270V385" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#survey-route-zh)"/>
+<rect x="40" y="160" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="55" y="214.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">訪區地址</tspan></text>
+<text x="55" y="246.92" fill="#52636d" font-size="19"><tspan x="55" dy="0">依鄉鎮與訪員分組</tspan></text>
+<rect x="395" y="160" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="410" y="214.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="410" dy="0">距離矩陣</tspan></text>
+<text x="410" y="246.92" fill="#52636d" font-size="19"><tspan x="410" dy="0">點間距離與缺值規則</tspan></text>
+<rect x="750" y="160" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="765" y="214.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="765" dy="0">分區 TSP 求解</tspan></text>
+<text x="765" y="246.92" fill="#52636d" font-size="19"><tspan x="765" dy="0">OR-Tools 拜訪順序</tspan></text>
+<rect x="395" y="385" width="250" height="125" rx="3" fill="#fff" stroke="#8c6b37" stroke-width="2"/>
+<text x="410" y="439.76" fill="#71572b" font-size="22" font-weight="600"><tspan x="410" dy="0">缺路程的估計</tspan></text>
+<text x="410" y="471.92" fill="#52636d" font-size="19"><tspan x="410" dy="0">當時採 1.5 倍直線距離</tspan></text>
+<rect x="750" y="385" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="765" y="439.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="765" dy="0">地圖與離散指標</tspan></text>
+<text x="765" y="471.92" fill="#52636d" font-size="19"><tspan x="765" dy="0">路線、總距離與平均距離</tspan></text>
+<rect x="531" y="328" width="76" height="23.48" fill="#fff"/>
+<text x="535" y="345" fill="#52636d" font-size="16"><tspan x="535" dy="0">補齊矩陣</tspan></text>
+<path d="M40 588H1000" stroke="#e0e5e8"/>
+<text x="40" y="612" fill="#52636d" font-size="17"><tspan x="40" dy="0">不展示真實地址；估計係數未證明已校準到實際道路距離。</tspan></text>
+</g></svg>

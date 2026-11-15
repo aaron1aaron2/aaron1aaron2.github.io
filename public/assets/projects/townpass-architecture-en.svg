@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 855" role="img" aria-labelledby="title desc" lang="en">
+<title id="title">TownPass: simulated collaboration architecture</title><desc id="desc">Redrawn from final-presentation materials; formal identity, government filing and provider booking APIs are not integrated. Solid arrows show process or data flow; dashed arrows show review, conditions or feedback.</desc>
+<defs><marker id="townpass-architecture-en" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
+<rect width="1040" height="855" fill="#fff"/>
+<g font-family="Arial,Microsoft JhengHei,sans-serif">
+<text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">TownPass: simulated collaboration architecture</tspan></text>
+<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">Solid: data / process  ·  Dashed: review / feedback</tspan></text>
+<path d="M40 103H1000" stroke="#ccd5da"/>
+<rect x="20" y="285" width="1000" height="490" fill="#f7f9fa" stroke="#d4dde1" stroke-dasharray="5 5"/>
+<text x="34" y="310" fill="#526773" font-size="17" font-weight="600"><tspan x="34" dy="0">Final presentation: single GCP VM</tspan></text>
+<path d="M290 190H395" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#townpass-architecture-en)"/>
+<path d="M750 190H645" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#townpass-architecture-en)"/>
+<path d="M520 240V325" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#townpass-architecture-en)"/>
+<path d="M520 410V485" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#townpass-architecture-en)"/>
+<path d="M395 540H185V630" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#townpass-architecture-en)"/>
+<path d="M645 540H855V630" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#townpass-architecture-en)"/>
+<rect x="40" y="140" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="55" y="183.06" fill="#172e3b" font-size="21.5" font-weight="600"><tspan x="55" dy="0">Applicant interface</tspan></text>
+<text x="55" y="214.58" fill="#52636d" font-size="18.5"><tspan x="55" dy="0">City-service WebView</tspan><tspan x="55" dy="23.68">or browser</tspan></text>
+<rect x="750" y="140" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="765" y="182.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="765" dy="0">Helper interface</tspan></text>
+<text x="765" y="214.76" fill="#52636d" font-size="19"><tspan x="765" dy="0">City-service WebView</tspan><tspan x="765" dy="24.32">or browser</tspan></text>
+<rect x="395" y="140" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="410" y="182.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="410" dy="0">Vue 3 · TypeScript</tspan></text>
+<text x="410" y="214.76" fill="#52636d" font-size="19"><tspan x="410" dy="0">Applicant and helper</tspan><tspan x="410" dy="24.32">views</tspan></text>
+<rect x="395" y="325" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="410" y="367.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="410" dy="0">Caddy</tspan></text>
+<text x="410" y="399.76000000000005" fill="#52636d" font-size="19"><tspan x="410" dy="0">HTTPS and same-origin</tspan><tspan x="410" dy="24.32">API</tspan></text>
+<rect x="395" y="485" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="410" y="527.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="410" dy="0">Node.js · Express</tspan></text>
+<text x="410" y="559.76" fill="#52636d" font-size="19"><tspan x="410" dy="0">Session, grant, case,</tspan><tspan x="410" dy="24.32">confirmation, submit</tspan></text>
+<rect x="40" y="630" width="290" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="55" y="672.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">SQLite</tspan></text>
+<text x="55" y="704.76" fill="#52636d" font-size="19"><tspan x="55" dy="0">Cases, revisions, receipts</tspan><tspan x="55" dy="24.32">and audit log</tspan></text>
+<rect x="710" y="630" width="290" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="725" y="670.68" fill="#172e3b" font-size="22" font-weight="600"><tspan x="725" dy="0">Private attachment</tspan><tspan x="725" dy="28.16">directory</tspan></text>
+<text x="725" y="730.9999999999999" fill="#52636d" font-size="19"><tspan x="725" dy="0">Same host as the service</tspan></text>
+<path d="M40 793H1000" stroke="#e0e5e8"/>
+<text x="40" y="817" fill="#52636d" font-size="17"><tspan x="40" dy="0">Redrawn from final-presentation materials; formal identity, government filing and provider booking APIs are</tspan><tspan x="40" dy="21.76">not integrated.</tspan></text>
+</g></svg>

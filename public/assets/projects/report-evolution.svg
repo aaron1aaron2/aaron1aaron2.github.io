@@ -1,16 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" role="img" aria-labelledby="title desc">
-<title id="title">診斷報告系統演進：工作關係示意</title>
-<desc id="desc">診斷報告系統演進：診斷方法、LangGraph、報告服務、前端下載 的概念關係。七月 POC → 八月服務 → 九月下載主線。部署與客戶驗收另待核實。非部署架構、客戶畫面或效能證據。</desc>
-<defs><marker id="arrow-report-evolution" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#88aa9a"/></marker></defs>
-<rect width="640" height="320" rx="18" fill="#faf9f4"/>
-<rect x="1" y="1" width="638" height="318" rx="17" fill="none" stroke="#cbd9cf" stroke-width="2"/>
-<g opacity=".65"><path d="M34 244h99v-38h94v-36h90v-38h86v-39h180" fill="none" stroke="#dce6dc" stroke-width="2"/></g>
-<path d="M120.0 171.0 Q159.5 171.0 199.0 171.0" fill="none" stroke="#88aa9a" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow-report-evolution)"/>
-<path d="M277.0 171.0 Q317.0 171.0 357.0 171.0" fill="none" stroke="#88aa9a" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow-report-evolution)"/>
-<path d="M435.0 171.0 Q475.0 171.0 515.0 171.0" fill="none" stroke="#88aa9a" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow-report-evolution)"/>
-<g transform="translate(82 171)"><path d="M-31 3h10l8-20 11 42 10-52 10 31h13" fill="none" stroke="#bd7851" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">診斷方法</text></g>
-<g transform="translate(239 171)"><path d="m-9-18-17 18 17 18M9-18 26 0 9 18M5-26-5 26" fill="none" stroke="#155b55" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">LangGraph</text></g>
-<g transform="translate(397 171)"><circle r="29" fill="#e1eee5" stroke="#155b55" stroke-width="2"/><circle r="12" fill="none" stroke="#155b55" stroke-width="3"/><path d="M0-23v-10M0 23v10M-23 0h-10M23 0h10M-17-17l-7-7M17 17l7 7" stroke="#155b55" stroke-width="3"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">報告服務</text></g>
-<g transform="translate(555 171)"><path d="M-22-29h31l14 14v46h-45zM9-29v14h14" fill="#fff" stroke="#155b55" stroke-width="2"/><path d="M-12-2h23M-12 9h23M-12 20h14" stroke="#88aa9a" stroke-width="2.5" stroke-linecap="round"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">前端下載</text></g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 765" role="img" aria-labelledby="title desc" lang="zh-Hant">
+<title id="title">診斷計算與報告交付</title><desc id="desc">多設備與局部重產屬原型驗證；不推定完整圖編排已部署。 實線表示資料或處理流程；虛線表示審查、條件或回饋。</desc>
+<defs><marker id="report-evolution-zh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
+<rect width="1040" height="765" fill="#fff"/>
+<g font-family="Arial,Microsoft JhengHei,sans-serif">
+<text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">診斷計算與報告交付</tspan></text>
+<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">實線：資料／處理流程　　虛線：審查／回饋</tspan></text>
+<path d="M40 103H1000" stroke="#ccd5da"/>
+<rect x="20" y="112" width="1000" height="365" fill="#f7f9fa" stroke="#d4dde1" stroke-dasharray="5 5"/>
+<text x="34" y="137" fill="#526773" font-size="17" font-weight="600"><tspan x="34" dy="0">七月：LangGraph 原型驗證</tspan></text>
+<path d="M270 207H405" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#report-evolution-zh)"/>
+<path d="M635 207H770" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#report-evolution-zh)"/>
+<path d="M520 265V335" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#report-evolution-zh)"/>
+<path d="M885 265V392H635" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#report-evolution-zh)"/>
+<path d="M520 450V495H340V540" fill="none" stroke="#526773" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#report-evolution-zh)"/>
+<path d="M470 590H660" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#report-evolution-zh)"/>
+<rect x="40" y="150" width="230" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="55" y="192.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">設備與觀測資料</tspan></text>
+<text x="55" y="224.76" fill="#52636d" font-size="19"><tspan x="55" dy="0">基本資訊、波形、品質條</tspan><tspan x="55" dy="24.32">件</tspan></text>
+<rect x="405" y="150" width="230" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="420" y="204.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="420" dy="0">確定性診斷</tspan></text>
+<text x="420" y="236.92" fill="#52636d" font-size="19"><tspan x="420" dy="0">數值與分類可測試</tspan></text>
+<rect x="770" y="150" width="230" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="785" y="204.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="785" dy="0">LLM 報告敘事</tspan></text>
+<text x="785" y="236.92" fill="#52636d" font-size="19"><tspan x="785" dy="0">依結構化事實組織文字</tspan></text>
+<rect x="405" y="335" width="230" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="420" y="389.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="420" dy="0">中間產物與品質</tspan></text>
+<text x="420" y="421.92" fill="#52636d" font-size="19"><tspan x="420" dy="0">缺資料降級、局部重跑</tspan></text>
+<rect x="210" y="540" width="260" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="225" y="594.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="225" dy="0">報告服務與平台派工</tspan></text>
+<text x="225" y="626.92" fill="#52636d" font-size="19"><tspan x="225" dy="0">八月：服務與平台整合</tspan></text>
+<rect x="660" y="540" width="260" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="675" y="594.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="675" dy="0">範本與下載</tspan></text>
+<text x="675" y="626.92" fill="#52636d" font-size="19"><tspan x="675" dy="0">九月：DOCX 與前端下載</tspan></text>
+<rect x="661" y="168" width="92" height="23.48" fill="#fff"/>
+<text x="665" y="185" fill="#52636d" font-size="16"><tspan x="665" dy="0">結構化事實</tspan></text>
+<rect x="536" y="483" width="108" height="23.48" fill="#fff"/>
+<text x="540" y="500" fill="#52636d" font-size="16"><tspan x="540" dy="0">分階段服務化</tspan></text>
+<path d="M40 703H1000" stroke="#e0e5e8"/>
+<text x="40" y="727" fill="#52636d" font-size="17"><tspan x="40" dy="0">多設備與局部重產屬原型驗證；不推定完整圖編排已部署。</tspan></text>
+</g></svg>

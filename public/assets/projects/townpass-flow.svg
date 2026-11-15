@@ -1,1 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 605" role="img" aria-labelledby="title desc"><title id="title">託你辦協作流程</title><desc id="desc">本人建案、代辦準備、本人確認或退回，然後模擬送出。</desc><rect width="1200" height="605" fill="#f6f4ee"/><style>text{font-family:'Microsoft JhengHei',sans-serif;fill:#253b34}.title{font-size:32px;font-weight:700}.label{font-size:24px;font-weight:700}.body{font-size:21px}.note{font-size:18px;fill:#536960}.box{fill:#fff;stroke:#8ca499;stroke-width:2}.arrow{fill:none;stroke:#46745e;stroke-width:3;marker-end:url(#a)}</style><defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10" fill="none" stroke="#46745e" stroke-width="1.5"/></marker></defs><text class="title" x="48" y="55">一次案件，兩個角色，最後確認留給本人</text><text class="note" x="48" y="94">決賽流程示意；畫面與名額、回執為模擬</text><rect class="box" x="48" y="150" width="250" height="132" rx="10"/><text class="label" x="70" y="188">01 本人建立案件</text><text class="body" x="70" y="222">分享短效接手連結</text><path class="arrow" d="M301 216h31"/><rect class="box" x="338" y="150" width="250" height="132" rx="10"/><text class="label" x="360" y="188">02 代辦領取並準備</text><text class="body" x="360" y="222">填寫內容及範例附件</text><path class="arrow" d="M591 216h31"/><rect class="box" x="628" y="150" width="250" height="132" rx="10"/><text class="label" x="650" y="188">03 本人查看摘要</text><text class="body" x="650" y="222">確認，或退回修改</text><path class="arrow" d="M881 216h31"/><rect class="box" x="918" y="150" width="250" height="132" rx="10"/><text class="label" x="940" y="188">04 代辦模擬送出</text><text class="body" x="940" y="222">兩端查看同一份回執</text><path class="arrow" d="M750 285V355H460V287"/><text class="body" x="475" y="390">退回或修改內容 → 舊確認失效 → 再次確認</text><rect x="48" y="440" width="1104" height="115" rx="10" fill="#e7eee8"/><text class="label" x="72" y="481">本人可查看紀錄，並停止後續協助</text><text class="body" x="72" y="521">停止不會自動撤回已提交內容；送出重試以同一案件與回執處理</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 770" role="img" aria-labelledby="title desc" lang="zh-Hant">
+<title id="title">託你辦：準備、確認與模擬送出</title><desc id="desc">決賽範圍：單次、一案、一位代辦；停止後續權限不等於取消既有提交。 實線表示資料或處理流程；虛線表示審查、條件或回饋。</desc>
+<defs><marker id="townpass-flow-zh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
+<rect width="1040" height="770" fill="#fff"/>
+<g font-family="Arial,Microsoft JhengHei,sans-serif">
+<text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">託你辦：準備、確認與模擬送出</tspan></text>
+<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">實線：資料／處理流程　　虛線：審查／回饋</tspan></text>
+<path d="M40 103H1000" stroke="#ccd5da"/>
+<rect x="20" y="145" width="285" height="480" fill="#f7f9fa" stroke="#d4dde1" stroke-dasharray="5 5"/>
+<text x="34" y="170" fill="#526773" font-size="17" font-weight="600"><tspan x="34" dy="0">代辦權限</tspan></text>
+<rect x="375" y="145" width="285" height="480" fill="#f7f9fa" stroke="#d4dde1" stroke-dasharray="5 5"/>
+<text x="389" y="170" fill="#526773" font-size="17" font-weight="600"><tspan x="389" dy="0">本人決定權</tspan></text>
+<rect x="730" y="145" width="290" height="480" fill="#f7f9fa" stroke="#d4dde1" stroke-dasharray="5 5"/>
+<text x="744" y="170" fill="#526773" font-size="17" font-weight="600"><tspan x="744" dy="0">模擬提交</tspan></text>
+<path d="M290 247H395" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#townpass-flow-zh)"/>
+<path d="M645 247H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#townpass-flow-zh)"/>
+<path d="M875 305V445" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#townpass-flow-zh)"/>
+<path d="M520 305V445" fill="none" stroke="#526773" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#townpass-flow-zh)"/>
+<path d="M395 502H165V315" fill="none" stroke="#526773" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#townpass-flow-zh)"/>
+<rect x="40" y="190" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="55" y="244.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">代辦準備資料</tspan></text>
+<text x="55" y="276.91999999999996" fill="#52636d" font-size="19"><tspan x="55" dy="0">填寫資料與整理附件</tspan></text>
+<rect x="395" y="190" width="250" height="125" rx="3" fill="#fff" stroke="#8c6b37" stroke-width="2"/>
+<text x="410" y="244.76" fill="#71572b" font-size="22" font-weight="600"><tspan x="410" dy="0">本人檢視與確認</tspan></text>
+<text x="410" y="276.91999999999996" fill="#52636d" font-size="19"><tspan x="410" dy="0">確認綁定案件 revision</tspan></text>
+<rect x="750" y="190" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="765" y="232.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="765" dy="0">代辦模擬送出</tspan></text>
+<text x="765" y="264.76" fill="#52636d" font-size="19"><tspan x="765" dy="0">idempotency key 避免重</tspan><tspan x="765" dy="24.32">複</tspan></text>
+<rect x="395" y="445" width="250" height="125" rx="3" fill="#fff" stroke="#8c6b37" stroke-width="2"/>
+<text x="410" y="487.6" fill="#71572b" font-size="22" font-weight="600"><tspan x="410" dy="0">修改後重新確認</tspan></text>
+<text x="410" y="519.76" fill="#52636d" font-size="19"><tspan x="410" dy="0">表單或附件變更使舊確認</tspan><tspan x="410" dy="24.32">失效</tspan></text>
+<rect x="750" y="445" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="765" y="499.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="765" dy="0">同一筆回執</tspan></text>
+<text x="765" y="531.9200000000001" fill="#52636d" font-size="19"><tspan x="765" dy="0">重試回到同一提交結果</tspan></text>
+<rect x="661" y="213" width="60" height="23.48" fill="#fff"/>
+<text x="665" y="230" fill="#52636d" font-size="16"><tspan x="665" dy="0">已確認</tspan></text>
+<rect x="531" y="368" width="76" height="23.48" fill="#fff"/>
+<text x="535" y="385" fill="#52636d" font-size="16"><tspan x="535" dy="0">需要修改</tspan></text>
+<rect x="176" y="388" width="76" height="23.48" fill="#fff"/>
+<text x="180" y="405" fill="#52636d" font-size="16"><tspan x="180" dy="0">重新準備</tspan></text>
+<path d="M40 708H1000" stroke="#e0e5e8"/>
+<text x="40" y="732" fill="#52636d" font-size="17"><tspan x="40" dy="0">決賽範圍：單次、一案、一位代辦；停止後續權限不等於取消既有提交。</tspan></text>
+</g></svg>

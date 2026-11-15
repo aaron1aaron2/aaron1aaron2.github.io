@@ -247,3 +247,9 @@ footer a{display:inline-flex;align-items:center;min-height:44px}.browse .section
 .home-simple .profile-project p+p{margin-top:.85rem}
 .home-simple .profile-work-photo figcaption{font-size:.8rem;line-height:1.65;margin-top:.6rem;color:var(--muted)}
 @media(max-width:640px){.home-simple h2{font-size:1.3rem}.home-simple h3{font-size:1.05rem}}
+
+/* One language control on every page; all primary links retain the chosen language. */
+.topline{flex-wrap:wrap;gap:.6rem 1.2rem}.site-languages{display:flex;align-items:center;gap:.25rem;margin-left:auto;font-size:.85rem}.site-languages a{display:inline-flex;align-items:center;justify-content:center;min-width:48px;min-height:44px;padding:0 .55rem;text-decoration:none}.site-languages a[aria-current="page"]{font-weight:700;border-bottom:2px solid var(--accent)}
+html[lang="en"]{hyphens:none}html[lang="en"] .nav{gap:1.2rem}html[lang="en"] h1,html[lang="en"] h2,html[lang="en"] h3{text-wrap:balance}.case-visual img[src$=".svg"],.project-figure img[src$=".svg"]{background:#fff;border:1px solid #dce3e7;border-radius:3px}
+@media(max-width:640px){.topline{column-gap:.6rem}.topline .brand{flex:1}.topline>.nav{order:3;flex-basis:100%;justify-content:space-between;gap:.3rem}.site-languages{margin-left:auto}.case-visual:has(img[src$=".svg"]){margin-inline:0}}
+@media print{.site-languages{display:none}}
