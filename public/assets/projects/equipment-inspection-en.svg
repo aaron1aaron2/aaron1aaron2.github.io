@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 690" role="img" aria-labelledby="title desc" lang="en">
+<title id="title">End-of-line inspection workflow</title><desc id="desc">Plan, work order and dashboard are the three core interface types; threshold calibration and acceptance remain separate. Solid arrows show process or data flow; dashed arrows show review, conditions or feedback.</desc>
+<defs><marker id="equipment-inspection-en" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
+<rect width="1040" height="690" fill="#fff"/>
+<g font-family="Arial,Microsoft JhengHei,sans-serif">
+<text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">End-of-line inspection workflow</tspan></text>
+<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">Solid: data / process  ·  Dashed: review / feedback</tspan></text>
+<path d="M40 103H1000" stroke="#ccd5da"/>
+<path d="M290 210H395" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#equipment-inspection-en)"/>
+<path d="M645 210H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#equipment-inspection-en)"/>
+<path d="M875 265V380" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#equipment-inspection-en)"/>
+<path d="M750 435H645" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#equipment-inspection-en)"/>
+<path d="M395 435H290" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#equipment-inspection-en)"/>
+<path d="M520 490V550H345V310H520V280" fill="none" stroke="#526773" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#equipment-inspection-en)"/>
+<rect x="40" y="155" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="55" y="197.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">Inspection plan</tspan></text>
+<text x="55" y="229.76" fill="#52636d" font-size="19"><tspan x="55" dy="0">Test items, points and</tspan><tspan x="55" dy="24.32">reference baseline</tspan></text>
+<rect x="395" y="155" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="410" y="198.52" fill="#172e3b" font-size="21" font-weight="600"><tspan x="410" dy="0">Work order and batch</tspan></text>
+<text x="410" y="229.4" fill="#52636d" font-size="18"><tspan x="410" dy="0">Track fixture and test</tspan><tspan x="410" dy="23.04">item separately</tspan></text>
+<rect x="750" y="155" width="250" height="125" rx="3" fill="#fff" stroke="#8c6b37" stroke-width="2"/>
+<text x="765" y="187.42" fill="#71572b" font-size="19.5" font-weight="600"><tspan x="765" dy="0">Sensor installation</tspan><tspan x="765" dy="24.96">check</tspan></text>
+<text x="765" y="241.34" fill="#52636d" font-size="16.5"><tspan x="765" dy="0">Sensor ID, position and</tspan><tspan x="765" dy="21.12">detachment alerts</tspan></text>
+<rect x="750" y="380" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="765" y="412.78" fill="#172e3b" font-size="20.5" font-weight="600"><tspan x="765" dy="0">Measurement</tspan></text>
+<text x="765" y="443.02" fill="#52636d" font-size="17.5"><tspan x="765" dy="0">Start after</tspan><tspan x="765" dy="22.400000000000002">installation</tspan><tspan x="765" dy="22.400000000000002">confirmation</tspan></text>
+<rect x="395" y="380" width="250" height="125" rx="3" fill="#fff" stroke="#8c6b37" stroke-width="2"/>
+<text x="410" y="412.42" fill="#71572b" font-size="19.5" font-weight="600"><tspan x="410" dy="0">Comparison and</tspan><tspan x="410" dy="24.96">assessment</tspan></text>
+<text x="410" y="466.34" fill="#52636d" font-size="16.5"><tspan x="410" dy="0">Baseline, thresholds and</tspan><tspan x="410" dy="21.12">review</tspan></text>
+<rect x="40" y="380" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="55" y="424.9" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="55" dy="0">Dashboard and reports</tspan></text>
+<text x="55" y="453.85999999999996" fill="#52636d" font-size="16.5"><tspan x="55" dy="0">Per-item results, status</tspan><tspan x="55" dy="21.12">and records</tspan></text>
+<rect x="886" y="318" width="122.40000000000002" height="23.48" fill="#fff"/>
+<text x="890" y="335" fill="#52636d" font-size="16"><tspan x="890" dy="0">Checks passed</tspan></text>
+<rect x="351" y="323" width="122.40000000000002" height="23.48" fill="#fff"/>
+<text x="355" y="340" fill="#52636d" font-size="16"><tspan x="355" dy="0">Retest needed</tspan></text>
+<path d="M40 628H1000" stroke="#e0e5e8"/>
+<text x="40" y="652" fill="#52636d" font-size="17"><tspan x="40" dy="0">Plan, work order and dashboard are the three core interface types; threshold calibration and acceptance remain</tspan><tspan x="40" dy="21.76">separate.</tspan></text>
+</g></svg>

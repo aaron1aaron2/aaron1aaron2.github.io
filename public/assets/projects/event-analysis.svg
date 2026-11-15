@@ -1,16 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" role="img" aria-labelledby="title desc">
-<title id="title">大規模設備事件分析：工作關係示意</title>
-<desc id="desc">大規模設備事件分析：事件窗口、訊號分析、批次處理、人工診斷 的概念關係。分析與工程師交接已有紀錄。人工診斷關卡，非全面自動判診。非部署架構、客戶畫面或效能證據。</desc>
-<defs><marker id="arrow-event-analysis" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#88aa9a"/></marker></defs>
-<rect width="640" height="320" rx="18" fill="#faf9f4"/>
-<rect x="1" y="1" width="638" height="318" rx="17" fill="none" stroke="#cbd9cf" stroke-width="2"/>
-<g opacity=".65"><path d="M25 219h65l20-31 20 52 25-91 22 61h59l21-28 20 26h83" fill="none" stroke="#dce6dc" stroke-width="2"/></g>
-<path d="M116.3 121.5 Q143.7 176.7 205.0 182.4" fill="none" stroke="#88aa9a" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow-event-analysis)"/>
-<path d="M269.6 183.9 Q299.0 128.1 361.8 122.2" fill="none" stroke="#88aa9a" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow-event-analysis)"/>
-<path d="M426.3 121.5 Q453.7 176.7 515.0 182.4" fill="none" stroke="#88aa9a" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow-event-analysis)"/>
-<g transform="translate(85 100)"><circle r="29" fill="#e1eee5" stroke="#155b55" stroke-width="2"/><path d="M0-16V1l14 9" fill="none" stroke="#155b55" stroke-width="3" stroke-linecap="round"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">事件窗口</text></g>
-<g transform="translate(238 205)"><path d="M-31 3h10l8-20 11 42 10-52 10 31h13" fill="none" stroke="#bd7851" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">訊號分析</text></g>
-<g transform="translate(395 100)"><rect x="-26" y="-25" width="45" height="42" rx="5" fill="#fff" stroke="#155b55" stroke-width="2"/><rect x="-20" y="-18" width="45" height="42" rx="5" fill="#e1eee5" stroke="#155b55" stroke-width="2"/><rect x="-13" y="-11" width="45" height="42" rx="5" fill="#fff" stroke="#155b55" stroke-width="2"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">批次處理</text></g>
-<g transform="translate(548 205)"><circle cx="-13" cy="-12" r="10" fill="#e1eee5" stroke="#155b55" stroke-width="2"/><circle cx="16" cy="-9" r="9" fill="#e1eee5" stroke="#155b55" stroke-width="2"/><path d="M-33 28c2-19 10-25 20-25s19 7 20 25M5 26c2-15 8-21 17-21s15 8 16 21" fill="none" stroke="#155b55" stroke-width="2.5" stroke-linecap="round"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">人工診斷</text></g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 680" role="img" aria-labelledby="title desc" lang="zh-Hant">
+<title id="title">事件選取、批次分析與人工判讀</title><desc id="desc">未選時段不視為已診斷；不能由選定事件推估全時段漏報率。 實線表示資料或處理流程；虛線表示審查、條件或回饋。</desc>
+<defs><marker id="event-analysis-zh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
+<rect width="1040" height="680" fill="#fff"/>
+<g font-family="Arial,Microsoft JhengHei,sans-serif">
+<text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">事件選取、批次分析與人工判讀</tspan></text>
+<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">實線：資料／處理流程　　虛線：審查／回饋</tspan></text>
+<path d="M40 103H1000" stroke="#ccd5da"/>
+<path d="M290 212H395" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#event-analysis-zh)"/>
+<path d="M645 212H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#event-analysis-zh)"/>
+<path d="M875 270V385" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#event-analysis-zh)"/>
+<path d="M750 442H645" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#event-analysis-zh)"/>
+<path d="M395 442H290" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#event-analysis-zh)"/>
+<rect x="40" y="155" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="55" y="209.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">完整事件資料庫</tspan></text>
+<text x="55" y="241.92" fill="#52636d" font-size="19"><tspan x="55" dy="0">保留事件歷史與時間索引</tspan></text>
+<rect x="395" y="155" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="410" y="209.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="410" dy="0">選定事件窗口</tspan></text>
+<text x="410" y="241.92" fill="#52636d" font-size="19"><tspan x="410" dy="0">按事件時間取回波形</tspan></text>
+<rect x="750" y="155" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="765" y="197.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="765" dy="0">批次分析管線</tspan></text>
+<text x="765" y="229.76" fill="#52636d" font-size="19"><tspan x="765" dy="0">工具調度、平行處理、合併</tspan><tspan x="765" dy="24.32">圖</tspan></text>
+<rect x="750" y="385" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="765" y="439.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="765" dy="0">圖表與說明初稿</tspan></text>
+<text x="765" y="471.92" fill="#52636d" font-size="19"><tspan x="765" dy="0">分析產物連回事件與資料</tspan></text>
+<rect x="395" y="385" width="250" height="125" rx="3" fill="#fff" stroke="#8c6b37" stroke-width="2"/>
+<text x="410" y="439.76" fill="#71572b" font-size="22" font-weight="600"><tspan x="410" dy="0">人工逐頁診斷</tspan></text>
+<text x="410" y="471.92" fill="#52636d" font-size="19"><tspan x="410" dy="0">檢查訊號、結論與 AI 文字</tspan></text>
+<rect x="40" y="385" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="55" y="427.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">報告與交接</tspan></text>
+<text x="55" y="459.76000000000005" fill="#52636d" font-size="19"><tspan x="55" dy="0">多輪報告、FAQ 與重跑規</tspan><tspan x="55" dy="24.32">則</tspan></text>
+<path d="M40 618H1000" stroke="#e0e5e8"/>
+<text x="40" y="642" fill="#52636d" font-size="17"><tspan x="40" dy="0">未選時段不視為已診斷；不能由選定事件推估全時段漏報率。</tspan></text>
+</g></svg>

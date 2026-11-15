@@ -30,6 +30,8 @@ export function viewPlan(records, view) {
 }
 
 function init() {
+  const en = document.documentElement.lang === 'en';
+  const label = (zh, english) => en ? english : zh;
   const typePanel = document.getElementById('catalog-type');
   const timePanel = document.getElementById('catalog-time');
   const typeButton = document.getElementById('view-type');
@@ -57,6 +59,12 @@ function init() {
     ['time-' + group.dataset.timeYear, group.querySelector('.timeline-list')]));
   let current = 'type';
 
+  function syncLanguageLinks() {
+    for (const link of document.querySelectorAll('.language-link')) {
+      const url = new URL(link.href); url.search = location.search; url.hash = location.hash; link.href = url.href;
+    }
+  }
+
   function setView(view, updateUrl = false) {
     const plan = viewPlan(records, view);
     for (const step of plan) {
@@ -71,11 +79,11 @@ function init() {
     current = view;
     if (jump) {
       const choices = view === 'time' ? yearChoices : categoryChoices;
-      jump.replaceChildren(new Option(view === 'time' ? '選擇年份' : '選擇分類', ''));
+      jump.replaceChildren(new Option(view === 'time' ? label('選擇年份', 'Select a year') : label('選擇分類', 'Select a category'), ''));
       for (const choice of choices) jump.add(new Option(choice.label, choice.id));
-      jump.setAttribute('aria-label', view === 'time' ? '跳至年份' : '跳至分類');
+      jump.setAttribute('aria-label', view === 'time' ? label('跳至年份', 'Jump to year') : label('跳至分類', 'Jump to category'));
     }
-    if (status) status.textContent = view === 'time' ? '已切換為按時間' : '已切換為按類型';
+    if (status) status.textContent = view === 'time' ? label('已切換為按時間', 'Showing by year') : label('已切換為按類型', 'Showing by type');
 
     if (updateUrl) {
       const url = new URL(window.location.href);
@@ -86,6 +94,7 @@ function init() {
         url.searchParams.delete('view');
       }
       window.history.replaceState(null, '', url);
+      syncLanguageLinks();
     }
   }
 
@@ -99,6 +108,7 @@ function init() {
       focusTarget.focus({preventScroll:true});
       const url = new URL(window.location.href); url.hash = jump.value;
       window.history.replaceState(null,'',url);
+      syncLanguageLinks();
     }
   });
   typeButton.addEventListener('click', () => setView('type', true));

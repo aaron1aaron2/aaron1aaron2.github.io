@@ -1,16 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" role="img" aria-labelledby="title desc">
-<title id="title">局部放電事件分析：工作關係示意</title>
-<desc id="desc">局部放電事件分析：事件窗口、波形處理、特徵分析、任務結果 的概念關係。依個別驗證紀錄判定。事件驅動的資料與分析流程。非部署架構、客戶畫面或效能證據。</desc>
-<defs><marker id="arrow-pd-event-analysis" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#88aa9a"/></marker></defs>
-<rect width="640" height="320" rx="18" fill="#faf9f4"/>
-<rect x="1" y="1" width="638" height="318" rx="17" fill="none" stroke="#cbd9cf" stroke-width="2"/>
-<g opacity=".65"><path d="M29 188h52l23-52 29 105 35-122 22 72h63" fill="none" stroke="#dce6dc" stroke-width="2"/><path d="M381 110h205M381 132h165M381 154h190" fill="none" stroke="#dce6dc" stroke-width="2"/></g>
-<path d="M120.0 171.0 Q159.5 171.0 199.0 171.0" fill="none" stroke="#88aa9a" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow-pd-event-analysis)"/>
-<path d="M277.0 171.0 Q317.0 171.0 357.0 171.0" fill="none" stroke="#88aa9a" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow-pd-event-analysis)"/>
-<path d="M435.0 171.0 Q475.0 171.0 515.0 171.0" fill="none" stroke="#88aa9a" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow-pd-event-analysis)"/>
-<g transform="translate(82 171)"><path d="M-31 3h10l8-20 11 42 10-52 10 31h13" fill="none" stroke="#bd7851" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">事件窗口</text></g>
-<g transform="translate(239 171)"><path d="M0-32 32 0 0 32-32 0Z" fill="#e1eee5" stroke="#155b55" stroke-width="2"/><path d="m-13 0 9 9 18-21" fill="none" stroke="#bd7851" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">波形處理</text></g>
-<g transform="translate(397 171)"><circle r="29" fill="#e1eee5" stroke="#155b55" stroke-width="2"/><circle r="12" fill="none" stroke="#155b55" stroke-width="3"/><path d="M0-23v-10M0 23v10M-23 0h-10M23 0h10M-17-17l-7-7M17 17l7 7" stroke="#155b55" stroke-width="3"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">特徵分析</text></g>
-<g transform="translate(555 171)"><path d="M-22-29h31l14 14v46h-45zM9-29v14h14" fill="#fff" stroke="#155b55" stroke-width="2"/><path d="M-12-2h23M-12 9h23M-12 20h14" stroke="#88aa9a" stroke-width="2.5" stroke-linecap="round"/><text x="0" y="64" text-anchor="middle" fill="#24312d" font-family="Noto Sans TC,Microsoft JhengHei,Arial,sans-serif" font-weight="700" font-size="28">任務結果</text></g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 710" role="img" aria-labelledby="title desc" lang="zh-Hant">
+<title id="title">事件到達序與波形完整性分開處理</title><desc id="desc">分析成功可同時是資料部分完整；設備錄音與完整現場整合另作驗證。 實線表示資料或處理流程；虛線表示審查、條件或回饋。</desc>
+<defs><marker id="pd-event-analysis-zh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
+<rect width="1040" height="710" fill="#fff"/>
+<g font-family="Arial,Microsoft JhengHei,sans-serif">
+<text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">事件到達序與波形完整性分開處理</tspan></text>
+<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">實線：資料／處理流程　　虛線：審查／回饋</tspan></text>
+<path d="M40 103H1000" stroke="#ccd5da"/>
+<path d="M290 212H395" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#pd-event-analysis-zh)"/>
+<path d="M645 212H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#pd-event-analysis-zh)"/>
+<path d="M875 270V335H165V420" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#pd-event-analysis-zh)"/>
+<path d="M290 477H395" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#pd-event-analysis-zh)"/>
+<path d="M875 335V420" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#pd-event-analysis-zh)"/>
+<path d="M645 477H750" fill="none" stroke="#526773" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#pd-event-analysis-zh)"/>
+<rect x="40" y="155" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="55" y="197.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">事件到達序</tspan></text>
+<text x="55" y="229.76" fill="#52636d" font-size="19"><tspan x="55" dy="0">事件編號續掃，不按發生時</tspan><tspan x="55" dy="24.32">間</tspan></text>
+<rect x="395" y="155" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="410" y="209.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="410" dy="0">事件時間窗口</tspan></text>
+<text x="410" y="241.92" fill="#52636d" font-size="19"><tspan x="410" dy="0">定位各感測器波形集合</tspan></text>
+<rect x="750" y="155" width="250" height="125" rx="3" fill="#fff" stroke="#8c6b37" stroke-width="2"/>
+<text x="765" y="209.76" fill="#71572b" font-size="22" font-weight="600"><tspan x="765" dy="0">等待檔案集合穩定</tspan></text>
+<text x="765" y="241.92" fill="#52636d" font-size="19"><tspan x="765" dy="0">容許波形陸續上傳</tspan></text>
+<rect x="395" y="420" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="410" y="474.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="410" dy="0">執行結果</tspan></text>
+<text x="410" y="506.92" fill="#52636d" font-size="19"><tspan x="410" dy="0">成功、失敗或缺資料</tspan></text>
+<rect x="750" y="420" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="765" y="474.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="765" dy="0">資料完整性</tspan></text>
+<text x="765" y="506.92" fill="#52636d" font-size="19"><tspan x="765" dy="0">完整、部分或缺資料</tspan></text>
+<rect x="40" y="420" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="55" y="474.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">PRPD 分析派工</tspan></text>
+<text x="55" y="506.92" fill="#52636d" font-size="19"><tspan x="55" dy="0">每個感測器獨立執行</tspan></text>
+<rect x="176" y="363" width="108" height="23.48" fill="#fff"/>
+<text x="180" y="380" fill="#52636d" font-size="16"><tspan x="180" dy="0">符合派工條件</tspan></text>
+<rect x="661" y="373" width="108" height="23.48" fill="#fff"/>
+<text x="665" y="390" fill="#52636d" font-size="16"><tspan x="665" dy="0">結果共同呈現</tspan></text>
+<path d="M40 648H1000" stroke="#e0e5e8"/>
+<text x="40" y="672" fill="#52636d" font-size="17"><tspan x="40" dy="0">分析成功可同時是資料部分完整；設備錄音與完整現場整合另作驗證。</tspan></text>
+</g></svg>
