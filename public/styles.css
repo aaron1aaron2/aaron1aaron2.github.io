@@ -253,3 +253,12 @@ footer a{display:inline-flex;align-items:center;min-height:44px}.browse .section
 html[lang="en"]{hyphens:none}html[lang="en"] .nav{gap:1.2rem}html[lang="en"] h1,html[lang="en"] h2,html[lang="en"] h3{text-wrap:balance}.case-visual img[src$=".svg"],.project-figure img[src$=".svg"]{background:#fff;border:1px solid #dce3e7;border-radius:3px}
 @media(max-width:640px){.topline{column-gap:.6rem}.topline .brand{flex:1}.topline>.nav{order:3;flex-basis:100%;justify-content:space-between;gap:.3rem}.site-languages{margin-left:auto}.case-visual:has(img[src$=".svg"]){margin-inline:0}}
 @media print{.site-languages{display:none}}
+
+/* Keep linked and plain breadcrumb text on the same vertical line. */
+.breadcrumb{align-items:center;line-height:1.5;row-gap:.15rem}
+.breadcrumb>a,.breadcrumb>span{display:inline-flex;align-items:center;min-height:44px;max-width:100%}
+.breadcrumb>span{overflow-wrap:anywhere}
+
+/* Common case overview and routes; domain-specific explanations retain their depth. */
+.case-navigation{display:flex;flex-wrap:wrap;gap:.4rem 1.4rem;margin:1rem 0 2rem;padding:.4rem 0;border-bottom:1px solid var(--line);font-size:.9rem}.case-navigation a{display:inline-flex;align-items:center;min-height:44px}.case-section[id],.case-stories[id]{scroll-margin-top:1.5rem}.case-section[tabindex="-1"]:focus-visible{outline:2px solid var(--accent);outline-offset:6px}.profile-strengths strong a{color:inherit;text-decoration-thickness:1px}
+@media print{.case-navigation{display:none}}
