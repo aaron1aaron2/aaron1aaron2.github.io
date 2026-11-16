@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="720" viewBox="0 0 1040 720" role="img" aria-labelledby="assistant-ui-title assistant-ui-desc" lang="en">
+<title id="assistant-ui-title">AI assistant | Questions, progress and verification</title>
+<desc id="assistant-ui-desc">An interaction schematic redrawn from feature records, not an original screen. The left panel shows a generic equipment question, waiting feedback and tool status. The right panel uses placeholders for the reply, source information controlled by a display setting, and an entry for verifying against a related chart. No real equipment, customer data or model answer is shown.</desc>
+<rect width="1040" height="720" fill="#fff"/>
+<g font-family="Arial,Microsoft JhengHei,sans-serif">
+<text x="40" y="47" font-size="29" fill="#243641" font-weight="600">AI assistant | Questions, progress and verification</text>
+<rect x="40" y="72" width="960" height="42" rx="3" fill="#fff4dd" stroke="#d4bd86"/>
+<text x="56" y="100" font-size="19" fill="#6b5128" font-weight="600">Interaction schematic | Redrawn from feature records, not an original screen</text>
+<text x="40" y="147" font-size="18" fill="#5b6d77" font-weight="400">Two interaction stages; question, content and layout are illustrative.</text>
+<rect x="40" y="175" width="430" height="425" rx="5" fill="#f8fafb" stroke="#cfd8dc"/>
+<rect x="500" y="175" width="500" height="425" rx="5" fill="#f8fafb" stroke="#cfd8dc"/>
+<text x="64" y="214" font-size="23" fill="#243641" font-weight="600">1  Ask and wait</text>
+<text x="524" y="214" font-size="23" fill="#243641" font-weight="600">2  Review and verify</text>
+<path d="M40 232H470M500 232H1000" stroke="#cfd8dc"/>
+<rect x="64" y="251" width="382" height="107" rx="5" fill="#edf3f1" stroke="#c1d6ce"/>
+<text x="82" y="276" font-size="16" fill="#5b6d77" font-weight="400">User | Sample question</text>
+<text x="82" y="307" font-size="22" fill="#243641" font-weight="400">How can I check this</text>
+<text x="82" y="337" font-size="22" fill="#243641" font-weight="400">equipment’s condition?</text>
+<rect x="64" y="380" width="382" height="104" rx="5" fill="#fff" stroke="#cfd8dc"/>
+<text x="84" y="415" font-size="22" fill="#243641" font-weight="400">Waiting for query results…</text>
+<circle cx="87" cy="451" r="4" fill="#607f75"/><circle cx="101" cy="451" r="4" fill="#607f75"/><circle cx="115" cy="451" r="4" fill="#607f75"/>
+<text x="132" y="457" font-size="18" fill="#526b60" font-weight="400">Query tool | In progress</text>
+<rect x="64" y="515" width="382" height="55" rx="5" fill="#fff" stroke="#cfd8dc"/>
+<text x="82" y="550" font-size="20" fill="#73808a" font-weight="400">Ask about equipment…</text>
+<path d="M479 385H491M487 380L492 385L487 390" fill="none" stroke="#7e919b" stroke-width="2"/>
+<rect x="524" y="251" width="452" height="134" rx="5" fill="#fff" stroke="#cfd8dc"/>
+<text x="544" y="285" font-size="21" fill="#243641" font-weight="400">Reply area (placeholder)</text>
+<rect x="544" y="307" width="392" height="9" rx="3" fill="#dde4e8"/><rect x="544" y="331" width="355" height="9" rx="3" fill="#dde4e8"/><rect x="544" y="355" width="295" height="9" rx="3" fill="#dde4e8"/>
+<text x="524" y="419" font-size="19" fill="#52636d" font-weight="400">Source information (display setting)</text>
+<rect x="524" y="434" width="214" height="43" rx="5" fill="#eef2f4" stroke="#d4dde1"/>
+<rect x="750" y="434" width="226" height="43" rx="5" fill="#eef2f4" stroke="#d4dde1"/>
+<text x="537" y="462" font-size="17" fill="#52636d" font-weight="400">Source A (placeholder)</text>
+<text x="763" y="462" font-size="17" fill="#52636d" font-weight="400">Source B (placeholder)</text>
+<rect x="524" y="515" width="452" height="55" rx="5" fill="#fff" stroke="#477666"/>
+<text x="543" y="550" font-size="18" fill="#285a49" font-weight="600">Open related chart to verify (illustrative)</text>
+<path d="M40 630H1000" stroke="#cfd8dc"/>
+<text x="40" y="663" font-size="20" fill="#243641" font-weight="600">Ask  →  Wait / tool status  →  Reply and sources  →  Human review</text>
+<text x="40" y="701" font-size="18" fill="#5b6d77" font-weight="400">Illustrates interaction; does not verify live data or answer quality.</text>
+</g></svg>

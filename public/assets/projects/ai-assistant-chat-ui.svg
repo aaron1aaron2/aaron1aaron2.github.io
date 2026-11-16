@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="720" viewBox="0 0 1040 720" role="img" aria-labelledby="assistant-ui-title assistant-ui-desc" lang="zh-Hant">
+<title id="assistant-ui-title">AI 助理聊天室｜從提問到可核對的回饋</title>
+<desc id="assistant-ui-desc">依功能紀錄重繪的互動示意，非原始畫面。左側呈現泛化設備提問、等待及工具執行狀態；右側以占位區說明回覆、可依設定顯示的來源資訊與圖表核對入口。不包含真實設備、客戶資料或模型答案。</desc>
+<rect width="1040" height="720" fill="#fff"/>
+<g font-family="Arial,Microsoft JhengHei,sans-serif">
+<text x="40" y="47" font-size="29" fill="#243641" font-weight="600">AI 助理聊天室｜從提問到可核對的回饋</text>
+<rect x="40" y="72" width="960" height="42" rx="3" fill="#fff4dd" stroke="#d4bd86"/>
+<text x="56" y="100" font-size="21" fill="#6b5128" font-weight="600">互動示意｜依功能紀錄重繪，非原始畫面</text>
+<text x="40" y="147" font-size="18" fill="#5b6d77" font-weight="400">以兩個互動階段說明功能；問句、內容與介面配置皆為示意。</text>
+<rect x="40" y="175" width="430" height="425" rx="5" fill="#f8fafb" stroke="#cfd8dc"/>
+<rect x="500" y="175" width="500" height="425" rx="5" fill="#f8fafb" stroke="#cfd8dc"/>
+<text x="64" y="214" font-size="23" fill="#243641" font-weight="600">1　提問與等待</text>
+<text x="524" y="214" font-size="23" fill="#243641" font-weight="600">2　回覆後核對</text>
+<path d="M40 232H470M500 232H1000" stroke="#cfd8dc"/>
+<rect x="64" y="251" width="382" height="107" rx="5" fill="#edf3f1" stroke="#c1d6ce"/>
+<text x="82" y="276" font-size="16" fill="#5b6d77" font-weight="400">使用者｜示例問句</text>
+<text x="82" y="307" font-size="22" fill="#243641" font-weight="400">這台設備的狀態</text>
+<text x="82" y="337" font-size="22" fill="#243641" font-weight="400">該怎麼看？</text>
+<rect x="64" y="380" width="382" height="104" rx="5" fill="#fff" stroke="#cfd8dc"/>
+<text x="84" y="415" font-size="22" fill="#243641" font-weight="400">正在等候查詢結果…</text>
+<circle cx="87" cy="451" r="4" fill="#607f75"/><circle cx="101" cy="451" r="4" fill="#607f75"/><circle cx="115" cy="451" r="4" fill="#607f75"/>
+<text x="132" y="457" font-size="18" fill="#526b60" font-weight="400">查詢工具｜處理中</text>
+<rect x="64" y="515" width="382" height="55" rx="5" fill="#fff" stroke="#cfd8dc"/>
+<text x="82" y="550" font-size="20" fill="#73808a" font-weight="400">輸入設備相關問題…</text>
+<path d="M479 385H491M487 380L492 385L487 390" fill="none" stroke="#7e919b" stroke-width="2"/>
+<rect x="524" y="251" width="452" height="134" rx="5" fill="#fff" stroke="#cfd8dc"/>
+<text x="544" y="285" font-size="21" fill="#243641" font-weight="400">回答內容（占位示意）</text>
+<rect x="544" y="307" width="392" height="9" rx="3" fill="#dde4e8"/><rect x="544" y="331" width="355" height="9" rx="3" fill="#dde4e8"/><rect x="544" y="355" width="295" height="9" rx="3" fill="#dde4e8"/>
+<text x="524" y="419" font-size="19" fill="#52636d" font-weight="400">來源資訊（依顯示設定）</text>
+<rect x="524" y="434" width="214" height="43" rx="5" fill="#eef2f4" stroke="#d4dde1"/>
+<rect x="750" y="434" width="226" height="43" rx="5" fill="#eef2f4" stroke="#d4dde1"/>
+<text x="537" y="462" font-size="18" fill="#52636d" font-weight="400">來源 A（占位）</text>
+<text x="763" y="462" font-size="18" fill="#52636d" font-weight="400">來源 B（占位）</text>
+<rect x="524" y="515" width="452" height="55" rx="5" fill="#fff" stroke="#477666"/>
+<text x="543" y="550" font-size="19" fill="#285a49" font-weight="600">開啟對應圖表核對（入口示意）</text>
+<path d="M40 630H1000" stroke="#cfd8dc"/>
+<text x="40" y="663" font-size="21" fill="#243641" font-weight="600">提問　→　等待／工具狀態　→　回覆與來源　→　人工核對</text>
+<text x="40" y="701" font-size="18" fill="#5b6d77" font-weight="400">僅呈現互動模式；非即時資料或答案正確性的驗證。</text>
+</g></svg>

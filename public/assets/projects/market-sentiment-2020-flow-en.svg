@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 820" role="img" aria-labelledby="title desc" lang="en">
+<title id="title">Combining full-text and sentiment-word signals</title><desc id="desc">Aaron completed the research; HAN, lexicon, coauthors and raters retain attribution. The output is text sentiment, not investment performance. Solid arrows show process or data flow; dashed arrows show review, conditions or feedback.</desc>
+<defs><marker id="market-sentiment-2020-flow-en" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
+<rect width="1040" height="820" fill="#fff"/>
+<g font-family="Arial,Microsoft JhengHei,sans-serif">
+<text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">Combining full-text and sentiment-word signals</tspan></text>
+<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">Solid: data / process  ·  Dashed: review / feedback</tspan></text>
+<path d="M40 103H1000" stroke="#ccd5da"/>
+<path d="M290 237H395" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#market-sentiment-2020-flow-en)"/>
+<path d="M165 300V427H395" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#market-sentiment-2020-flow-en)"/>
+<path d="M165 300V540" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#market-sentiment-2020-flow-en)"/>
+<path d="M645 237H700V297H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#market-sentiment-2020-flow-en)"/>
+<path d="M645 427H700V357H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#market-sentiment-2020-flow-en)"/>
+<path d="M875 390V540" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#market-sentiment-2020-flow-en)"/>
+<path d="M290 602H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#market-sentiment-2020-flow-en)"/>
+<path d="M750 632H705V677H645" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#market-sentiment-2020-flow-en)"/>
+<rect x="40" y="175" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="55" y="217.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">Financial articles</tspan></text>
+<text x="55" y="249.76" fill="#52636d" font-size="19"><tspan x="55" dy="0">Research corpus and</tspan><tspan x="55" dy="24.32">article text</tspan></text>
+<rect x="395" y="175" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="410" y="207.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="410" dy="0">HAN full-text</tspan><tspan x="410" dy="24.96">features</tspan></text>
+<text x="410" y="261.34000000000003" fill="#52636d" font-size="16.5"><tspan x="410" dy="0">Hierarchical word /</tspan><tspan x="410" dy="21.12">sentence attention</tspan></text>
+<rect x="395" y="365" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="410" y="397.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="410" dy="0">SAN sentiment</tspan><tspan x="410" dy="24.96">features</tspan></text>
+<text x="410" y="451.34" fill="#52636d" font-size="16.5"><tspan x="410" dy="0">Lexicon-based</tspan><tspan x="410" dy="21.12">sentiment-word signals</tspan></text>
+<rect x="750" y="265" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="765" y="297.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="765" dy="0">Combine</tspan><tspan x="765" dy="24.96">representations</tspan></text>
+<text x="765" y="351.34" fill="#52636d" font-size="16.5"><tspan x="765" dy="0">Combine context and</tspan><tspan x="765" dy="21.12">sentiment cues</tspan></text>
+<rect x="40" y="540" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="55" y="582.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">Multi-rater targets</tspan></text>
+<text x="55" y="614.76" fill="#52636d" font-size="19"><tspan x="55" dy="0">Valence and arousal</tspan><tspan x="55" dy="24.32">labels</tspan></text>
+<rect x="750" y="540" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="765" y="583.98" fill="#172e3b" font-size="20.5" font-weight="600"><tspan x="765" dy="0">Sentiment classifier</tspan></text>
+<text x="765" y="614.22" fill="#52636d" font-size="17.5"><tspan x="765" dy="0">Learn article-level</tspan><tspan x="765" dy="22.400000000000002">emotion targets</tspan></text>
+<rect x="395" y="615" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="410" y="659.9" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="410" dy="0">Selection and testing</tspan></text>
+<text x="410" y="688.86" fill="#52636d" font-size="16.5"><tspan x="410" dy="0">Select on validation;</tspan><tspan x="410" dy="21.12">compare on test</tspan></text>
+<rect x="311" y="199" width="48.160000000000004" height="23.48" fill="#fff"/>
+<text x="315" y="216" fill="#52636d" font-size="16"><tspan x="315" dy="0">Text</tspan></text>
+<rect x="210" y="389" width="139.36000000000004" height="23.48" fill="#fff"/>
+<text x="214" y="406" fill="#52636d" font-size="16"><tspan x="214" dy="0">Sentiment words</tspan></text>
+<rect x="176" y="473" width="173.28" height="23.48" fill="#fff"/>
+<text x="180" y="490" fill="#52636d" font-size="16"><tspan x="180" dy="0">Independent ratings</tspan></text>
+<rect x="653" y="199" width="122.40000000000003" height="23.48" fill="#fff"/>
+<text x="657" y="216" fill="#52636d" font-size="16"><tspan x="657" dy="0">Text features</tspan></text>
+<rect x="653" y="448" width="122.40000000000003" height="23.48" fill="#fff"/>
+<text x="657" y="465" fill="#52636d" font-size="16"><tspan x="657" dy="0">Word features</tspan></text>
+<rect x="887" y="451" width="82.08000000000001" height="23.48" fill="#fff"/>
+<text x="891" y="468" fill="#52636d" font-size="16"><tspan x="891" dy="0">Features</tspan></text>
+<rect x="453" y="564" width="147.84000000000003" height="23.48" fill="#fff"/>
+<text x="457" y="581" fill="#52636d" font-size="16"><tspan x="457" dy="0">Training targets</tspan></text>
+<rect x="654" y="702" width="141.44000000000003" height="23.48" fill="#fff"/>
+<text x="658" y="719" fill="#52636d" font-size="16"><tspan x="658" dy="0">Classifications</tspan></text>
+<path d="M40 758H1000" stroke="#e0e5e8"/>
+<text x="40" y="782" fill="#52636d" font-size="17"><tspan x="40" dy="0">Aaron completed the research; HAN, lexicon, coauthors and raters retain attribution. The output is text</tspan><tspan x="40" dy="21.76">sentiment, not investment performance.</tspan></text>
+</g></svg>

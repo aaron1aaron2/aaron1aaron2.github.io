@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 830" role="img" aria-labelledby="title desc" lang="en">
+<title id="title">Team recommendations through a unified chatbot</title><desc id="desc">Aaron led direction and the chatbot architecture, implementation, deployment and integration. Recommendation modules were shared; adoption and trading impact were unmeasured. Solid arrows show process or data flow; dashed arrows show review, conditions or feedback.</desc>
+<defs><marker id="stock-recommendation-flow-en" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
+<rect width="1040" height="830" fill="#fff"/>
+<g font-family="Arial,Microsoft JhengHei,sans-serif">
+<text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">Team recommendations through a unified chatbot</tspan></text>
+<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">Solid: data / process  ·  Dashed: review / feedback</tspan></text>
+<path d="M40 103H1000" stroke="#ccd5da"/>
+<rect x="370" y="125" width="300" height="625" fill="#f7f9fa" stroke="#d4dde1" stroke-dasharray="5 5"/>
+<text x="384" y="150" fill="#526773" font-size="17" font-weight="600"><tspan x="384" dy="0">Team recommendation modules</tspan></text>
+<path d="M290 237H390" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#stock-recommendation-flow-en)"/>
+<path d="M290 422H335V267H390" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#stock-recommendation-flow-en)"/>
+<path d="M290 452H390" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#stock-recommendation-flow-en)"/>
+<path d="M165 515V667H390" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#stock-recommendation-flow-en)"/>
+<path d="M650 237H700V422H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#stock-recommendation-flow-en)"/>
+<path d="M650 452H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#stock-recommendation-flow-en)"/>
+<path d="M650 667H710V482H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#stock-recommendation-flow-en)"/>
+<path d="M875 515V605" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#stock-recommendation-flow-en)"/>
+<rect x="40" y="175" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="55" y="207.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="55" dy="0">Company financial</tspan><tspan x="55" dy="24.96">ratios</tspan></text>
+<text x="55" y="261.34000000000003" fill="#52636d" font-size="16.5"><tspan x="55" dy="0">Financial ratios and</tspan><tspan x="55" dy="21.12">stock information</tspan></text>
+<rect x="40" y="390" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="55" y="432.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">User behavior</tspan></text>
+<text x="55" y="464.76000000000005" fill="#52636d" font-size="19"><tspan x="55" dy="0">Subscriptions, views</tspan><tspan x="55" dy="24.32">and co-occurrence</tspan></text>
+<rect x="390" y="175" width="260" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="405" y="218.98" fill="#172e3b" font-size="20.5" font-weight="600"><tspan x="405" dy="0">Item-based candidates</tspan></text>
+<text x="405" y="249.22" fill="#52636d" font-size="17.5"><tspan x="405" dy="0">Similarity based on</tspan><tspan x="405" dy="22.400000000000002">company features</tspan></text>
+<rect x="390" y="390" width="260" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="405" y="433.98" fill="#172e3b" font-size="20.5" font-weight="600"><tspan x="405" dy="0">User-based candidates</tspan></text>
+<text x="405" y="464.22" fill="#52636d" font-size="17.5"><tspan x="405" dy="0">Similar preferences and</tspan><tspan x="405" dy="22.400000000000002">subscriptions</tspan></text>
+<rect x="390" y="605" width="260" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="405" y="637.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="405" dy="0">Co-occurrence</tspan><tspan x="405" dy="24.96">candidates</tspan></text>
+<text x="405" y="691.34" fill="#52636d" font-size="16.5"><tspan x="405" dy="0">Stocks viewed by similar</tspan><tspan x="405" dy="21.12">audiences</tspan></text>
+<rect x="750" y="390" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="765" y="422.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="765" dy="0">Aaron: Telegram</tspan><tspan x="765" dy="24.96">chatbot</tspan></text>
+<text x="765" y="476.34" fill="#52636d" font-size="16.5"><tspan x="765" dy="0">Architecture, code and</tspan><tspan x="765" dy="21.12">integration</tspan></text>
+<rect x="750" y="605" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="765" y="637.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="765" dy="0">Recommendations and</tspan><tspan x="765" dy="24.96">alerts</tspan></text>
+<text x="765" y="691.34" fill="#52636d" font-size="16.5"><tspan x="765" dy="0">Connect stock details and</tspan><tspan x="765" dy="21.12">chat flows</tspan></text>
+<rect x="311" y="199" width="65.12" height="23.48" fill="#fff"/>
+<text x="315" y="216" fill="#52636d" font-size="16"><tspan x="315" dy="0">Ratios</tspan></text>
+<rect x="297" y="308" width="113.92000000000003" height="23.48" fill="#fff"/>
+<text x="301" y="325" fill="#52636d" font-size="16"><tspan x="301" dy="0">User profile</tspan></text>
+<rect x="294" y="414" width="73.60000000000001" height="23.48" fill="#fff"/>
+<text x="298" y="431" fill="#52636d" font-size="16"><tspan x="298" dy="0">Profile</tspan></text>
+<rect x="207" y="629" width="122.40000000000003" height="23.48" fill="#fff"/>
+<text x="211" y="646" fill="#52636d" font-size="16"><tspan x="211" dy="0">Co-occurrence</tspan></text>
+<rect x="656" y="308" width="99.04000000000002" height="23.48" fill="#fff"/>
+<text x="660" y="325" fill="#52636d" font-size="16"><tspan x="660" dy="0">Candidates</tspan></text>
+<rect x="651" y="414" width="73.60000000000001" height="23.48" fill="#fff"/>
+<text x="655" y="431" fill="#52636d" font-size="16"><tspan x="655" dy="0">Results</tspan></text>
+<rect x="654" y="555" width="99.04000000000002" height="23.48" fill="#fff"/>
+<text x="658" y="572" fill="#52636d" font-size="16"><tspan x="658" dy="0">Candidates</tspan></text>
+<rect x="887" y="543" width="88.48000000000002" height="23.48" fill="#fff"/>
+<text x="891" y="560" fill="#52636d" font-size="16"><tspan x="891" dy="0">Chat flow</tspan></text>
+<path d="M40 768H1000" stroke="#e0e5e8"/>
+<text x="40" y="792" fill="#52636d" font-size="17"><tspan x="40" dy="0">Aaron led direction and the chatbot architecture, implementation, deployment and integration. Recommendation</tspan><tspan x="40" dy="21.76">modules were shared; adoption and trading impact were unmeasured.</tspan></text>
+</g></svg>
