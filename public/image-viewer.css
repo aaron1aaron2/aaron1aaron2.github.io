@@ -1,0 +1,92 @@
+/* Native modal keeps the underlying page inert and preserves keyboard focus. */
+.image-lightbox {
+ width: min(1200px, calc(100vw - 40px));
+ max-width: none;
+ max-height: calc(100vh - 40px);
+ max-height: calc(100dvh - 40px);
+ margin: auto;
+ padding: 0;
+ border: 1px solid #cdd6dc;
+ border-radius: 10px;
+ background: #fff;
+ color: #243641;
+ box-shadow: 0 24px 80px #0005;
+ overflow: hidden;
+}
+.image-lightbox:not([open]) { display: none; }
+.image-lightbox::backdrop { background: rgb(12 20 26 / 78%); }
+.image-lightbox-panel { padding: 12px 20px 18px; }
+.image-lightbox-header {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ gap: 16px;
+ margin-bottom: 10px;
+}
+.image-lightbox-header h2 {
+ margin: 0;
+ color: #243641;
+ font-size: 18px;
+ line-height: 1.4;
+ letter-spacing: 0;
+}
+.image-lightbox-close {
+ display: inline-flex;
+ flex: 0 0 44px;
+ align-items: center;
+ justify-content: center;
+ width: 44px;
+ height: 44px;
+ padding: 0;
+ border: 0;
+ border-radius: 6px;
+ background: #edf1f3;
+ color: #243641;
+ font: 32px/1 Arial, sans-serif;
+ cursor: pointer;
+}
+.image-lightbox-close:hover { background: #dce5e9; }
+.image-lightbox-close:focus-visible { outline: 3px solid #0c6458; outline-offset: 2px; }
+.image-lightbox-stage { min-width: 0; overflow: auto; overscroll-behavior: contain; }
+.image-lightbox-image {
+ display: block;
+ width: auto;
+ height: auto;
+ max-width: 100%;
+ max-height: calc(100vh - 190px);
+ max-height: calc(100dvh - 190px);
+ margin: auto;
+ background: #fff;
+ object-fit: contain;
+}
+.image-lightbox-caption {
+ max-height: 5em;
+ margin: 12px 0 0;
+ overflow: auto;
+ color: #52636d;
+ font-size: 14px;
+ line-height: 1.6;
+ overflow-wrap: anywhere;
+}
+.image-lightbox-caption[hidden] { display: none; }
+.profile-photo-frame > .original-media { position: absolute; inset: 0; }
+body.image-preview-open { overscroll-behavior: none; }
+@media (max-width: 640px) {
+ .image-lightbox {
+  width: calc(100vw - 24px);
+  max-height: calc(100vh - 24px);
+  max-height: calc(100dvh - 24px);
+  border-radius: 8px;
+ }
+ .image-lightbox-panel { padding: 8px 12px 14px; }
+ .image-lightbox-header { margin-bottom: 8px; }
+ .image-lightbox-image {
+  max-height: calc(100vh - 180px);
+  max-height: calc(100dvh - 180px);
+ }
+ .image-lightbox-caption { font-size: 13px; margin-top: 10px; }
+}
+@media print {
+ .image-lightbox { display: none !important; }
+ body.image-preview-open { overflow: visible !important; padding-right: 0 !important; }
+}
