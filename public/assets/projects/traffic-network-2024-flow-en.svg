@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 810" role="img" aria-labelledby="title desc" lang="en">
+<title id="title">Team research: pretraining to flow prediction</title><desc id="desc">Aaron provided supporting code and technical assistance. Pretraining, MLAN and the experiments shown here belong to the joint research. Solid arrows show process or data flow; dashed arrows show review, conditions or feedback.</desc>
+<defs><marker id="traffic-network-2024-flow-en" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
+<rect width="1040" height="810" fill="#fff"/>
+<g font-family="Arial,Microsoft JhengHei,sans-serif">
+<text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">Team research: pretraining to flow prediction</tspan></text>
+<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">Solid: data / process  ·  Dashed: review / feedback</tspan></text>
+<path d="M40 103H1000" stroke="#ccd5da"/>
+<rect x="20" y="125" width="1000" height="610" fill="#f7f9fa" stroke="#d4dde1" stroke-dasharray="5 5"/>
+<text x="34" y="150" fill="#526773" font-size="17" font-weight="600"><tspan x="34" dy="0">Team research method; not an individual design</tspan></text>
+<path d="M290 237H390" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#traffic-network-2024-flow-en)"/>
+<path d="M650 237H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#traffic-network-2024-flow-en)"/>
+<path d="M165 300V390" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#traffic-network-2024-flow-en)"/>
+<path d="M290 452H390" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#traffic-network-2024-flow-en)"/>
+<path d="M875 300V340H590V390" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#traffic-network-2024-flow-en)"/>
+<path d="M650 452H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#traffic-network-2024-flow-en)"/>
+<path d="M875 515V652H650" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#traffic-network-2024-flow-en)"/>
+<rect x="40" y="175" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="55" y="218.98" fill="#172e3b" font-size="20.5" font-weight="600"><tspan x="55" dy="0">MRT network and flow</tspan></text>
+<text x="55" y="249.22" fill="#52636d" font-size="17.5"><tspan x="55" dy="0">Stations, distances and</tspan><tspan x="55" dy="22.400000000000002">flow history</tspan></text>
+<rect x="390" y="175" width="260" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="405" y="219.9" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="405" dy="0">Multi-task pretraining</tspan></text>
+<text x="405" y="248.86" fill="#52636d" font-size="16.5"><tspan x="405" dy="0">Masked flow, sequence and</tspan><tspan x="405" dy="21.12">distance</tspan></text>
+<rect x="750" y="175" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="765" y="207.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="765" dy="0">Dynamic network</tspan><tspan x="765" dy="24.96">vectors</tspan></text>
+<text x="765" y="261.34000000000003" fill="#52636d" font-size="16.5"><tspan x="765" dy="0">Transfer learned</tspan><tspan x="765" dy="21.12">representations</tspan></text>
+<rect x="40" y="390" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="55" y="432.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">Temporal features</tspan></text>
+<text x="55" y="464.76000000000005" fill="#52636d" font-size="19"><tspan x="55" dy="0">GRU features from</tspan><tspan x="55" dy="24.32">historical flow</tspan></text>
+<rect x="390" y="390" width="260" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="405" y="432.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="405" dy="0">Hierarchical MLAN</tspan></text>
+<text x="405" y="464.76000000000005" fill="#52636d" font-size="19"><tspan x="405" dy="0">Time, station and route</tspan><tspan x="405" dy="24.32">signals</tspan></text>
+<rect x="750" y="390" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="765" y="422.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="765" dy="0">Passenger-flow</tspan><tspan x="765" dy="24.96">forecast</tspan></text>
+<text x="765" y="476.34" fill="#52636d" font-size="16.5"><tspan x="765" dy="0">Predict from combined</tspan><tspan x="765" dy="21.12">features</tspan></text>
+<rect x="390" y="590" width="260" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="405" y="622.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="405" dy="0">Comparison and</tspan><tspan x="405" dy="24.96">validation</tspan></text>
+<text x="405" y="676.34" fill="#52636d" font-size="16.5"><tspan x="405" dy="0">Team experiments and</tspan><tspan x="405" dy="21.12">journal paper</tspan></text>
+<rect x="293" y="199" width="65.12" height="23.48" fill="#fff"/>
+<text x="297" y="216" fill="#52636d" font-size="16"><tspan x="297" dy="0">Inputs</tspan></text>
+<rect x="651" y="199" width="73.60000000000001" height="23.48" fill="#fff"/>
+<text x="655" y="216" fill="#52636d" font-size="16"><tspan x="655" dy="0">Vectors</tspan></text>
+<rect x="177" y="329" width="113.92000000000003" height="23.48" fill="#fff"/>
+<text x="181" y="346" fill="#52636d" font-size="16"><tspan x="181" dy="0">Flow history</tspan></text>
+<rect x="295" y="414" width="44.160000000000004" height="23.48" fill="#fff"/>
+<text x="299" y="431" fill="#52636d" font-size="16"><tspan x="299" dy="0">GRU</tspan></text>
+<rect x="662" y="307" width="164.8" height="23.48" fill="#fff"/>
+<text x="666" y="324" fill="#52636d" font-size="16"><tspan x="666" dy="0">Pretrained vectors</tspan></text>
+<rect x="651" y="414" width="56.64" height="23.48" fill="#fff"/>
+<text x="655" y="431" fill="#52636d" font-size="16"><tspan x="655" dy="0">Fused</tspan></text>
+<rect x="707" y="614" width="107.52000000000002" height="23.48" fill="#fff"/>
+<text x="711" y="631" fill="#52636d" font-size="16"><tspan x="711" dy="0">Predictions</tspan></text>
+<path d="M40 748H1000" stroke="#e0e5e8"/>
+<text x="40" y="772" fill="#52636d" font-size="17"><tspan x="40" dy="0">Aaron provided supporting code and technical assistance. Pretraining, MLAN and the experiments shown here</tspan><tspan x="40" dy="21.76">belong to the joint research.</tspan></text>
+</g></svg>

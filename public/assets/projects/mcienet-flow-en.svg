@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 810" role="img" aria-labelledby="title desc" lang="en">
+<title id="title">DNA pairs to multi-scale prediction and explanation</title><desc id="desc">Aaron led the research, model, experiments and thesis. Preprocessing partly adapts ChINN; results depend on datasets, anchors and settings. Solid arrows show process or data flow; dashed arrows show review, conditions or feedback.</desc>
+<defs><marker id="mcienet-flow-en" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
+<rect width="1040" height="810" fill="#fff"/>
+<g font-family="Arial,Microsoft JhengHei,sans-serif">
+<text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">DNA pairs to multi-scale prediction and explanation</tspan></text>
+<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">Solid: data / process  ·  Dashed: review / feedback</tspan></text>
+<path d="M40 103H1000" stroke="#ccd5da"/>
+<path d="M290 237H390" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#mcienet-flow-en)"/>
+<path d="M650 237H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#mcienet-flow-en)"/>
+<path d="M875 300V390" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#mcienet-flow-en)"/>
+<path d="M750 452H650" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#mcienet-flow-en)"/>
+<path d="M390 452H290" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#mcienet-flow-en)"/>
+<path d="M520 515V590" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#mcienet-flow-en)"/>
+<rect x="40" y="175" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="55" y="207.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="55" dy="0">DNA and interaction</tspan><tspan x="55" dy="24.96">data</tspan></text>
+<text x="55" y="261.34000000000003" fill="#52636d" font-size="16.5"><tspan x="55" dy="0">Sequences, interactions</tspan><tspan x="55" dy="21.12">and CTCF loops</tspan></text>
+<rect x="390" y="175" width="260" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="405" y="207.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="405" dy="0">Positive / negative</tspan><tspan x="405" dy="24.96">pairs</tspan></text>
+<text x="405" y="261.34000000000003" fill="#52636d" font-size="16.5"><tspan x="405" dy="0">Preprocessing adapted from</tspan><tspan x="405" dy="21.12">ChINN</tspan></text>
+<rect x="750" y="175" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="765" y="219.44" fill="#172e3b" font-size="20" font-weight="600"><tspan x="765" dy="0">Encode and cache DNA</tspan></text>
+<text x="765" y="249.04" fill="#52636d" font-size="17"><tspan x="765" dy="0">One-hot sequence pairs</tspan><tspan x="765" dy="21.76">and H5 data</tspan></text>
+<rect x="750" y="390" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="765" y="432.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="765" dy="0">Multi-scale CNN</tspan></text>
+<text x="765" y="464.76000000000005" fill="#52636d" font-size="19"><tspan x="765" dy="0">Aaron designed</tspan><tspan x="765" dy="24.32">multi-branch features</tspan></text>
+<rect x="390" y="390" width="260" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="405" y="434.9" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="405" dy="0">Interaction prediction</tspan></text>
+<text x="405" y="463.85999999999996" fill="#52636d" font-size="16.5"><tspan x="405" dy="0">Combine signals from the</tspan><tspan x="405" dy="21.12">paired DNA</tspan></text>
+<rect x="40" y="390" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="55" y="422.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="55" dy="0">Ablation and</tspan><tspan x="55" dy="24.96">evaluation</tspan></text>
+<text x="55" y="476.34" fill="#52636d" font-size="16.5"><tspan x="55" dy="0">Compare components, cells</tspan><tspan x="55" dy="21.12">and baselines</tspan></text>
+<rect x="390" y="590" width="260" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="405" y="633.06" fill="#172e3b" font-size="21.5" font-weight="600"><tspan x="405" dy="0">Sequence attribution</tspan></text>
+<text x="405" y="664.5799999999999" fill="#52636d" font-size="18.5"><tspan x="405" dy="0">DeepLIFT and</tspan><tspan x="405" dy="23.68">anchor-shift analysis</tspan></text>
+<rect x="298" y="199" width="80.00000000000001" height="23.48" fill="#fff"/>
+<text x="302" y="216" fill="#52636d" font-size="16"><tspan x="302" dy="0">Raw data</tspan></text>
+<rect x="655" y="199" width="56.64" height="23.48" fill="#fff"/>
+<text x="659" y="216" fill="#52636d" font-size="16"><tspan x="659" dy="0">Pairs</tspan></text>
+<rect x="887" y="329" width="113.92000000000002" height="23.48" fill="#fff"/>
+<text x="891" y="346" fill="#52636d" font-size="16"><tspan x="891" dy="0">Model inputs</tspan></text>
+<rect x="651" y="414" width="82.08000000000001" height="23.48" fill="#fff"/>
+<text x="655" y="431" fill="#52636d" font-size="16"><tspan x="655" dy="0">Features</tspan></text>
+<rect x="292" y="414" width="82.08000000000001" height="23.48" fill="#fff"/>
+<text x="296" y="431" fill="#52636d" font-size="16"><tspan x="296" dy="0">Evaluate</tspan></text>
+<rect x="532" y="543" width="162.72" height="23.48" fill="#fff"/>
+<text x="536" y="560" fill="#52636d" font-size="16"><tspan x="536" dy="0">Model and sequence</tspan></text>
+<path d="M40 748H1000" stroke="#e0e5e8"/>
+<text x="40" y="772" fill="#52636d" font-size="17"><tspan x="40" dy="0">Aaron led the research, model, experiments and thesis. Preprocessing partly adapts ChINN; results depend on</tspan><tspan x="40" dy="21.76">datasets, anchors and settings.</tspan></text>
+</g></svg>

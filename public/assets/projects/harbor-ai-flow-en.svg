@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 800" role="img" aria-labelledby="title desc" lang="en">
+<title id="title">Monitoring data, jobs and reports</title><desc id="desc">Logical workflow. Aaron led product, domain and scheduling work; services were built with teammates and AI. Deployment varies by feature. Solid arrows show process or data flow; dashed arrows show review, conditions or feedback.</desc>
+<defs><marker id="harbor-ai-flow-en" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
+<rect width="1040" height="800" fill="#fff"/>
+<g font-family="Arial,Microsoft JhengHei,sans-serif">
+<text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">Monitoring data, jobs and reports</tspan></text>
+<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">Solid: data / process  ·  Dashed: review / feedback</tspan></text>
+<path d="M40 103H1000" stroke="#ccd5da"/>
+<path d="M280 227H400" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#harbor-ai-flow-en)"/>
+<path d="M640 227H760" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#harbor-ai-flow-en)"/>
+<path d="M640 427H705V257H760" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#harbor-ai-flow-en)"/>
+<path d="M880 290V365" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#harbor-ai-flow-en)"/>
+<path d="M880 490V637H640" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#harbor-ai-flow-en)"/>
+<path d="M400 637H280" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#harbor-ai-flow-en)"/>
+<path d="M160 575V427H400" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#harbor-ai-flow-en)"/>
+<rect x="40" y="165" width="240" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="55" y="197.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="55" dy="0">Equipment and</tspan><tspan x="55" dy="24.96">sensors</tspan></text>
+<text x="55" y="251.34" fill="#52636d" font-size="16.5"><tspan x="55" dy="0">Observations and</tspan><tspan x="55" dy="21.12">equipment identity</tspan></text>
+<rect x="400" y="165" width="240" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="415" y="197.78" fill="#172e3b" font-size="20.5" font-weight="600"><tspan x="415" dy="0">Ingestion and state</tspan></text>
+<text x="415" y="228.02" fill="#52636d" font-size="17.5"><tspan x="415" dy="0">Contracts,</tspan><tspan x="415" dy="22.400000000000002">deduplication and</tspan><tspan x="415" dy="22.400000000000002">progress</tspan></text>
+<rect x="760" y="165" width="240" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="775" y="207.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="775" dy="0">Job lifecycle</tspan></text>
+<text x="775" y="239.76" fill="#52636d" font-size="19"><tspan x="775" dy="0">Dispatch, callbacks</tspan><tspan x="775" dy="24.32">and artifacts</tspan></text>
+<rect x="400" y="365" width="240" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="415" y="408.98" fill="#172e3b" font-size="20.5" font-weight="600"><tspan x="415" dy="0">Stateful scheduling</tspan></text>
+<text x="415" y="439.22" fill="#52636d" font-size="17.5"><tspan x="415" dy="0">DB state; scheduler</tspan><tspan x="415" dy="22.400000000000002">triggers jobs</tspan></text>
+<rect x="760" y="365" width="240" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="775" y="409.44" fill="#172e3b" font-size="20" font-weight="600"><tspan x="775" dy="0">Analysis and reports</tspan></text>
+<text x="775" y="439.04" fill="#52636d" font-size="17"><tspan x="775" dy="0">Run analysis for each</tspan><tspan x="775" dy="21.76">job</tspan></text>
+<rect x="400" y="575" width="240" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="415" y="607.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="415" dy="0">Artifacts and</tspan><tspan x="415" dy="24.96">history</tspan></text>
+<text x="415" y="661.34" fill="#52636d" font-size="16.5"><tspan x="415" dy="0">Persist results, state</tspan><tspan x="415" dy="21.12">and downloads</tspan></text>
+<rect x="40" y="575" width="240" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="55" y="607.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="55" dy="0">Monitoring and</tspan><tspan x="55" dy="24.96">reports</tspan></text>
+<text x="55" y="661.34" fill="#52636d" font-size="16.5"><tspan x="55" dy="0">Inspect equipment,</tspan><tspan x="55" dy="21.12">results and schedules</tspan></text>
+<rect x="296" y="190" width="65.12" height="23.48" fill="#fff"/>
+<text x="300" y="207" fill="#52636d" font-size="16"><tspan x="300" dy="0">Upload</tspan></text>
+<rect x="657" y="190" width="88.48000000000002" height="23.48" fill="#fff"/>
+<text x="661" y="207" fill="#52636d" font-size="16"><tspan x="661" dy="0">Job input</tspan></text>
+<rect x="657" y="315" width="73.60000000000001" height="23.48" fill="#fff"/>
+<text x="661" y="332" fill="#52636d" font-size="16"><tspan x="661" dy="0">Trigger</tspan></text>
+<rect x="890" y="316" width="82.08000000000001" height="23.48" fill="#fff"/>
+<text x="894" y="333" fill="#52636d" font-size="16"><tspan x="894" dy="0">Dispatch</tspan></text>
+<rect x="702" y="599" width="169.12" height="23.48" fill="#fff"/>
+<text x="706" y="616" fill="#52636d" font-size="16"><tspan x="706" dy="0">Results / callbacks</tspan></text>
+<rect x="284" y="598" width="82.08000000000001" height="23.48" fill="#fff"/>
+<text x="288" y="615" fill="#52636d" font-size="16"><tspan x="288" dy="0">Download</tspan></text>
+<rect x="176" y="390" width="116.16000000000003" height="23.48" fill="#fff"/>
+<text x="180" y="407" fill="#52636d" font-size="16"><tspan x="180" dy="0">Set / run now</tspan></text>
+<path d="M40 738H1000" stroke="#e0e5e8"/>
+<text x="40" y="762" fill="#52636d" font-size="17"><tspan x="40" dy="0">Logical workflow. Aaron led product, domain and scheduling work; services were built with teammates and AI.</tspan><tspan x="40" dy="21.76">Deployment varies by feature.</tspan></text>
+</g></svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 770" role="img" aria-labelledby="title desc" lang="zh-Hant">
+<title id="title">從觀光需求訊號到路線與班次探索</title><desc id="desc">本人獨立專案。需求為觀光人流與熱度的推估；用於路線探索，未驗證實際乘車需求或營運成效。 實線表示資料或處理流程；虛線表示審查、條件或回饋。</desc>
+<defs><marker id="dynamic-bus-flow-zh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
+<rect width="1040" height="770" fill="#fff"/>
+<g font-family="Arial,Microsoft JhengHei,sans-serif">
+<text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">從觀光需求訊號到路線與班次探索</tspan></text>
+<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">實線：資料／處理流程　　虛線：審查／回饋</tspan></text>
+<path d="M40 103H1000" stroke="#ccd5da"/>
+<path d="M290 227H340V287H390" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#dynamic-bus-flow-zh)"/>
+<path d="M290 417H345V350H390" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#dynamic-bus-flow-zh)"/>
+<path d="M650 317H700V385H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#dynamic-bus-flow-zh)"/>
+<path d="M650 547H700V447H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#dynamic-bus-flow-zh)"/>
+<path d="M875 480V570" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#dynamic-bus-flow-zh)"/>
+<rect x="40" y="165" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="55" y="219.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">月度觀光人流</tspan></text>
+<text x="55" y="251.92" fill="#52636d" font-size="19"><tspan x="55" dy="0">景點與月份的總量</tspan></text>
+<rect x="40" y="355" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="55" y="409.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">搜尋與熱門時段</tspan></text>
+<text x="55" y="441.92" fill="#52636d" font-size="19"><tspan x="55" dy="0">Trends／Popular Times</tspan></text>
+<rect x="390" y="255" width="260" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="405" y="309.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="405" dy="0">時段需求分攤</tspan></text>
+<text x="405" y="341.92" fill="#52636d" font-size="19"><tspan x="405" dy="0">月人流分至星期／小時</tspan></text>
+<rect x="390" y="485" width="260" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="405" y="539.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="405" dy="0">景點間距離與時間</tspan></text>
+<text x="405" y="571.92" fill="#52636d" font-size="19"><tspan x="405" dy="0">依群組建立距離矩陣</tspan></text>
+<rect x="750" y="355" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="765" y="409.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="765" dy="0">TSP 路線探索</tspan></text>
+<text x="765" y="441.92" fill="#52636d" font-size="19"><tspan x="765" dy="0">以 OR-Tools 求路徑</tspan></text>
+<rect x="750" y="570" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="765" y="624.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="765" dy="0">路線、班表與流向</tspan></text>
+<text x="765" y="656.92" fill="#52636d" font-size="19"><tspan x="765" dy="0">Folium、Gantt、Sankey</tspan></text>
+<rect x="296" y="190" width="76" height="23.48" fill="#fff"/>
+<text x="300" y="207" fill="#52636d" font-size="16"><tspan x="300" dy="0">月度總量</tspan></text>
+<rect x="296" y="445" width="76" height="23.48" fill="#fff"/>
+<text x="300" y="462" fill="#52636d" font-size="16"><tspan x="300" dy="0">時間形狀</tspan></text>
+<rect x="661" y="279" width="76" height="23.48" fill="#fff"/>
+<text x="665" y="296" fill="#52636d" font-size="16"><tspan x="665" dy="0">時段需求</tspan></text>
+<rect x="661" y="509" width="76" height="23.48" fill="#fff"/>
+<text x="665" y="526" fill="#52636d" font-size="16"><tspan x="665" dy="0">距離矩陣</tspan></text>
+<rect x="886" y="511" width="76" height="23.48" fill="#fff"/>
+<text x="890" y="528" fill="#52636d" font-size="16"><tspan x="890" dy="0">規劃結果</tspan></text>
+<path d="M40 708H1000" stroke="#e0e5e8"/>
+<text x="40" y="732" fill="#52636d" font-size="17"><tspan x="40" dy="0">本人獨立專案。需求為觀光人流與熱度的推估；用於路線探索，未驗證實際乘車需求或營運成效。</tspan></text>
+</g></svg>

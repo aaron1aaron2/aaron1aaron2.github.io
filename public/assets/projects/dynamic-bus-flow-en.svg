@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 770" role="img" aria-labelledby="title desc" lang="en">
+<title id="title">From tourism signals to route exploration</title><desc id="desc">Independent project. Tourism counts and popularity are demand proxies; actual ridership and operating outcomes were not validated. Solid arrows show process or data flow; dashed arrows show review, conditions or feedback.</desc>
+<defs><marker id="dynamic-bus-flow-en" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
+<rect width="1040" height="770" fill="#fff"/>
+<g font-family="Arial,Microsoft JhengHei,sans-serif">
+<text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">From tourism signals to route exploration</tspan></text>
+<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">Solid: data / process  ·  Dashed: review / feedback</tspan></text>
+<path d="M40 103H1000" stroke="#ccd5da"/>
+<path d="M290 227H340V287H390" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#dynamic-bus-flow-en)"/>
+<path d="M290 417H345V350H390" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#dynamic-bus-flow-en)"/>
+<path d="M650 317H700V385H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#dynamic-bus-flow-en)"/>
+<path d="M650 547H700V447H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#dynamic-bus-flow-en)"/>
+<path d="M875 480V570" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#dynamic-bus-flow-en)"/>
+<rect x="40" y="165" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="55" y="197.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="55" dy="0">Monthly visitor</tspan><tspan x="55" dy="24.96">counts</tspan></text>
+<text x="55" y="251.34" fill="#52636d" font-size="16.5"><tspan x="55" dy="0">Visitor totals by site</tspan><tspan x="55" dy="21.12">and month</tspan></text>
+<rect x="40" y="355" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="55" y="399.44" fill="#172e3b" font-size="20" font-weight="600"><tspan x="55" dy="0">Search and busy times</tspan></text>
+<text x="55" y="429.04" fill="#52636d" font-size="17"><tspan x="55" dy="0">Google Trends / Popular</tspan><tspan x="55" dy="21.76">Times</tspan></text>
+<rect x="390" y="255" width="260" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="405" y="287.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="405" dy="0">Allocate time-bin</tspan><tspan x="405" dy="24.96">demand</tspan></text>
+<text x="405" y="341.34" fill="#52636d" font-size="16.5"><tspan x="405" dy="0">Split monthly totals by</tspan><tspan x="405" dy="21.12">weekday / hour</tspan></text>
+<rect x="390" y="485" width="260" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="405" y="517.4200000000001" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="405" dy="0">Travel distance and</tspan><tspan x="405" dy="24.96">time</tspan></text>
+<text x="405" y="571.3400000000001" fill="#52636d" font-size="16.5"><tspan x="405" dy="0">Build a distance matrix per</tspan><tspan x="405" dy="21.12">group</tspan></text>
+<rect x="750" y="355" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="765" y="387.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="765" dy="0">TSP route</tspan><tspan x="765" dy="24.96">exploration</tspan></text>
+<text x="765" y="441.34" fill="#52636d" font-size="16.5"><tspan x="765" dy="0">Solve grouped routes with</tspan><tspan x="765" dy="21.12">OR-Tools</tspan></text>
+<rect x="750" y="570" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="765" y="602.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="765" dy="0">Routes, schedules,</tspan><tspan x="765" dy="24.96">flows</tspan></text>
+<text x="765" y="656.34" fill="#52636d" font-size="16.5"><tspan x="765" dy="0">Maps, Gantt and Sankey</tspan><tspan x="765" dy="21.12">views</tspan></text>
+<rect x="296" y="190" width="130.88000000000005" height="23.48" fill="#fff"/>
+<text x="300" y="207" fill="#52636d" font-size="16"><tspan x="300" dy="0">Monthly totals</tspan></text>
+<rect x="296" y="445" width="122.40000000000003" height="23.48" fill="#fff"/>
+<text x="300" y="462" fill="#52636d" font-size="16"><tspan x="300" dy="0">Time patterns</tspan></text>
+<rect x="661" y="279" width="137.28000000000003" height="23.48" fill="#fff"/>
+<text x="665" y="296" fill="#52636d" font-size="16"><tspan x="665" dy="0">Time-bin demand</tspan></text>
+<rect x="661" y="509" width="139.36000000000004" height="23.48" fill="#fff"/>
+<text x="665" y="526" fill="#52636d" font-size="16"><tspan x="665" dy="0">Distance matrix</tspan></text>
+<rect x="886" y="511" width="105.44000000000001" height="23.48" fill="#fff"/>
+<text x="890" y="528" fill="#52636d" font-size="16"><tspan x="890" dy="0">Route plans</tspan></text>
+<path d="M40 708H1000" stroke="#e0e5e8"/>
+<text x="40" y="732" fill="#52636d" font-size="17"><tspan x="40" dy="0">Independent project. Tourism counts and popularity are demand proxies; actual ridership and operating</tspan><tspan x="40" dy="21.76">outcomes were not validated.</tspan></text>
+</g></svg>

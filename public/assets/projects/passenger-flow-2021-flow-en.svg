@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 760" role="img" aria-labelledby="title desc" lang="en">
+<title id="title">Dynamic station embeddings for passenger flow</title><desc id="desc">Aaron handled method, data, model and experiments. Coauthors and third-party GMAN retain attribution. This is a research workflow. Solid arrows show process or data flow; dashed arrows show review, conditions or feedback.</desc>
+<defs><marker id="passenger-flow-2021-flow-en" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
+<rect width="1040" height="760" fill="#fff"/>
+<g font-family="Arial,Microsoft JhengHei,sans-serif">
+<text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">Dynamic station embeddings for passenger flow</tspan></text>
+<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">Solid: data / process  ·  Dashed: review / feedback</tspan></text>
+<path d="M40 103H1000" stroke="#ccd5da"/>
+<path d="M290 227H345V297H395" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#passenger-flow-2021-flow-en)"/>
+<path d="M290 437H345V357H395" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#passenger-flow-2021-flow-en)"/>
+<path d="M645 327H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#passenger-flow-2021-flow-en)"/>
+<path d="M875 390V490" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#passenger-flow-2021-flow-en)"/>
+<path d="M750 552H645" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#passenger-flow-2021-flow-en)"/>
+<rect x="40" y="165" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="55" y="197.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="55" dy="0">Historical passenger</tspan><tspan x="55" dy="24.96">flow</tspan></text>
+<text x="55" y="251.34" fill="#52636d" font-size="16.5"><tspan x="55" dy="0">Station context changes</tspan><tspan x="55" dy="21.12">over time</tspan></text>
+<rect x="40" y="375" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="55" y="417.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">Station distances</tspan></text>
+<text x="55" y="449.76000000000005" fill="#52636d" font-size="19"><tspan x="55" dy="0">Network and</tspan><tspan x="55" dy="24.32">neighboring stations</tspan></text>
+<rect x="395" y="265" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="410" y="307.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="410" dy="0">BERT pretraining</tspan></text>
+<text x="410" y="339.76000000000005" fill="#52636d" font-size="19"><tspan x="410" dy="0">Learn from distances</tspan><tspan x="410" dy="24.32">and flow history</tspan></text>
+<rect x="750" y="265" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="765" y="297.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="765" dy="0">Dynamic station</tspan><tspan x="765" dy="24.96">vectors</tspan></text>
+<text x="765" y="351.34" fill="#52636d" font-size="16.5"><tspan x="765" dy="0">Vectors adapt to time and</tspan><tspan x="765" dy="21.12">flow</tspan></text>
+<rect x="750" y="490" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="765" y="534.9" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="765" dy="0">Downstream flow model</tspan></text>
+<text x="765" y="563.86" fill="#52636d" font-size="16.5"><tspan x="765" dy="0">Integrate the third-party</tspan><tspan x="765" dy="21.12">GMAN base</tspan></text>
+<rect x="395" y="490" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="410" y="522.4200000000001" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="410" dy="0">Compare</tspan><tspan x="410" dy="24.96">configurations</tspan></text>
+<text x="410" y="576.3400000000001" fill="#52636d" font-size="16.5"><tspan x="410" dy="0">Neighbor, embedding and</tspan><tspan x="410" dy="21.12">model trials</tspan></text>
+<rect x="300" y="190" width="120.32000000000004" height="23.48" fill="#fff"/>
+<text x="304" y="207" fill="#52636d" font-size="16"><tspan x="304" dy="0">Time and flow</tspan></text>
+<rect x="299" y="459" width="139.36000000000004" height="23.48" fill="#fff"/>
+<text x="303" y="476" fill="#52636d" font-size="16"><tspan x="303" dy="0">Spatial context</tspan></text>
+<rect x="652" y="289" width="73.60000000000001" height="23.48" fill="#fff"/>
+<text x="656" y="306" fill="#52636d" font-size="16"><tspan x="656" dy="0">Vectors</tspan></text>
+<rect x="887" y="422" width="73.60000000000001" height="23.48" fill="#fff"/>
+<text x="891" y="439" fill="#52636d" font-size="16"><tspan x="891" dy="0">Vectors</tspan></text>
+<rect x="651" y="514" width="65.12" height="23.48" fill="#fff"/>
+<text x="655" y="531" fill="#52636d" font-size="16"><tspan x="655" dy="0">Errors</tspan></text>
+<path d="M40 698H1000" stroke="#e0e5e8"/>
+<text x="40" y="722" fill="#52636d" font-size="17"><tspan x="40" dy="0">Aaron handled method, data, model and experiments. Coauthors and third-party GMAN retain attribution. This is</tspan><tspan x="40" dy="21.76">a research workflow.</tspan></text>
+</g></svg>
