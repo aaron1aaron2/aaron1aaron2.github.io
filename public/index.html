@@ -5,7 +5,7 @@
 <meta name="theme-color" content="#f6f4ee">
 <meta name="description" content="何彥南 Aaron Ho，AI Engineer。工業 AI、資料分析、平台整合與模型研究。">
 <title>何彥南 Aaron Ho</title>
-<link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css?v=20261116-media">
+<link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css?v=20261118-presentation">
 <link rel="canonical" href="https://aaron1aaron2.github.io/index.html">
 <link rel="alternate" hreflang="zh-Hant" href="index.html">
 <link rel="alternate" hreflang="en" href="index-en.html">
@@ -41,6 +41,7 @@
 <article class="profile-project profile-featured" id="featured-monitoring">
 <p class="profile-project-label">常態設備監控</p><h3><a href="project-harbor.html">Harbor AI 2.0 工業智慧監控平台</a></h3>
 <p>在既有 1.0 環境下，與團隊及 AI agents 從 0 到 1 建構 2.0 監控、診斷與報告功能，逐步解除舊系統依賴。</p>
+<!-- project-tags:start --><ul class="project-tags" aria-label="技術關鍵字"><li>APScheduler</li><li>Redis</li><li>MQTT</li><li>Docker</li><li>nginx</li></ul><!-- project-tags:end -->
 <dl class="profile-project-facts"><dt>專案情境</dt><dd>常駐設備的長期監控、異常追蹤與維護判斷。</dd><dt>核心問題</dt><dd>把設備資料、診斷與報告串成可持續運作的監控產品。</dd><dt>遇到困難</dt><dd>新舊系統共存時，需處理資料同步、設定衝突與設備控制權轉移；耗時分析也要保留可追查的任務狀態。</dd><dt>我的工作</dt><dd>產品與領域設計、分析與報告服務整合、版本交付，以及可追溯的 AI 開發與回歸流程。</dd><dt>成果</dt><dd>2.0 已可獨立於 1.0 運作，並整合報告服務、平台派工及下載功能，持續推進產品開發與版本交付。</dd></dl>
 <figure class="case-visual profile-work-photo"><img src="assets/projects/harbor-ai.jpg" width="4096" height="3072" loading="lazy" decoding="async" alt="工業智慧監控平台在公開展場的產品展示與操作說明"><figcaption>公開展場的產品展示與操作說明。</figcaption></figure>
 <p class="profile-related-case"><a href="project-report.html">延伸案例：振動分析與報告系統化</a></p>
@@ -48,6 +49,7 @@
 <article class="profile-project profile-featured" id="featured-inspection">
 <p class="profile-project-label">設備出廠品質檢測</p><h3><a href="project-inspection.html">Harbor AI 2.0 智慧設備出廠品質檢測平台</a></h3>
 <p>將同一治具輪流量測不同受測件的作業，做成逐件追溯的品質檢測產品；從需求、系統開發與 UI/UX 主導到現場交付。</p>
+<!-- project-tags:start --><ul class="project-tags" aria-label="技術關鍵字"><li>振動訊號分析</li><li>API 契約</li><li>E2E 測試</li></ul><!-- project-tags:end -->
 <dl class="profile-project-facts"><dt>專案情境</dt><dd>設備出貨前的逐件檢測、品質判定與結果留存。</dd><dt>核心問題</dt><dd>同一套治具輪流量測不同受測件，必須逐件追溯量測、判定與報告。</dd><dt>遇到困難</dt><dd>初版操作深入五、六層，現場也有感測器配錯的風險；功能可操作後，品質門檻仍需資料校準。</dd><dt>我的工作</dt><dd>端到端需求與規格、AI 協作開發；將深層操作整併為計畫、工單與看板，設計狀態及感測器檢核，完成測試及現場說明。</dd><dt>成果</dt><dd>完成測試版本與手冊，於 2026 年 10 月 12 日到場示範、教育訓練及現場排障，定位時間偏移造成的連線中斷並完成後續修正；正式驗收結果待確認。</dd></dl>
 <figure class="case-visual profile-work-photo"><img src="assets/projects/inspection-field-redacted.png" width="2000" height="1125" loading="lazy" decoding="async" alt="智慧設備出廠品質檢測平台的現場說明，其他人員臉部與識別資訊已去敏"><figcaption>現場操作與說明；保留完整構圖，其他人員臉部與識別資訊已去敏。</figcaption></figure>
 <p class="profile-project-context">與工業智慧監控平台沿用 Harbor AI 2.0 技術基礎，各自面向不同作業情境與交付需求。</p>
@@ -55,6 +57,7 @@
 <article class="profile-project profile-featured" id="research">
 <p class="profile-project-label">碩士論文研究</p><h3><a href="project-mcienet.html">MCIENet · 染色質交互作用預測</a></h3>
 <p>以多尺度 CNN 研究 DNA 序列與三維染色質交互作用，從資料流程、模型比較到可解釋性分析檢查假設。</p>
+<!-- project-tags:start --><ul class="project-tags" aria-label="技術關鍵字"><li>CNN</li><li>多尺度資訊擷取</li><li>XAI</li><li>ChINN</li></ul><!-- project-tags:end -->
 <dl class="profile-project-facts"><dt>專案情境</dt><dd>碩士論文，以 DNA 序列預測三維染色質交互作用。</dd><dt>核心問題</dt><dd>讓模型同時學習不同尺度的序列訊號，檢查哪些設計真正有幫助。</dd><dt>遇到困難</dt><dd>跨細胞類型泛化與 anchor 位置偏移都有限制；模型比較也需維持一致的資料與實驗設定。</dd><dt>我的工作</dt><dd>主導研究問題、多尺度 CNN、資料流程、消融、跨資料集評估與論文撰寫；部分前處理基於 ChINN 調整。</dd><dt>成果</dt><dd>完成碩士論文、研究程式與配置，提供消融、跨資料集評估及可解釋性分析；結果依研究資料與設定解讀。</dd></dl>
 
 </article>
@@ -63,18 +66,21 @@
 <article class="profile-project profile-featured" id="featured-horus">
 <p class="profile-project-label">畢業專題競賽</p><h3><a href="project-horus.html">Horus · 多鏡頭人員辨識</a></h3>
 <p>團隊整合多鏡頭追蹤、person ReID 與臉部辨識，嘗試在追蹤中斷後重新連結人物紀錄。</p>
+<!-- project-tags:start --><ul class="project-tags" aria-label="技術關鍵字"><li>FastReID</li><li>Cosine similarity</li><li>Person ReID</li></ul><!-- project-tags:end -->
 <dl class="profile-project-facts"><dt>專案情境</dt><dd>2020 年東吳大學畢業專題，多鏡頭人員追蹤與辨識。</dd><dt>核心問題</dt><dd>追蹤中斷或人物被遮蔽後，重新判斷是否為同一人。</dd><dt>遇到困難</dt><dd>單張照片易受角度與遮蔽影響，匹配結果也需接回持續更新的追蹤紀錄。</dd><dt>我的工作</dt><dd>負責 person ReID：整合 FastReID 特徵、多張取樣及相似度／支持比例雙門檻，串接任務佇列及紀錄更新。</dd><dt>成果</dt><dd>團隊完成遮蔽、擦肩、離開後再出現等情境展示，獲畢業專題第一名；即時性仍有限制。</dd></dl>
 
 </article>
 <article class="profile-project profile-featured" id="featured-dashboard">
 <p class="profile-project-label">2025 城市儀表板黑客松</p><h3><a href="project-taipei-dashboard.html">雙北防災資源分析 · 2025 黑客松</a></h3>
 <p>以人口需求與景點周邊的防災資源配置為題，與團隊將分散公共資料整理成城市分析儀表板。</p>
+<!-- project-tags:start --><ul class="project-tags" aria-label="技術關鍵字"><li>空間分析</li></ul><!-- project-tags:end -->
 <dl class="profile-project-facts"><dt>專案情境</dt><dd>2025 雙北城市儀表板黑客松；全台 128 隊、551 人報名，50 隊晉級正式賽。</dd><dt>核心問題</dt><dd>比較人口需求、行政區資源及景點周邊防災設施，讓資源差異可被討論。</dd><dt>遇到困難</dt><dd>資料分散於不同來源，行政區配置與景點周邊需求也不能只用一張總量表回答。</dd><dt>我的工作</dt><dd>負責防災題目發想、規格定義與提案簡報，與團隊對齊分析需求及展示方向。</dd><dt>成果</dt><dd>與團隊完成防災資源分析儀表板及決賽提案，晉級決賽；分析與系統實作保留團隊及原始專案歸屬。</dd></dl>
 
 </article>
 <article class="profile-project profile-featured" id="featured-townpass">
 <p class="profile-project-label">2026 城市通微服務大黑客松</p><h3><a href="project-townpass.html">託你辦｜2026 城市通微服務大黑客松決賽</a></h3>
 <p>提出授權協作申辦與預約方案，將代辦準備資料與本人最後確認分開，保留需要協助者的決定權。</p>
+<!-- project-tags:start --><ul class="project-tags" aria-label="技術關鍵字"><li>授權協作</li><li>流程建模</li><li>權限設計</li></ul><!-- project-tags:end -->
 <dl class="profile-project-facts"><dt>專案情境</dt><dd>2026 城市通微服務大黑客松；全台 85 隊、395 人報名，40 隊晉級正式賽。</dd><dt>核心問題</dt><dd>協助者可以準備資料，但案件內容與最後送出仍須由本人確認。</dd><dt>遇到困難</dt><dd>內容修改後需重新確認，授權撤回與重複送出也要有明確規則；完整構想必須收斂為可展示情境。</dd><dt>我的工作</dt><dd>負責題目發想、應用場景、規格定義與決賽簡報，定義授權、流程、資料權限及驗收條件。</dd><dt>成果</dt><dd>完成單次、一案、一位代辦的模擬協作提案與決賽展示，團隊入圍決賽；正式身分認證與政府介接尚未完成。</dd></dl>
 
 </article>
@@ -85,14 +91,8 @@
 <article class="profile-record"><p class="profile-date">2021.09 — 2024.09</p><div><h3>國立政治大學 <span>資訊科學系碩士</span></h3></div></article>
 <article class="profile-record"><p class="profile-date">2017.09 — 2021.07</p><div><h3>東吳大學 <span>巨量資料管理學系學士</span></h3></div></article>
 </section>
-<section class="profile-section" id="publications" aria-labelledby="publications-title">
-<h2 id="publications-title">研究發表</h2>
-<ul class="profile-publications"><li><span>2024 · Knowledge-Based Systems</span>動態交通網路表示與旅客流量預測</li><li><span>2021 · IIAI AAI</span>Dynamic Embedding Method for Passenger Flow Estimation</li><li><span>2020 · TCSE</span>結合 Hierarchical Attention Network 與情感詞的股市文章分析</li></ul>
-</section>
-<section class="profile-section" id="skills" aria-labelledby="skills-title">
-<h2 id="skills-title">常用技術</h2>
-<p>Python、pandas、NumPy、SciPy、scikit-learn、CNN；Django、PostgreSQL、Docker Compose、React / TypeScript；Git、AI agents、測試與驗證設計。</p>
-</section>
+<section class="profile-section" id="publications" aria-labelledby="publications-title"><h2 id="publications-title">研究與發表</h2><p class="profile-research-intro"><a href="project-mcienet.html">碩士論文與研究程式：MCIENet</a></p><div class="research-entries"><article class="research-entry" data-research-id="traffic-network-2024"><p class="research-venue">2024 · Knowledge-Based Systems</p><h3><a href="project-traffic-network-2024.html">動態交通網路與旅客流量預測</a></h3><p>捷運流量預測需將動態交通網路關係納入模型表示。</p><p class="research-role"><strong>我的工作：</strong>以共同作者身分提供程式碼與技術支援；模型方法與實驗為團隊研究。</p><ul class="project-tags" aria-label="技術關鍵字"><li>動態交通網路表徵</li><li>BERT</li><li>GRU</li><li>MLAN</li></ul><a class="research-read" href="project-traffic-network-2024.html">閱讀研究案例<span aria-hidden="true"> →</span></a></article><article class="research-entry" data-research-id="passenger-flow-2021"><p class="research-venue">2021 · IIAI AAI</p><h3><a href="project-passenger-flow-2021.html">Dynamic Embedding Method for Passenger Flow Estimation</a></h3><p>旅客流量估計需表達隨時間變動的交通關係。</p><p class="research-role"><strong>我的工作：</strong>負責方法發想、資料處理、模型建構與實驗，與共同作者發表動態嵌入及旅客流量估計研究。</p><ul class="project-tags" aria-label="技術關鍵字"><li>動態嵌入</li><li>BERT</li><li>GMAN</li></ul><a class="research-read" href="project-passenger-flow-2021.html">閱讀研究案例<span aria-hidden="true"> →</span></a></article><article class="research-entry" data-research-id="market-sentiment-2020"><p class="research-venue">2020 · TCSE</p><h3><a href="project-market-sentiment-2020.html">結合情感詞與階層式關注網路的金融文本分析</a></h3><p>金融文章情感判讀需考慮詞彙及文章層次脈絡。</p><p class="research-role"><strong>我的工作：</strong>負責文獻、問題定義、資料流程、模型建構與實驗，與共同作者發表論文；情緒標記由投資者提供。</p><ul class="project-tags" aria-label="技術關鍵字"><li>情感詞典</li><li>Hierarchical Attention Network</li><li>Sentiment Attention Network</li></ul><a class="research-read" href="project-market-sentiment-2020.html">閱讀研究案例<span aria-hidden="true"> →</span></a></article></div></section>
+<section class="profile-section" id="skills" aria-labelledby="skills-title"><h2 id="skills-title">常用技術</h2><p>整理目前產品工作與過往研究、專題中使用的技術，實際應用與本人分工可見對應案例。</p><div class="skill-groups"><section class="skill-group"><h3>資料分析與領域判讀</h3><p>從資料品質、統計差異到設備訊號，讓分析能支援現場判斷。</p><ul class="project-tags" aria-label="技術關鍵字"><li>Python</li><li>pandas</li><li>NumPy</li><li>SciPy</li><li>PRPD</li><li>ISO 20816</li></ul><p class="skill-evidence"><a href="project-industrial-diagnostics.html">工業設備診斷方法</a><span aria-hidden="true"> · </span><a href="project-current-analysis.html">設備電流資料複核與說明</a></p></section><section class="skill-group"><h3>機器學習與研究</h3><p>建立資料流程、模型比較、消融與可解釋性分析，檢查方法的適用範圍。</p><ul class="project-tags" aria-label="技術關鍵字"><li>scikit-learn</li><li>CNN</li><li>多尺度資訊擷取</li><li>XAI</li><li>參數消融</li></ul><p class="skill-evidence"><a href="project-mcienet.html">MCIENet：基因序列與染色質交互作用</a><span aria-hidden="true"> · </span><a href="project-passenger-flow-2021.html">旅運需求預測研究（2021）</a></p></section><section class="skill-group"><h3>後端與資料流程</h3><p>串接感測資料、排程、背景分析及結果保存，支援持續運作的產品流程。</p><ul class="project-tags" aria-label="技術關鍵字"><li>Django</li><li>PostgreSQL</li><li>Redis</li><li>APScheduler</li><li>MQTT</li></ul><p class="skill-evidence"><a href="project-harbor.html">Harbor AI 2.0 工業智慧監控平台</a><span aria-hidden="true"> · </span><a href="project-discharge.html">局部放電事件分析</a></p></section><section class="skill-group"><h3>LLM 應用與工作流</h3><p>整合資料檢索、診斷敘事、串流回覆與報告生成，保留可追溯的分析依據。</p><ul class="project-tags" aria-label="技術關鍵字"><li>LangChain</li><li>LangGraph</li><li>RAG</li><li>SSE</li><li>Semantic cache</li></ul><p class="skill-evidence"><a href="project-report.html">診斷報告系統演進</a><span aria-hidden="true"> · </span><a href="project-assistant.html">AI 助理聊天室</a></p></section><section class="skill-group"><h3>產品介面與驗證</h3><p>將作業規格轉為介面狀態、防錯檢核及端到端測試。</p><ul class="project-tags" aria-label="技術關鍵字"><li>React</li><li>TypeScript</li><li>API 契約</li><li>E2E 測試</li></ul><p class="skill-evidence"><a href="project-inspection.html">Harbor AI 2.0 智慧設備出廠品質檢測平台</a></p></section><section class="skill-group"><h3>工程協作與交付</h3><p>以隔離分支、測試與可追溯紀錄協作開發，將專案知識留給後續維護。</p><ul class="project-tags" aria-label="技術關鍵字"><li>Git worktree</li><li>Docker Compose</li><li>nginx</li><li>AI agents</li><li>VitePress</li></ul><p class="skill-evidence"><a href="project-ai-governance.html">可追溯的專案管理與 AI 協作開發</a><span aria-hidden="true"> · </span><a href="project-knowledge-system.html">工程文件與知識系統</a></p></section></div></section>
 </main>
 <footer><div class="wrap"><p>何彥南 Aaron Ho</p><a href="https://github.com/aaron1aaron2">GitHub</a></div></footer>
 </body></html>
