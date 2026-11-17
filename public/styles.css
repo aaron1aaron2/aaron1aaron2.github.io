@@ -284,3 +284,8 @@ ul.project-tags>li{display:block;max-width:100%;margin:0;padding:.22rem .6rem;bo
 .skill-evidence>a{overflow-wrap:anywhere}
 @media(max-width:640px){.skill-groups{grid-template-columns:1fr}.home-simple .research-entry h3{font-size:1.05rem}.home-simple .skill-group{padding:1.2rem 0}}
 @media print{ul.project-tags>li{font-size:8pt;background:none}.research-entry,.skill-group{break-inside:avoid}.research-read{min-height:0}.skill-groups{gap:1rem}}
+
+/* A single narrative path, with optional depth after the main decisions. */
+.case-highlights{padding-left:1.25rem;margin:1.1rem 0}.case-highlights li{margin:.5rem 0;max-width:75ch}.case-context-photo{max-width:640px;margin:1.5rem auto}.story-label{display:block;font-size:.78rem;color:var(--muted);font-weight:600;margin-bottom:.15rem}.project-story p{margin-bottom:.9rem}.depth-topic{margin:1.4rem 0}.depth-topic h3{font-size:1.03rem}.depth-topic .evolution-path h4{font-size:1rem;margin:.4rem 0}.related-case-list{list-style:none;padding:0;margin:0}.related-case-list li{padding:.8rem 0;border-top:1px solid var(--line)}.related-case-list a{font-weight:600}.related-case-list p{font-size:.9rem;color:var(--muted);margin:.4rem 0}.case-technical>summary h2{font-size:1rem}
+
+details:not([open]) .evolution-path li::after{display:none}
