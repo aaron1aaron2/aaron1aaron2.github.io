@@ -262,3 +262,25 @@ html[lang="en"]{hyphens:none}html[lang="en"] .nav{gap:1.2rem}html[lang="en"] h1,
 /* Common case overview and routes; domain-specific explanations retain their depth. */
 .case-navigation{display:flex;flex-wrap:wrap;gap:.4rem 1.4rem;margin:1rem 0 2rem;padding:.4rem 0;border-bottom:1px solid var(--line);font-size:.9rem}.case-navigation a{display:inline-flex;align-items:center;min-height:44px}.case-section[id],.case-stories[id]{scroll-margin-top:1.5rem}.case-section[tabindex="-1"]:focus-visible{outline:2px solid var(--accent);outline-offset:6px}.profile-strengths strong a{color:inherit;text-decoration-thickness:1px}
 @media print{.case-navigation{display:none}}
+
+/* Technical keywords describe this work; they are readable labels, not filters. */
+ul.project-tags{display:flex;flex-wrap:wrap;align-items:flex-start;gap:.4rem;list-style:none;padding:0;margin:1rem 0}
+ul.project-tags>li{display:block;max-width:100%;margin:0;padding:.22rem .6rem;border:1px solid var(--line);border-radius:4px;background:rgba(13,94,93,.035);color:var(--muted);font-size:.78rem;font-weight:500;line-height:1.55;overflow-wrap:anywhere}
+.case-head>.project-tags{margin-bottom:1.25rem}
+.home-simple .profile-project>.project-tags{margin:.8rem 0 1.1rem}
+.home-simple .research-entry{padding:1.4rem 0;border-bottom:1px solid var(--line)}
+.home-simple .research-entry:last-child{border-bottom:0;padding-bottom:0}
+.home-simple .research-entry h3{font-size:1.12rem;line-height:1.55;margin:.2rem 0 .65rem}
+.home-simple .research-entry .research-venue{font-size:.8rem;color:var(--muted);margin:0}
+.home-simple .research-entry p{font-size:.92rem;margin:.5rem 0}
+.home-simple .research-entry .research-role{font-size:.88rem}
+.research-read{display:inline-flex;align-items:center;gap:.3rem;min-height:44px;font-size:.86rem}
+.home-simple .profile-research-intro{margin-bottom:.2rem}
+.skill-groups{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:2.5rem}
+.home-simple .skill-group{min-width:0;padding:1.4rem 0;border-bottom:1px solid var(--line)}
+.home-simple .skill-group h3{font-size:1.05rem;line-height:1.5;margin:0 0 .6rem}
+.home-simple .skill-group>p{font-size:.88rem;margin:.5rem 0}
+.home-simple .skill-group>.skill-evidence{font-size:.8rem;line-height:1.9;margin-bottom:0}
+.skill-evidence>a{overflow-wrap:anywhere}
+@media(max-width:640px){.skill-groups{grid-template-columns:1fr}.home-simple .research-entry h3{font-size:1.05rem}.home-simple .skill-group{padding:1.2rem 0}}
+@media print{ul.project-tags>li{font-size:8pt;background:none}.research-entry,.skill-group{break-inside:avoid}.research-read{min-height:0}.skill-groups{gap:1rem}}

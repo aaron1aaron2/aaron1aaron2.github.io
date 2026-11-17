@@ -18,3 +18,9 @@
 列表每案提供1–3張圖片，按現場照片、實際畫面、架構與流程排列；不自動播放。上一張／下一張與左右方向鍵切換，點圖開啟浮層，×、窗外或Esc關閉並恢復閱讀位置。只有一張時隱藏切換控制。停用JavaScript時仍可直接閱讀圖片。
 
 All pages support Chinese and English. Original figures and screenshots retain their source language and attribution; explanatory captions are bilingual. Reconstructed interactions are explicitly labeled as schematics, never presented as original product screenshots.
+
+## 技術與研究入口
+
+每案在列表及案例首屏顯示有據的技術關鍵字；首頁代表案例沿用同一組標籤。研究與發表的標題連到各自案例，另說明本人分工；常用技術按應用分組並附作品入口。標籤是閱讀提示，不是篩選按鈕或熟練度評分。
+
+技術導向案例以架構與流程為主，不為了有UI而放零碎控件。需要呈現操作設計的案例，截圖須保留該功能的基本資訊與分析圖表，必要去敏不得破壞理解。
