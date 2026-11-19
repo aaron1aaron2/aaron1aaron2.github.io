@@ -5,7 +5,7 @@
 <meta name="theme-color" content="#f6f4ee">
 <meta name="description" content="何彥南 Aaron Ho，AI Engineer。工業 AI、資料分析、平台整合與模型研究。">
 <title>何彥南 Aaron Ho</title>
-<link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css?v=20261118-narrative">
+<link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css?v=20261119-systems">
 <link rel="canonical" href="https://aaron1aaron2.github.io/index.html">
 <link rel="alternate" hreflang="zh-Hant" href="index.html">
 <link rel="alternate" hreflang="en" href="index-en.html">
@@ -40,17 +40,17 @@
 <h2 id="work-title">代表專案</h2>
 <article class="profile-project profile-featured" id="featured-monitoring">
 <p class="profile-project-label">常態設備監控</p><h3><a href="project-harbor.html">Harbor AI 2.0 工業智慧監控平台</a></h3>
-<p>將設備狀態、診斷與報告串成常態監控流程，讓使用者能從發現異常接續到分析與維護判斷。</p>
-<!-- project-tags:start --><ul class="project-tags" aria-label="技術關鍵字"><li>APScheduler</li><li>Redis</li><li>MQTT</li><li>Docker</li><li>nginx</li></ul><!-- project-tags:end -->
-<dl class="profile-project-facts"><dt>專案情境</dt><dd>常駐設備的長期監控、異常追蹤與維護判斷。</dd><dt>核心問題</dt><dd>把設備資料、診斷與報告串成可持續運作的監控產品。</dd><dt>遇到困難</dt><dd>新舊系統共存時，需處理資料同步、設定衝突與設備控制權轉移；耗時分析也要保留可追查的任務狀態。</dd><dt>我的工作</dt><dd>產品與領域設計、分析與報告服務整合、版本交付，以及可追溯的 AI 開發與回歸流程。</dd><dt>成果</dt><dd>2.0 已可獨立於 1.0 運作，並整合報告服務、平台派工及下載功能，持續推進產品開發與版本交付。</dd></dl>
+<p>將設備資料接入、常態監控、事件診斷、RUL與報表串成可追溯的維護判斷流程。</p>
+<!-- project-tags:start --><ul class="project-tags" aria-label="技術關鍵字"><li>Python</li><li>Django</li><li>PostgreSQL</li><li>MQTT / HTTP</li><li>非同步訊息佇列</li><li>WAV / FFT</li><li>RUL</li></ul><!-- project-tags:end -->
+<dl class="profile-project-facts"><dt>專案情境</dt><dd>常駐設備的長期監控、異常追蹤與維護判斷。</dd><dt>核心問題</dt><dd>把設備資料、診斷與報告串成可持續運作的監控產品。</dd><dt>遇到困難</dt><dd>新舊系統共存時，需處理資料同步、設定衝突與設備控制權轉移；耗時分析也要保留可追查的任務狀態。</dd><dt>我的工作</dt><dd>主導產品與領域設計，負責排程、事件與報告工作流及交付驗證；參與MQTT／HTTP雙通道、非同步訊息流程與特徵／WAV／FFT保存決策。</dd><dt>成果</dt><dd>2.0 已可獨立於 1.0 運作，並整合報告服務、平台派工及下載功能，持續推進產品開發與版本交付。</dd></dl>
 <figure class="case-visual profile-work-photo"><img src="assets/projects/harbor-ai.jpg" width="4096" height="3072" loading="lazy" decoding="async" alt="工業智慧監控平台在公開展場的產品展示與操作說明"><figcaption>公開展場的產品展示與操作說明。</figcaption></figure>
 <p class="profile-related-case"><a href="project-report.html">延伸案例：振動分析與報告系統化</a></p>
 </article>
 <article class="profile-project profile-featured" id="featured-inspection">
 <p class="profile-project-label">設備出廠品質檢測</p><h3><a href="project-inspection.html">Harbor AI 2.0 智慧設備出廠品質檢測平台</a></h3>
-<p>將同一治具輪流量測不同受測件的作業，做成逐件追溯的品質檢測產品；從需求、系統開發與 UI/UX 主導到現場交付。</p>
-<!-- project-tags:start --><ul class="project-tags" aria-label="技術關鍵字"><li>振動訊號分析</li><li>API 契約</li><li>E2E 測試</li></ul><!-- project-tags:end -->
-<dl class="profile-project-facts"><dt>專案情境</dt><dd>設備出貨前的逐件檢測、品質判定與結果留存。</dd><dt>核心問題</dt><dd>同一套治具輪流量測不同受測件，必須逐件追溯量測、判定與報告。</dd><dt>遇到困難</dt><dd>初版操作深入五、六層，現場也有感測器配錯的風險；功能可操作後，品質門檻仍需資料校準。</dd><dt>我的工作</dt><dd>端到端需求與規格、AI 協作開發；將深層操作整併為計畫、工單與看板，設計狀態及感測器檢核，完成測試及現場說明。</dd><dt>成果</dt><dd>完成測試版本與手冊，於 2026 年 10 月 12 日到場示範、教育訓練及現場排障，定位時間偏移造成的連線中斷並完成後續修正；正式驗收結果待確認。</dd></dl>
+<p>從現場需求與既有感測方案出發，設計可依機型配置量測與基準的出廠品質檢測方案。</p>
+<!-- project-tags:start --><ul class="project-tags" aria-label="技術關鍵字"><li>領域建模</li><li>量測流程設計</li><li>基準與門檻管理</li><li>UI/UX</li><li>特徵偏離分析</li></ul><!-- project-tags:end -->
+<dl class="profile-project-facts"><dt>專案情境</dt><dd>設備出貨前的逐件檢測、品質判定與結果留存。</dd><dt>核心問題</dt><dd>不同機型的量測階段與測點不同，需要把感測能力轉為可配置、有判定依據的檢測流程。</dd><dt>遇到困難</dt><dd>要讓計畫、工單與待測物責任清楚，且基準異動、資料不足與特徵偏離能被正確解讀。</dd><dt>我的工作</dt><dd>發想整體方案並設計計畫→工單→待測物與三層主要UI；定義階段／測點、基準錄製與版本管理、門檻、NG／OK及偏離分析規格，並教導現場使用。</dd><dt>成果</dt><dd>形成可配置的量測、基準比對與分析工作流程，完成現場說明與使用教學；正式驗收狀態仍待確認。</dd></dl>
 <figure class="case-visual profile-work-photo"><img src="assets/projects/inspection-field-redacted.png" width="2000" height="1125" loading="lazy" decoding="async" alt="智慧設備出廠品質檢測平台的現場說明，其他人員臉部與識別資訊已去敏"><figcaption>現場操作與說明；保留完整構圖，其他人員臉部與識別資訊已去敏。</figcaption></figure>
 <p class="profile-project-context">與工業智慧監控平台沿用 Harbor AI 2.0 技術基礎，各自面向不同作業情境與交付需求。</p>
 </article>

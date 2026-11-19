@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 905" role="img" aria-labelledby="title desc" lang="zh-Hant">
+<title id="title">領域架構：計畫、工單、待測物與比較依據</title><desc id="desc">邏輯關係示意，非三個 UI 分頁或部署圖。基準錄製與正式檢測分開，變更依版本管理；偏離定位不等於故障根因。 實線表示資料或處理流程；虛線表示審查、條件或回饋。</desc>
+<defs><marker id="inspection-domain-zh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
+<rect width="1040" height="905" fill="#fff"/>
+<g font-family="Arial,Microsoft JhengHei,sans-serif">
+<text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">領域架構：計畫、工單、待測物與比較依據</tspan></text>
+<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">實線：資料／處理流程　　虛線：審查／回饋</tspan></text>
+<path d="M40 103H1000" stroke="#ccd5da"/>
+<path d="M320 217H380" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#inspection-domain-zh)"/>
+<path d="M660 217H720" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#inspection-domain-zh)"/>
+<path d="M180 285V370" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#inspection-domain-zh)"/>
+<path d="M285 285V330H520V370" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#inspection-domain-zh)"/>
+<path d="M860 285V370" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#inspection-domain-zh)"/>
+<path d="M660 442H720" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#inspection-domain-zh)"/>
+<path d="M180 515V650" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#inspection-domain-zh)"/>
+<path d="M285 515V580H520V650" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#inspection-domain-zh)"/>
+<path d="M860 515V600H600V650" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#inspection-domain-zh)"/>
+<path d="M320 722H380" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#inspection-domain-zh)"/>
+<path d="M660 722H720" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#inspection-domain-zh)"/>
+<rect x="40" y="150" width="280" height="135" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="55" y="209.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">量測計畫 Plan</tspan></text>
+<text x="55" y="241.92" fill="#52636d" font-size="19"><tspan x="55" dy="0">機型、方法與版本</tspan></text>
+<rect x="380" y="150" width="280" height="135" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="395" y="209.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="395" dy="0">工單 Order</tspan></text>
+<text x="395" y="241.92" fill="#52636d" font-size="19"><tspan x="395" dy="0">採用計畫與比較依據</tspan></text>
+<rect x="720" y="150" width="280" height="135" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="735" y="209.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="735" dy="0">待測物 Unit</tspan></text>
+<text x="735" y="241.92" fill="#52636d" font-size="19"><tspan x="735" dy="0">每台身分與檢測紀錄</tspan></text>
+<rect x="40" y="370" width="280" height="145" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="55" y="434.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">基準庫 Baseline</tspan></text>
+<text x="55" y="466.92" fill="#52636d" font-size="19"><tspan x="55" dy="0">良品確認、覆蓋與版本</tspan></text>
+<rect x="380" y="370" width="280" height="145" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="395" y="434.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="395" dy="0">階段與測點</tspan></text>
+<text x="395" y="466.92" fill="#52636d" font-size="19"><tspan x="395" dy="0">量測順序、感測器與條件</tspan></text>
+<rect x="720" y="370" width="280" height="145" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="735" y="434.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="735" dy="0">量測執行 Run</tspan></text>
+<text x="735" y="466.92" fill="#52636d" font-size="19"><tspan x="735" dy="0">每台可重測，逐階段執行</tspan></text>
+<rect x="40" y="650" width="280" height="145" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="55" y="714.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">版本與歷史</tspan></text>
+<text x="55" y="746.92" fill="#52636d" font-size="19"><tspan x="55" dy="0">變更不靜默改舊判定</tspan></text>
+<rect x="380" y="650" width="280" height="145" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="395" y="714.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="395" dy="0">基準與門檻比對</tspan></text>
+<text x="395" y="746.92" fill="#52636d" font-size="19"><tspan x="395" dy="0">逐階段、測點、特徵</tspan></text>
+<rect x="720" y="650" width="280" height="145" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="735" y="714.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="735" dy="0">判定與偏離追查</tspan></text>
+<text x="735" y="746.92" fill="#52636d" font-size="19"><tspan x="735" dy="0">NG／OK／無法判定及複核</tspan></text>
+<path d="M40 843H1000" stroke="#e0e5e8"/>
+<text x="40" y="867" fill="#52636d" font-size="17"><tspan x="40" dy="0">邏輯關係示意，非三個 UI 分頁或部署圖。基準錄製與正式檢測分開，變更依版本管理；偏離定位不等於故障根因。</tspan></text>
+</g></svg>
