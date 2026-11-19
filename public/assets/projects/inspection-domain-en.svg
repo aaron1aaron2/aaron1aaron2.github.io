@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 905" role="img" aria-labelledby="title desc" lang="en">
+<title id="title">Domain model: plans, orders, test items and references</title><desc id="desc">Logical relationships, not three UI tabs or deployment topology. Reference recording and inspection are separate; changes are versioned. Deviation localization is not fault-root-cause identification. Solid arrows show process or data flow; dashed arrows show review, conditions or feedback.</desc>
+<defs><marker id="inspection-domain-en" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
+<rect width="1040" height="905" fill="#fff"/>
+<g font-family="Arial,Microsoft JhengHei,sans-serif">
+<text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">Domain model: plans, orders, test items and references</tspan></text>
+<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">Solid: data / process  ·  Dashed: review / feedback</tspan></text>
+<path d="M40 103H1000" stroke="#ccd5da"/>
+<path d="M320 217H380" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#inspection-domain-en)"/>
+<path d="M660 217H720" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#inspection-domain-en)"/>
+<path d="M180 285V370" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#inspection-domain-en)"/>
+<path d="M285 285V330H520V370" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#inspection-domain-en)"/>
+<path d="M860 285V370" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#inspection-domain-en)"/>
+<path d="M660 442H720" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#inspection-domain-en)"/>
+<path d="M180 515V650" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#inspection-domain-en)"/>
+<path d="M285 515V580H520V650" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#inspection-domain-en)"/>
+<path d="M860 515V600H600V650" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#inspection-domain-en)"/>
+<path d="M320 722H380" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#inspection-domain-en)"/>
+<path d="M660 722H720" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#inspection-domain-en)"/>
+<rect x="40" y="150" width="280" height="135" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="55" y="197.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">Measurement plan</tspan></text>
+<text x="55" y="229.76" fill="#52636d" font-size="19"><tspan x="55" dy="0">Equipment models, method</tspan><tspan x="55" dy="24.32">and version</tspan></text>
+<rect x="380" y="150" width="280" height="135" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="395" y="197.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="395" dy="0">Work order</tspan></text>
+<text x="395" y="229.76" fill="#52636d" font-size="19"><tspan x="395" dy="0">Adopts plan and</tspan><tspan x="395" dy="24.32">comparison basis</tspan></text>
+<rect x="720" y="150" width="280" height="135" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="735" y="197.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="735" dy="0">Test item</tspan></text>
+<text x="735" y="229.76" fill="#52636d" font-size="19"><tspan x="735" dy="0">Per-item identity and</tspan><tspan x="735" dy="24.32">inspection records</tspan></text>
+<rect x="40" y="370" width="280" height="145" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="55" y="410.44" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">Reference library</tspan></text>
+<text x="55" y="442.6" fill="#52636d" font-size="19"><tspan x="55" dy="0">Good-reference</tspan><tspan x="55" dy="24.32">confirmation, coverage,</tspan><tspan x="55" dy="24.32">versions</tspan></text>
+<rect x="380" y="370" width="280" height="145" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="395" y="422.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="395" dy="0">Stages and points</tspan></text>
+<text x="395" y="454.76000000000005" fill="#52636d" font-size="19"><tspan x="395" dy="0">Order, sensor assignments</tspan><tspan x="395" dy="24.32">, conditions</tspan></text>
+<rect x="720" y="370" width="280" height="145" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="735" y="422.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="735" dy="0">Measurement run</tspan></text>
+<text x="735" y="454.76000000000005" fill="#52636d" font-size="19"><tspan x="735" dy="0">Per-item reruns;</tspan><tspan x="735" dy="24.32">stage-by-stage execution</tspan></text>
+<rect x="40" y="650" width="280" height="145" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="55" y="702.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">Versions and history</tspan></text>
+<text x="55" y="734.76" fill="#52636d" font-size="19"><tspan x="55" dy="0">Changes preserve prior</tspan><tspan x="55" dy="24.32">decision context</tspan></text>
+<rect x="380" y="650" width="280" height="145" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="395" y="688.52" fill="#172e3b" font-size="22" font-weight="600"><tspan x="395" dy="0">Reference/threshold</tspan><tspan x="395" dy="28.16">comparison</tspan></text>
+<text x="395" y="748.8399999999999" fill="#52636d" font-size="19"><tspan x="395" dy="0">By stage, point and</tspan><tspan x="395" dy="24.32">feature</tspan></text>
+<rect x="720" y="650" width="280" height="145" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<text x="735" y="688.52" fill="#172e3b" font-size="22" font-weight="600"><tspan x="735" dy="0">Decision and</tspan><tspan x="735" dy="28.16">deviation trace</tspan></text>
+<text x="735" y="748.8399999999999" fill="#52636d" font-size="19"><tspan x="735" dy="0">NG/OK/indeterminate and</tspan><tspan x="735" dy="24.32">review</tspan></text>
+<path d="M40 843H1000" stroke="#e0e5e8"/>
+<text x="40" y="867" fill="#52636d" font-size="17"><tspan x="40" dy="0">Logical relationships, not three UI tabs or deployment topology. Reference recording and inspection are</tspan><tspan x="40" dy="21.76">separate; changes are versioned. Deviation localization is not fault-root-cause identification.</tspan></text>
+</g></svg>
