@@ -165,7 +165,7 @@ footer a{display:inline-flex;align-items:center;min-height:44px}.browse .section
 }
 
 /* Clear personal introduction; supporting details stay in reading order. */
-.home-simple .profile-opening{font-size:1.12rem;color:var(--ink);line-height:1.85}
+.home-simple .profile-opening{font-size:1.06rem;color:var(--ink);line-height:1.8;margin-bottom:.75rem}
 .profile-strengths{margin:1.7rem 0 .3rem;border-left:2px solid var(--accent);padding-left:1.1rem}
 .profile-strengths p{margin:0 0 .85rem;font-size:.92rem}
 .profile-strengths strong{display:block;color:var(--ink);margin-bottom:.12rem}
@@ -275,7 +275,6 @@ ul.project-tags>li{display:block;max-width:100%;margin:0;padding:.22rem .6rem;bo
 .home-simple .research-entry p{font-size:.92rem;margin:.5rem 0}
 .home-simple .research-entry .research-role{font-size:.88rem}
 .research-read{display:inline-flex;align-items:center;gap:.3rem;min-height:44px;font-size:.86rem}
-.home-simple .profile-research-intro{margin-bottom:.2rem}
 .skill-groups{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:2.5rem}
 .home-simple .skill-group{min-width:0;padding:1.4rem 0;border-bottom:1px solid var(--line)}
 .home-simple .skill-group h3{font-size:1.05rem;line-height:1.5;margin:0 0 .6rem}
@@ -303,8 +302,7 @@ details:not([open]) .evolution-path li::after{display:none}
 /* One overview followed by responsibilities and results. */
 .home-simple .profile-strengths{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.4rem;border-left:0;padding:0;margin:1.7rem 0 0}
 .home-simple .profile-strengths p{font-size:1rem;margin:0}
-.profile-actions{display:flex;flex-wrap:wrap;gap:.5rem 1.5rem;margin:1rem 0 0}
-.profile-actions a,.profile-case-link a{display:inline-flex;align-items:center;min-height:44px;font-weight:600}
+.profile-case-link a{display:inline-flex;align-items:center;min-height:44px;font-weight:600}
 .profile-project-layout,.profile-project-summary{min-width:0}
 .home-simple .profile-featured .profile-project-overview{font-size:1rem;line-height:1.8;color:var(--ink);margin:0 0 .9rem}
 .home-simple .profile-project-facts{grid-template-columns:5.5rem minmax(0,1fr);font-size:1rem;line-height:1.8;gap:.65rem 1rem;margin:.8rem 0}
@@ -327,10 +325,12 @@ details:not([open]) .evolution-path li::after{display:none}
  .site-languages a{padding-inline:.65rem}
 }
 @media print{
- .profile-actions,.profile-case-link{display:none}
+ .profile-case-link{display:none}
  .profile-project-layout.with-photo{display:block}
  .home-simple .profile-strengths{display:block}
  .home-simple .profile-strengths p{margin-bottom:.5rem}
 }
 
 .home-simple .profile-strengths a{display:block;white-space:normal;overflow-wrap:anywhere}
+
+@media(max-width:640px){.home-simple .profile-opening{font-size:1rem}}
