@@ -1,5 +1,7 @@
 # Aaron Ho · Portfolio
 
+首頁以問題概要、負責範圍及成果介紹代表產品、研究與競賽，再連到完整案例。中英內容對應，語言切換與頁面導覽採不同樣式。更新／新增作品請依下列規則與模板維護。
+
 [網站 / Website](https://aaron1aaron2.github.io/) · [專案 / Projects](https://aaron1aaron2.github.io/projects.html)
 
 這是個人作品集的公開靜態網站。首頁、專案列表、案例、履歷與CV均提供中英文切換；研究、原型、團隊作品與產品交付保留各自的責任及驗證範圍。
