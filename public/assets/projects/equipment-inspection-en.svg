@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 825" role="img" aria-labelledby="title desc" lang="en">
-<title id="title">Inspection flow: model requirements, references, decisions and deviations</title><desc id="desc">Aaron led solution/domain/workflow specifications and field training, with team/AI implementation. New models and thresholds require field calibration; formal acceptance is verified separately. Solid arrows show process or data flow; dashed arrows show review, conditions or feedback.</desc>
+<title id="title">Inspection flow: model requirements, references, decisions and deviations</title><desc id="desc">Aaron led solution and workflow specifications and on-site training, with team implementation. Phase 2 software functionality acceptance is complete, and Phase 3 QC validation is in progress. Solid arrows show process or data flow; dashed arrows show review, conditions or feedback.</desc>
 <defs><marker id="equipment-inspection-en" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
 <rect width="1040" height="825" fill="#fff"/>
 <g font-family="Arial,Microsoft JhengHei,sans-serif">
@@ -38,5 +38,5 @@
 <text x="790" y="528.52" fill="#172e3b" font-size="22" font-weight="600"><tspan x="790" dy="0">Thresholds and</tspan><tspan x="790" dy="28.16">versions</tspan></text>
 <text x="790" y="588.8399999999999" fill="#52636d" font-size="19"><tspan x="790" dy="0">Conditions by</tspan><tspan x="790" dy="24.32">reference and model</tspan></text>
 <path d="M40 763H1000" stroke="#e0e5e8"/>
-<text x="40" y="787" fill="#52636d" font-size="17"><tspan x="40" dy="0">Aaron led solution/domain/workflow specifications and field training, with team/AI implementation. New models</tspan><tspan x="40" dy="21.76">and thresholds require field calibration; formal acceptance is verified separately.</tspan></text>
+<text x="40" y="787" fill="#52636d" font-size="17"><tspan x="40" dy="0">Aaron led solution and workflow specifications and on-site training, with team implementation. Phase 2</tspan><tspan x="40" dy="21.76">software functionality acceptance is complete, and Phase 3 QC validation is in progress.</tspan></text>
 </g></svg>
