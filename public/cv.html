@@ -24,10 +24,10 @@
 <h1>何彥南 Yen-Nan (Aaron) Ho</h1>
 <p class="career-summary">新北市，台灣｜<a href="https://aaron1aaron2.github.io/">個人網站</a>｜<a href="https://github.com/aaron1aaron2">GitHub</a></p>
 <p class="career-summary">Email：<a href="mailto:hoyennan@gmail.com">hoyennan@gmail.com</a></p>
-<p class="career-summary"><strong>AI Engineer｜工業 AI 與產品開發</strong></p>
+<p class="career-summary"><strong>AI Engineer｜工業 AI、演算法與系統開發</strong></p>
 </div><div class="career-actions"><a class="career-download" href="downloads/Aaron_Ho_CV_zh.pdf" download="Aaron_Ho_CV_zh.pdf">下載 PDF</a></div></div>
 <section class="career-section" id="career-section-1" aria-labelledby="career-heading-1"><h2 id="career-heading-1">專業摘要</h2><div class="career-section-body">
-<p>現任皓博 Data Scientist，專注工業 AI 產品與客戶交付。主導 Harbor AI 2.0 工業智慧監控平台的產品與領域設計，參與資料鏈路及保存策略；另從客戶需求發想並設計多機型出廠品質檢測方案，涵蓋量測計畫、基準、判定與偏離分析，主導系統實作協作及現場使用教學。</p>
+<p>現任皓博 Data Scientist，擔任 Harbor AI 2.0 工業智慧監控與設備出廠品質檢測的產品主開發者與負責人。主導演算法設計及實驗，結合振動、局部放電、模型驗證與 Python 後端，將分析方法整合進設備診斷、品質判定及現場流程。</p>
 <p>獨立主導 MCIENet 碩士論文，涵蓋多尺度 CNN、資料流程、消融及跨資料集評估；另具客流估計、金融文本與人物再辨識研究及專案經驗。</p>
 </div></section>
 <section class="career-section" id="career-section-2" aria-labelledby="career-heading-2"><h2 id="career-heading-2">技術能力</h2><div class="career-section-body">
@@ -40,30 +40,30 @@
 </div></section>
 <section class="career-section" id="career-section-3" aria-labelledby="career-heading-3"><h2 id="career-heading-3">工作經歷</h2><div class="career-section-body">
 <article class="career-entry"><h3>皓博 Harbor Tech｜Data Scientist｜台北，台灣｜2025.10–目前</h3>
-<p>負責 Harbor AI 2.0 的產品與領域設計，並主導設備出廠品質檢測的客戶需求與交付工作；協同工程夥伴及 AI agents 推進實作與驗證。兩項產品分別支援設備常態監控及逐件出廠檢測，共用部分基礎技術。</p>
+<p>負責設備常態監控與逐件出廠檢測兩項產品的設計、開發、演算法與交付，從工業訊號及現場作業需求出發，定義系統功能與驗證條件。</p>
 <h4>工業智慧監控平台</h4>
 <ul>
-<li><strong>產品與操作流程：</strong> 主導產品及領域設計，與團隊從 0 到 1 建構多數功能。將振動、PRPD、RUL、趨勢與資料品質轉為設備及感測器狀態、事件檢視與操作流程；以設備為報告入口，整合多語、圖表、行動版及 API。</li>
+<li><strong>產品與操作流程：</strong> 擔任產品主開發者與負責人，主導產品、領域設計及開發。將振動、局部放電（PRPD）、RUL、趨勢與資料品質轉為設備／感測器狀態、事件分析和操作流程，整合報表、圖表與 API。</li>
 <li><strong>新舊系統演進：</strong> 設計設備資料與使用者設定的同步保護，避免舊系統覆寫新平台設定；推進設備控制權轉移、事件資料來源切換及資料遷移。感測器對應不明時停止匯入，補正後重新驗證；目前 2.0 已可獨立於 1.0 運作。</li>
 <li><strong>分析任務與排程：</strong> 負責 Django 非同步工作流、跨服務整合與感測器排程，定義 API、資料存取、檔案引用、任務生命週期及失敗行為。以資料庫保存排程及執行狀態，整合手動觸發、批次與歷史查詢，依資料可用性選擇彙總或 WAV 輸入。</li>
 <li><strong>資料傳輸與保存決策：</strong> 參與 MQTT／HTTP 的即時預覽、資料補送及控制分工，RabbitMQ 佇列／訊息處理流程，以及特徵、WAV 與 FFT 資料保存的取捨；讓日常監控與需要原始證據的深入分析各有資料依據。</li>
 <li><strong>振動事件鏈路（平台流程）：</strong> 告警後等待波形到齊，限定事件區間分析並將摘要回寫至感測器頁；分開呈現分析執行狀態與資料完整度。</li>
-<li><strong>邊緣資料與控制：</strong> 主責 Gateway 接收契約、完整性、去重、容量及方案驗證，移交對應工程師實作；另參與軟體套件分發，以及 RUL 建議、平台閾值與歷史、Gateway 套用狀態的控制流程。</li>
+<li><strong>邊緣資料與控制：</strong> 主責 Gateway 接收契約、完整性、去重、容量及方案驗證，並驗證資料契約；另參與軟體套件分發，以及 RUL 建議、平台閾值與歷史、Gateway 套用狀態的控制流程。</li>
 </ul>
 <h4>設備出廠品質檢測方案設計與交付</h4>
 <ul>
-<li><strong>需求轉譯與方案發想：</strong> 理解不同機型的出廠檢測需求，結合公司既有感測器與解決方案，主導從量測規劃、參考基準、品質判定到資料分析的整套產品設計與實作協作。</li>
+<li><strong>需求與方案發想：</strong> 擔任出廠品質檢測產品主開發者與負責人。以既有感測器滿足多機型檢測需求，主導從量測計畫、基準比對、判定到偏離分析的方案及系統開發。</li>
 <li><strong>領域模型與三層 UI：</strong> 定義計畫 → 工單 → 待測物的關係，以計畫清單、工單作業與待測物看板組織操作；將機型的階段與量測點納入規格，讓同一套感測治具支援逐件檢測與追溯。</li>
-<li><strong>基準與判定流程：</strong> 設計量測計畫、基準錄製、基準庫調整與管理、門檻設定及 NG／OK 判定；讓階段、測點與對應基準能一起管理，並將功能可測與現場門檻校準分開推進。</li>
+<li><strong>品質判定演算法與實驗：</strong> 主導良品基準、特徵比對和門檻設計。依機型、階段與測點比對量測特徵，透過門檻與特徵偏離支援 OK／NG 或無法判定，保留缺測與基準不足等原因。</li>
 <li><strong>分析與偏離定位：</strong> 規劃從整體判定深入階段、測點與特徵差異的資料分析，讓使用者追查偏離基準的位置；特徵差異不直接當作已確診的故障根因。</li>
 <li><strong>操作與量測防錯：</strong> 收斂原先 5–6 層及循環導航，整合報告、複查與基準管理，加入主要動作、鍵盤、狀態及感測器提醒。分開安裝確認與正式量測，以感測器及位置示意防止錯誤配對；獲 DQA 定性正面回饋。</li>
 <li><strong>現場導入與教學：</strong> 2026 年 10 月 12 日到場示範並教導使用者操作，定位主機時間偏移造成的連線中斷，完成現場與後續修正，將客戶回饋帶回產品開發。</li>
-<li><strong>階段驗收與交付：</strong> 主導測試版本、手冊、DQA 交測與現場交付，協同工程夥伴及 AI agents 實作與驗證。第二階段軟體功能驗收已完成。</li>
+<li><strong>階段驗收與交付：</strong> 主導測試版本、操作手冊、交測與現場交付。第二階段軟體功能驗收已完成。</li>
 <li><strong>第三階段 QC 研究（進行中）：</strong> 分析量測資料與特徵，研究良品基準的穩定性、OK／NG 的誤判與無法判定情境。準備與客戶對齊補收資料、品質標記、QC 問題與驗證範圍，辨識成效待驗證。</li>
 </ul>
 <h4>工業分析、模型驗證與診斷報告</h4>
 <ul>
-<li><strong>PRPD 指標溯源：</strong> 追查原始波形至分析與圖表的資料流程，辨識取樣點總數與離散放電事件率的差異；檢查頻段及相位聚合的物理意義，提出指標與介面語意的修正方向，候選脈衝率方案仍待驗證。</li>
+<li><strong>局部放電指標設計與實驗：</strong> 從原始波形追查相位解析局部放電（PRPD）指標，區分取樣點數與放電事件。比較時間窗與有效波形覆蓋的影響，評估指標能支持的診斷結論。</li>
 <li><strong>RUL 假設與實驗審查：</strong> 發現測試常數被當成觀測資料，撤回原分析結論並要求多參數、多曲線及正反向消融；讓研究 notebook 直接呼叫產品程式，檢查快速劣化漏報、健康序列誤報及實作差異。</li>
 <li><strong>診斷與輸出規則：</strong> 整合前處理、有效運轉區段、故障分類、ISO 嚴重度、RUL 及報告，區分故障型態、嚴重度與剩餘時間；檢查取樣、覆蓋、選擇偏差及分母，資料不足時降級輸出並保留分析依據。現場壽命真值與信心校準仍待建立。</li>
 <li><strong>報告服務產品化：</strong> 主導分析方法、報告結構及品質條件，從案場報告建立可重用流程；透過 LangChain、LangGraph 原型驗證節點契約、多設備隔離、局部重產及備援，再推進服務與平台派工、DOCX 報告及下載功能整合。數值與分類由分析節點產生，LLM 負責文字說明。</li>

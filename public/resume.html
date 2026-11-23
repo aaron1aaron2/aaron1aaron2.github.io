@@ -24,12 +24,12 @@
 <h1>何彥南 Yen-Nan (Aaron) Ho</h1>
 <p class="career-summary">新北市，台灣｜<a href="https://aaron1aaron2.github.io/">個人網站</a>｜<a href="https://github.com/aaron1aaron2">GitHub</a></p>
 <p class="career-summary">Email：<a href="mailto:hoyennan@gmail.com">hoyennan@gmail.com</a></p>
-<p class="career-summary"><strong>AI Engineer｜工業 AI 與產品開發</strong></p>
-<p class="career-summary">現任皓博 Data Scientist，具工業資料分析、Python 後端與客戶交付經驗。主導 Harbor AI 2.0 產品與領域設計，參與資料傳輸、保存與分析服務的架構決策；另從客戶需求發想多機型出廠品質檢測方案，設計量測、基準、判定及分析流程，推進系統開發與現場教學。</p>
+<p class="career-summary"><strong>AI Engineer｜工業 AI、演算法與系統開發</strong></p>
+<p class="career-summary">現任皓博 Data Scientist，擔任 Harbor AI 2.0 工業智慧監控與設備出廠品質檢測的產品主開發者與負責人。主導演算法設計及實驗，結合振動、局部放電、模型驗證與 Python 後端，將分析方法整合進設備診斷、品質判定及現場流程。</p>
 </div><div class="career-actions"><a class="career-download" href="downloads/Aaron_Ho_Resume_zh.pdf" download="Aaron_Ho_Resume_zh.pdf">下載 PDF</a></div></div>
 <section class="career-section" id="career-section-1" aria-labelledby="career-heading-1"><h2 id="career-heading-1">核心技術</h2><div class="career-section-body">
 <ul>
-<li><strong>資料分析與模型驗證：</strong> Python、NumPy、pandas、SciPy、PyTorch；訊號分析、多尺度 CNN、消融實驗、跨資料集評估。</li>
+<li><strong>資料分析、訊號處理與機器學習：</strong> Python、NumPy、pandas、SciPy、PyTorch、統計檢定、頻譜分析（FFT）、特徵擷取、模型驗證與消融實驗。</li>
 <li><strong>後端與系統整合：</strong> Django、Django Ninja、REST API、PostgreSQL、Redis、MQTT／HTTP、訊息佇列、非同步工作流與排程；React、TypeScript。</li>
 <li><strong>AI 應用與工程交付：</strong> LangChain、LangGraph 原型驗證、診斷報告整合、Docker、離線安裝、版本更新與回復、Git、自動化回歸測試。</li>
 </ul>
@@ -37,13 +37,13 @@
 <section class="career-section" id="career-section-2" aria-labelledby="career-heading-2"><h2 id="career-heading-2">工作經歷</h2><div class="career-section-body">
 <article class="career-entry"><h3>皓博 Harbor Tech｜Data Scientist｜台北｜2025.10–目前</h3>
 <ul>
-<li><strong>工業智慧監控平台：</strong> 主導產品流程與領域設計，將振動、局部放電及資料品質轉為設備狀態與診斷流程；與團隊建構 Harbor AI 2.0，推進新舊系統的資料銜接與逐步替換，目前 2.0 已可獨立於 1.0 運作。</li>
+<li><strong>工業智慧監控平台：</strong> 擔任產品主開發者與負責人，主導產品流程與領域設計，串接設備告警、事件分析、排程及報表。設計新舊系統資料銜接與逐步替換，2.0 目前可獨立於 1.0 運作。</li>
+<li><strong>工業演算法與模型驗證：</strong> 主導振動、局部放電分析方法與實驗。以有效運轉區段、頻譜（FFT）及統計檢定分析振動，檢查 PRPD 指標與事件時間窗的資料涵蓋，並對剩餘使用壽命（RUL）做資料假設檢查與參數消融。</li>
 <li><strong>資料鏈路與服務整合：</strong> 參與 MQTT／HTTP 通道分工、RabbitMQ 訊息流程及特徵、WAV、FFT 資料保留決策；以 Django 串接感測器排程、分析派工、狀態與結果保存，支援監控、壽命分析及報表。</li>
-<li><strong>多機型檢測方案設計：</strong> 從需求與既有感測器能力出發，主導整套出廠檢測方案；定義計畫 → 工單 → 待測物三層作業與 UI，設計多階段／測點量測、基準錄製與基準庫、門檻管理、NG／OK 判定及特徵偏離定位。</li>
+<li><strong>出廠品質檢測平台：</strong> 擔任產品主開發者與負責人，從需求與既有感測器出發，設計計畫 → 工單 → 待測物三層作業與 UI。主導品質判定演算法設計與實驗，依階段／測點建立良品基準，透過門檻與特徵偏離支援 OK／NG 判定。</li>
 <li><strong>現場交付與品質驗證：</strong> 完成現場示範與使用教學，第二階段軟體功能驗收已完成。第三階段正分析 OK／NG 可分性，並規劃補收資料與驗證範圍。</li>
-<li><strong>工業分析與模型驗證：</strong> 追查局部放電相位圖譜（PRPD）指標來源，區分取樣點與放電事件；審查剩餘使用壽命（RUL）模型的資料假設與消融設計，並以有效運轉區段、統計檢定及效果量評估振動差異，界定分析結論的適用範圍。</li>
 <li><strong>診斷報告產品化：</strong> 主導振動分析方法、報告結構與品質檢核，完成 LangGraph 流程原型及報告服務、平台派工與下載功能整合；將數值分析與 LLM 文字說明分開，保留可核對的分析依據。</li>
-<li><strong>版本驗收與交付：</strong> 建立可追溯的問題紀錄與每日回歸測試流程，協同工程夥伴與 AI agents 實作及複驗。負責發布前的修復審查，核對問題紀錄、程式碼合併狀態與展示版本，確認修正的複驗與驗收進度。</li>
+<li><strong>版本驗收與交付：</strong> 建立可追溯的問題紀錄與每日回歸測試流程。負責發布前修復審查，核對問題紀錄、合併狀態與展示版本，追蹤複驗與驗收。</li>
 </ul>
 </article>
 <article class="career-entry"><h3>中央研究院社會學研究所｜資料科學實習生｜台北｜2019.05–2020.12</h3>
