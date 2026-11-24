@@ -7,7 +7,7 @@
 <meta name="description" content="Public career, research, and publication CV for Yen-Nan (Aaron) Ho.">
 <title>Public CV | Yen-Nan (Aaron) Ho</title>
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="styles.css?v=20261124-nav">
+<link rel="stylesheet" href="styles.css?v=20261124-download">
 <link rel="stylesheet" href="career.css">
 <link rel="canonical" href="https://aaron1aaron2.github.io/cv-en.html">
 <link rel="alternate" hreflang="zh-Hant" href="cv.html">
@@ -18,7 +18,7 @@
 </head>
 <body class="career-page career-cv">
 <a class="skip" href="#main">Skip to main content</a>
-<header class="masthead"><div class="wrap topline"><a class="brand" href="index-en.html" aria-label="Aaron Ho home">Aaron Ho</a><nav class="nav" aria-label="Main navigation"><a href="index-en.html">Home</a><a href="projects-en.html">Projects</a><a href="resume-en.html">Resume</a><a href="cv-en.html" aria-current="page">CV</a></nav><div class="site-actions"><nav class="site-languages" aria-label="Language"><a class="language-link" href="cv.html" lang="zh-Hant" hreflang="zh-Hant"><span>中文</span></a><a class="language-link" href="cv-en.html" lang="en" hreflang="en" aria-current="page"><span>EN</span></a></nav><details class="site-download"><summary><span class="site-download-label">Download PDF</span></summary><ul class="site-download-options"><li><a href="downloads/Aaron_Ho_Resume_en.pdf" download="Aaron_Ho_Resume_en.pdf">Short resume</a></li><li><a href="downloads/Aaron_Ho_CV_en.pdf" download="Aaron_Ho_CV_en.pdf">Full CV</a></li></ul></details></div></div></header>
+<header class="masthead"><div class="wrap topline"><a class="brand" href="index-en.html" aria-label="Aaron Ho home">Aaron Ho</a><nav class="nav" aria-label="Main navigation"><a href="index-en.html">Home</a><a href="projects-en.html">Projects</a><a href="resume-en.html">Resume</a><a href="cv-en.html" aria-current="page">CV</a></nav><div class="site-actions"><nav class="site-languages" aria-label="Language"><a class="language-link" href="cv.html" lang="zh-Hant" hreflang="zh-Hant"><span>中文</span></a><a class="language-link" href="cv-en.html" lang="en" hreflang="en" aria-current="page"><span>EN</span></a></nav><details class="site-download"><summary><span class="site-download-label">Download PDF</span></summary><ul class="site-download-options"><li><a href="downloads/Aaron_Ho_Resume_en.pdf" download="Aaron_Ho_Resume_en.pdf">Resume</a></li><li><a href="downloads/Aaron_Ho_CV_en.pdf" download="Aaron_Ho_CV_en.pdf">CV</a></li></ul></details></div></div></header>
 <main class="career-main" id="main" tabindex="-1">
 <div class="career-intro"><div><p class="career-kicker">AI Engineer · Public CV</p>
 <h1>Yen-Nan (Aaron) Ho</h1>
@@ -27,7 +27,7 @@
 <p class="career-summary"><strong>AI Engineer | Industrial AI, Algorithms, and Systems</strong></p>
 </div><div class="career-actions"><a class="career-download" href="downloads/Aaron_Ho_CV_en.pdf" download="Aaron_Ho_CV_en.pdf">Download PDF</a></div></div>
 <section class="career-section" id="career-section-1" aria-labelledby="career-heading-1"><h2 id="career-heading-1">Professional Summary</h2><div class="career-section-body">
-<p>Data Scientist at Harbor Tech and lead developer responsible for two Harbor AI 2.0 products: industrial equipment monitoring and end-of-line quality inspection. Lead algorithm design and experimentation, integrating vibration and partial discharge analysis, model validation, and Python backend workflows into field operations.</p>
+<p>Data Scientist at Harbor Tech and lead developer responsible for two Harbor AI 2.0 products: industrial equipment monitoring and end-of-line quality inspection. Translate field needs into specifications, operator workflows, and acceptance criteria. Lead algorithm design and experiments, and integrate signal analysis and model validation into Python services.</p>
 <p>Independently led MCIENet, an M.S. thesis on DNA-sequence-based chromatin interaction prediction, including multi-scale CNNs, data pipelines, ablations, and cross-dataset evaluation. Additional work spans passenger-flow estimation, financial text analysis, and person re-identification.</p>
 </div></section>
 <section class="career-section" id="career-section-2" aria-labelledby="career-heading-2"><h2 id="career-heading-2">Technical Skills</h2><div class="career-section-body">
@@ -48,7 +48,7 @@
 <li><strong>Analysis workflows and scheduling:</strong> Build Django asynchronous workflows, cross-service integration, and per-sensor scheduling, defining APIs, data access, file references, task lifecycles, and failure behavior. Persist schedules and execution states in the database and support manual triggers, batches, and history, selecting aggregate or WAV inputs by data availability.</li>
 <li><strong>Data transport and retention decisions:</strong> Contributed MQTT/HTTP responsibilities for live previews, data backfill, and control; RabbitMQ message-processing flows; and retention choices for features, WAV, and FFT data, supporting both routine monitoring and deeper analysis requiring original evidence.</li>
 <li><strong>Vibration event workflow (platform):</strong> Alerts trigger a wait for waveforms, analysis within the event window, and a summary on the sensor page. Job status and data coverage are shown separately.</li>
-<li><strong>Edge data and control:</strong> Owned Gateway intake contracts, integrity, deduplication, capacity, and design validation, validating the resulting data contract. Also contributed package distribution and the flow from RUL recommendations to platform thresholds, history, and Gateway application status.</li>
+<li><strong>Edge data and control:</strong> Owned the Gateway intake contract, defining data and control responsibilities, integrity, deduplication, capacity, and validation criteria. Aligned interfaces across teams and handed off service implementation. Also contributed to updates and the RUL threshold feedback flow.</li>
 </ul>
 <h4>Equipment Quality Inspection Solution Design and Delivery</h4>
 <ul>
@@ -72,14 +72,14 @@
 <h4>AI-Assisted Engineering and Release Delivery</h4>
 <ul>
 <li><strong>Requirements and quality control:</strong> Own product tradeoffs, domain judgment, work decomposition, and validation criteria. Established traceable requirements, analysis, decisions, issues, tests, and versions, providing AI agents with persistent context and tools for parallel development and verification on isolated branches.</li>
-<li><strong>Regression and human review:</strong> Established daily functional regression and monitoring, routing findings to issue tracking and Bitbucket PRs. Review data assumptions and product behavior with human reviewers before merge and release decisions, turning recurring problems into rules and tests.</li>
+<li><strong>Regression and human review:</strong> Established daily functional regression and issue tracking so AI agents could advance routine fixes to human review. Found cases where issue status and verification disagreed, made verification results a closure criterion, and converted recurring problems into rules and tests.</li>
 <li><strong>Installation, updates, and rollback:</strong> Integrated Docker and offline packages, cross-architecture installation, version information, and platform updates and rollback. Separated update execution from platform downtime risk and added prechecks, progress, failure signals, and recovery procedures; incorporated real-machine issues into schema, storage, and restart checks.</li>
 <li><strong>Release validation and delivery:</strong> Cross-checked issue records, code merge status, and demo builds to distinguish fixes pending merge, ready for retest, and accepted. Verified clean installs and checked fields, time zones, and continuity during data migration.</li>
 </ul>
 <h4>Field Analysis and Cross-Functional Collaboration</h4>
 <ul>
-<li><strong>Partial-discharge analysis:</strong> Aligned database, event, and waveform scope with field and quality teams. Located events before retrieving waveforms and combined batch analysis, PRPD charts, AI drafts, and page-by-page human review.</li>
-<li><strong>Motor and pump analysis:</strong> Used max and P99 to distinguish sustained severity from transient spikes, checking operating intervals, RUL assumptions, and VRMS variation. Reassessed customer observations with minute medians, nonparametric tests, multiple-comparison correction, and effect sizes. Delivered the analysis and customer explanation; root-cause determination still requires field speed, flow, and related data.</li>
+<li><strong>Partial-discharge analysis:</strong> Established a repeatable data-handoff specification with field application engineering and quality teams where no standard procedure existed. Aligned sensor configuration, data formats, event scope, and handoff responsibilities, then used event-specific waveforms, batch analysis, PRPD plots, and human review to retain traceable evidence.</li>
+<li><strong>Motor and pump analysis:</strong> Tested field observations using valid operating intervals, minute-level medians, nonparametric tests, multiple-comparison corrections, and effect sizes. Delivered the analysis and explained which differences the evidence supported and which still required operating data such as speed or flow.</li>
 <li><strong>Legacy analysis reconstruction:</strong> Reconstructed traceable ADC-to-g, FFT, SNR, cutting-point, and frequency-domain workflows from historical code, notebooks, and reports. Delivered executables and manuals while protecting company algorithm IP.</li>
 <li><strong>Research collaboration and technical proposals:</strong> Designed research topics, materials, and starter notebooks for an intern, reviewing data assumptions and direction through weekly reports. Also owned company-side technical documents, version integration, and cross-company interfaces and checkpoints for a smart-city edge-platform proposal, which remained an unsubmitted draft.</li>
 </ul>
