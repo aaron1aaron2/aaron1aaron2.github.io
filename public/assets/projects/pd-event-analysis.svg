@@ -1,39 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 710" role="img" aria-labelledby="title desc" lang="zh-Hant">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 746" role="img" aria-labelledby="title desc" lang="zh-Hant">
 <title id="title">事件到達序與波形完整性分開處理</title><desc id="desc">分析成功可同時是資料部分完整；設備錄音與完整現場整合另作驗證。 實線表示資料或處理流程；虛線表示審查、條件或回饋。</desc>
-<defs><marker id="pd-event-analysis-zh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
-<rect width="1040" height="710" fill="#fff"/>
+<defs><marker id="pd-event-analysis-zh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="context-stroke"/></marker></defs>
+<rect width="1040" height="746" fill="#fff"/>
 <g font-family="Arial,Microsoft JhengHei,sans-serif">
 <text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">事件到達序與波形完整性分開處理</tspan></text>
-<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">實線：資料／處理流程　　虛線：審查／回饋</tspan></text>
+<path d="M40 75H67" stroke="#34656a" stroke-width="2"/>
+<text x="76" y="80" fill="#455d66" font-size="16"><tspan x="76" dy="0">資料與工作流</tspan></text>
+
+
 <path d="M40 103H1000" stroke="#ccd5da"/>
-<path d="M290 212H395" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#pd-event-analysis-zh)"/>
-<path d="M645 212H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#pd-event-analysis-zh)"/>
-<path d="M875 270V335H165V420" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#pd-event-analysis-zh)"/>
-<path d="M290 477H395" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#pd-event-analysis-zh)"/>
-<path d="M875 335V420" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#pd-event-analysis-zh)"/>
-<path d="M645 477H750" fill="none" stroke="#526773" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#pd-event-analysis-zh)"/>
-<rect x="40" y="155" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<path d="M290 212H395" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#pd-event-analysis-zh)"/>
+<path d="M645 212H750" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#pd-event-analysis-zh)"/>
+<path d="M875 270V335H165V420" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#pd-event-analysis-zh)"/>
+<path d="M290 477H395" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#pd-event-analysis-zh)"/>
+<path d="M875 335V420" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#pd-event-analysis-zh)"/>
+<rect x="40" y="155" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="197.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">事件到達序</tspan></text>
 <text x="55" y="229.76" fill="#52636d" font-size="19"><tspan x="55" dy="0">事件編號續掃，不按發生時</tspan><tspan x="55" dy="24.32">間</tspan></text>
-<rect x="395" y="155" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="395" y="155" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="410" y="209.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="410" dy="0">事件時間窗口</tspan></text>
 <text x="410" y="241.92" fill="#52636d" font-size="19"><tspan x="410" dy="0">定位各感測器波形集合</tspan></text>
-<rect x="750" y="155" width="250" height="125" rx="3" fill="#fff" stroke="#8c6b37" stroke-width="2"/>
+<rect x="750" y="155" width="250" height="125" rx="5" fill="#faf6ee" stroke="#8c6b37" stroke-width="2"/>
 <text x="765" y="209.76" fill="#71572b" font-size="22" font-weight="600"><tspan x="765" dy="0">等待檔案集合穩定</tspan></text>
 <text x="765" y="241.92" fill="#52636d" font-size="19"><tspan x="765" dy="0">容許波形陸續上傳</tspan></text>
-<rect x="395" y="420" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
-<text x="410" y="474.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="410" dy="0">執行結果</tspan></text>
-<text x="410" y="506.92" fill="#52636d" font-size="19"><tspan x="410" dy="0">成功、失敗或缺資料</tspan></text>
-<rect x="750" y="420" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="395" y="420" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
+<text x="410" y="462.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="410" dy="0">執行結果</tspan></text>
+<text x="410" y="494.76000000000005" fill="#52636d" font-size="19"><tspan x="410" dy="0">另記分析成功、失敗或缺少</tspan><tspan x="410" dy="24.32">輸入</tspan></text>
+<rect x="750" y="420" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="765" y="474.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="765" dy="0">資料完整性</tspan></text>
 <text x="765" y="506.92" fill="#52636d" font-size="19"><tspan x="765" dy="0">完整、部分或缺資料</tspan></text>
-<rect x="40" y="420" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="40" y="420" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="474.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">PRPD 分析派工</tspan></text>
 <text x="55" y="506.92" fill="#52636d" font-size="19"><tspan x="55" dy="0">每個感測器獨立執行</tspan></text>
 <rect x="176" y="363" width="108" height="23.48" fill="#fff"/>
 <text x="180" y="380" fill="#52636d" font-size="16"><tspan x="180" dy="0">符合派工條件</tspan></text>
-<rect x="661" y="373" width="108" height="23.48" fill="#fff"/>
-<text x="665" y="390" fill="#52636d" font-size="16"><tspan x="665" dy="0">結果共同呈現</tspan></text>
-<path d="M40 648H1000" stroke="#e0e5e8"/>
-<text x="40" y="672" fill="#52636d" font-size="17"><tspan x="40" dy="0">分析成功可同時是資料部分完整；設備錄音與完整現場整合另作驗證。</tspan></text>
+<path d="M40 659H1000" stroke="#e0e5e8"/>
+<text x="40" y="688" fill="#52636d" font-size="17"><tspan x="40" dy="0">分析成功可同時是資料部分完整；設備錄音與完整現場整合另作驗證。</tspan></text>
 </g></svg>

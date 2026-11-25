@@ -94,7 +94,7 @@
   const link = event.target.closest('a.original-media');
   const image = link?.querySelector('img');
   if (!image) return;
-  const source = new URL(link.href, location.href);
+  const source = new URL(image.closest('picture') && image.currentSrc ? image.currentSrc : link.href, location.href);
   if (source.origin !== location.origin || !/\.(svg|png|jpe?g|webp)$/i.test(source.pathname)) return;
   event.preventDefault();
   if (!dialog) createViewer();
@@ -109,6 +109,11 @@
   document.body.classList.add('image-preview-open');
   preview.alt = image.alt;
   preview.src = source.href;
+  const portrait = /-core-mobile(?:-en)?\.svg$/i.test(source.pathname);
+  dialog.classList.toggle('image-lightbox--portrait',portrait);
+  const stage = preview.parentElement;
+  stage.tabIndex = portrait ? 0 : -1;
+  stage.scrollTop = 0;
   const description = link.closest('figure')?.querySelector('figcaption')?.textContent.trim();
   caption.textContent = description || image.alt;
   caption.hidden = !caption.textContent;

@@ -1,32 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 745" role="img" aria-labelledby="title desc" lang="zh-Hant">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 781" role="img" aria-labelledby="title desc" lang="zh-Hant">
 <title id="title">共同證據與不同讀者入口</title><desc id="desc">版本一致與內容正確分開檢查；文件漂移仍需持續追蹤。 實線表示資料或處理流程；虛線表示審查、條件或回饋。</desc>
-<defs><marker id="knowledge-system-zh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
-<rect width="1040" height="745" fill="#fff"/>
+<defs><marker id="knowledge-system-zh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="context-stroke"/></marker></defs>
+<rect width="1040" height="781" fill="#fff"/>
 <g font-family="Arial,Microsoft JhengHei,sans-serif">
 <text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">共同證據與不同讀者入口</tspan></text>
-<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">實線：資料／處理流程　　虛線：審查／回饋</tspan></text>
+<path d="M40 75H67" stroke="#34656a" stroke-width="2"/>
+<text x="76" y="80" fill="#455d66" font-size="16"><tspan x="76" dy="0">資料與工作流</tspan></text>
+
+
 <path d="M40 103H1000" stroke="#ccd5da"/>
-<path d="M290 290H340V192H395" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#knowledge-system-zh)"/>
-<path d="M340 290V382H395" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#knowledge-system-zh)"/>
-<path d="M340 382V565H395" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#knowledge-system-zh)"/>
-<path d="M645 192H700V290H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#knowledge-system-zh)"/>
-<path d="M645 382H700V340H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#knowledge-system-zh)"/>
-<path d="M645 565H700V340" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#knowledge-system-zh)"/>
-<rect x="40" y="245" width="250" height="140" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<path d="M290 290H340V192H395" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#knowledge-system-zh)"/>
+<path d="M340 290V382H395" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#knowledge-system-zh)"/>
+<path d="M340 382V565H395" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#knowledge-system-zh)"/>
+<path d="M645 192H700V290H750" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#knowledge-system-zh)"/>
+<path d="M645 382H700V340H750" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#knowledge-system-zh)"/>
+<path d="M645 565H700V340" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#knowledge-system-zh)"/>
+<rect x="40" y="245" width="250" height="140" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="307.26" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">共同工程證據</tspan></text>
 <text x="55" y="339.42" fill="#52636d" font-size="19"><tspan x="55" dy="0">需求、變更、測試與版本</tspan></text>
-<rect x="395" y="140" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="395" y="140" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="410" y="194.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="410" dy="0">操作手冊</tspan></text>
 <text x="410" y="226.92" fill="#52636d" font-size="19"><tspan x="410" dy="0">對照實際 UI</tspan></text>
-<rect x="395" y="330" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="395" y="330" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="410" y="384.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="410" dy="0">安裝與維運文件</tspan></text>
 <text x="410" y="416.92" fill="#52636d" font-size="19"><tspan x="410" dy="0">對照部署流程</tspan></text>
-<rect x="395" y="520" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="395" y="520" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="410" y="574.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="410" dy="0">規格與進度</tspan></text>
 <text x="410" y="606.92" fill="#52636d" font-size="19"><tspan x="410" dy="0">引用、風險與決策</tspan></text>
-<rect x="750" y="245" width="250" height="140" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="750" y="245" width="250" height="140" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="765" y="307.26" fill="#172e3b" font-size="22" font-weight="600"><tspan x="765" dy="0">主管、工程與現場</tspan></text>
 <text x="765" y="339.42" fill="#52636d" font-size="19"><tspan x="765" dy="0">各自查找同一版本依據</tspan></text>
-<path d="M40 683H1000" stroke="#e0e5e8"/>
-<text x="40" y="707" fill="#52636d" font-size="17"><tspan x="40" dy="0">版本一致與內容正確分開檢查；文件漂移仍需持續追蹤。</tspan></text>
+<path d="M40 694H1000" stroke="#e0e5e8"/>
+<text x="40" y="723" fill="#52636d" font-size="17"><tspan x="40" dy="0">版本一致與內容正確分開檢查；文件漂移仍需持續追蹤。</tspan></text>
 </g></svg>

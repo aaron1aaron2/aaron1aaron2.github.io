@@ -1,35 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 770" role="img" aria-labelledby="title desc" lang="en">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 806" role="img" aria-labelledby="title desc" lang="en">
 <title id="title">TownPass: preparation, confirmation and simulated submission</title><desc id="desc">Final scope: one-time, one case, one helper; revoking future access does not cancel an existing submission. Solid arrows show process or data flow; dashed arrows show review, conditions or feedback.</desc>
-<defs><marker id="townpass-flow-en" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
-<rect width="1040" height="770" fill="#fff"/>
+<defs><marker id="townpass-flow-en" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="context-stroke"/></marker></defs>
+<rect width="1040" height="806" fill="#fff"/>
 <g font-family="Arial,Microsoft JhengHei,sans-serif">
 <text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">TownPass: preparation, confirmation and simulated submission</tspan></text>
-<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">Solid: data / process  ·  Dashed: review / feedback</tspan></text>
+<path d="M40 75H67" stroke="#34656a" stroke-width="2"/>
+<text x="76" y="80" fill="#455d66" font-size="16"><tspan x="76" dy="0">Data and workflow</tspan></text>
+<path d="M286 75H313" stroke="#83683b" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="322" y="80" fill="#665330" font-size="16"><tspan x="322" dy="0">Condition, review or feedback</tspan></text>
 <path d="M40 103H1000" stroke="#ccd5da"/>
-<rect x="20" y="145" width="285" height="480" fill="#f7f9fa" stroke="#d4dde1" stroke-dasharray="5 5"/>
+<rect x="20" y="145" width="285" height="480" fill="#f1f6f4" stroke="#c0cfcc"/>
 <text x="34" y="170" fill="#526773" font-size="17" font-weight="600"><tspan x="34" dy="0">Helper permissions</tspan></text>
-<rect x="375" y="145" width="285" height="480" fill="#f7f9fa" stroke="#d4dde1" stroke-dasharray="5 5"/>
+<rect x="375" y="145" width="285" height="480" fill="#f1f6f4" stroke="#c0cfcc"/>
 <text x="389" y="170" fill="#526773" font-size="17" font-weight="600"><tspan x="389" dy="0">Applicant decision authority</tspan></text>
-<rect x="730" y="145" width="290" height="480" fill="#f7f9fa" stroke="#d4dde1" stroke-dasharray="5 5"/>
+<rect x="730" y="145" width="290" height="480" fill="#f1f6f4" stroke="#c0cfcc"/>
 <text x="744" y="170" fill="#526773" font-size="17" font-weight="600"><tspan x="744" dy="0">Simulated submission</tspan></text>
-<path d="M290 247H395" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#townpass-flow-en)"/>
-<path d="M645 247H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#townpass-flow-en)"/>
-<path d="M875 305V445" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#townpass-flow-en)"/>
-<path d="M520 305V445" fill="none" stroke="#526773" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#townpass-flow-en)"/>
-<path d="M395 502H165V315" fill="none" stroke="#526773" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#townpass-flow-en)"/>
-<rect x="40" y="190" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<path d="M290 247H395" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#townpass-flow-en)"/>
+<path d="M645 247H750" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#townpass-flow-en)"/>
+<path d="M875 305V445" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#townpass-flow-en)"/>
+<path d="M520 305V445" fill="none" stroke="#83683b" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#townpass-flow-en)"/>
+<path d="M395 502H165V315" fill="none" stroke="#83683b" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#townpass-flow-en)"/>
+<rect x="40" y="190" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="222.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="55" dy="0">Helper prepares</tspan><tspan x="55" dy="24.96">content</tspan></text>
 <text x="55" y="276.34000000000003" fill="#52636d" font-size="16.5"><tspan x="55" dy="0">Fill in data and organize</tspan><tspan x="55" dy="21.12">attachments</tspan></text>
-<rect x="395" y="190" width="250" height="125" rx="3" fill="#fff" stroke="#8c6b37" stroke-width="2"/>
+<rect x="395" y="190" width="250" height="125" rx="5" fill="#faf6ee" stroke="#8c6b37" stroke-width="2"/>
 <text x="410" y="222.42" fill="#71572b" font-size="19.5" font-weight="600"><tspan x="410" dy="0">Applicant reviews and</tspan><tspan x="410" dy="24.96">confirms</tspan></text>
 <text x="410" y="276.34000000000003" fill="#52636d" font-size="16.5"><tspan x="410" dy="0">Confirmation bound to</tspan><tspan x="410" dy="21.12">case revision</tspan></text>
-<rect x="750" y="190" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="750" y="190" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="765" y="222.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="765" dy="0">Helper simulates</tspan><tspan x="765" dy="24.96">submission</tspan></text>
 <text x="765" y="276.34000000000003" fill="#52636d" font-size="16.5"><tspan x="765" dy="0">Idempotency key prevents</tspan><tspan x="765" dy="21.12">duplicates</tspan></text>
-<rect x="395" y="445" width="250" height="125" rx="3" fill="#fff" stroke="#8c6b37" stroke-width="2"/>
+<rect x="395" y="445" width="250" height="125" rx="5" fill="#faf6ee" stroke="#8c6b37" stroke-width="2"/>
 <text x="410" y="477.42" fill="#71572b" font-size="19.5" font-weight="600"><tspan x="410" dy="0">Reconfirm after</tspan><tspan x="410" dy="24.96">changes</tspan></text>
 <text x="410" y="531.3399999999999" fill="#52636d" font-size="16.5"><tspan x="410" dy="0">Form or attachment edits</tspan><tspan x="410" dy="21.12">invalidate consent</tspan></text>
-<rect x="750" y="445" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="750" y="445" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="765" y="477.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="765" dy="0">Single submission</tspan><tspan x="765" dy="24.96">receipt</tspan></text>
 <text x="765" y="531.3399999999999" fill="#52636d" font-size="16.5"><tspan x="765" dy="0">Retries return the same</tspan><tspan x="765" dy="21.12">submission</tspan></text>
 <rect x="661" y="213" width="90.56000000000002" height="23.48" fill="#fff"/>
@@ -38,6 +41,6 @@
 <text x="535" y="385" fill="#52636d" font-size="16"><tspan x="535" dy="0">Changes needed</tspan></text>
 <rect x="176" y="388" width="130.88000000000002" height="23.48" fill="#fff"/>
 <text x="180" y="405" fill="#52636d" font-size="16"><tspan x="180" dy="0">Revise content</tspan></text>
-<path d="M40 708H1000" stroke="#e0e5e8"/>
-<text x="40" y="732" fill="#52636d" font-size="17"><tspan x="40" dy="0">Final scope: one-time, one case, one helper; revoking future access does not cancel an existing submission.</tspan></text>
+<path d="M40 719H1000" stroke="#e0e5e8"/>
+<text x="40" y="748" fill="#52636d" font-size="17"><tspan x="40" dy="0">Final scope: one-time, one case, one helper; revoking future access does not cancel an existing submission.</tspan></text>
 </g></svg>

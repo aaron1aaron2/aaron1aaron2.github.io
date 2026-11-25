@@ -1,34 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 680" role="img" aria-labelledby="title desc" lang="en">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 716" role="img" aria-labelledby="title desc" lang="en">
 <title id="title">Event selection, batch analysis and human review</title><desc id="desc">Unselected periods were not diagnosed; selected events do not establish a full-period miss rate. Solid arrows show process or data flow; dashed arrows show review, conditions or feedback.</desc>
-<defs><marker id="event-analysis-en" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
-<rect width="1040" height="680" fill="#fff"/>
+<defs><marker id="event-analysis-en" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="context-stroke"/></marker></defs>
+<rect width="1040" height="716" fill="#fff"/>
 <g font-family="Arial,Microsoft JhengHei,sans-serif">
 <text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">Event selection, batch analysis and human review</tspan></text>
-<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">Solid: data / process  ·  Dashed: review / feedback</tspan></text>
+<path d="M40 75H67" stroke="#34656a" stroke-width="2"/>
+<text x="76" y="80" fill="#455d66" font-size="16"><tspan x="76" dy="0">Data and workflow</tspan></text>
+
+
 <path d="M40 103H1000" stroke="#ccd5da"/>
-<path d="M290 212H395" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#event-analysis-en)"/>
-<path d="M645 212H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#event-analysis-en)"/>
-<path d="M875 270V385" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#event-analysis-en)"/>
-<path d="M750 442H645" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#event-analysis-en)"/>
-<path d="M395 442H290" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#event-analysis-en)"/>
-<rect x="40" y="155" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<path d="M290 212H395" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#event-analysis-en)"/>
+<path d="M645 212H750" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#event-analysis-en)"/>
+<path d="M875 270V385" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#event-analysis-en)"/>
+<path d="M750 442H645" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#event-analysis-en)"/>
+<path d="M395 442H290" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#event-analysis-en)"/>
+<rect x="40" y="155" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="187.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="55" dy="0">Complete event</tspan><tspan x="55" dy="24.96">database</tspan></text>
 <text x="55" y="241.34" fill="#52636d" font-size="16.5"><tspan x="55" dy="0">Preserve history and</tspan><tspan x="55" dy="21.12">timestamps</tspan></text>
-<rect x="395" y="155" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="395" y="155" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="410" y="187.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="410" dy="0">Selected event</tspan><tspan x="410" dy="24.96">windows</tspan></text>
 <text x="410" y="241.34" fill="#52636d" font-size="16.5"><tspan x="410" dy="0">Retrieve waveforms by</tspan><tspan x="410" dy="21.12">event time</tspan></text>
-<rect x="750" y="155" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="750" y="155" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="765" y="187.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="765" dy="0">Batch analysis</tspan><tspan x="765" dy="24.96">pipeline</tspan></text>
 <text x="765" y="241.34" fill="#52636d" font-size="16.5"><tspan x="765" dy="0">Tool orchestration and</tspan><tspan x="765" dy="21.12">parallel processing</tspan></text>
-<rect x="750" y="385" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="750" y="385" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="765" y="417.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="765" dy="0">Plots and draft</tspan><tspan x="765" dy="24.96">narrative</tspan></text>
 <text x="765" y="471.34" fill="#52636d" font-size="16.5"><tspan x="765" dy="0">Link outputs back to</tspan><tspan x="765" dy="21.12">events and data</tspan></text>
-<rect x="395" y="385" width="250" height="125" rx="3" fill="#fff" stroke="#8c6b37" stroke-width="2"/>
+<rect x="395" y="385" width="250" height="125" rx="5" fill="#faf6ee" stroke="#8c6b37" stroke-width="2"/>
 <text x="410" y="417.42" fill="#71572b" font-size="19.5" font-weight="600"><tspan x="410" dy="0">Human page-by-page</tspan><tspan x="410" dy="24.96">review</tspan></text>
 <text x="410" y="471.34" fill="#52636d" font-size="16.5"><tspan x="410" dy="0">Check signals,</tspan><tspan x="410" dy="21.12">conclusions and AI text</tspan></text>
-<rect x="40" y="385" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="40" y="385" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="428.98" fill="#172e3b" font-size="20.5" font-weight="600"><tspan x="55" dy="0">Reports and handover</tspan></text>
 <text x="55" y="459.22" fill="#52636d" font-size="17.5"><tspan x="55" dy="0">Report revisions, FAQs</tspan><tspan x="55" dy="22.400000000000002">and rerun rules</tspan></text>
-<path d="M40 618H1000" stroke="#e0e5e8"/>
-<text x="40" y="642" fill="#52636d" font-size="17"><tspan x="40" dy="0">Unselected periods were not diagnosed; selected events do not establish a full-period miss rate.</tspan></text>
+<path d="M40 629H1000" stroke="#e0e5e8"/>
+<text x="40" y="658" fill="#52636d" font-size="17"><tspan x="40" dy="0">Unselected periods were not diagnosed; selected events do not establish a full-period miss rate.</tspan></text>
 </g></svg>

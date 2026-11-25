@@ -1,29 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 700" role="img" aria-labelledby="title desc" lang="zh-Hant">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 736" role="img" aria-labelledby="title desc" lang="zh-Hant">
 <title id="title">模型建議、採用政策與設備下發</title><desc id="desc">現場壽命真值及準確度校準尚未建立；建議值不直接等於設備設定。 實線表示資料或處理流程；虛線表示審查、條件或回饋。</desc>
-<defs><marker id="rul-threshold-zh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
-<rect width="1040" height="700" fill="#fff"/>
+<defs><marker id="rul-threshold-zh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="context-stroke"/></marker></defs>
+<rect width="1040" height="736" fill="#fff"/>
 <g font-family="Arial,Microsoft JhengHei,sans-serif">
 <text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">模型建議、採用政策與設備下發</tspan></text>
-<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">實線：資料／處理流程　　虛線：審查／回饋</tspan></text>
+<path d="M40 75H67" stroke="#34656a" stroke-width="2"/>
+<text x="76" y="80" fill="#455d66" font-size="16"><tspan x="76" dy="0">資料與工作流</tspan></text>
+<path d="M286 75H313" stroke="#83683b" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="322" y="80" fill="#665330" font-size="16"><tspan x="322" dy="0">條件、審查或回饋</tspan></text>
 <path d="M40 103H1000" stroke="#ccd5da"/>
-<path d="M165 405V290" fill="none" stroke="#526773" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#rul-threshold-zh)"/>
-<path d="M290 222H395" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#rul-threshold-zh)"/>
-<path d="M645 222H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#rul-threshold-zh)"/>
-<path d="M875 280V405" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#rul-threshold-zh)"/>
-<path d="M750 467H520V290" fill="none" stroke="#526773" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#rul-threshold-zh)"/>
-<rect x="40" y="165" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<path d="M165 405V290" fill="none" stroke="#83683b" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#rul-threshold-zh)"/>
+<path d="M290 222H395" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#rul-threshold-zh)"/>
+<path d="M645 222H750" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#rul-threshold-zh)"/>
+<path d="M875 280V405" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#rul-threshold-zh)"/>
+<path d="M750 467H520V290" fill="none" stroke="#83683b" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#rul-threshold-zh)"/>
+<rect x="40" y="165" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="219.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">模型建議</tspan></text>
 <text x="55" y="251.92" fill="#52636d" font-size="19"><tspan x="55" dy="0">壽命估計與閾值建議</tspan></text>
-<rect x="395" y="165" width="250" height="125" rx="3" fill="#fff" stroke="#8c6b37" stroke-width="2"/>
+<rect x="395" y="165" width="250" height="125" rx="5" fill="#faf6ee" stroke="#8c6b37" stroke-width="2"/>
 <text x="410" y="219.76" fill="#71572b" font-size="22" font-weight="600"><tspan x="410" dy="0">平台採用政策</tspan></text>
 <text x="410" y="251.92" fill="#52636d" font-size="19"><tspan x="410" dy="0">開關、手動鎖定、冷卻期</tspan></text>
-<rect x="750" y="165" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="750" y="165" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="765" y="219.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="765" dy="0">Gateway 與設備下發</tspan></text>
 <text x="765" y="251.92" fill="#52636d" font-size="19"><tspan x="765" dy="0">調整幅度與安全條件</tspan></text>
-<rect x="40" y="405" width="250" height="125" rx="3" fill="#fff" stroke="#8c6b37" stroke-width="2"/>
+<rect x="40" y="405" width="250" height="125" rx="5" fill="#faf6ee" stroke="#8c6b37" stroke-width="2"/>
 <text x="55" y="459.76" fill="#71572b" font-size="22" font-weight="600"><tspan x="55" dy="0">假設與參數消融</tspan></text>
 <text x="55" y="491.92" fill="#52636d" font-size="19"><tspan x="55" dy="0">追查資料來源與測試常數</tspan></text>
-<rect x="750" y="405" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="750" y="405" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="765" y="459.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="765" dy="0">平台數值與歷史</tspan></text>
 <text x="765" y="491.92" fill="#52636d" font-size="19"><tspan x="765" dy="0">回查採用、下發與狀態</tspan></text>
 <rect x="176" y="338" width="76" height="23.48" fill="#fff"/>
@@ -32,6 +35,6 @@
 <text x="665" y="140" fill="#52636d" font-size="16"><tspan x="665" dy="0">通過政策</tspan></text>
 <rect x="531" y="343" width="76" height="23.48" fill="#fff"/>
 <text x="535" y="360" fill="#52636d" font-size="16"><tspan x="535" dy="0">狀態回饋</tspan></text>
-<path d="M40 638H1000" stroke="#e0e5e8"/>
-<text x="40" y="662" fill="#52636d" font-size="17"><tspan x="40" dy="0">現場壽命真值及準確度校準尚未建立；建議值不直接等於設備設定。</tspan></text>
+<path d="M40 649H1000" stroke="#e0e5e8"/>
+<text x="40" y="678" fill="#52636d" font-size="17"><tspan x="40" dy="0">現場壽命真值及準確度校準尚未建立；建議值不直接等於設備設定。</tspan></text>
 </g></svg>

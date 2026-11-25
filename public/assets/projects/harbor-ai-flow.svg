@@ -1,44 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 825" role="img" aria-labelledby="title desc" lang="zh-Hant">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 861" role="img" aria-labelledby="title desc" lang="zh-Hant">
 <title id="title">事件鏈路：從告警、資料就緒到分析與處理</title><desc id="desc">完成分析不等於資料齊全；無資料／失敗不等於無異常。RUL 與定期產報走各自排程，人工處理不必先於報表完成。 實線表示資料或處理流程；虛線表示審查、條件或回饋。</desc>
-<defs><marker id="harbor-ai-flow-zh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
-<rect width="1040" height="825" fill="#fff"/>
+<defs><marker id="harbor-ai-flow-zh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="context-stroke"/></marker></defs>
+<rect width="1040" height="861" fill="#fff"/>
 <g font-family="Arial,Microsoft JhengHei,sans-serif">
 <text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">事件鏈路：從告警、資料就緒到分析與處理</tspan></text>
-<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">實線：資料／處理流程　　虛線：審查／回饋</tspan></text>
+<path d="M40 75H67" stroke="#34656a" stroke-width="2"/>
+<text x="76" y="80" fill="#455d66" font-size="16"><tspan x="76" dy="0">資料與工作流</tspan></text>
+
+
 <path d="M40 103H1000" stroke="#ccd5da"/>
-<path d="M260 242H285" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#harbor-ai-flow-zh)"/>
-<path d="M505 242H530" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#harbor-ai-flow-zh)"/>
-<path d="M750 242H775" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#harbor-ai-flow-zh)"/>
-<path d="M885 330V475" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#harbor-ai-flow-zh)"/>
-<path d="M775 562H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#harbor-ai-flow-zh)"/>
-<path d="M530 562H505" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#harbor-ai-flow-zh)"/>
-<path d="M640 650V715H150V650" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#harbor-ai-flow-zh)"/>
-<rect x="40" y="155" width="220" height="175" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<path d="M260 242H285" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#harbor-ai-flow-zh)"/>
+<path d="M505 242H530" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#harbor-ai-flow-zh)"/>
+<path d="M750 242H775" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#harbor-ai-flow-zh)"/>
+<path d="M885 330V475" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#harbor-ai-flow-zh)"/>
+<path d="M775 562H750" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#harbor-ai-flow-zh)"/>
+<path d="M530 562H505" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#harbor-ai-flow-zh)"/>
+<path d="M640 650V715H150V650" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#harbor-ai-flow-zh)"/>
+<rect x="40" y="155" width="220" height="175" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="234.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">告警發生</tspan></text>
 <text x="55" y="266.91999999999996" fill="#52636d" font-size="19"><tspan x="55" dy="0">設備與事件時間</tspan></text>
-<rect x="285" y="155" width="220" height="175" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="285" y="155" width="220" height="175" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="300" y="234.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="300" dy="0">事件保存</tspan></text>
 <text x="300" y="266.91999999999996" fill="#52636d" font-size="19"><tspan x="300" dy="0">追蹤與避免重複</tspan></text>
-<rect x="530" y="155" width="220" height="175" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="530" y="155" width="220" height="175" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="545" y="234.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="545" dy="0">資料就緒判斷</tspan></text>
 <text x="545" y="266.91999999999996" fill="#52636d" font-size="19"><tspan x="545" dy="0">時間窗與波形覆蓋</tspan></text>
-<rect x="775" y="155" width="220" height="175" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="775" y="155" width="220" height="175" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="790" y="234.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="790" dy="0">分析派工</tspan></text>
 <text x="790" y="266.91999999999996" fill="#52636d" font-size="19"><tspan x="790" dy="0">任務與檔案參照</tspan></text>
-<rect x="40" y="475" width="220" height="175" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="40" y="475" width="220" height="175" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="554.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">報告與歷史</tspan></text>
 <text x="55" y="586.92" fill="#52636d" font-size="19"><tspan x="55" dy="0">事件與分析結果</tspan></text>
-<rect x="285" y="475" width="220" height="175" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="285" y="475" width="220" height="175" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="300" y="554.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="300" dy="0">人工處理紀錄</tspan></text>
 <text x="300" y="586.92" fill="#52636d" font-size="19"><tspan x="300" dy="0">狀態與處理紀錄</tspan></text>
-<rect x="530" y="475" width="220" height="175" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="530" y="475" width="220" height="175" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="545" y="554.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="545" dy="0">結果與介面入口</tspan></text>
 <text x="545" y="586.92" fill="#52636d" font-size="19"><tspan x="545" dy="0">執行與完整性分列</tspan></text>
-<rect x="775" y="475" width="220" height="175" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="775" y="475" width="220" height="175" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="790" y="554.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="790" dy="0">領域分析服務</tspan></text>
 <text x="790" y="586.92" fill="#52636d" font-size="19"><tspan x="790" dy="0">振動與局放判讀</tspan></text>
 <rect x="341" y="683" width="114.4" height="23.48" fill="#fff"/>
 <text x="345" y="700" fill="#52636d" font-size="16"><tspan x="345" dy="0">事件＋分析結果</tspan></text>
-<path d="M40 763H1000" stroke="#e0e5e8"/>
-<text x="40" y="787" fill="#52636d" font-size="17"><tspan x="40" dy="0">完成分析不等於資料齊全；無資料／失敗不等於無異常。RUL 與定期產報走各自排程，人工處理不必先於報表完成。</tspan></text>
+<path d="M40 774H1000" stroke="#e0e5e8"/>
+<text x="40" y="803" fill="#52636d" font-size="17"><tspan x="40" dy="0">完成分析不等於資料齊全；無資料／失敗不等於無異常。RUL 與定期產報走各自排程，人工處理不必先於報表完成。</tspan></text>
 </g></svg>

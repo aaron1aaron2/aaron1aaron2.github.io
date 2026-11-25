@@ -1,32 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 745" role="img" aria-labelledby="title desc" lang="en">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 781" role="img" aria-labelledby="title desc" lang="en">
 <title id="title">Shared evidence with role-specific document entry points</title><desc id="desc">Version consistency and content correctness are checked separately; documentation drift remains an ongoing concern. Solid arrows show process or data flow; dashed arrows show review, conditions or feedback.</desc>
-<defs><marker id="knowledge-system-en" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
-<rect width="1040" height="745" fill="#fff"/>
+<defs><marker id="knowledge-system-en" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="context-stroke"/></marker></defs>
+<rect width="1040" height="781" fill="#fff"/>
 <g font-family="Arial,Microsoft JhengHei,sans-serif">
 <text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">Shared evidence with role-specific document entry points</tspan></text>
-<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">Solid: data / process  ·  Dashed: review / feedback</tspan></text>
+<path d="M40 75H67" stroke="#34656a" stroke-width="2"/>
+<text x="76" y="80" fill="#455d66" font-size="16"><tspan x="76" dy="0">Data and workflow</tspan></text>
+
+
 <path d="M40 103H1000" stroke="#ccd5da"/>
-<path d="M290 290H340V192H395" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#knowledge-system-en)"/>
-<path d="M340 290V382H395" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#knowledge-system-en)"/>
-<path d="M340 382V565H395" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#knowledge-system-en)"/>
-<path d="M645 192H700V290H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#knowledge-system-en)"/>
-<path d="M645 382H700V340H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#knowledge-system-en)"/>
-<path d="M645 565H700V340" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#knowledge-system-en)"/>
-<rect x="40" y="245" width="250" height="140" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<path d="M290 290H340V192H395" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#knowledge-system-en)"/>
+<path d="M340 290V382H395" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#knowledge-system-en)"/>
+<path d="M340 382V565H395" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#knowledge-system-en)"/>
+<path d="M645 192H700V290H750" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#knowledge-system-en)"/>
+<path d="M645 382H700V340H750" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#knowledge-system-en)"/>
+<path d="M645 565H700V340" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#knowledge-system-en)"/>
+<rect x="40" y="245" width="250" height="140" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="281.02" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">Shared engineering</tspan><tspan x="55" dy="28.16">evidence</tspan></text>
 <text x="55" y="341.34000000000003" fill="#52636d" font-size="19"><tspan x="55" dy="0">Requirements, changes,</tspan><tspan x="55" dy="24.32">tests and versions</tspan></text>
-<rect x="395" y="140" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="395" y="140" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="410" y="182.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="410" dy="0">User manual</tspan></text>
 <text x="410" y="214.76" fill="#52636d" font-size="19"><tspan x="410" dy="0">Check against the</tspan><tspan x="410" dy="24.32">actual UI</tspan></text>
-<rect x="395" y="330" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="395" y="330" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="410" y="362.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="410" dy="0">Deployment</tspan><tspan x="410" dy="24.96">documentation</tspan></text>
 <text x="410" y="416.34" fill="#52636d" font-size="16.5"><tspan x="410" dy="0">Check against deployment</tspan><tspan x="410" dy="21.12">steps</tspan></text>
-<rect x="395" y="520" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="395" y="520" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="410" y="552.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="410" dy="0">Specifications and</tspan><tspan x="410" dy="24.96">progress</tspan></text>
 <text x="410" y="606.34" fill="#52636d" font-size="16.5"><tspan x="410" dy="0">References, risks and</tspan><tspan x="410" dy="21.12">decisions</tspan></text>
-<rect x="750" y="245" width="250" height="140" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="750" y="245" width="250" height="140" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="765" y="284.92" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="765" dy="0">Management, engineers</tspan><tspan x="765" dy="24.96">and field staff</tspan></text>
 <text x="765" y="338.84" fill="#52636d" font-size="16.5"><tspan x="765" dy="0">Different views of the</tspan><tspan x="765" dy="21.12">same evidence</tspan></text>
-<path d="M40 683H1000" stroke="#e0e5e8"/>
-<text x="40" y="707" fill="#52636d" font-size="17"><tspan x="40" dy="0">Version consistency and content correctness are checked separately; documentation drift remains an ongoing</tspan><tspan x="40" dy="21.76">concern.</tspan></text>
+<path d="M40 694H1000" stroke="#e0e5e8"/>
+<text x="40" y="723" fill="#52636d" font-size="17"><tspan x="40" dy="0">Version consistency and content correctness are checked separately; documentation drift remains an ongoing</tspan><tspan x="40" dy="21.76">concern.</tspan></text>
 </g></svg>

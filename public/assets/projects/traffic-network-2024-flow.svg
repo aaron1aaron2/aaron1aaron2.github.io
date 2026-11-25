@@ -1,39 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 810" role="img" aria-labelledby="title desc" lang="zh-Hant">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 846" role="img" aria-labelledby="title desc" lang="zh-Hant">
 <title id="title">團隊研究：從預訓練到分層流量預測</title><desc id="desc">本人實際責任為程式碼與技術支援、偏輔助；圖中預訓練、MLAN 與實驗為共同研究成果。 實線表示資料或處理流程；虛線表示審查、條件或回饋。</desc>
-<defs><marker id="traffic-network-2024-flow-zh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
-<rect width="1040" height="810" fill="#fff"/>
+<defs><marker id="traffic-network-2024-flow-zh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="context-stroke"/></marker></defs>
+<rect width="1040" height="846" fill="#fff"/>
 <g font-family="Arial,Microsoft JhengHei,sans-serif">
 <text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">團隊研究：從預訓練到分層流量預測</tspan></text>
-<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">實線：資料／處理流程　　虛線：審查／回饋</tspan></text>
+<path d="M40 75H67" stroke="#34656a" stroke-width="2"/>
+<text x="76" y="80" fill="#455d66" font-size="16"><tspan x="76" dy="0">資料與工作流</tspan></text>
+
+
 <path d="M40 103H1000" stroke="#ccd5da"/>
-<rect x="20" y="125" width="1000" height="610" fill="#f7f9fa" stroke="#d4dde1" stroke-dasharray="5 5"/>
+<rect x="20" y="125" width="1000" height="610" fill="#f1f6f4" stroke="#c0cfcc"/>
 <text x="34" y="150" fill="#526773" font-size="17" font-weight="600"><tspan x="34" dy="0">團隊研究方法；非本人獨立設計</tspan></text>
-<path d="M290 237H390" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#traffic-network-2024-flow-zh)"/>
-<path d="M650 237H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#traffic-network-2024-flow-zh)"/>
-<path d="M165 300V390" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#traffic-network-2024-flow-zh)"/>
-<path d="M290 452H390" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#traffic-network-2024-flow-zh)"/>
-<path d="M875 300V340H590V390" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#traffic-network-2024-flow-zh)"/>
-<path d="M650 452H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#traffic-network-2024-flow-zh)"/>
-<path d="M875 515V652H650" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#traffic-network-2024-flow-zh)"/>
-<rect x="40" y="175" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<path d="M290 237H390" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#traffic-network-2024-flow-zh)"/>
+<path d="M650 237H750" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#traffic-network-2024-flow-zh)"/>
+<path d="M165 300V390" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#traffic-network-2024-flow-zh)"/>
+<path d="M290 452H390" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#traffic-network-2024-flow-zh)"/>
+<path d="M875 300V340H590V390" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#traffic-network-2024-flow-zh)"/>
+<path d="M650 452H750" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#traffic-network-2024-flow-zh)"/>
+<path d="M875 515V652H650" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#traffic-network-2024-flow-zh)"/>
+<rect x="40" y="175" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="229.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">捷運結構與流量</tspan></text>
 <text x="55" y="261.91999999999996" fill="#52636d" font-size="19"><tspan x="55" dy="0">車站、距離、歷史序列</tspan></text>
-<rect x="390" y="175" width="260" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="390" y="175" width="260" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="405" y="229.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="405" dy="0">多任務預訓練</tspan></text>
 <text x="405" y="261.91999999999996" fill="#52636d" font-size="19"><tspan x="405" dy="0">遮蔽流量、序列與距離</tspan></text>
-<rect x="750" y="175" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="750" y="175" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="765" y="229.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="765" dy="0">動態網路表示</tspan></text>
 <text x="765" y="261.91999999999996" fill="#52636d" font-size="19"><tspan x="765" dy="0">轉移至下游預測</tspan></text>
-<rect x="40" y="390" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="40" y="390" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="444.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">時間特徵</tspan></text>
 <text x="55" y="476.92" fill="#52636d" font-size="19"><tspan x="55" dy="0">以 GRU 處理歷史序列</tspan></text>
-<rect x="390" y="390" width="260" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="390" y="390" width="260" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="405" y="444.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="405" dy="0">MLAN 分層整合</tspan></text>
 <text x="405" y="476.92" fill="#52636d" font-size="19"><tspan x="405" dy="0">時間、車站與路線訊號</tspan></text>
-<rect x="750" y="390" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="750" y="390" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="765" y="444.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="765" dy="0">旅客流量預測</tspan></text>
 <text x="765" y="476.92" fill="#52636d" font-size="19"><tspan x="765" dy="0">由整合表示產生預測</tspan></text>
-<rect x="390" y="590" width="260" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="390" y="590" width="260" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="405" y="644.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="405" dy="0">方法比較與驗證</tspan></text>
 <text x="405" y="676.92" fill="#52636d" font-size="19"><tspan x="405" dy="0">團隊實驗與期刊成果</tspan></text>
 <rect x="293" y="199" width="92" height="23.48" fill="#fff"/>
@@ -50,6 +53,6 @@
 <text x="655" y="431" fill="#52636d" font-size="16"><tspan x="655" dy="0">融合特徵</tspan></text>
 <rect x="707" y="614" width="76" height="23.48" fill="#fff"/>
 <text x="711" y="631" fill="#52636d" font-size="16"><tspan x="711" dy="0">預測結果</tspan></text>
-<path d="M40 748H1000" stroke="#e0e5e8"/>
-<text x="40" y="772" fill="#52636d" font-size="17"><tspan x="40" dy="0">本人實際責任為程式碼與技術支援、偏輔助；圖中預訓練、MLAN 與實驗為共同研究成果。</tspan></text>
+<path d="M40 759H1000" stroke="#e0e5e8"/>
+<text x="40" y="788" fill="#52636d" font-size="17"><tspan x="40" dy="0">本人實際責任為程式碼與技術支援、偏輔助；圖中預訓練、MLAN 與實驗為共同研究成果。</tspan></text>
 </g></svg>

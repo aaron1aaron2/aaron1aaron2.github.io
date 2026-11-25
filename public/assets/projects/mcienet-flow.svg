@@ -1,36 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 810" role="img" aria-labelledby="title desc" lang="zh-Hant">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 846" role="img" aria-labelledby="title desc" lang="zh-Hant">
 <title id="title">從 DNA 序列對到多尺度預測與解釋</title><desc id="desc">本人主導研究、模型、實驗與論文；前處理部分沿用 ChINN。效果與泛化依資料、anchor 及實驗設定解讀。 實線表示資料或處理流程；虛線表示審查、條件或回饋。</desc>
-<defs><marker id="mcienet-flow-zh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
-<rect width="1040" height="810" fill="#fff"/>
+<defs><marker id="mcienet-flow-zh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="context-stroke"/></marker></defs>
+<rect width="1040" height="846" fill="#fff"/>
 <g font-family="Arial,Microsoft JhengHei,sans-serif">
 <text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">從 DNA 序列對到多尺度預測與解釋</tspan></text>
-<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">實線：資料／處理流程　　虛線：審查／回饋</tspan></text>
+<path d="M40 75H67" stroke="#34656a" stroke-width="2"/>
+<text x="76" y="80" fill="#455d66" font-size="16"><tspan x="76" dy="0">資料與工作流</tspan></text>
+
+
 <path d="M40 103H1000" stroke="#ccd5da"/>
-<path d="M290 237H390" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#mcienet-flow-zh)"/>
-<path d="M650 237H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#mcienet-flow-zh)"/>
-<path d="M875 300V390" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#mcienet-flow-zh)"/>
-<path d="M750 452H650" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#mcienet-flow-zh)"/>
-<path d="M390 452H290" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#mcienet-flow-zh)"/>
-<path d="M520 515V590" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#mcienet-flow-zh)"/>
-<rect x="40" y="175" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<path d="M290 237H390" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#mcienet-flow-zh)"/>
+<path d="M650 237H750" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#mcienet-flow-zh)"/>
+<path d="M875 300V390" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#mcienet-flow-zh)"/>
+<path d="M750 452H650" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#mcienet-flow-zh)"/>
+<path d="M390 452H290" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#mcienet-flow-zh)"/>
+<path d="M520 515V590" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#mcienet-flow-zh)"/>
+<rect x="40" y="175" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="217.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">DNA 與交互作用資料</tspan></text>
 <text x="55" y="249.76" fill="#52636d" font-size="19"><tspan x="55" dy="0">序列、交互作用與 CTCF</tspan><tspan x="55" dy="24.32">loop</tspan></text>
-<rect x="390" y="175" width="260" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="390" y="175" width="260" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="405" y="229.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="405" dy="0">正負樣本前處理</tspan></text>
 <text x="405" y="261.91999999999996" fill="#52636d" font-size="19"><tspan x="405" dy="0">部分腳本改寫自 ChINN</tspan></text>
-<rect x="750" y="175" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="750" y="175" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="765" y="217.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="765" dy="0">序列編碼與快取</tspan></text>
 <text x="765" y="249.76" fill="#52636d" font-size="19"><tspan x="765" dy="0">one-hot 序列對與 H5 資</tspan><tspan x="765" dy="24.32">料</tspan></text>
-<rect x="750" y="390" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="750" y="390" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="765" y="444.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="765" dy="0">多尺度 CNN</tspan></text>
 <text x="765" y="476.92" fill="#52636d" font-size="19"><tspan x="765" dy="0">本人設計多分支特徵擷取</tspan></text>
-<rect x="390" y="390" width="260" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="390" y="390" width="260" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="405" y="444.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="405" dy="0">交互作用預測</tspan></text>
 <text x="405" y="476.92" fill="#52636d" font-size="19"><tspan x="405" dy="0">整合兩端序列的訊號</tspan></text>
-<rect x="40" y="390" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="40" y="390" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="444.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">消融與跨資料評估</tspan></text>
 <text x="55" y="476.92" fill="#52636d" font-size="19"><tspan x="55" dy="0">比較組件、細胞資料與基準</tspan></text>
-<rect x="390" y="590" width="260" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="390" y="590" width="260" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="405" y="632.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="405" dy="0">序列貢獻解釋</tspan></text>
 <text x="405" y="664.76" fill="#52636d" font-size="19"><tspan x="405" dy="0">DeepLIFT 與 anchor 偏</tspan><tspan x="405" dy="24.32">移檢查</tspan></text>
 <rect x="298" y="199" width="76" height="23.48" fill="#fff"/>
@@ -45,6 +48,6 @@
 <text x="296" y="431" fill="#52636d" font-size="16"><tspan x="296" dy="0">預測與標記</tspan></text>
 <rect x="532" y="543" width="92" height="23.48" fill="#fff"/>
 <text x="536" y="560" fill="#52636d" font-size="16"><tspan x="536" dy="0">模型與序列</tspan></text>
-<path d="M40 748H1000" stroke="#e0e5e8"/>
-<text x="40" y="772" fill="#52636d" font-size="17"><tspan x="40" dy="0">本人主導研究、模型、實驗與論文；前處理部分沿用 ChINN。效果與泛化依資料、anchor 及實驗設定解讀。</tspan></text>
+<path d="M40 759H1000" stroke="#e0e5e8"/>
+<text x="40" y="788" fill="#52636d" font-size="17"><tspan x="40" dy="0">本人主導研究、模型、實驗與論文；前處理部分沿用 ChINN。效果與泛化依資料、anchor 及實驗設定解讀。</tspan></text>
 </g></svg>

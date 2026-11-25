@@ -1,29 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 650" role="img" aria-labelledby="title desc" lang="en">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 686" role="img" aria-labelledby="title desc" lang="en">
 <title id="title">Validation path for field vibration analysis</title><desc id="desc">Field feasibility and reporting methods are evidenced; deployment and formal acceptance are tracked separately. Solid arrows show process or data flow; dashed arrows show review, conditions or feedback.</desc>
-<defs><marker id="vibration-poc-en" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
-<rect width="1040" height="650" fill="#fff"/>
+<defs><marker id="vibration-poc-en" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="context-stroke"/></marker></defs>
+<rect width="1040" height="686" fill="#fff"/>
 <g font-family="Arial,Microsoft JhengHei,sans-serif">
 <text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">Validation path for field vibration analysis</tspan></text>
-<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">Solid: data / process  ·  Dashed: review / feedback</tspan></text>
+<path d="M40 75H67" stroke="#34656a" stroke-width="2"/>
+<text x="76" y="80" fill="#455d66" font-size="16"><tspan x="76" dy="0">Data and workflow</tspan></text>
+
+
 <path d="M40 103H1000" stroke="#ccd5da"/>
-<path d="M290 230H395" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#vibration-poc-en)"/>
-<path d="M645 230H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#vibration-poc-en)"/>
-<path d="M520 290V350H345V415" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#vibration-poc-en)"/>
-<path d="M875 290V415" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#vibration-poc-en)"/>
-<path d="M475 472H650" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#vibration-poc-en)"/>
-<rect x="40" y="170" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<path d="M290 230H395" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#vibration-poc-en)"/>
+<path d="M645 230H750" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#vibration-poc-en)"/>
+<path d="M520 290V350H345V415" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#vibration-poc-en)"/>
+<path d="M875 290V415" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#vibration-poc-en)"/>
+<path d="M475 472H650" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#vibration-poc-en)"/>
+<rect x="40" y="170" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="212.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">Field data</tspan></text>
 <text x="55" y="244.76" fill="#52636d" font-size="19"><tspan x="55" dy="0">Equipment metadata and</tspan><tspan x="55" dy="24.32">raw waveforms</tspan></text>
-<rect x="395" y="170" width="250" height="125" rx="3" fill="#fff" stroke="#8c6b37" stroke-width="2"/>
+<rect x="395" y="170" width="250" height="125" rx="5" fill="#faf6ee" stroke="#8c6b37" stroke-width="2"/>
 <text x="410" y="202.42" fill="#71572b" font-size="19.5" font-weight="600"><tspan x="410" dy="0">Data sufficiency</tspan><tspan x="410" dy="24.96">checks</tspan></text>
 <text x="410" y="256.34000000000003" fill="#52636d" font-size="16.5"><tspan x="410" dy="0">Preprocessing, coverage</tspan><tspan x="410" dy="21.12">and confidence</tspan></text>
-<rect x="750" y="170" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="750" y="170" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="765" y="202.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="765" dy="0">Integrated diagnostic</tspan><tspan x="765" dy="24.96">report</tspan></text>
 <text x="765" y="256.34000000000003" fill="#52636d" font-size="16.5"><tspan x="765" dy="0">Pattern, severity, time</tspan><tspan x="765" dy="21.12">and limitations</tspan></text>
-<rect x="215" y="415" width="260" height="125" rx="3" fill="#fff" stroke="#8c6b37" stroke-width="2"/>
+<rect x="215" y="415" width="260" height="125" rx="5" fill="#faf6ee" stroke="#8c6b37" stroke-width="2"/>
 <text x="230" y="457.6" fill="#71572b" font-size="22" font-weight="600"><tspan x="230" dy="0">Record limitations</tspan></text>
 <text x="230" y="489.76000000000005" fill="#52636d" font-size="19"><tspan x="230" dy="0">Qualify or stop</tspan><tspan x="230" dy="24.32">unsupported inference</tspan></text>
-<rect x="650" y="415" width="300" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="650" y="415" width="300" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="665" y="447.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="665" dy="0">Reusable nodes and</tspan><tspan x="665" dy="24.96">artifacts</tspan></text>
 <text x="665" y="501.34" fill="#52636d" font-size="16.5"><tspan x="665" dy="0">Partial reruns, quality gates</tspan><tspan x="665" dy="21.12">and reuse</tspan></text>
 <rect x="656" y="128" width="196.64" height="23.48" fill="#fff"/>
@@ -32,6 +35,6 @@
 <text x="355" y="375" fill="#52636d" font-size="16"><tspan x="355" dy="0">Insufficient</tspan></text>
 <rect x="491" y="438" width="113.92000000000002" height="23.48" fill="#fff"/>
 <text x="495" y="455" fill="#52636d" font-size="16"><tspan x="495" dy="0">Carry limits</tspan></text>
-<path d="M40 588H1000" stroke="#e0e5e8"/>
-<text x="40" y="612" fill="#52636d" font-size="17"><tspan x="40" dy="0">Field feasibility and reporting methods are evidenced; deployment and formal acceptance are tracked</tspan><tspan x="40" dy="21.76">separately.</tspan></text>
+<path d="M40 599H1000" stroke="#e0e5e8"/>
+<text x="40" y="628" fill="#52636d" font-size="17"><tspan x="40" dy="0">Field feasibility and reporting methods are evidenced; deployment and formal acceptance are tracked</tspan><tspan x="40" dy="21.76">separately.</tspan></text>
 </g></svg>

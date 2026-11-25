@@ -1,59 +1,62 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 1080" role="img" aria-labelledby="title desc" lang="en">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 1116" role="img" aria-labelledby="title desc" lang="en">
 <title id="title">Platform layers: intake, coordination, analysis and feedback</title><desc id="desc">Logical layers, not deployment topology. Internal job queues differ from MQTT; broker choice is configurable and internal service delegation is not implied by these lines. Solid arrows show process or data flow; dashed arrows show review, conditions or feedback.</desc>
-<defs><marker id="harbor-ai-system-en" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
-<rect width="1040" height="1080" fill="#fff"/>
+<defs><marker id="harbor-ai-system-en" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="context-stroke"/></marker></defs>
+<rect width="1040" height="1116" fill="#fff"/>
 <g font-family="Arial,Microsoft JhengHei,sans-serif">
 <text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">Platform layers: intake, coordination, analysis and feedback</tspan></text>
-<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">Solid: data / process  ·  Dashed: review / feedback</tspan></text>
+<path d="M40 75H67" stroke="#34656a" stroke-width="2"/>
+<text x="76" y="80" fill="#455d66" font-size="16"><tspan x="76" dy="0">Data and workflow</tspan></text>
+<path d="M286 75H313" stroke="#83683b" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="322" y="80" fill="#665330" font-size="16"><tspan x="322" dy="0">Condition, review or feedback</tspan></text>
 <path d="M40 103H1000" stroke="#ccd5da"/>
-<path d="M180 275V375" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#harbor-ai-system-en)"/>
-<path d="M520 275V328H230V375" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#harbor-ai-system-en)"/>
-<path d="M860 275V375" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#harbor-ai-system-en)"/>
-<path d="M320 447H380" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#harbor-ai-system-en)"/>
-<path d="M720 447H660" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#harbor-ai-system-en)"/>
-<path d="M470 520V565H180V625" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#harbor-ai-system-en)"/>
-<path d="M520 520V625" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#harbor-ai-system-en)"/>
-<path d="M570 520V565H860V625" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#harbor-ai-system-en)"/>
-<path d="M180 780V875" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#harbor-ai-system-en)"/>
-<path d="M520 780V825H350V875" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#harbor-ai-system-en)"/>
-<path d="M860 780V825H635V875" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#harbor-ai-system-en)"/>
-<path d="M1000 447H1020V825H900V875" fill="none" stroke="#526773" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#harbor-ai-system-en)"/>
-<rect x="40" y="145" width="280" height="130" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<path d="M180 275V375" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#harbor-ai-system-en)"/>
+<path d="M520 275V328H230V375" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#harbor-ai-system-en)"/>
+<path d="M860 275V375" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#harbor-ai-system-en)"/>
+<path d="M320 447H380" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#harbor-ai-system-en)"/>
+<path d="M720 447H660" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#harbor-ai-system-en)"/>
+<path d="M470 520V565H180V625" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#harbor-ai-system-en)"/>
+<path d="M520 520V625" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#harbor-ai-system-en)"/>
+<path d="M570 520V565H860V625" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#harbor-ai-system-en)"/>
+<path d="M180 780V875" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#harbor-ai-system-en)"/>
+<path d="M520 780V825H350V875" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#harbor-ai-system-en)"/>
+<path d="M860 780V825H635V875" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#harbor-ai-system-en)"/>
+<path d="M1000 447H1020V825H900V875" fill="none" stroke="#83683b" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#harbor-ai-system-en)"/>
+<rect x="40" y="145" width="280" height="130" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="190.1" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">MQTT live channel</tspan></text>
 <text x="55" y="222.26" fill="#52636d" font-size="19"><tspan x="55" dy="0">Previews, events and</tspan><tspan x="55" dy="24.32">wake-up signals</tspan></text>
-<rect x="380" y="145" width="280" height="130" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="380" y="145" width="280" height="130" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="395" y="190.1" fill="#172e3b" font-size="22" font-weight="600"><tspan x="395" dy="0">HTTP data and control</tspan></text>
 <text x="395" y="222.26" fill="#52636d" font-size="19"><tspan x="395" dy="0">Batches, WAV, heartbeats</tspan><tspan x="395" dy="24.32">and ACKs</tspan></text>
-<rect x="720" y="145" width="280" height="130" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="720" y="145" width="280" height="130" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="735" y="190.1" fill="#172e3b" font-size="22" font-weight="600"><tspan x="735" dy="0">Operator workspaces</tspan></text>
 <text x="735" y="222.26" fill="#52636d" font-size="19"><tspan x="735" dy="0">Overview, equipment,</tspan><tspan x="735" dy="24.32">analysis, reports</tspan></text>
-<rect x="40" y="375" width="280" height="145" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="40" y="375" width="280" height="145" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="413.52" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">Ingestion and</tspan><tspan x="55" dy="28.16">reconciliation</tspan></text>
 <text x="55" y="473.84000000000003" fill="#52636d" font-size="19"><tspan x="55" dy="0">Staging, validation,</tspan><tspan x="55" dy="24.32">deduplication, writes</tspan></text>
-<rect x="380" y="375" width="280" height="145" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="380" y="375" width="280" height="145" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="395" y="413.52" fill="#172e3b" font-size="22" font-weight="600"><tspan x="395" dy="0">Jobs and message</tspan><tspan x="395" dy="28.16">flows</tspan></text>
 <text x="395" y="473.84000000000003" fill="#52636d" font-size="19"><tspan x="395" dy="0">Schedules, dispatch,</tspan><tspan x="395" dy="24.32">states, file references</tspan></text>
-<rect x="720" y="375" width="280" height="145" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="720" y="375" width="280" height="145" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="735" y="413.52" fill="#172e3b" font-size="22" font-weight="600"><tspan x="735" dy="0">Platform APIs and</tspan><tspan x="735" dy="28.16">policies</tspan></text>
 <text x="735" y="473.84000000000003" fill="#52636d" font-size="19"><tspan x="735" dy="0">Identity, settings,</tspan><tspan x="735" dy="24.32">queries, actions</tspan></text>
-<rect x="40" y="625" width="280" height="155" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="40" y="625" width="280" height="155" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="668.52" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">Vibration / PD</tspan><tspan x="55" dy="28.16">analysis</tspan></text>
 <text x="55" y="728.8399999999999" fill="#52636d" font-size="19"><tspan x="55" dy="0">Event-window analysis</tspan><tspan x="55" dy="24.32">with coverage states</tspan></text>
-<rect x="380" y="625" width="280" height="155" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="380" y="625" width="280" height="155" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="395" y="682.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="395" dy="0">RUL and trends</tspan></text>
 <text x="395" y="714.76" fill="#52636d" font-size="19"><tspan x="395" dy="0">Zones, extrapolation,</tspan><tspan x="395" dy="24.32">history, suggestions</tspan></text>
-<rect x="720" y="625" width="280" height="155" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="720" y="625" width="280" height="155" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="735" y="668.52" fill="#172e3b" font-size="22" font-weight="600"><tspan x="735" dy="0">Reports and knowledge</tspan><tspan x="735" dy="28.16">assistant</tspan></text>
 <text x="735" y="728.8399999999999" fill="#52636d" font-size="19"><tspan x="735" dy="0">Analysis pipelines,</tspan><tspan x="735" dy="24.32">narrative, audience scope</tspan></text>
-<rect x="40" y="875" width="430" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="40" y="875" width="430" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="917.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">Structured records and raw evidence</tspan></text>
 <text x="55" y="949.76" fill="#52636d" font-size="19"><tspan x="55" dy="0">Features, events, states and WAV</tspan><tspan x="55" dy="24.32">references</tspan></text>
-<rect x="510" y="875" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="510" y="875" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="525" y="917.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="525" dy="0">Analysis artifacts</tspan></text>
 <text x="525" y="949.76" fill="#52636d" font-size="19"><tspan x="525" dy="0">FFT, charts and</tspan><tspan x="525" dy="24.32">reports</tspan></text>
-<rect x="800" y="875" width="200" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="800" y="875" width="200" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="815" y="908.56" fill="#172e3b" font-size="20" font-weight="600"><tspan x="815" dy="0">Control feedback</tspan></text>
 <text x="815" y="938.16" fill="#52636d" font-size="17"><tspan x="815" dy="0">Thresholds,</tspan><tspan x="815" dy="21.76">versions,</tspan><tspan x="815" dy="21.76">application state</tspan></text>
-<path d="M40 1018H1000" stroke="#e0e5e8"/>
-<text x="40" y="1042" fill="#52636d" font-size="17"><tspan x="40" dy="0">Logical layers, not deployment topology. Internal job queues differ from MQTT; broker choice is configurable</tspan><tspan x="40" dy="21.76">and internal service delegation is not implied by these lines.</tspan></text>
+<path d="M40 1029H1000" stroke="#e0e5e8"/>
+<text x="40" y="1058" fill="#52636d" font-size="17"><tspan x="40" dy="0">Logical layers, not deployment topology. Internal job queues differ from MQTT; broker choice is configurable</tspan><tspan x="40" dy="21.76">and internal service delegation is not implied by these lines.</tspan></text>
 </g></svg>

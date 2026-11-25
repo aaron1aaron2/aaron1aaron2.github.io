@@ -175,6 +175,7 @@ footer a{display:inline-flex;align-items:center;min-height:44px}.browse .section
 .profile-subcases li{margin:.55rem 0}
 .profile-subcases a{color:var(--ink)}
 
+.case-core-figure{max-width:760px;margin-block:1.35rem 1.75rem}.case-core-figure img{border-radius:8px}.case-core-figure figcaption{max-width:70ch}@media print{.case-core-figure img{max-height:126mm}}.case-flow-detail summary{color:var(--accent);cursor:pointer}.case-flow-detail .case-visual{margin-block:1rem}
 .case-visual img{height:auto}.original-media{display:block;cursor:zoom-in}.case-return{margin:2rem 0}
 
 /* A small, unretouched personal photograph beside the introduction. */

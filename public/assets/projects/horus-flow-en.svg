@@ -1,39 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 810" role="img" aria-labelledby="title desc" lang="en">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 846" role="img" aria-labelledby="title desc" lang="en">
 <title id="title">Aaron&#39;s ReID branch within the team system</title><desc id="desc">Aaron owned ReID; FastReID is third-party. Tracking, face recognition and the complete system were team work, with identity and latency limits. Solid arrows show process or data flow; dashed arrows show review, conditions or feedback.</desc>
-<defs><marker id="horus-flow-en" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
-<rect width="1040" height="810" fill="#fff"/>
+<defs><marker id="horus-flow-en" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="context-stroke"/></marker></defs>
+<rect width="1040" height="846" fill="#fff"/>
 <g font-family="Arial,Microsoft JhengHei,sans-serif">
 <text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">Aaron&#39;s ReID branch within the team system</tspan></text>
-<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">Solid: data / process  ·  Dashed: review / feedback</tspan></text>
+<path d="M40 75H67" stroke="#34656a" stroke-width="2"/>
+<text x="76" y="80" fill="#455d66" font-size="16"><tspan x="76" dy="0">Data and workflow</tspan></text>
+<path d="M286 75H313" stroke="#83683b" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="322" y="80" fill="#665330" font-size="16"><tspan x="322" dy="0">Condition, review or feedback</tspan></text>
 <path d="M40 103H1000" stroke="#ccd5da"/>
-<rect x="370" y="125" width="650" height="420" fill="#f7f9fa" stroke="#d4dde1" stroke-dasharray="5 5"/>
+<rect x="370" y="125" width="650" height="420" fill="#f1f6f4" stroke="#c0cfcc"/>
 <text x="384" y="150" fill="#526773" font-size="17" font-weight="600"><tspan x="384" dy="0">Aaron: ReID integration, sampling, thresholds and queue</tspan></text>
-<path d="M290 237H390" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#horus-flow-en)"/>
-<path d="M165 300V390" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#horus-flow-en)"/>
-<path d="M650 237H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#horus-flow-en)"/>
-<path d="M875 300V390" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#horus-flow-en)"/>
-<path d="M750 452H650" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#horus-flow-en)"/>
-<path d="M520 515V595" fill="none" stroke="#526773" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#horus-flow-en)"/>
-<path d="M165 515V657H390" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#horus-flow-en)"/>
-<rect x="40" y="175" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<path d="M290 237H390" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#horus-flow-en)"/>
+<path d="M165 300V390" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#horus-flow-en)"/>
+<path d="M650 237H750" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#horus-flow-en)"/>
+<path d="M875 300V390" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#horus-flow-en)"/>
+<path d="M750 452H650" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#horus-flow-en)"/>
+<path d="M520 515V595" fill="none" stroke="#83683b" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#horus-flow-en)"/>
+<path d="M165 515V657H390" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#horus-flow-en)"/>
+<rect x="40" y="175" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="219.44" fill="#172e3b" font-size="20" font-weight="600"><tspan x="55" dy="0">Team: person tracking</tspan></text>
 <text x="55" y="249.04" fill="#52636d" font-size="17"><tspan x="55" dy="0">Camera streams and track</tspan><tspan x="55" dy="21.76">fragments</tspan></text>
-<rect x="40" y="390" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="40" y="390" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="422.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="55" dy="0">Team: face</tspan><tspan x="55" dy="24.96">recognition</tspan></text>
 <text x="55" y="476.34" fill="#52636d" font-size="16.5"><tspan x="55" dy="0">Provide additional</tspan><tspan x="55" dy="21.12">identity evidence</tspan></text>
-<rect x="390" y="175" width="260" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="390" y="175" width="260" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="405" y="218.98" fill="#172e3b" font-size="20.5" font-weight="600"><tspan x="405" dy="0">Queue track fragments</tspan></text>
 <text x="405" y="249.22" fill="#52636d" font-size="17.5"><tspan x="405" dy="0">Schedule checks and track</tspan><tspan x="405" dy="22.400000000000002">match state</tspan></text>
-<rect x="750" y="175" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="750" y="175" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="765" y="219.9" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="765" dy="0">FastReID integration</tspan></text>
 <text x="765" y="248.86" fill="#52636d" font-size="16.5"><tspan x="765" dy="0">Extract appearance with a</tspan><tspan x="765" dy="21.12">third-party model</tspan></text>
-<rect x="750" y="390" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="750" y="390" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="765" y="433.98" fill="#172e3b" font-size="20.5" font-weight="600"><tspan x="765" dy="0">Multi-image matching</tspan></text>
 <text x="765" y="464.22" fill="#52636d" font-size="17.5"><tspan x="765" dy="0">Sample images; compare</tspan><tspan x="765" dy="22.400000000000002">cosine similarity</tspan></text>
-<rect x="390" y="390" width="260" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="390" y="390" width="260" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="405" y="434.9" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="405" dy="0">Two-threshold decision</tspan></text>
 <text x="405" y="463.85999999999996" fill="#52636d" font-size="16.5"><tspan x="405" dy="0">Check similarity and</tspan><tspan x="405" dy="21.12">support ratio</tspan></text>
-<rect x="390" y="595" width="260" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="390" y="595" width="260" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="405" y="627.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="405" dy="0">Update tracking</tspan><tspan x="405" dy="24.96">records</tspan></text>
 <text x="405" y="681.34" fill="#52636d" font-size="16.5"><tspan x="405" dy="0">Hand off matches and update</tspan><tspan x="405" dy="21.12">state</tspan></text>
 <rect x="293" y="199" width="96.96000000000002" height="23.48" fill="#fff"/>
@@ -50,6 +53,6 @@
 <text x="536" y="559" fill="#52636d" font-size="16"><tspan x="536" dy="0">Match criteria met</tspan></text>
 <rect x="207" y="619" width="122.40000000000003" height="23.48" fill="#fff"/>
 <text x="211" y="636" fill="#52636d" font-size="16"><tspan x="211" dy="0">Face evidence</tspan></text>
-<path d="M40 748H1000" stroke="#e0e5e8"/>
-<text x="40" y="772" fill="#52636d" font-size="17"><tspan x="40" dy="0">Aaron owned ReID; FastReID is third-party. Tracking, face recognition and the complete system were team work,</tspan><tspan x="40" dy="21.76">with identity and latency limits.</tspan></text>
+<path d="M40 759H1000" stroke="#e0e5e8"/>
+<text x="40" y="788" fill="#52636d" font-size="17"><tspan x="40" dy="0">Aaron owned ReID; FastReID is third-party. Tracking, face recognition and the complete system were team work,</tspan><tspan x="40" dy="21.76">with identity and latency limits.</tspan></text>
 </g></svg>

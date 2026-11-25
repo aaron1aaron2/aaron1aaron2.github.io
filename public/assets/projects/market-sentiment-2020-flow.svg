@@ -1,38 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 820" role="img" aria-labelledby="title desc" lang="zh-Hant">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 856" role="img" aria-labelledby="title desc" lang="zh-Hant">
 <title id="title">全文與情感詞如何共同辨識文章情緒</title><desc id="desc">本人完成研究工作；HAN、情感詞典、共同作者與標記者保留歸屬。結果為文章情感分類，不推為投資績效。 實線表示資料或處理流程；虛線表示審查、條件或回饋。</desc>
-<defs><marker id="market-sentiment-2020-flow-zh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
-<rect width="1040" height="820" fill="#fff"/>
+<defs><marker id="market-sentiment-2020-flow-zh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="context-stroke"/></marker></defs>
+<rect width="1040" height="856" fill="#fff"/>
 <g font-family="Arial,Microsoft JhengHei,sans-serif">
 <text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">全文與情感詞如何共同辨識文章情緒</tspan></text>
-<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">實線：資料／處理流程　　虛線：審查／回饋</tspan></text>
+<path d="M40 75H67" stroke="#34656a" stroke-width="2"/>
+<text x="76" y="80" fill="#455d66" font-size="16"><tspan x="76" dy="0">資料與工作流</tspan></text>
+
+
 <path d="M40 103H1000" stroke="#ccd5da"/>
-<path d="M290 237H395" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#market-sentiment-2020-flow-zh)"/>
-<path d="M165 300V427H395" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#market-sentiment-2020-flow-zh)"/>
-<path d="M165 300V540" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#market-sentiment-2020-flow-zh)"/>
-<path d="M645 237H700V297H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#market-sentiment-2020-flow-zh)"/>
-<path d="M645 427H700V357H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#market-sentiment-2020-flow-zh)"/>
-<path d="M875 390V540" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#market-sentiment-2020-flow-zh)"/>
-<path d="M290 602H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#market-sentiment-2020-flow-zh)"/>
-<path d="M750 632H705V677H645" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#market-sentiment-2020-flow-zh)"/>
-<rect x="40" y="175" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<path d="M290 237H395" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#market-sentiment-2020-flow-zh)"/>
+<path d="M165 300V427H395" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#market-sentiment-2020-flow-zh)"/>
+<path d="M165 300V540" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#market-sentiment-2020-flow-zh)"/>
+<path d="M645 237H700V297H750" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#market-sentiment-2020-flow-zh)"/>
+<path d="M645 427H700V357H750" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#market-sentiment-2020-flow-zh)"/>
+<path d="M875 390V540" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#market-sentiment-2020-flow-zh)"/>
+<path d="M290 602H750" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#market-sentiment-2020-flow-zh)"/>
+<path d="M750 632H705V677H645" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#market-sentiment-2020-flow-zh)"/>
+<rect x="40" y="175" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="229.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">金融文章</tspan></text>
 <text x="55" y="261.91999999999996" fill="#52636d" font-size="19"><tspan x="55" dy="0">研究資料與文章內容</tspan></text>
-<rect x="395" y="175" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="395" y="175" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="410" y="229.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="410" dy="0">HAN 全文表示</tspan></text>
 <text x="410" y="261.91999999999996" fill="#52636d" font-size="19"><tspan x="410" dy="0">詞與句子的階層式關注</tspan></text>
-<rect x="395" y="365" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="395" y="365" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="410" y="419.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="410" dy="0">SAN 情感詞表示</tspan></text>
 <text x="410" y="451.92" fill="#52636d" font-size="19"><tspan x="410" dy="0">情感詞典與詞彙訊號</tspan></text>
-<rect x="750" y="265" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="750" y="265" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="765" y="319.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="765" dy="0">整合兩類表示</tspan></text>
 <text x="765" y="351.92" fill="#52636d" font-size="19"><tspan x="765" dy="0">全文情境與情感詞互補</tspan></text>
-<rect x="40" y="540" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="40" y="540" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="594.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">多人標記的目標</tspan></text>
 <text x="55" y="626.92" fill="#52636d" font-size="19"><tspan x="55" dy="0">正負傾向與激動程度</tspan></text>
-<rect x="750" y="540" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="750" y="540" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="765" y="594.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="765" dy="0">情感分類模型</tspan></text>
 <text x="765" y="626.92" fill="#52636d" font-size="19"><tspan x="765" dy="0">學習文章的情緒目標</tspan></text>
-<rect x="395" y="615" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="395" y="615" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="410" y="669.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="410" dy="0">選模與測試比較</tspan></text>
 <text x="410" y="701.92" fill="#52636d" font-size="19"><tspan x="410" dy="0">驗證集選模、測試集比較</tspan></text>
 <rect x="311" y="199" width="44" height="23.48" fill="#fff"/>
@@ -51,6 +54,6 @@
 <text x="457" y="581" fill="#52636d" font-size="16"><tspan x="457" dy="0">訓練目標</tspan></text>
 <rect x="654" y="702" width="76" height="23.48" fill="#fff"/>
 <text x="658" y="719" fill="#52636d" font-size="16"><tspan x="658" dy="0">分類結果</tspan></text>
-<path d="M40 758H1000" stroke="#e0e5e8"/>
-<text x="40" y="782" fill="#52636d" font-size="17"><tspan x="40" dy="0">本人完成研究工作；HAN、情感詞典、共同作者與標記者保留歸屬。結果為文章情感分類，不推為投資績效。</tspan></text>
+<path d="M40 769H1000" stroke="#e0e5e8"/>
+<text x="40" y="798" fill="#52636d" font-size="17"><tspan x="40" dy="0">本人完成研究工作；HAN、情感詞典、共同作者與標記者保留歸屬。結果為文章情感分類，不推為投資績效。</tspan></text>
 </g></svg>

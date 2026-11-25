@@ -1,29 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 640" role="img" aria-labelledby="title desc" lang="zh-Hant">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 676" role="img" aria-labelledby="title desc" lang="zh-Hant">
 <title id="title">跨組織提案的責任與查核</title><desc id="desc">文件草案尚未送件；此圖是提案協作流程，不是已建置的資安平台。 實線表示資料或處理流程；虛線表示審查、條件或回饋。</desc>
-<defs><marker id="smart-city-proposal-zh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
-<rect width="1040" height="640" fill="#fff"/>
+<defs><marker id="smart-city-proposal-zh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="context-stroke"/></marker></defs>
+<rect width="1040" height="676" fill="#fff"/>
 <g font-family="Arial,Microsoft JhengHei,sans-serif">
 <text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">跨組織提案的責任與查核</tspan></text>
-<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">實線：資料／處理流程　　虛線：審查／回饋</tspan></text>
+<path d="M40 75H67" stroke="#34656a" stroke-width="2"/>
+<text x="76" y="80" fill="#455d66" font-size="16"><tspan x="76" dy="0">資料與工作流</tspan></text>
+<path d="M286 75H313" stroke="#83683b" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="322" y="80" fill="#665330" font-size="16"><tspan x="322" dy="0">條件、審查或回饋</tspan></text>
 <path d="M40 103H1000" stroke="#ccd5da"/>
-<path d="M300 205H345V270H395" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#smart-city-proposal-zh)"/>
-<path d="M300 380H345V315H395" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#smart-city-proposal-zh)"/>
-<path d="M655 292H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#smart-city-proposal-zh)"/>
-<path d="M875 355V470H525V355" fill="none" stroke="#526773" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#smart-city-proposal-zh)"/>
-<rect x="40" y="150" width="260" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<path d="M300 205H345V270H395" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#smart-city-proposal-zh)"/>
+<path d="M300 380H345V315H395" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#smart-city-proposal-zh)"/>
+<path d="M655 292H750" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#smart-city-proposal-zh)"/>
+<path d="M875 355V470H525V355" fill="none" stroke="#83683b" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#smart-city-proposal-zh)"/>
+<rect x="40" y="150" width="260" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="204.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">控制面需求</tspan></text>
 <text x="55" y="236.92" fill="#52636d" font-size="19"><tspan x="55" dy="0">組織、政策與查核責任</tspan></text>
-<rect x="40" y="325" width="260" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="40" y="325" width="260" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="379.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">裝置與資料介面</tspan></text>
 <text x="55" y="411.92" fill="#52636d" font-size="19"><tspan x="55" dy="0">資料面、端點與依賴</tspan></text>
-<rect x="395" y="230" width="260" height="125" rx="3" fill="#fff" stroke="#8c6b37" stroke-width="2"/>
+<rect x="395" y="230" width="260" height="125" rx="5" fill="#faf6ee" stroke="#8c6b37" stroke-width="2"/>
 <text x="410" y="284.76" fill="#71572b" font-size="22" font-weight="600"><tspan x="410" dy="0">跨組織界面對齊</tspan></text>
 <text x="410" y="316.92" fill="#52636d" font-size="19"><tspan x="410" dy="0">界面、分工、查核條件</tspan></text>
-<rect x="750" y="230" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="750" y="230" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="765" y="284.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="765" dy="0">計畫書與簡報草案</tspan></text>
 <text x="765" y="316.92" fill="#52636d" font-size="19"><tspan x="765" dy="0">政府格式、引用與版本修訂</tspan></text>
 <rect x="546" y="418" width="92" height="23.48" fill="#fff"/>
 <text x="550" y="435" fill="#52636d" font-size="16"><tspan x="550" dy="0">修訂與核對</tspan></text>
-<path d="M40 578H1000" stroke="#e0e5e8"/>
-<text x="40" y="602" fill="#52636d" font-size="17"><tspan x="40" dy="0">文件草案尚未送件；此圖是提案協作流程，不是已建置的資安平台。</tspan></text>
+<path d="M40 589H1000" stroke="#e0e5e8"/>
+<text x="40" y="618" fill="#52636d" font-size="17"><tspan x="40" dy="0">文件草案尚未送件；此圖是提案協作流程，不是已建置的資安平台。</tspan></text>
 </g></svg>

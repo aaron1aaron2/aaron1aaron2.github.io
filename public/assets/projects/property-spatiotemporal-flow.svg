@@ -1,39 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 810" role="img" aria-labelledby="title desc" lang="zh-Hant">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 846" role="img" aria-labelledby="title desc" lang="zh-Hant">
 <title id="title">先定義區域指標，再做時空預測</title><desc id="desc">本人主導方向、模型、實驗與決賽報告；GMAN 保留第三方歸屬。預測區域平均指標，非個別土地估價。 實線表示資料或處理流程；虛線表示審查、條件或回饋。</desc>
-<defs><marker id="property-spatiotemporal-flow-zh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
-<rect width="1040" height="810" fill="#fff"/>
+<defs><marker id="property-spatiotemporal-flow-zh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="context-stroke"/></marker></defs>
+<rect width="1040" height="846" fill="#fff"/>
 <g font-family="Arial,Microsoft JhengHei,sans-serif">
 <text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">先定義區域指標，再做時空預測</tspan></text>
-<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">實線：資料／處理流程　　虛線：審查／回饋</tspan></text>
+<path d="M40 75H67" stroke="#34656a" stroke-width="2"/>
+<text x="76" y="80" fill="#455d66" font-size="16"><tspan x="76" dy="0">資料與工作流</tspan></text>
+
+
 <path d="M40 103H1000" stroke="#ccd5da"/>
-<path d="M290 237H390" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#property-spatiotemporal-flow-zh)"/>
-<path d="M650 237H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#property-spatiotemporal-flow-zh)"/>
-<path d="M875 300V390" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#property-spatiotemporal-flow-zh)"/>
-<path d="M750 452H650" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#property-spatiotemporal-flow-zh)"/>
-<path d="M875 515V657H650" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#property-spatiotemporal-flow-zh)"/>
-<path d="M390 452H345V527H290" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#property-spatiotemporal-flow-zh)"/>
-<path d="M390 657H345V587H290" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#property-spatiotemporal-flow-zh)"/>
-<rect x="40" y="175" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<path d="M290 237H390" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#property-spatiotemporal-flow-zh)"/>
+<path d="M650 237H750" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#property-spatiotemporal-flow-zh)"/>
+<path d="M875 300V390" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#property-spatiotemporal-flow-zh)"/>
+<path d="M750 452H650" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#property-spatiotemporal-flow-zh)"/>
+<path d="M875 515V657H650" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#property-spatiotemporal-flow-zh)"/>
+<path d="M390 452H345V527H290" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#property-spatiotemporal-flow-zh)"/>
+<path d="M390 657H345V587H290" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#property-spatiotemporal-flow-zh)"/>
+<rect x="40" y="175" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="229.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">實價登錄交易</tspan></text>
 <text x="55" y="261.91999999999996" fill="#52636d" font-size="19"><tspan x="55" dy="0">成交時間、價格與位置</tspan></text>
-<rect x="390" y="175" width="260" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="390" y="175" width="260" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="405" y="217.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="405" dy="0">區域與參考點</tspan></text>
 <text x="405" y="249.76" fill="#52636d" font-size="19"><tspan x="405" dy="0">群組中心、周邊交易與參考</tspan><tspan x="405" dy="24.32">點</tspan></text>
-<rect x="750" y="175" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="750" y="175" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="765" y="229.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="765" dy="0">每月區域訓練資料</tspan></text>
 <text x="765" y="261.91999999999996" fill="#52636d" font-size="19"><tspan x="765" dy="0">均價與交易量時序</tspan></text>
-<rect x="750" y="390" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="750" y="390" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="765" y="444.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="765" dy="0">GMAN 基礎時空模型</tspan></text>
 <text x="765" y="476.92" fill="#52636d" font-size="19"><tspan x="765" dy="0">沿用第三方方法進行實驗</tspan></text>
-<rect x="390" y="390" width="260" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="390" y="390" width="260" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="405" y="444.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="405" dy="0">區域平均單位價</tspan></text>
 <text x="405" y="476.92" fill="#52636d" font-size="19"><tspan x="405" dy="0">區域每月平均價格預測</tspan></text>
-<rect x="390" y="595" width="260" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="390" y="595" width="260" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="405" y="649.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="405" dy="0">區域每月交易量</tspan></text>
 <text x="405" y="681.92" fill="#52636d" font-size="19"><tspan x="405" dy="0">區域每月交易數量預測</tspan></text>
-<rect x="40" y="495" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
-<text x="55" y="549.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">分區評估與報告</tspan></text>
-<text x="55" y="581.92" fill="#52636d" font-size="19"><tspan x="55" dy="0">MAE、RMSE、MAPE 與限制</tspan></text>
+<rect x="40" y="495" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
+<text x="55" y="537.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">分區評估與報告</tspan></text>
+<text x="55" y="569.76" fill="#52636d" font-size="19"><tspan x="55" dy="0">比較 MAE、RMSE 和</tspan><tspan x="55" dy="24.32">MAPE</tspan></text>
 <rect x="299" y="199" width="76" height="23.48" fill="#fff"/>
 <text x="303" y="216" fill="#52636d" font-size="16"><tspan x="303" dy="0">交易位置</tspan></text>
 <rect x="651" y="199" width="92" height="23.48" fill="#fff"/>
@@ -48,6 +51,6 @@
 <text x="300" y="431" fill="#52636d" font-size="16"><tspan x="300" dy="0">價格誤差</tspan></text>
 <rect x="293" y="680" width="76" height="23.48" fill="#fff"/>
 <text x="297" y="697" fill="#52636d" font-size="16"><tspan x="297" dy="0">數量誤差</tspan></text>
-<path d="M40 748H1000" stroke="#e0e5e8"/>
-<text x="40" y="772" fill="#52636d" font-size="17"><tspan x="40" dy="0">本人主導方向、模型、實驗與決賽報告；GMAN 保留第三方歸屬。預測區域平均指標，非個別土地估價。</tspan></text>
+<path d="M40 759H1000" stroke="#e0e5e8"/>
+<text x="40" y="788" fill="#52636d" font-size="17"><tspan x="40" dy="0">本人主導方向、模型、實驗與決賽報告；GMAN 保留第三方歸屬。預測區域平均指標，非個別土地估價。</tspan></text>
 </g></svg>

@@ -1,59 +1,62 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 1080" role="img" aria-labelledby="title desc" lang="zh-Hant">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 1116" role="img" aria-labelledby="title desc" lang="zh-Hant">
 <title id="title">平台分層：資料入口、協調、分析與回饋</title><desc id="desc">邏輯分層，不是部署拓樸。內部工作佇列與 MQTT 不同；broker 依配置，各服務的內部委派不由圖中連線推定。 實線表示資料或處理流程；虛線表示審查、條件或回饋。</desc>
-<defs><marker id="harbor-ai-system-zh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
-<rect width="1040" height="1080" fill="#fff"/>
+<defs><marker id="harbor-ai-system-zh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="context-stroke"/></marker></defs>
+<rect width="1040" height="1116" fill="#fff"/>
 <g font-family="Arial,Microsoft JhengHei,sans-serif">
 <text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">平台分層：資料入口、協調、分析與回饋</tspan></text>
-<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">實線：資料／處理流程　　虛線：審查／回饋</tspan></text>
+<path d="M40 75H67" stroke="#34656a" stroke-width="2"/>
+<text x="76" y="80" fill="#455d66" font-size="16"><tspan x="76" dy="0">資料與工作流</tspan></text>
+<path d="M286 75H313" stroke="#83683b" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="322" y="80" fill="#665330" font-size="16"><tspan x="322" dy="0">條件、審查或回饋</tspan></text>
 <path d="M40 103H1000" stroke="#ccd5da"/>
-<path d="M180 275V375" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#harbor-ai-system-zh)"/>
-<path d="M520 275V328H230V375" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#harbor-ai-system-zh)"/>
-<path d="M860 275V375" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#harbor-ai-system-zh)"/>
-<path d="M320 447H380" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#harbor-ai-system-zh)"/>
-<path d="M720 447H660" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#harbor-ai-system-zh)"/>
-<path d="M470 520V565H180V625" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#harbor-ai-system-zh)"/>
-<path d="M520 520V625" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#harbor-ai-system-zh)"/>
-<path d="M570 520V565H860V625" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#harbor-ai-system-zh)"/>
-<path d="M180 780V875" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#harbor-ai-system-zh)"/>
-<path d="M520 780V825H350V875" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#harbor-ai-system-zh)"/>
-<path d="M860 780V825H635V875" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#harbor-ai-system-zh)"/>
-<path d="M1000 447H1020V825H900V875" fill="none" stroke="#526773" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#harbor-ai-system-zh)"/>
-<rect x="40" y="145" width="280" height="130" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<path d="M180 275V375" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#harbor-ai-system-zh)"/>
+<path d="M520 275V328H230V375" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#harbor-ai-system-zh)"/>
+<path d="M860 275V375" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#harbor-ai-system-zh)"/>
+<path d="M320 447H380" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#harbor-ai-system-zh)"/>
+<path d="M720 447H660" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#harbor-ai-system-zh)"/>
+<path d="M470 520V565H180V625" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#harbor-ai-system-zh)"/>
+<path d="M520 520V625" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#harbor-ai-system-zh)"/>
+<path d="M570 520V565H860V625" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#harbor-ai-system-zh)"/>
+<path d="M180 780V875" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#harbor-ai-system-zh)"/>
+<path d="M520 780V825H350V875" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#harbor-ai-system-zh)"/>
+<path d="M860 780V825H635V875" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#harbor-ai-system-zh)"/>
+<path d="M1000 447H1020V825H900V875" fill="none" stroke="#83683b" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#harbor-ai-system-zh)"/>
+<rect x="40" y="145" width="280" height="130" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="202.26" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">MQTT 即時通道</tspan></text>
 <text x="55" y="234.42" fill="#52636d" font-size="19"><tspan x="55" dy="0">預覽、事件與喚醒通知</tspan></text>
-<rect x="380" y="145" width="280" height="130" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="380" y="145" width="280" height="130" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="395" y="202.26" fill="#172e3b" font-size="22" font-weight="600"><tspan x="395" dy="0">HTTP 資料／控制</tspan></text>
 <text x="395" y="234.42" fill="#52636d" font-size="19"><tspan x="395" dy="0">批次、WAV、心跳與 ACK</tspan></text>
-<rect x="720" y="145" width="280" height="130" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="720" y="145" width="280" height="130" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="735" y="202.26" fill="#172e3b" font-size="22" font-weight="600"><tspan x="735" dy="0">使用者工作區</tspan></text>
 <text x="735" y="234.42" fill="#52636d" font-size="19"><tspan x="735" dy="0">總覽、單設備、分析、報表</tspan></text>
-<rect x="40" y="375" width="280" height="145" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="40" y="375" width="280" height="145" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="439.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">資料接收與收斂</tspan></text>
 <text x="55" y="471.92" fill="#52636d" font-size="19"><tspan x="55" dy="0">暫存、校驗、去重、寫入</tspan></text>
-<rect x="380" y="375" width="280" height="145" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="380" y="375" width="280" height="145" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="395" y="439.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="395" dy="0">任務與訊息流程</tspan></text>
 <text x="395" y="471.92" fill="#52636d" font-size="19"><tspan x="395" dy="0">排程、派工、狀態、檔案參照</tspan></text>
-<rect x="720" y="375" width="280" height="145" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="720" y="375" width="280" height="145" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="735" y="439.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="735" dy="0">平台 API 與政策</tspan></text>
 <text x="735" y="471.92" fill="#52636d" font-size="19"><tspan x="735" dy="0">身分、設定、查詢與操作</tspan></text>
-<rect x="40" y="625" width="280" height="155" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="40" y="625" width="280" height="155" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="694.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">振動／局放分析</tspan></text>
 <text x="55" y="726.92" fill="#52636d" font-size="19"><tspan x="55" dy="0">按事件窗與資料完整性分析</tspan></text>
-<rect x="380" y="625" width="280" height="155" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="380" y="625" width="280" height="155" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="395" y="694.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="395" dy="0">RUL 與趨勢</tspan></text>
 <text x="395" y="726.92" fill="#52636d" font-size="19"><tspan x="395" dy="0">分區、外推、歷史與建議</tspan></text>
-<rect x="720" y="625" width="280" height="155" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="720" y="625" width="280" height="155" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="735" y="694.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="735" dy="0">報表與知識助理</tspan></text>
 <text x="735" y="726.92" fill="#52636d" font-size="19"><tspan x="735" dy="0">分析管線、敘事、受眾內容</tspan></text>
-<rect x="40" y="875" width="430" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="40" y="875" width="430" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="929.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">結構化紀錄與原始資料</tspan></text>
 <text x="55" y="961.92" fill="#52636d" font-size="19"><tspan x="55" dy="0">特徵、事件、狀態與 WAV 引用</tspan></text>
-<rect x="510" y="875" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="510" y="875" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="525" y="929.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="525" dy="0">分析產物</tspan></text>
 <text x="525" y="961.92" fill="#52636d" font-size="19"><tspan x="525" dy="0">FFT、圖表、報告</tspan></text>
-<rect x="800" y="875" width="200" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="800" y="875" width="200" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="815" y="929.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="815" dy="0">控制回饋</tspan></text>
 <text x="815" y="961.92" fill="#52636d" font-size="19"><tspan x="815" dy="0">閾值與套用紀錄</tspan></text>
-<path d="M40 1018H1000" stroke="#e0e5e8"/>
-<text x="40" y="1042" fill="#52636d" font-size="17"><tspan x="40" dy="0">邏輯分層，不是部署拓樸。內部工作佇列與 MQTT 不同；broker 依配置，各服務的內部委派不由圖中連線推定。</tspan></text>
+<path d="M40 1029H1000" stroke="#e0e5e8"/>
+<text x="40" y="1058" fill="#52636d" font-size="17"><tspan x="40" dy="0">邏輯分層，不是部署拓樸。內部工作佇列與 MQTT 不同；broker 依配置，各服務的內部委派不由圖中連線推定。</tspan></text>
 </g></svg>

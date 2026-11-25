@@ -1,40 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 830" role="img" aria-labelledby="title desc" lang="zh-Hant">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 866" role="img" aria-labelledby="title desc" lang="zh-Hant">
 <title id="title">團隊推薦方法，整合到本人主責的聊天入口</title><desc id="desc">本人主導方向及 Chatbot 架構、實作、部署整合；推薦方法由團隊分工。線上採用及交易成效未量測。 實線表示資料或處理流程；虛線表示審查、條件或回饋。</desc>
-<defs><marker id="stock-recommendation-flow-zh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
-<rect width="1040" height="830" fill="#fff"/>
+<defs><marker id="stock-recommendation-flow-zh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="context-stroke"/></marker></defs>
+<rect width="1040" height="866" fill="#fff"/>
 <g font-family="Arial,Microsoft JhengHei,sans-serif">
 <text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">團隊推薦方法，整合到本人主責的聊天入口</tspan></text>
-<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">實線：資料／處理流程　　虛線：審查／回饋</tspan></text>
+<path d="M40 75H67" stroke="#34656a" stroke-width="2"/>
+<text x="76" y="80" fill="#455d66" font-size="16"><tspan x="76" dy="0">資料與工作流</tspan></text>
+
+
 <path d="M40 103H1000" stroke="#ccd5da"/>
-<rect x="370" y="125" width="300" height="625" fill="#f7f9fa" stroke="#d4dde1" stroke-dasharray="5 5"/>
+<rect x="370" y="125" width="300" height="625" fill="#f1f6f4" stroke="#c0cfcc"/>
 <text x="384" y="150" fill="#526773" font-size="17" font-weight="600"><tspan x="384" dy="0">團隊分工的推薦模組</tspan></text>
-<path d="M290 237H390" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#stock-recommendation-flow-zh)"/>
-<path d="M290 422H335V267H390" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#stock-recommendation-flow-zh)"/>
-<path d="M290 452H390" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#stock-recommendation-flow-zh)"/>
-<path d="M165 515V667H390" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#stock-recommendation-flow-zh)"/>
-<path d="M650 237H700V422H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#stock-recommendation-flow-zh)"/>
-<path d="M650 452H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#stock-recommendation-flow-zh)"/>
-<path d="M650 667H710V482H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#stock-recommendation-flow-zh)"/>
-<path d="M875 515V605" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#stock-recommendation-flow-zh)"/>
-<rect x="40" y="175" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<path d="M290 237H390" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#stock-recommendation-flow-zh)"/>
+<path d="M290 422H335V267H390" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#stock-recommendation-flow-zh)"/>
+<path d="M290 452H390" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#stock-recommendation-flow-zh)"/>
+<path d="M165 515V667H390" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#stock-recommendation-flow-zh)"/>
+<path d="M650 237H700V422H750" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#stock-recommendation-flow-zh)"/>
+<path d="M650 452H750" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#stock-recommendation-flow-zh)"/>
+<path d="M650 667H710V482H750" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#stock-recommendation-flow-zh)"/>
+<path d="M875 515V605" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#stock-recommendation-flow-zh)"/>
+<rect x="40" y="175" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="229.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">公司財務特徵</tspan></text>
 <text x="55" y="261.91999999999996" fill="#52636d" font-size="19"><tspan x="55" dy="0">財務比率與個股資料</tspan></text>
-<rect x="40" y="390" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="40" y="390" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="444.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">使用者行為</tspan></text>
 <text x="55" y="476.92" fill="#52636d" font-size="19"><tspan x="55" dy="0">訂閱、瀏覽與共現關係</tspan></text>
-<rect x="390" y="175" width="260" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="390" y="175" width="260" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="405" y="229.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="405" dy="0">Item-based 候選</tspan></text>
 <text x="405" y="261.91999999999996" fill="#52636d" font-size="19"><tspan x="405" dy="0">依公司特徵比較相似度</tspan></text>
-<rect x="390" y="390" width="260" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="390" y="390" width="260" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="405" y="444.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="405" dy="0">User-based 候選</tspan></text>
 <text x="405" y="476.92" fill="#52636d" font-size="19"><tspan x="405" dy="0">相似偏好與訂閱清單</tspan></text>
-<rect x="390" y="605" width="260" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="390" y="605" width="260" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="405" y="659.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="405" dy="0">股票共現候選</tspan></text>
 <text x="405" y="691.92" fill="#52636d" font-size="19"><tspan x="405" dy="0">看過的人也看過</tspan></text>
-<rect x="750" y="390" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="750" y="390" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="765" y="444.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="765" dy="0">本人：Telegram 入口</tspan></text>
 <text x="765" y="476.92" fill="#52636d" font-size="19"><tspan x="765" dy="0">架構、實作、部署與整合</tspan></text>
-<rect x="750" y="605" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="750" y="605" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="765" y="659.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="765" dy="0">推薦、查詢與推播</tspan></text>
 <text x="765" y="691.92" fill="#52636d" font-size="19"><tspan x="765" dy="0">連接個股資訊與聊天流程</tspan></text>
 <rect x="311" y="199" width="76" height="23.48" fill="#fff"/>
@@ -53,6 +56,6 @@
 <text x="658" y="572" fill="#52636d" font-size="16"><tspan x="658" dy="0">候選結果</tspan></text>
 <rect x="887" y="543" width="76" height="23.48" fill="#fff"/>
 <text x="891" y="560" fill="#52636d" font-size="16"><tspan x="891" dy="0">統一互動</tspan></text>
-<path d="M40 768H1000" stroke="#e0e5e8"/>
-<text x="40" y="792" fill="#52636d" font-size="17"><tspan x="40" dy="0">本人主導方向及 Chatbot 架構、實作、部署整合；推薦方法由團隊分工。線上採用及交易成效未量測。</tspan></text>
+<path d="M40 779H1000" stroke="#e0e5e8"/>
+<text x="40" y="808" fill="#52636d" font-size="17"><tspan x="40" dy="0">本人主導方向及 Chatbot 架構、實作、部署整合；推薦方法由團隊分工。線上採用及交易成效未量測。</tspan></text>
 </g></svg>

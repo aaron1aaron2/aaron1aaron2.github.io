@@ -1,32 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 700" role="img" aria-labelledby="title desc" lang="zh-Hant">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 736" role="img" aria-labelledby="title desc" lang="zh-Hant">
 <title id="title">交付承諾與研究探索分流</title><desc id="desc">實習生研究保留作者歸屬；探索完成不等於已納入正式產品。 實線表示資料或處理流程；虛線表示審查、條件或回饋。</desc>
-<defs><marker id="delivery-mentoring-zh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
-<rect width="1040" height="700" fill="#fff"/>
+<defs><marker id="delivery-mentoring-zh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="context-stroke"/></marker></defs>
+<rect width="1040" height="736" fill="#fff"/>
 <g font-family="Arial,Microsoft JhengHei,sans-serif">
 <text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">交付承諾與研究探索分流</tspan></text>
-<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">實線：資料／處理流程　　虛線：審查／回饋</tspan></text>
+<path d="M40 75H67" stroke="#34656a" stroke-width="2"/>
+<text x="76" y="80" fill="#455d66" font-size="16"><tspan x="76" dy="0">資料與工作流</tspan></text>
+<path d="M286 75H313" stroke="#83683b" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="322" y="80" fill="#665330" font-size="16"><tspan x="322" dy="0">條件、審查或回饋</tspan></text>
 <path d="M40 103H1000" stroke="#ccd5da"/>
-<path d="M290 205H395" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#delivery-mentoring-zh)"/>
-<path d="M645 205H695V305H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#delivery-mentoring-zh)"/>
-<path d="M290 475H395" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#delivery-mentoring-zh)"/>
-<path d="M645 475H695V365H750" fill="none" stroke="#526773" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#delivery-mentoring-zh)"/>
-<rect x="40" y="150" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<path d="M290 205H395" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#delivery-mentoring-zh)"/>
+<path d="M645 205H695V305H750" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#delivery-mentoring-zh)"/>
+<path d="M290 475H395" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#delivery-mentoring-zh)"/>
+<path d="M645 475H695V365H750" fill="none" stroke="#83683b" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#delivery-mentoring-zh)"/>
+<rect x="40" y="150" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="204.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">客戶承諾與待決事項</tspan></text>
 <text x="55" y="236.92" fill="#52636d" font-size="19"><tspan x="55" dy="0">交付範圍、階段與責任</tspan></text>
-<rect x="395" y="150" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="395" y="150" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="410" y="204.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="410" dy="0">跨服務工項映射</tspan></text>
 <text x="410" y="236.92" fill="#52636d" font-size="19"><tspan x="410" dy="0">交付清單與驗證證據</tspan></text>
-<rect x="750" y="270" width="250" height="130" rx="3" fill="#fff" stroke="#8c6b37" stroke-width="2"/>
+<rect x="750" y="270" width="250" height="130" rx="5" fill="#faf6ee" stroke="#8c6b37" stroke-width="2"/>
 <text x="765" y="315.1" fill="#71572b" font-size="22" font-weight="600"><tspan x="765" dy="0">產品納入與交付判斷</tspan></text>
 <text x="765" y="347.26000000000005" fill="#52636d" font-size="19"><tspan x="765" dy="0">由本人檢查範圍與驗收條</tspan><tspan x="765" dy="24.32">件</tspan></text>
-<rect x="40" y="420" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="40" y="420" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="474.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">實習研究題目</tspan></text>
 <text x="55" y="506.92" fill="#52636d" font-size="19"><tspan x="55" dy="0">真實產品問題、教材與週報</tspan></text>
-<rect x="395" y="420" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="395" y="420" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="410" y="474.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="410" dy="0">離線評估與原型</tspan></text>
 <text x="410" y="506.92" fill="#52636d" font-size="19"><tspan x="410" dy="0">資料前提、建議與交接</tspan></text>
 <rect x="661" y="421" width="76" height="23.48" fill="#fff"/>
 <text x="665" y="438" fill="#52636d" font-size="16"><tspan x="665" dy="0">獨立評估</tspan></text>
-<path d="M40 638H1000" stroke="#e0e5e8"/>
-<text x="40" y="662" fill="#52636d" font-size="17"><tspan x="40" dy="0">實習生研究保留作者歸屬；探索完成不等於已納入正式產品。</tspan></text>
+<path d="M40 649H1000" stroke="#e0e5e8"/>
+<text x="40" y="678" fill="#52636d" font-size="17"><tspan x="40" dy="0">實習生研究保留作者歸屬；探索完成不等於已納入正式產品。</tspan></text>
 </g></svg>

@@ -1,40 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 830" role="img" aria-labelledby="title desc" lang="en">
-<title id="title">Three spatial views of disaster resources</title><desc id="desc">Aaron owned the idea, spec and presentation. The team implemented analyses and system using a template. Finalist status does not establish policy impact. Solid arrows show process or data flow; dashed arrows show review, conditions or feedback.</desc>
-<defs><marker id="city-disaster-map-flow-en" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
-<rect width="1040" height="830" fill="#fff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 866" role="img" aria-labelledby="title desc" lang="en">
+<title id="title">Three resource analyses at two spatial scales</title><desc id="desc">Aaron defined the topic and specification and presented it. The team adapted a template for the finalist demo; policy impact was not measured. Solid arrows show process or data flow; dashed arrows show review, conditions or feedback.</desc>
+<defs><marker id="city-disaster-map-flow-en" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="context-stroke"/></marker></defs>
+<rect width="1040" height="866" fill="#fff"/>
 <g font-family="Arial,Microsoft JhengHei,sans-serif">
-<text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">Three spatial views of disaster resources</tspan></text>
-<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">Solid: data / process  ·  Dashed: review / feedback</tspan></text>
+<text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">Three resource analyses at two spatial scales</tspan></text>
+<path d="M40 75H67" stroke="#34656a" stroke-width="2"/>
+<text x="76" y="80" fill="#455d66" font-size="16"><tspan x="76" dy="0">Data and workflow</tspan></text>
+<path d="M286 75H313" stroke="#83683b" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="322" y="80" fill="#665330" font-size="16"><tspan x="322" dy="0">Condition, review or feedback</tspan></text>
 <path d="M40 103H1000" stroke="#ccd5da"/>
-<rect x="20" y="355" width="1000" height="405" fill="#f7f9fa" stroke="#d4dde1" stroke-dasharray="5 5"/>
+<rect x="20" y="355" width="1000" height="405" fill="#f1f6f4" stroke="#c0cfcc"/>
 <text x="34" y="380" fill="#526773" font-size="17" font-weight="600"><tspan x="34" dy="0">Team: analysis and implementation</tspan></text>
-<path d="M290 237H395" fill="none" stroke="#526773" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#city-disaster-map-flow-en)"/>
-<path d="M750 237H645" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#city-disaster-map-flow-en)"/>
-<path d="M455 300V345H165V400" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#city-disaster-map-flow-en)"/>
-<path d="M520 300V400" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#city-disaster-map-flow-en)"/>
-<path d="M585 300V345H875V400" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#city-disaster-map-flow-en)"/>
-<path d="M165 525V672H395" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#city-disaster-map-flow-en)"/>
-<path d="M520 525V610" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#city-disaster-map-flow-en)"/>
-<path d="M875 525V672H645" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#city-disaster-map-flow-en)"/>
-<rect x="40" y="175" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<path d="M290 237H395" fill="none" stroke="#83683b" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#city-disaster-map-flow-en)"/>
+<path d="M750 237H645" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#city-disaster-map-flow-en)"/>
+<path d="M455 300V345H165V400" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#city-disaster-map-flow-en)"/>
+<path d="M520 300V400" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#city-disaster-map-flow-en)"/>
+<path d="M585 300V345H875V400" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#city-disaster-map-flow-en)"/>
+<path d="M165 525V672H395" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#city-disaster-map-flow-en)"/>
+<path d="M520 525V610" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#city-disaster-map-flow-en)"/>
+<path d="M875 525V672H645" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#city-disaster-map-flow-en)"/>
+<rect x="40" y="175" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="207.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="55" dy="0">Aaron: problem and</tspan><tspan x="55" dy="24.96">spec</tspan></text>
 <text x="55" y="261.34000000000003" fill="#52636d" font-size="16.5"><tspan x="55" dy="0">Idea, requirements and</tspan><tspan x="55" dy="21.12">presentation</tspan></text>
-<rect x="750" y="175" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="750" y="175" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="765" y="217.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="765" dy="0">Public datasets</tspan></text>
 <text x="765" y="249.76" fill="#52636d" font-size="19"><tspan x="765" dy="0">Population, sites,</tspan><tspan x="765" dy="24.32">facilities, capacity</tspan></text>
-<rect x="395" y="175" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="395" y="175" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="410" y="217.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="410" dy="0">Clean and join data</tspan></text>
 <text x="410" y="249.76" fill="#52636d" font-size="19"><tspan x="410" dy="0">Team: align locations</tspan><tspan x="410" dy="24.32">and coordinates</tspan></text>
-<rect x="40" y="400" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="40" y="400" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="432.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="55" dy="0">District resource</tspan><tspan x="55" dy="24.96">ratios</tspan></text>
 <text x="55" y="486.34" fill="#52636d" font-size="16.5"><tspan x="55" dy="0">Population ratios and</tspan><tspan x="55" dy="21.12">dispersion</tspan></text>
-<rect x="395" y="400" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="395" y="400" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="410" y="432.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="410" dy="0">Shelter capacity and</tspan><tspan x="410" dy="24.96">area</tspan></text>
 <text x="410" y="486.34" fill="#52636d" font-size="16.5"><tspan x="410" dy="0">Capacity and area</tspan><tspan x="410" dy="21.12">relative to population</tspan></text>
-<rect x="750" y="400" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="750" y="400" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="765" y="432.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="765" dy="0">Resources near</tspan><tspan x="765" dy="24.96">attractions</tspan></text>
 <text x="765" y="486.34" fill="#52636d" font-size="16.5"><tspan x="765" dy="0">Filter facilities by</tspan><tspan x="765" dy="21.12">geographic distance</tspan></text>
-<rect x="395" y="610" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="395" y="610" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="410" y="642.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="410" dy="0">Dashboard and</tspan><tspan x="410" dy="24.96">proposal</tspan></text>
 <text x="410" y="696.34" fill="#52636d" font-size="16.5"><tspan x="410" dy="0">Compare resources at</tspan><tspan x="410" dy="21.12">distinct scales</tspan></text>
 <rect x="305" y="199" width="48.160000000000004" height="23.48" fill="#fff"/>
@@ -53,6 +56,6 @@
 <text x="536" y="569" fill="#52636d" font-size="16"><tspan x="536" dy="0">Capacity</tspan></text>
 <rect x="684" y="634" width="105.44000000000001" height="23.48" fill="#fff"/>
 <text x="688" y="651" fill="#52636d" font-size="16"><tspan x="688" dy="0">Nearby view</tspan></text>
-<path d="M40 768H1000" stroke="#e0e5e8"/>
-<text x="40" y="792" fill="#52636d" font-size="17"><tspan x="40" dy="0">Aaron owned the idea, spec and presentation. The team implemented analyses and system using a template.</tspan><tspan x="40" dy="21.76">Finalist status does not establish policy impact.</tspan></text>
+<path d="M40 779H1000" stroke="#e0e5e8"/>
+<text x="40" y="808" fill="#52636d" font-size="17"><tspan x="40" dy="0">Aaron defined the topic and specification and presented it. The team adapted a template for the finalist demo;</tspan><tspan x="40" dy="21.76">policy impact was not measured.</tspan></text>
 </g></svg>

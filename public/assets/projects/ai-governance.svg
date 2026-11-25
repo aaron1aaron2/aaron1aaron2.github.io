@@ -1,38 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 740" role="img" aria-labelledby="title desc" lang="zh-Hant">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 776" role="img" aria-labelledby="title desc" lang="zh-Hant">
 <title id="title">AI 任務並行與人工發布控制</title><desc id="desc">本人設計流程並作領域與產品判斷；未量測修復成功率或測試覆蓋率。 實線表示資料或處理流程；虛線表示審查、條件或回饋。</desc>
-<defs><marker id="ai-governance-zh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
-<rect width="1040" height="740" fill="#fff"/>
+<defs><marker id="ai-governance-zh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="context-stroke"/></marker></defs>
+<rect width="1040" height="776" fill="#fff"/>
 <g font-family="Arial,Microsoft JhengHei,sans-serif">
 <text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">AI 任務並行與人工發布控制</tspan></text>
-<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">實線：資料／處理流程　　虛線：審查／回饋</tspan></text>
+<path d="M40 75H67" stroke="#34656a" stroke-width="2"/>
+<text x="76" y="80" fill="#455d66" font-size="16"><tspan x="76" dy="0">資料與工作流</tspan></text>
+<path d="M286 75H313" stroke="#83683b" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="322" y="80" fill="#665330" font-size="16"><tspan x="322" dy="0">條件、審查或回饋</tspan></text>
 <path d="M40 103H1000" stroke="#ccd5da"/>
-<path d="M280 212H400" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#ai-governance-zh)"/>
-<path d="M640 212H695V172H760" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#ai-governance-zh)"/>
-<path d="M695 212V337H760" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#ai-governance-zh)"/>
-<path d="M1000 172H1020V420H520V445" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#ai-governance-zh)"/>
-<path d="M880 390V420" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#ai-governance-zh)"/>
-<path d="M640 505H700V545H760" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#ai-governance-zh)"/>
-<path d="M400 505H280" fill="none" stroke="#526773" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#ai-governance-zh)"/>
-<path d="M160 445V325H520V280" fill="none" stroke="#526773" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#ai-governance-zh)"/>
-<rect x="40" y="155" width="240" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<path d="M280 212H400" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#ai-governance-zh)"/>
+<path d="M640 212H695V172H760" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#ai-governance-zh)"/>
+<path d="M695 212V337H760" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#ai-governance-zh)"/>
+<path d="M1000 172H1020V420H520V445" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#ai-governance-zh)"/>
+<path d="M880 390V420" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#ai-governance-zh)"/>
+<path d="M640 505H700V545H760" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#ai-governance-zh)"/>
+<path d="M400 505H280" fill="none" stroke="#83683b" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#ai-governance-zh)"/>
+<path d="M160 445V325H520V280" fill="none" stroke="#83683b" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#ai-governance-zh)"/>
+<rect x="40" y="155" width="240" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="209.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">需求與每日回歸</tspan></text>
 <text x="55" y="241.92" fill="#52636d" font-size="19"><tspan x="55" dy="0">問題、變更與執行紀錄</tspan></text>
-<rect x="400" y="155" width="240" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="400" y="155" width="240" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="415" y="197.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="415" dy="0">專案與 issue 紀錄</tspan></text>
 <text x="415" y="229.76" fill="#52636d" font-size="19"><tspan x="415" dy="0">持續狀態、決策與驗證條</tspan><tspan x="415" dy="24.32">件</tspan></text>
-<rect x="760" y="120" width="240" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="760" y="120" width="240" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="775" y="174.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="775" dy="0">隔離分支 A</tspan></text>
 <text x="775" y="206.92" fill="#52636d" font-size="19"><tspan x="775" dy="0">實作、測試與記錄</tspan></text>
-<rect x="760" y="285" width="240" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="760" y="285" width="240" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="775" y="339.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="775" dy="0">隔離分支 B</tspan></text>
 <text x="775" y="371.92" fill="#52636d" font-size="19"><tspan x="775" dy="0">並行修復與複驗</tspan></text>
-<rect x="400" y="445" width="240" height="125" rx="3" fill="#fff" stroke="#8c6b37" stroke-width="2"/>
+<rect x="400" y="445" width="240" height="125" rx="5" fill="#faf6ee" stroke="#8c6b37" stroke-width="2"/>
 <text x="415" y="499.76" fill="#71572b" font-size="22" font-weight="600"><tspan x="415" dy="0">核對當輪證據</tspan></text>
 <text x="415" y="531.9200000000001" fill="#52636d" font-size="19"><tspan x="415" dy="0">資料庫、產物與執行結果</tspan></text>
-<rect x="760" y="485" width="240" height="125" rx="3" fill="#fff" stroke="#8c6b37" stroke-width="2"/>
+<rect x="760" y="485" width="240" height="125" rx="5" fill="#faf6ee" stroke="#8c6b37" stroke-width="2"/>
 <text x="775" y="539.76" fill="#71572b" font-size="22" font-weight="600"><tspan x="775" dy="0">PR 與人工審查</tspan></text>
 <text x="775" y="571.92" fill="#52636d" font-size="19"><tspan x="775" dy="0">合併與發布由人判斷</tspan></text>
-<rect x="40" y="445" width="240" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="40" y="445" width="240" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="499.76" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">回寫問題與規則</tspan></text>
 <text x="55" y="531.9200000000001" fill="#52636d" font-size="19"><tspan x="55" dy="0">失敗回到問題追蹤</tspan></text>
 <rect x="656" y="446" width="92" height="23.48" fill="#fff"/>
@@ -41,6 +44,6 @@
 <text x="290" y="490" fill="#52636d" font-size="16"><tspan x="290" dy="0">未通過</tspan></text>
 <rect x="166" y="298" width="124" height="23.48" fill="#fff"/>
 <text x="170" y="315" fill="#52636d" font-size="16"><tspan x="170" dy="0">修正規則再執行</tspan></text>
-<path d="M40 678H1000" stroke="#e0e5e8"/>
-<text x="40" y="702" fill="#52636d" font-size="17"><tspan x="40" dy="0">本人設計流程並作領域與產品判斷；未量測修復成功率或測試覆蓋率。</tspan></text>
+<path d="M40 689H1000" stroke="#e0e5e8"/>
+<text x="40" y="718" fill="#52636d" font-size="17"><tspan x="40" dy="0">本人設計流程並作領域與產品判斷；未量測修復成功率或測試覆蓋率。</tspan></text>
 </g></svg>

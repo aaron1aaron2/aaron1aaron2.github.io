@@ -1,38 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 740" role="img" aria-labelledby="title desc" lang="en">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 776" role="img" aria-labelledby="title desc" lang="en">
 <title id="title">Parallel AI work with human release control</title><desc id="desc">I design the workflow and make domain and product decisions; repair success and test coverage are not quantified. Solid arrows show process or data flow; dashed arrows show review, conditions or feedback.</desc>
-<defs><marker id="ai-governance-en" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
-<rect width="1040" height="740" fill="#fff"/>
+<defs><marker id="ai-governance-en" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="context-stroke"/></marker></defs>
+<rect width="1040" height="776" fill="#fff"/>
 <g font-family="Arial,Microsoft JhengHei,sans-serif">
 <text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">Parallel AI work with human release control</tspan></text>
-<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">Solid: data / process  ·  Dashed: review / feedback</tspan></text>
+<path d="M40 75H67" stroke="#34656a" stroke-width="2"/>
+<text x="76" y="80" fill="#455d66" font-size="16"><tspan x="76" dy="0">Data and workflow</tspan></text>
+<path d="M286 75H313" stroke="#83683b" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="322" y="80" fill="#665330" font-size="16"><tspan x="322" dy="0">Condition, review or feedback</tspan></text>
 <path d="M40 103H1000" stroke="#ccd5da"/>
-<path d="M280 212H400" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#ai-governance-en)"/>
-<path d="M640 212H695V172H760" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#ai-governance-en)"/>
-<path d="M695 212V337H760" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#ai-governance-en)"/>
-<path d="M1000 172H1020V420H520V445" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#ai-governance-en)"/>
-<path d="M880 390V420" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#ai-governance-en)"/>
-<path d="M640 505H700V545H760" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#ai-governance-en)"/>
-<path d="M400 505H280" fill="none" stroke="#526773" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#ai-governance-en)"/>
-<path d="M160 445V325H520V280" fill="none" stroke="#526773" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#ai-governance-en)"/>
-<rect x="40" y="155" width="240" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<path d="M280 212H400" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#ai-governance-en)"/>
+<path d="M640 212H695V172H760" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#ai-governance-en)"/>
+<path d="M695 212V337H760" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#ai-governance-en)"/>
+<path d="M1000 172H1020V420H520V445" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#ai-governance-en)"/>
+<path d="M880 390V420" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#ai-governance-en)"/>
+<path d="M640 505H700V545H760" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#ai-governance-en)"/>
+<path d="M400 505H280" fill="none" stroke="#83683b" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#ai-governance-en)"/>
+<path d="M160 445V325H520V280" fill="none" stroke="#83683b" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#ai-governance-en)"/>
+<rect x="40" y="155" width="240" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="187.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="55" dy="0">Requirements and</tspan><tspan x="55" dy="24.96">daily regression</tspan></text>
 <text x="55" y="241.34" fill="#52636d" font-size="16.5"><tspan x="55" dy="0">Issues, changes and</tspan><tspan x="55" dy="21.12">execution records</tspan></text>
-<rect x="400" y="155" width="240" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="400" y="155" width="240" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="415" y="187.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="415" dy="0">Project and issue</tspan><tspan x="415" dy="24.96">records</tspan></text>
 <text x="415" y="241.34" fill="#52636d" font-size="16.5"><tspan x="415" dy="0">Persistent state,</tspan><tspan x="415" dy="21.12">decisions and checks</tspan></text>
-<rect x="760" y="120" width="240" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="760" y="120" width="240" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="775" y="162.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="775" dy="0">Isolated branch A</tspan></text>
 <text x="775" y="194.76" fill="#52636d" font-size="19"><tspan x="775" dy="0">Implement, test and</tspan><tspan x="775" dy="24.32">record</tspan></text>
-<rect x="760" y="285" width="240" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="760" y="285" width="240" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="775" y="327.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="775" dy="0">Isolated branch B</tspan></text>
 <text x="775" y="359.76000000000005" fill="#52636d" font-size="19"><tspan x="775" dy="0">Parallel repair and</tspan><tspan x="775" dy="24.32">verification</tspan></text>
-<rect x="400" y="445" width="240" height="125" rx="3" fill="#fff" stroke="#8c6b37" stroke-width="2"/>
+<rect x="400" y="445" width="240" height="125" rx="5" fill="#faf6ee" stroke="#8c6b37" stroke-width="2"/>
 <text x="415" y="477.42" fill="#71572b" font-size="19.5" font-weight="600"><tspan x="415" dy="0">Verify current-run</tspan><tspan x="415" dy="24.96">evidence</tspan></text>
 <text x="415" y="531.3399999999999" fill="#52636d" font-size="16.5"><tspan x="415" dy="0">Database, artifacts and</tspan><tspan x="415" dy="21.12">execution results</tspan></text>
-<rect x="760" y="485" width="240" height="125" rx="3" fill="#fff" stroke="#8c6b37" stroke-width="2"/>
+<rect x="760" y="485" width="240" height="125" rx="5" fill="#faf6ee" stroke="#8c6b37" stroke-width="2"/>
 <text x="775" y="528.52" fill="#71572b" font-size="21" font-weight="600"><tspan x="775" dy="0">PR and human review</tspan></text>
 <text x="775" y="559.4" fill="#52636d" font-size="18"><tspan x="775" dy="0">People decide merge</tspan><tspan x="775" dy="23.04">and release</tspan></text>
-<rect x="40" y="445" width="240" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="40" y="445" width="240" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="477.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="55" dy="0">Update issues and</tspan><tspan x="55" dy="24.96">rules</tspan></text>
 <text x="55" y="531.3399999999999" fill="#52636d" font-size="16.5"><tspan x="55" dy="0">Failed checks return to</tspan><tspan x="55" dy="21.12">issue tracking</tspan></text>
 <rect x="656" y="446" width="164.8" height="23.48" fill="#fff"/>
@@ -41,6 +44,6 @@
 <text x="290" y="490" fill="#52636d" font-size="16"><tspan x="290" dy="0">Failed checks</tspan></text>
 <rect x="166" y="298" width="145.76000000000002" height="23.48" fill="#fff"/>
 <text x="170" y="315" fill="#52636d" font-size="16"><tspan x="170" dy="0">Revise and rerun</tspan></text>
-<path d="M40 678H1000" stroke="#e0e5e8"/>
-<text x="40" y="702" fill="#52636d" font-size="17"><tspan x="40" dy="0">I design the workflow and make domain and product decisions; repair success and test coverage are not</tspan><tspan x="40" dy="21.76">quantified.</tspan></text>
+<path d="M40 689H1000" stroke="#e0e5e8"/>
+<text x="40" y="718" fill="#52636d" font-size="17"><tspan x="40" dy="0">I design the workflow and make domain and product decisions; repair success and test coverage are not</tspan><tspan x="40" dy="21.76">quantified.</tspan></text>
 </g></svg>

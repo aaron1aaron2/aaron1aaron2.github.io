@@ -1,42 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 825" role="img" aria-labelledby="title desc" lang="en">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 861" role="img" aria-labelledby="title desc" lang="en">
 <title id="title">Inspection flow: model requirements, references, decisions and deviations</title><desc id="desc">Aaron leads product development, algorithm design and experiments, and on-site training. Phase 2 software acceptance is complete. Phase 3 quality validation is in progress. Solid arrows show process or data flow; dashed arrows show review, conditions or feedback.</desc>
-<defs><marker id="equipment-inspection-en" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
-<rect width="1040" height="825" fill="#fff"/>
+<defs><marker id="equipment-inspection-en" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="context-stroke"/></marker></defs>
+<rect width="1040" height="861" fill="#fff"/>
 <g font-family="Arial,Microsoft JhengHei,sans-serif">
 <text x="40" y="48" fill="#172e3b" font-size="24.780175859312532" font-weight="600"><tspan x="40" dy="0">Inspection flow: model requirements, references, decisions and deviations</tspan></text>
-<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">Solid: data / process  ·  Dashed: review / feedback</tspan></text>
+<path d="M40 75H67" stroke="#34656a" stroke-width="2"/>
+<text x="76" y="80" fill="#455d66" font-size="16"><tspan x="76" dy="0">Data and workflow</tspan></text>
+
+
 <path d="M40 103H1000" stroke="#ccd5da"/>
-<path d="M260 242H285" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#equipment-inspection-en)"/>
-<path d="M505 242H530" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#equipment-inspection-en)"/>
-<path d="M750 242H775" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#equipment-inspection-en)"/>
-<path d="M885 330V475" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#equipment-inspection-en)"/>
-<path d="M775 562H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#equipment-inspection-en)"/>
-<path d="M530 562H505" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#equipment-inspection-en)"/>
-<path d="M285 562H260" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#equipment-inspection-en)"/>
-<rect x="40" y="155" width="220" height="175" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<path d="M260 242H285" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#equipment-inspection-en)"/>
+<path d="M505 242H530" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#equipment-inspection-en)"/>
+<path d="M750 242H775" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#equipment-inspection-en)"/>
+<path d="M885 330V475" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#equipment-inspection-en)"/>
+<path d="M775 562H750" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#equipment-inspection-en)"/>
+<path d="M530 562H505" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#equipment-inspection-en)"/>
+<path d="M285 562H260" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#equipment-inspection-en)"/>
+<rect x="40" y="155" width="220" height="175" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="196.36" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">Requirements and</tspan><tspan x="55" dy="28.16">sensors</tspan></text>
 <text x="55" y="256.68" fill="#52636d" font-size="19"><tspan x="55" dy="0">Different models,</tspan><tspan x="55" dy="24.32">existing</tspan><tspan x="55" dy="24.32">capabilities</tspan></text>
-<rect x="285" y="155" width="220" height="175" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="285" y="155" width="220" height="175" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="300" y="208.52" fill="#172e3b" font-size="22" font-weight="600"><tspan x="300" dy="0">Define</tspan><tspan x="300" dy="28.16">measurement plan</tspan></text>
 <text x="300" y="268.84000000000003" fill="#52636d" font-size="19"><tspan x="300" dy="0">Stages, points,</tspan><tspan x="300" dy="24.32">sensor assignments</tspan></text>
-<rect x="530" y="155" width="220" height="175" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="530" y="155" width="220" height="175" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="545" y="208.52" fill="#172e3b" font-size="22" font-weight="600"><tspan x="545" dy="0">Record</tspan><tspan x="545" dy="28.16">references</tspan></text>
 <text x="545" y="268.84000000000003" fill="#52636d" font-size="19"><tspan x="545" dy="0">Collect comparison</tspan><tspan x="545" dy="24.32">samples by stage</tspan></text>
-<rect x="775" y="155" width="220" height="175" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="775" y="155" width="220" height="175" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="790" y="196.36" fill="#172e3b" font-size="22" font-weight="600"><tspan x="790" dy="0">Confirm/manage</tspan><tspan x="790" dy="28.16">references</tspan></text>
 <text x="790" y="256.68" fill="#52636d" font-size="19"><tspan x="790" dy="0">Human inclusion,</tspan><tspan x="790" dy="24.32">coverage and</tspan><tspan x="790" dy="24.32">versions</tspan></text>
-<rect x="40" y="475" width="220" height="175" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="40" y="475" width="220" height="175" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="507.96" fill="#172e3b" font-size="20" font-weight="600"><tspan x="55" dy="0">Deviation</tspan><tspan x="55" dy="25.6">analysis and</tspan><tspan x="55" dy="25.6">training</tspan></text>
 <text x="55" y="588.76" fill="#52636d" font-size="17"><tspan x="55" dy="0">Trace positions/</tspan><tspan x="55" dy="21.76">features; teach</tspan><tspan x="55" dy="21.76">operators</tspan></text>
-<rect x="285" y="475" width="220" height="175" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="285" y="475" width="220" height="175" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="300" y="528.52" fill="#172e3b" font-size="22" font-weight="600"><tspan x="300" dy="0">Decision and</tspan><tspan x="300" dy="28.16">review</tspan></text>
 <text x="300" y="588.8399999999999" fill="#52636d" font-size="19"><tspan x="300" dy="0">NG/OK/</tspan><tspan x="300" dy="24.32">indeterminate</tspan></text>
-<rect x="530" y="475" width="220" height="175" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="530" y="475" width="220" height="175" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="545" y="528.52" fill="#172e3b" font-size="22" font-weight="600"><tspan x="545" dy="0">Measure each</tspan><tspan x="545" dy="28.16">item</tspan></text>
 <text x="545" y="588.8399999999999" fill="#52636d" font-size="19"><tspan x="545" dy="0">Order, test item,</tspan><tspan x="545" dy="24.32">stage checks</tspan></text>
-<rect x="775" y="475" width="220" height="175" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
-<text x="790" y="528.52" fill="#172e3b" font-size="22" font-weight="600"><tspan x="790" dy="0">Thresholds and</tspan><tspan x="790" dy="28.16">versions</tspan></text>
+<rect x="775" y="475" width="220" height="175" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
+<text x="790" y="528.52" fill="#172e3b" font-size="22" font-weight="600"><tspan x="790" dy="0">Select reference</tspan><tspan x="790" dy="28.16">and thresholds</tspan></text>
 <text x="790" y="588.8399999999999" fill="#52636d" font-size="19"><tspan x="790" dy="0">Conditions by</tspan><tspan x="790" dy="24.32">reference and model</tspan></text>
-<path d="M40 763H1000" stroke="#e0e5e8"/>
-<text x="40" y="787" fill="#52636d" font-size="17"><tspan x="40" dy="0">Aaron leads product development, algorithm design and experiments, and on-site training. Phase 2 software</tspan><tspan x="40" dy="21.76">acceptance is complete. Phase 3 quality validation is in progress.</tspan></text>
+<path d="M40 774H1000" stroke="#e0e5e8"/>
+<text x="40" y="803" fill="#52636d" font-size="17"><tspan x="40" dy="0">Aaron leads product development, algorithm design and experiments, and on-site training. Phase 2 software</tspan><tspan x="40" dy="21.76">acceptance is complete. Phase 3 quality validation is in progress.</tspan></text>
 </g></svg>

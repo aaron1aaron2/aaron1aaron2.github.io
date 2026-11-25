@@ -1,44 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 825" role="img" aria-labelledby="title desc" lang="en">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 861" role="img" aria-labelledby="title desc" lang="en">
 <title id="title">Event flow: alarms, data readiness, analysis and handling</title><desc id="desc">Analysis completion does not establish complete data; no data/failure does not mean no anomaly. RUL and recurring reports have separate schedules; reports do not require prior human handling. Solid arrows show process or data flow; dashed arrows show review, conditions or feedback.</desc>
-<defs><marker id="harbor-ai-flow-en" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
-<rect width="1040" height="825" fill="#fff"/>
+<defs><marker id="harbor-ai-flow-en" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="context-stroke"/></marker></defs>
+<rect width="1040" height="861" fill="#fff"/>
 <g font-family="Arial,Microsoft JhengHei,sans-serif">
 <text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">Event flow: alarms, data readiness, analysis and handling</tspan></text>
-<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">Solid: data / process  ·  Dashed: review / feedback</tspan></text>
+<path d="M40 75H67" stroke="#34656a" stroke-width="2"/>
+<text x="76" y="80" fill="#455d66" font-size="16"><tspan x="76" dy="0">Data and workflow</tspan></text>
+
+
 <path d="M40 103H1000" stroke="#ccd5da"/>
-<path d="M260 242H285" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#harbor-ai-flow-en)"/>
-<path d="M505 242H530" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#harbor-ai-flow-en)"/>
-<path d="M750 242H775" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#harbor-ai-flow-en)"/>
-<path d="M885 330V475" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#harbor-ai-flow-en)"/>
-<path d="M775 562H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#harbor-ai-flow-en)"/>
-<path d="M530 562H505" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#harbor-ai-flow-en)"/>
-<path d="M640 650V715H150V650" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#harbor-ai-flow-en)"/>
-<rect x="40" y="155" width="220" height="175" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<path d="M260 242H285" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#harbor-ai-flow-en)"/>
+<path d="M505 242H530" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#harbor-ai-flow-en)"/>
+<path d="M750 242H775" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#harbor-ai-flow-en)"/>
+<path d="M885 330V475" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#harbor-ai-flow-en)"/>
+<path d="M775 562H750" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#harbor-ai-flow-en)"/>
+<path d="M530 562H505" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#harbor-ai-flow-en)"/>
+<path d="M640 650V715H150V650" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#harbor-ai-flow-en)"/>
+<rect x="40" y="155" width="220" height="175" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="222.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">Alarm occurs</tspan></text>
 <text x="55" y="254.76" fill="#52636d" font-size="19"><tspan x="55" dy="0">Equipment/sensor</tspan><tspan x="55" dy="24.32">and event time</tspan></text>
-<rect x="285" y="155" width="220" height="175" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="285" y="155" width="220" height="175" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="300" y="198.28" fill="#172e3b" font-size="22" font-weight="600"><tspan x="300" dy="0">Persist event</tspan></text>
 <text x="300" y="230.44" fill="#52636d" font-size="19"><tspan x="300" dy="0">Incremental</tspan><tspan x="300" dy="24.32">tracking and</tspan><tspan x="300" dy="24.32">duplicate</tspan><tspan x="300" dy="24.32">protection</tspan></text>
-<rect x="530" y="155" width="220" height="175" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="530" y="155" width="220" height="175" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="545" y="210.44" fill="#172e3b" font-size="22" font-weight="600"><tspan x="545" dy="0">Data readiness</tspan></text>
 <text x="545" y="242.6" fill="#52636d" font-size="19"><tspan x="545" dy="0">Windows, waveform</tspan><tspan x="545" dy="24.32">arrival and</tspan><tspan x="545" dy="24.32">coverage</tspan></text>
-<rect x="775" y="155" width="220" height="175" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="775" y="155" width="220" height="175" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="790" y="208.52" fill="#172e3b" font-size="22" font-weight="600"><tspan x="790" dy="0">Dispatch</tspan><tspan x="790" dy="28.16">analysis</tspan></text>
 <text x="790" y="268.84000000000003" fill="#52636d" font-size="19"><tspan x="790" dy="0">Retain job and file</tspan><tspan x="790" dy="24.32">references</tspan></text>
-<rect x="40" y="475" width="220" height="175" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="40" y="475" width="220" height="175" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="516.36" fill="#172e3b" font-size="22" font-weight="600"><tspan x="55" dy="0">Reports and</tspan><tspan x="55" dy="28.16">history</tspan></text>
 <text x="55" y="576.68" fill="#52636d" font-size="19"><tspan x="55" dy="0">Summarize events</tspan><tspan x="55" dy="24.32">and completed</tspan><tspan x="55" dy="24.32">analyses</tspan></text>
-<rect x="285" y="475" width="220" height="175" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="285" y="475" width="220" height="175" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="300" y="542.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="300" dy="0">Human handling</tspan></text>
 <text x="300" y="574.76" fill="#52636d" font-size="19"><tspan x="300" dy="0">State, notes and</tspan><tspan x="300" dy="24.32">handling time</tspan></text>
-<rect x="530" y="475" width="220" height="175" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="530" y="475" width="220" height="175" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="545" y="528.52" fill="#172e3b" font-size="22" font-weight="600"><tspan x="545" dy="0">Results and UI</tspan><tspan x="545" dy="28.16">entry</tspan></text>
 <text x="545" y="588.8399999999999" fill="#52636d" font-size="19"><tspan x="545" dy="0">Separate execution</tspan><tspan x="545" dy="24.32">and completeness</tspan></text>
-<rect x="775" y="475" width="220" height="175" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="775" y="475" width="220" height="175" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="790" y="542.6" fill="#172e3b" font-size="22" font-weight="600"><tspan x="790" dy="0">Domain services</tspan></text>
 <text x="790" y="574.76" fill="#52636d" font-size="19"><tspan x="790" dy="0">Vibration/PD</tspan><tspan x="790" dy="24.32">interpretation</tspan></text>
 <rect x="341" y="683" width="143.68000000000004" height="23.48" fill="#fff"/>
 <text x="345" y="700" fill="#52636d" font-size="16"><tspan x="345" dy="0">Events + results</tspan></text>
-<path d="M40 763H1000" stroke="#e0e5e8"/>
-<text x="40" y="787" fill="#52636d" font-size="17"><tspan x="40" dy="0">Analysis completion does not establish complete data; no data/failure does not mean no anomaly. RUL and</tspan><tspan x="40" dy="21.76">recurring reports have separate schedules; reports do not require prior human handling.</tspan></text>
+<path d="M40 774H1000" stroke="#e0e5e8"/>
+<text x="40" y="803" fill="#52636d" font-size="17"><tspan x="40" dy="0">Analysis completion does not establish complete data; no data/failure does not mean no anomaly. RUL and</tspan><tspan x="40" dy="21.76">recurring reports have separate schedules; reports do not require prior human handling.</tspan></text>
 </g></svg>

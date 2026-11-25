@@ -59,6 +59,11 @@
  background: #fff;
  object-fit: contain;
 }
+.image-lightbox--portrait .image-lightbox-stage {
+ max-height: calc(100dvh - 200px);
+}
+.image-lightbox--portrait .image-lightbox-image { width: 100%; max-height: none; }
+.image-lightbox-stage:focus-visible { outline: 2px solid #0c6458; outline-offset: -2px; }
 .image-lightbox-caption {
  max-height: 5em;
  margin: 12px 0 0;

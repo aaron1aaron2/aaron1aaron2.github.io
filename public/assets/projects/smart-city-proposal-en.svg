@@ -1,29 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 640" role="img" aria-labelledby="title desc" lang="en">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 676" role="img" aria-labelledby="title desc" lang="en">
 <title id="title">Responsibilities and checks in a joint proposal</title><desc id="desc">Unsubmitted draft: this is a proposal workflow, not an implemented security platform. Solid arrows show process or data flow; dashed arrows show review, conditions or feedback.</desc>
-<defs><marker id="smart-city-proposal-en" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="#526773"/></marker></defs>
-<rect width="1040" height="640" fill="#fff"/>
+<defs><marker id="smart-city-proposal-en" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9Z" fill="context-stroke"/></marker></defs>
+<rect width="1040" height="676" fill="#fff"/>
 <g font-family="Arial,Microsoft JhengHei,sans-serif">
 <text x="40" y="48" fill="#172e3b" font-size="29" font-weight="600"><tspan x="40" dy="0">Responsibilities and checks in a joint proposal</tspan></text>
-<text x="40" y="82" fill="#61717a" font-size="17"><tspan x="40" dy="0">Solid: data / process  ·  Dashed: review / feedback</tspan></text>
+<path d="M40 75H67" stroke="#34656a" stroke-width="2"/>
+<text x="76" y="80" fill="#455d66" font-size="16"><tspan x="76" dy="0">Data and workflow</tspan></text>
+<path d="M286 75H313" stroke="#83683b" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="322" y="80" fill="#665330" font-size="16"><tspan x="322" dy="0">Condition, review or feedback</tspan></text>
 <path d="M40 103H1000" stroke="#ccd5da"/>
-<path d="M300 205H345V270H395" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#smart-city-proposal-en)"/>
-<path d="M300 380H345V315H395" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#smart-city-proposal-en)"/>
-<path d="M655 292H750" fill="none" stroke="#526773" stroke-width="2" marker-end="url(#smart-city-proposal-en)"/>
-<path d="M875 355V470H525V355" fill="none" stroke="#526773" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#smart-city-proposal-en)"/>
-<rect x="40" y="150" width="260" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<path d="M300 205H345V270H395" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#smart-city-proposal-en)"/>
+<path d="M300 380H345V315H395" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#smart-city-proposal-en)"/>
+<path d="M655 292H750" fill="none" stroke="#34656a" stroke-width="2" marker-end="url(#smart-city-proposal-en)"/>
+<path d="M875 355V470H525V355" fill="none" stroke="#83683b" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#smart-city-proposal-en)"/>
+<rect x="40" y="150" width="260" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="182.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="55" dy="0">Control-plane</tspan><tspan x="55" dy="24.96">requirements</tspan></text>
 <text x="55" y="236.34" fill="#52636d" font-size="16.5"><tspan x="55" dy="0">Organizations, policy and</tspan><tspan x="55" dy="21.12">accountability</tspan></text>
-<rect x="40" y="325" width="260" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="40" y="325" width="260" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="55" y="357.42" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="55" dy="0">Device and data</tspan><tspan x="55" dy="24.96">interfaces</tspan></text>
 <text x="55" y="411.34" fill="#52636d" font-size="16.5"><tspan x="55" dy="0">Data plane, endpoints and</tspan><tspan x="55" dy="21.12">dependencies</tspan></text>
-<rect x="395" y="230" width="260" height="125" rx="3" fill="#fff" stroke="#8c6b37" stroke-width="2"/>
+<rect x="395" y="230" width="260" height="125" rx="5" fill="#faf6ee" stroke="#8c6b37" stroke-width="2"/>
 <text x="410" y="273.06" fill="#71572b" font-size="21.5" font-weight="600"><tspan x="410" dy="0">Cross-team alignment</tspan></text>
 <text x="410" y="304.58" fill="#52636d" font-size="18.5"><tspan x="410" dy="0">Interfaces, ownership</tspan><tspan x="410" dy="23.68">and review criteria</tspan></text>
-<rect x="750" y="230" width="250" height="125" rx="3" fill="#fff" stroke="#617d8c" stroke-width="1.5"/>
+<rect x="750" y="230" width="250" height="125" rx="5" fill="#fff" stroke="#7b9899" stroke-width="1.5"/>
 <text x="765" y="262.41999999999996" fill="#172e3b" font-size="19.5" font-weight="600"><tspan x="765" dy="0">Proposal and</tspan><tspan x="765" dy="24.96">presentation</tspan></text>
 <text x="765" y="316.3399999999999" fill="#52636d" font-size="16.5"><tspan x="765" dy="0">Required format,</tspan><tspan x="765" dy="21.12">references and revisions</tspan></text>
 <rect x="546" y="418" width="222.07999999999996" height="23.48" fill="#fff"/>
 <text x="550" y="435" fill="#52636d" font-size="16"><tspan x="550" dy="0">Revision and verification</tspan></text>
-<path d="M40 578H1000" stroke="#e0e5e8"/>
-<text x="40" y="602" fill="#52636d" font-size="17"><tspan x="40" dy="0">Unsubmitted draft: this is a proposal workflow, not an implemented security platform.</tspan></text>
+<path d="M40 589H1000" stroke="#e0e5e8"/>
+<text x="40" y="618" fill="#52636d" font-size="17"><tspan x="40" dy="0">Unsubmitted draft: this is a proposal workflow, not an implemented security platform.</tspan></text>
 </g></svg>
