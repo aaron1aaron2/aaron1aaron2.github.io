@@ -351,3 +351,97 @@ details:not([open]) .evolution-path li::after{display:none}
 .home-simple .profile-strengths a{display:block;white-space:normal;overflow-wrap:anywhere}
 
 @media(max-width:640px){.home-simple .profile-opening{font-size:1rem}}
+
+/* Shared screen typography for the portfolio, project cases and career pages. */
+:root {
+  --site-font: "Noto Sans TC", "Microsoft JhengHei", "Segoe UI", sans-serif;
+  --site-control-size: .8rem;
+  --site-control-weight: 700;
+  --site-title-size: clamp(2rem, 4.2vw, 3.5rem);
+  --site-section-size: 1.5rem;
+  --site-subheading-size: 1.125rem;
+  --site-body-size: 1rem;
+  --site-body-leading: 1.75;
+  --site-caption-size: .85rem;
+}
+
+@media screen {
+  body,
+  body.career-page {
+    font-family: var(--site-font);
+    font-size: var(--site-body-size);
+    line-height: var(--site-body-leading);
+  }
+
+  .masthead {
+    font-family: var(--site-font);
+    line-height: 1.5;
+  }
+
+  .masthead .topline .brand {
+    font-size: 1rem;
+    font-weight: var(--site-control-weight);
+    letter-spacing: .01em;
+  }
+
+  .masthead .nav a {
+    font-size: .875rem;
+    font-weight: var(--site-control-weight);
+  }
+
+  .masthead .language-link,
+  .masthead .site-download-label {
+    font-size: var(--site-control-size);
+    font-weight: var(--site-control-weight);
+  }
+
+  .home-simple .profile-main h1,
+  body.catalog-page .page-intro h1,
+  .case-main .case-head h1,
+  body.career-page .career-main h1 {
+    font-size: var(--site-title-size);
+    font-weight: 700;
+    line-height: 1.23;
+    letter-spacing: -.025em;
+  }
+
+  .home-simple .profile-section h2,
+  body.catalog-page .directory-heading h2,
+  .case-main .case-section > h2,
+  body.career-page .career-section h2 {
+    font-size: var(--site-section-size);
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: -.01em;
+  }
+
+  .home-simple .profile-main h3,
+  body.catalog-page .directory-entry-heading h3,
+  .case-main .case-article h3,
+  body.career-page .career-entry h3 {
+    font-size: var(--site-subheading-size);
+    font-weight: 650;
+    line-height: 1.5;
+    letter-spacing: normal;
+  }
+
+  .home-simple .profile-opening,
+  .home-simple .profile-featured .profile-project-overview,
+  body.catalog-page .directory-item-body,
+  .case-main .case-lead,
+  body.career-page .career-summary {
+    font-size: var(--site-body-size);
+    line-height: var(--site-body-leading);
+  }
+
+  main .case-visual figcaption,
+  main .project-gallery .gallery-slide figcaption,
+  .home-simple .profile-work-photo figcaption {
+    font-size: var(--site-caption-size);
+    line-height: 1.55;
+  }
+
+  body.catalog-page .catalog-item-grid .gallery-slide > .original-media {
+    aspect-ratio: 16 / 10;
+  }
+}
